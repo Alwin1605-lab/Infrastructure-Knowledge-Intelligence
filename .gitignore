@@ -1,0 +1,109 @@
+# =========================================
+#  Infrastructure Knowledge Intelligence
+#  .gitignore
+# =========================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+env/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Node.js ---
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# --- Environment Variables ---
+.env
+!.env.example
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- Project-Specific ---
+backend/uploads/
+backend/uploads/**/*.pdf
+uploads/
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- HuggingFace Model Cache ---
+.hf_cache/
+models--*/
+hub/
+
+# --- Testing & Coverage ---
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Python Bytecode ---
+*.pyo
+*.pyd
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Local Databases ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- ChromaDB ---
+chroma/
+chromadb/
+persist/
+vectorstore/
+
+# --- MongoDB Dumps ---
+dump/
+
+# --- Neo4j Data (if running locally) ---
+neo4j/data/
+neo4j/logs/
+
+# --- Temporary Files ---
+tmp/
+temp/
+
+# --- Archives ---
+*.zip
+*.tar
+*.gz
+*.7z
+
+knowledge_base/
+data/
+Papers/

@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Design tokens using Tailwind v4 @theme */
+@theme {
+  --color-primary: #4f46e5;
+  --color-primary-light: #818cf8;
+  --color-primary-dark: #3730a3;
+  --color-secondary: #06b6d4;
+  --color-accent: #f59e0b;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-surface: #1e1b2e;
+  --color-surface-light: #2d2a3e;
+  --color-surface-lighter: #3d3a4e;
+  --color-background: #13111c;
+  --color-text: #e2e0ea;
+  --color-text-muted: #9b99a9;
+  --font-family-sans: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-sans);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}

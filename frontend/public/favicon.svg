@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Bridge arch -->
+  <path d="M4 44 Q32 8 60 44" stroke="url(#grad)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Bridge deck -->
+  <line x1="4" y1="44" x2="60" y2="44" stroke="url(#grad)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Support pillars -->
+  <line x1="16" y1="44" x2="16" y2="56" stroke="url(#grad)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="32" y1="44" x2="32" y2="56" stroke="url(#grad)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="48" y1="44" x2="48" y2="56" stroke="url(#grad)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Foundation -->
+  <line x1="8" y1="56" x2="56" y2="56" stroke="url(#grad)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Cable lines -->
+  <line x1="32" y1="16" x2="20" y2="44" stroke="url(#grad)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="32" y1="16" x2="44" y2="44" stroke="url(#grad)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="32" y1="16" x2="10" y2="44" stroke="url(#grad)" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <line x1="32" y1="16" x2="54" y2="44" stroke="url(#grad)" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+</svg>

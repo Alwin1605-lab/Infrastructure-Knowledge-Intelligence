@@ -1,0 +1,95 @@
+# =========================================
+#  Infrastructure Knowledge Intelligence
+#  Docker Compose - Database Services
+# =========================================
+#
+# Usage:
+#   docker-compose up -d          # Start all services
+#   docker-compose down           # Stop all services
+#   docker-compose down -v        # Stop and remove volumes (DELETES DATA)
+#
+# Backend and Frontend services will be added in Phase 9.
+# =========================================
+
+version: "3.8"
+
+services:
+  # --- MongoDB (Document Store) ---
+  mongodb:
+    image: mongo:7
+    container_name: infra_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: ${MONGODB_DATABASE:-infra_knowledge}
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    networks:
+      - infra_network
+
+  # --- Neo4j (Knowledge Graph) ---
+  neo4j:
+    image: neo4j:5
+    container_name: infra_neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"   # HTTP (Browser UI)
+      - "7687:7687"   # Bolt (Driver protocol)
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    environment:
+      NEO4J_AUTH: ${NEO4J_USER:-neo4j}/${NEO4J_PASSWORD:-password}
+      NEO4J_PLUGINS: '["apoc"]'
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:7474 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    networks:
+      - infra_network
+
+  # --- ChromaDB (Vector Store) ---
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: infra_chromadb
+    restart: unless-stopped
+    ports:
+      - "${CHROMADB_PORT:-8000}:8000"
+    volumes:
+      - chromadb_data:/chroma/chroma
+    environment:
+      IS_PERSISTENT: "TRUE"
+      ANONYMIZED_TELEMETRY: "FALSE"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/api/v1/heartbeat || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    networks:
+      - infra_network
+
+# --- Named Volumes ---
+volumes:
+  mongodb_data:
+    driver: local
+  neo4j_data:
+    driver: local
+  neo4j_logs:
+    driver: local
+  chromadb_data:
+    driver: local
+
+# --- Networks ---
+networks:
+  infra_network:
+    driver: bridge
