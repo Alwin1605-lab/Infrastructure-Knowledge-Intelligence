@@ -13,6 +13,7 @@ Usage:
 from functools import lru_cache
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import model_validator
 
 
 class Settings(BaseSettings):
@@ -78,6 +79,16 @@ class Settings(BaseSettings):
         extra="ignore",
         case_sensitive=True,
     )
+
+    @model_validator(mode="after")
+    def validate_provider_keys(self) -> 'Settings':
+        """Ensure necessary API keys are present for the chosen provider."""
+        if self.LLM_PROVIDER == "groq" and not self.GROQ_API_KEY:
+            # We don't raise an error strictly to allow local fallback/tests, 
+            # but in production, we should log a warning or enforce it.
+            if self.APP_ENV == "production":
+                raise ValueError("GROQ_API_KEY must be set in production when using groq provider")
+        return self
 
 
 @lru_cache()

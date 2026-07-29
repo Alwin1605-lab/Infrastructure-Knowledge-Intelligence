@@ -89,11 +89,85 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
         logger.warning("knowledge_graph_init_failed", error=str(exc),
                        note="App will start but Knowledge Graph features require Neo4j")
 
+    # Initialize Hybrid RAG Pipeline (Phase 5)
+    try:
+        from app.services.rag_service import RAGService
+        app.state.rag_service = RAGService(
+            llm_provider=app.state.llm_provider,
+            embedding_service=app.state.embedding_service,
+        )
+        logger.info("rag_pipeline_initialized")
+    except Exception as exc:
+        logger.warning("rag_pipeline_init_failed", error=str(exc),
+                       note="App will start but /chat endpoints require RAG pipeline")
+        app.state.rag_service = None
+
+    # Initialize Agentic AI Pipeline (Phase 6)
+    try:
+        from app.services.agent_service import AgentService
+        app.state.agent_service = AgentService(
+            llm_provider=app.state.llm_provider,
+            embedding_service=app.state.embedding_service,
+        )
+        logger.info("agent_pipeline_initialized")
+    except Exception as exc:
+        logger.warning("agent_pipeline_init_failed", error=str(exc),
+                       note="App will start but /agents endpoints require AgentService")
+        app.state.agent_service = None
+
+    # Initialize Evaluation Framework (Phase 7)
+    try:
+        from app.services.evaluation_service import EvaluationService
+        app.state.evaluation_service = EvaluationService(
+            llm_provider=app.state.llm_provider,
+            rag_service=app.state.rag_service,
+            agent_service=app.state.agent_service,
+        )
+        logger.info("evaluation_framework_initialized")
+    except Exception as exc:
+        logger.warning("evaluation_framework_init_failed", error=str(exc),
+                       note="App will start but /eval endpoints require EvaluationService")
+        app.state.evaluation_service = None
+
     # Create uploads directory
     import os
     os.makedirs(settings.UPLOAD_DIR, exist_ok=True)
 
     logger.info("application_started")
+    
+    # --- Startup Validation Summary ---
+    from app.api.v1.health import get_system_health
+    from fastapi import Request
+    
+    # Create a mock request to pass to the health check function
+    class MockApp:
+        def __init__(self, state):
+            self.state = state
+    class MockRequest:
+        def __init__(self, app_state):
+            self.app = MockApp(app_state)
+            
+    health_data = await get_system_health(MockRequest(app.state))
+    
+    print("\n" + "="*40)
+    print("Building Knowledge Intelligence System")
+    print(f"Version: {health_data.versions.get('backend_version', '0.9.0')}")
+    print("")
+    
+    def format_status(service_name, dict_key):
+        status = health_data.services.get(dict_key)
+        icon = "✓" if status == "ok" else "✗"
+        return f"{service_name:<12} {icon} {'Connected/Ready' if status == 'ok' else 'Disconnected/Down'}"
+        
+    print(format_status("MongoDB", "mongodb"))
+    print(format_status("Neo4j", "neo4j"))
+    print(format_status("ChromaDB", "chromadb"))
+    print(format_status("Groq", "groq_llm"))
+    print("")
+    print(f"Documents Indexed: {health_data.knowledge_base.get('documents_indexed', 0)}")
+    print(f"Knowledge Graph Nodes: {health_data.knowledge_base.get('kg_nodes', 0)}")
+    print(f"Relationships: {health_data.knowledge_base.get('kg_relationships', 0)}")
+    print("="*40 + "\n")
 
     yield
 
@@ -120,10 +194,14 @@ def create_app() -> FastAPI:
         title=settings.APP_NAME,
         description=(
             "AI-Driven Decision Support System for Building Maintenance and Structural "
-            "Assessment using Knowledge Graphs, RAG, LLMs, and Agentic AI. "
-            "Domain: RCC Buildings, Residential, Commercial, Institutional, and Government Structures."
+            "Assessment using Knowledge Graphs, Hybrid RAG, Groq LLM, and a 5-Agent "
+            "Agentic AI Pipeline. "
+            "Domain: RCC Buildings, Residential, Commercial, Institutional, and Government Structures. "
+            "\n\n**Phase 5**: Hybrid RAG Pipeline — POST /api/v1/chat/query"
+            "\n\n**Phase 6**: Agentic AI Pipeline — POST /api/v1/agents/query (with per-agent reason + confidence)"
+            "\n\n**Phase 7**: Evaluation Framework — POST /api/v1/eval/benchmark (Benchmarking & Explainability)"
         ),
-        version="0.2.0",
+        version="0.7.0",
         lifespan=lifespan,
         docs_url="/docs",
         redoc_url="/redoc",

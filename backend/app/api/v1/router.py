@@ -11,102 +11,23 @@ Endpoints:
     GET /health/full     - Aggregated system health with all components
 """
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter
 
-from app.config import get_settings, Settings
-from app.api.deps import LLMProviderDep, EmbeddingServiceDep
+from app.api.v1.health import router as health_router
 
 api_v1_router = APIRouter(tags=["v1"])
 
-
-@api_v1_router.get("/health")
-async def health_check():
-    """Basic health check.
-
-    Returns a simple healthy status to confirm the API is reachable.
-    This endpoint has no dependencies and will succeed as long as the
-    application is running.
-
-    Returns:
-        dict: Health status with service name.
-    """
-    return {"status": "healthy", "service": "Infrastructure Knowledge Intelligence"}
-
-
-@api_v1_router.get("/health/llm")
-async def llm_health_check(llm_provider: LLMProviderDep):
-    """Check LLM provider health and connectivity.
-
-    Delegates to the LLM provider's own health_check method to verify
-    that the provider API is reachable and properly configured.
-
-    Args:
-        llm_provider: The active LLM provider instance (injected).
-
-    Returns:
-        dict: Health status from the LLM provider.
-    """
-    result = await llm_provider.health_check()
-    return result
-
-
-@api_v1_router.get("/health/embedding")
-async def embedding_health_check(embedding_service: EmbeddingServiceDep):
-    """Check embedding service health.
-
-    Verifies that the embedding model is loaded and operational.
-
-    Args:
-        embedding_service: The active embedding service (injected).
-
-    Returns:
-        dict: Health status from the embedding service.
-    """
-    result = await embedding_service.health_check()
-    return result
-
-
-@api_v1_router.get("/health/full")
-async def full_health_check(
-    llm_provider: LLMProviderDep,
-    embedding_service: EmbeddingServiceDep,
-    settings: Settings = Depends(get_settings),
-):
-    """Full system health check.
-
-    Aggregates health status from all system components (LLM provider,
-    embedding service) into a single response. Useful for monitoring
-    dashboards and deployment readiness checks.
-
-    Args:
-        llm_provider: The active LLM provider instance (injected).
-        embedding_service: The active embedding service (injected).
-        settings: Application settings (injected).
-
-    Returns:
-        dict: Aggregated health status with per-component details.
-    """
-    llm_status = await llm_provider.health_check()
-    embedding_status = await embedding_service.health_check()
-
-    return {
-        "status": "healthy",
-        "service": settings.APP_NAME,
-        "environment": settings.APP_ENV,
-        "components": {
-            "llm": llm_status,
-            "embedding": embedding_status,
-        },
-    }
+api_v1_router.include_router(health_router)
 
 
 # --- Mount sub-routers ---
-from app.api.v1 import documents, knowledge_graph
+from app.api.v1 import documents, knowledge_graph, chat, agents, evaluation
 api_v1_router.include_router(documents.router, prefix="/documents", tags=["Documents"])
 api_v1_router.include_router(knowledge_graph.router, prefix="/kg", tags=["Knowledge Graph"])
+api_v1_router.include_router(chat.router, prefix="/chat", tags=["Chat — Hybrid RAG Pipeline"])
+api_v1_router.include_router(agents.router, prefix="/agents", tags=["Agents — Agentic AI Pipeline"])
+api_v1_router.include_router(evaluation.router, prefix="/eval", tags=["Evaluation — Phase 7"])
 
-# Future routers:
-# from app.api.v1 import chat, agents, reports
-# api_v1_router.include_router(chat.router, prefix="/chat", tags=["Chat"])
-# api_v1_router.include_router(agents.router, prefix="/agents", tags=["Agents"])
+# Future routers (Phase 8+):
+# from app.api.v1 import reports
 # api_v1_router.include_router(reports.router, prefix="/reports", tags=["Reports"])

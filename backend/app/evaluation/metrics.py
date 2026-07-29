@@ -381,3 +381,150 @@ class AnswerRelevanceEvaluator(BaseEvaluator):
                 ),
             },
         )
+
+
+class RetrievalCoverageEvaluator(BaseEvaluator):
+    """Measures retrieval coverage: percentage of expected keywords found in retrieved chunks."""
+
+    @property
+    def name(self) -> str:
+        return "retrieval_coverage"
+
+    async def evaluate(self, **kwargs: Any) -> EvaluationResult:
+        expected_keywords: list[str] = kwargs.get("expected_keywords", [])
+        retrieved_texts: list[str] = kwargs.get("retrieved_texts", [])
+
+        if not expected_keywords:
+            return EvaluationResult(metric_name=self.name, score=1.0, details={"note": "No expected keywords"})
+
+        if not retrieved_texts:
+            return EvaluationResult(metric_name=self.name, score=0.0, details={"note": "No chunks retrieved"})
+
+        combined_text = " ".join(retrieved_texts).lower()
+        found_count = sum(1 for kw in expected_keywords if kw.lower() in combined_text)
+        coverage = found_count / len(expected_keywords)
+
+        return EvaluationResult(
+            metric_name=self.name,
+            score=coverage,
+            details={
+                "coverage_percentage": round(coverage * 100, 2),
+                "keywords_found": found_count,
+                "keywords_total": len(expected_keywords),
+            }
+        )
+
+
+class MRREvaluator(BaseEvaluator):
+    """Mean Reciprocal Rank (MRR) for retrieved chunks."""
+
+    @property
+    def name(self) -> str:
+        return "mrr"
+
+    async def evaluate(self, **kwargs: Any) -> EvaluationResult:
+        expected_chunk_ids: list[str] = kwargs.get("expected_chunk_ids", [])
+        retrieved_chunk_ids: list[str] = kwargs.get("retrieved_chunk_ids", [])
+
+        if not expected_chunk_ids:
+            return EvaluationResult(self.name, score=0.0, details={"note": "No expected chunks provided"})
+
+        score = 0.0
+        rank = -1
+        for i, chunk_id in enumerate(retrieved_chunk_ids, 1):
+            if chunk_id in expected_chunk_ids:
+                score = 1.0 / i
+                rank = i
+                break
+
+        return EvaluationResult(
+            self.name,
+            score=round(score, 4),
+            details={"first_relevant_rank": rank if rank > 0 else None}
+        )
+
+
+class HitRateEvaluator(BaseEvaluator):
+    """Checks if ANY relevant context is in top-K."""
+
+    @property
+    def name(self) -> str:
+        return "hit_rate"
+
+    async def evaluate(self, **kwargs: Any) -> EvaluationResult:
+        expected_chunk_ids: list[str] = kwargs.get("expected_chunk_ids", [])
+        retrieved_chunk_ids: list[str] = kwargs.get("retrieved_chunk_ids", [])
+
+        if not expected_chunk_ids:
+            return EvaluationResult(self.name, score=0.0, details={"note": "No expected chunks provided"})
+
+        hit = any(cid in expected_chunk_ids for cid in retrieved_chunk_ids)
+        
+        return EvaluationResult(
+            self.name,
+            score=1.0 if hit else 0.0,
+            details={"hit": hit, "k_evaluated": len(retrieved_chunk_ids)}
+        )
+
+
+class CitationCorrectnessEvaluator(BaseEvaluator):
+    """Validates if the cited sources actually contain the key claims of the answer."""
+
+    @property
+    def name(self) -> str:
+        return "citation_correctness"
+
+    async def evaluate(self, **kwargs: Any) -> EvaluationResult:
+        # Simplified token matching implementation for now (could be LLM-based)
+        cited_texts: list[str] = kwargs.get("cited_texts", [])
+        answer_keywords: list[str] = kwargs.get("expected_keywords", [])
+
+        if not cited_texts or not answer_keywords:
+            return EvaluationResult(self.name, score=0.0, details={"note": "Missing inputs"})
+
+        combined = " ".join(cited_texts).lower()
+        supported = sum(1 for kw in answer_keywords if kw.lower() in combined)
+        score = supported / len(answer_keywords)
+
+        return EvaluationResult(self.name, score=round(score, 4), details={"supported_claims": supported})
+
+
+class ResponseCompletenessEvaluator(BaseEvaluator):
+    """Measures if all facets (expected keywords) were answered in the generated text."""
+
+    @property
+    def name(self) -> str:
+        return "response_completeness"
+
+    async def evaluate(self, **kwargs: Any) -> EvaluationResult:
+        answer: str = kwargs.get("answer", "")
+        expected_keywords: list[str] = kwargs.get("expected_keywords", [])
+
+        if not expected_keywords:
+            return EvaluationResult(self.name, score=1.0, details={"note": "No expectations"})
+        
+        lower_ans = answer.lower()
+        found = sum(1 for kw in expected_keywords if kw.lower() in lower_ans)
+        score = found / len(expected_keywords)
+
+        return EvaluationResult(self.name, score=round(score, 4), details={"keywords_found": found})
+
+
+class RecommendationQualityEvaluator(BaseEvaluator):
+    """Evaluates presence and priority of recommendations."""
+
+    @property
+    def name(self) -> str:
+        return "recommendation_quality"
+
+    async def evaluate(self, **kwargs: Any) -> EvaluationResult:
+        recs: list = kwargs.get("recommendations", [])
+        if not recs:
+            return EvaluationResult(self.name, score=0.0, details={"note": "No recommendations generated"})
+
+        # Score based on presence of high/medium priority actions
+        high = sum(1 for r in recs if getattr(r, "priority", "low") == "high")
+        score = min(1.0, 0.5 + (0.1 * len(recs)) + (0.2 * high))
+        
+        return EvaluationResult(self.name, score=round(score, 4), details={"total_recs": len(recs), "high_priority": high})
+

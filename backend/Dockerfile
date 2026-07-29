@@ -4,14 +4,14 @@
 # =========================================
 
 # --- Stage 1: Base ---
-FROM python:3.11-slim AS base
+FROM python:3.11-slim-bookworm AS base
 
 # Prevent Python from writing .pyc files and enable unbuffered stdout/stderr
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 # Install system dependencies required by some Python packages
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update --fix-missing && apt-get install -y --no-install-recommends --fix-missing \
     build-essential \
     curl \
     && rm -rf /var/lib/apt/lists/*
