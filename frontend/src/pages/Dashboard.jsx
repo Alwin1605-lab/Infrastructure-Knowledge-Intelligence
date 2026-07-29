@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useWorkspaceStore } from '../store/useWorkspaceStore';
+import { useAuth } from '../context/AuthContext';
+import apiClient from '../api/client';
 import { Card, Badge } from '../components/ui';
 import { 
   Briefcase, 
@@ -14,8 +16,28 @@ import {
 import { useNavigate } from 'react-router-dom';
 
 export function Dashboard() {
+  const { user } = useAuth();
   const { workspaces } = useWorkspaceStore();
   const navigate = useNavigate();
+  const [activities, setActivities] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchActivity = async () => {
+      try {
+        const { data } = await apiClient.get('/api/v1/activity?limit=5');
+        setActivities(data.activities || []);
+      } catch (err) {
+        console.error("Failed to fetch activity", err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    if (user) {
+      fetchActivity();
+    }
+  }, [user]);
 
   const activeWorkspaces = workspaces.length;
 
@@ -39,7 +61,7 @@ export function Dashboard() {
       {/* Header */}
       <div className="flex justify-between items-end">
         <div>
-          <h1 className="text-3xl font-bold text-slate-900 tracking-tight">Welcome back, Engineer</h1>
+          <h1 className="text-3xl font-bold text-slate-900 tracking-tight">Welcome back, {user?.full_name?.split(' ')[0] || 'Engineer'}</h1>
           <p className="text-slate-500 mt-1 text-lg">Here is what's happening across your active projects today.</p>
         </div>
         <div className="flex gap-4">
@@ -85,22 +107,41 @@ export function Dashboard() {
             Recent Activity
           </h2>
           <Card className="p-6">
-            <div className="space-y-6">
-              {recentActivity.map((activity, i) => (
-                <div key={i} className="flex gap-4">
-                  <div className="mt-1 relative flex flex-col items-center">
-                    <div className="w-2 h-2 rounded-full bg-slate-300 z-10"></div>
-                    {i !== recentActivity.length - 1 && (
-                      <div className="absolute top-2 bottom-[-24px] w-0.5 bg-slate-100"></div>
-                    )}
-                  </div>
-                  <div className="flex-1 pb-1">
-                    <p className="text-slate-800 font-medium text-sm leading-snug">{activity.text}</p>
-                    <p className="text-slate-500 text-xs mt-1">{activity.time}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
+            {loading ? (
+              <div className="text-center text-slate-500 py-4">Loading activity...</div>
+            ) : activities.length === 0 ? (
+              <div className="text-center text-slate-500 py-4">No recent activity found.</div>
+            ) : (
+              <div className="space-y-6">
+                {activities.map((activity, i) => {
+                  let Icon = CheckCircle2;
+                  let color = "text-slate-400";
+                  if (activity.action.includes('report')) { Icon = FileBarChart; color = "text-amber-600"; }
+                  else if (activity.action.includes('workspace')) { Icon = Briefcase; color = "text-blue-600"; }
+                  else if (activity.action.includes('document')) { Icon = FileText; color = "text-emerald-600"; }
+                  
+                  return (
+                    <div key={activity.id} className="flex gap-4">
+                      <div className="mt-1 relative flex flex-col items-center">
+                        <div className="w-2 h-2 rounded-full bg-slate-300 z-10"></div>
+                        {i !== activities.length - 1 && (
+                          <div className="absolute top-2 bottom-[-24px] w-0.5 bg-slate-100"></div>
+                        )}
+                      </div>
+                      <div className="flex-1 pb-1">
+                        <p className="text-slate-800 font-medium text-sm leading-snug flex items-center gap-2">
+                          <Icon className={`w-4 h-4 ${color}`} />
+                          {activity.action}: {activity.details}
+                        </p>
+                        <p className="text-slate-500 text-xs mt-1">
+                          {new Date(activity.timestamp).toLocaleString()}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </Card>
         </div>
 

@@ -30,6 +30,8 @@ class ChatHistory(BeanieDocument):
         created_at: When this entry was created (UTC).
     """
 
+    workspace_id: str | None = Field(default=None, description="Workspace this conversation belongs to.")
+    user_id: str | None = Field(default=None, description="User who initiated this conversation.")
     question: str = Field(..., description="User's original question.")
     answer: str = Field(..., description="AI-generated answer.")
 
@@ -78,4 +80,6 @@ class ChatHistory(BeanieDocument):
         indexes = [
             "session_id",
             "created_at",
+            "workspace_id",
+            "user_id"
         ]

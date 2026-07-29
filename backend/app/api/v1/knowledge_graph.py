@@ -11,6 +11,7 @@ Provides REST endpoints for exploring the Building Knowledge Graph:
 from typing import Any, Optional
 from fastapi import APIRouter, HTTPException, Query
 
+from app.api.deps import CurrentUserDep
 from app.core.exceptions import KGQueryError
 from app.core.logging import get_logger
 from app.knowledge_graph.queries import (
@@ -27,7 +28,7 @@ router = APIRouter()
 
 
 @router.get("/defect/{defect_name}", summary="Get defect root causes, repairs, and affected components")
-async def query_defect(defect_name: str) -> dict[str, Any]:
+async def query_defect(defect_name: str, current_user: CurrentUserDep) -> dict[str, Any]:
     """Retrieve all causes, repair methods, and affected building components for a defect."""
     try:
         data = await get_defect_subgraph(defect_name)
@@ -39,7 +40,7 @@ async def query_defect(defect_name: str) -> dict[str, Any]:
 
 
 @router.get("/component/{component_name}", summary="Get component details, defects, and materials")
-async def query_component(component_name: str) -> dict[str, Any]:
+async def query_component(component_name: str, current_user: CurrentUserDep) -> dict[str, Any]:
     """Retrieve building component subgraph including affecting defects and materials used."""
     data = await get_component_subgraph(component_name)
     if not data:
@@ -50,6 +51,7 @@ async def query_component(component_name: str) -> dict[str, Any]:
 @router.get("/repairs/{defect_name}", summary="Get recommended repairs and standard citations")
 async def query_repairs(
     defect_name: str,
+    current_user: CurrentUserDep,
     component_name: Optional[str] = Query(None, description="Optional building component filter"),
 ) -> list[dict[str, Any]]:
     """Retrieve repair recommendations and standard citations for a defect."""
@@ -59,6 +61,7 @@ async def query_repairs(
 
 @router.get("/search", summary="Search building entities by name across all types")
 async def search_entities(
+    current_user: CurrentUserDep,
     query: str = Query(..., min_length=2, description="Substring to search across entity names"),
     limit: int = Query(15, ge=1, le=50, description="Maximum number of results"),
 ) -> list[dict[str, Any]]:
@@ -68,7 +71,7 @@ async def search_entities(
 
 
 @router.get("/document/{document_id}", summary="Get all entities and relationships extracted from a document")
-async def query_document_graph(document_id: str) -> dict[str, Any]:
+async def query_document_graph(document_id: str, current_user: CurrentUserDep) -> dict[str, Any]:
     """Retrieve the document subgraph containing all entities and relationships extracted from this document."""
     subgraph = await get_document_subgraph(document_id)
     return subgraph

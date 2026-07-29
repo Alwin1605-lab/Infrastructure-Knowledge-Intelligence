@@ -328,6 +328,10 @@ class ChatRequest(BaseModel):
         le=20,
         description="Number of document chunks to retrieve for context.",
     )
+    workspace_id: str | None = Field(
+        default=None,
+        description="Optional workspace ID for hybrid search.",
+    )
 
     model_config = {
         "json_schema_extra": {

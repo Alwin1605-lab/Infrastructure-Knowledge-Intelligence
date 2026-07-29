@@ -113,6 +113,7 @@ class HybridRAGPipeline:
             raw_chunks = await self._retriever.retrieve(
                 query=processed_query.expanded_query,
                 top_k=request.top_k,
+                workspace_id=request.workspace_id,
             )
         except RetrievalError as exc:
             logger.warning("vector_retrieval_failed", error=str(exc))

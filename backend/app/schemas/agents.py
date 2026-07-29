@@ -98,6 +98,10 @@ class AgentPipelineRequest(BaseModel):
         default=True,
         description="Whether to run the KG Reasoning Agent for enriched graph context.",
     )
+    workspace_id: Optional[str] = Field(
+        default=None,
+        description="Optional workspace ID for hybrid search.",
+    )
 
     model_config = {
         "json_schema_extra": {

@@ -3,11 +3,17 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Toaster } from 'react-hot-toast';
 
-import { Sidebar } from './components/layout/Sidebar';
+import { ProtectedRoute } from './components/ProtectedRoute';
+import { AuthProvider } from './context/AuthContext';
+
+// Auth Pages
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 // Core Pages
 import { Dashboard } from './pages/Dashboard';
 import { Workspaces } from './pages/Workspaces';
+import { WorkspaceDetail } from './pages/WorkspaceDetail';
 import { DocumentLibrary } from './pages/DocumentLibrary';
 import { EngineeringAssistant } from './pages/EngineeringAssistant';
 import { Reports } from './pages/Reports';
@@ -32,14 +38,19 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Router>
-        <div className="flex h-screen bg-slate-50 overflow-hidden text-slate-900 font-sans selection:bg-blue-100 selection:text-blue-900">
-          <Sidebar />
-          <main className="flex-1 overflow-y-auto relative flex flex-col">
-            <Routes>
+      <AuthProvider>
+        <Router>
+          <Routes>
+            {/* Public Auth Routes */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+
+            {/* Protected Routes Wrapper */}
+            <Route element={<ProtectedRoute />}>
               {/* Primary Workflow Routes */}
               <Route path="/" element={<Dashboard />} />
               <Route path="/workspaces" element={<Workspaces />} />
+              <Route path="/workspaces/:id" element={<WorkspaceDetail />} />
               <Route path="/docs" element={<DocumentLibrary />} />
               <Route path="/assistant" element={<EngineeringAssistant />} />
               <Route path="/reports" element={<Reports />} />
@@ -54,10 +65,9 @@ function App() {
                 <Route path="kg" element={<KnowledgeGraphExplorer />} />
                 <Route path="monitoring" element={<SystemMonitoring />} />
               </Route>
-            </Routes>
-          </main>
-        </div>
-        <Toaster position="bottom-right" toastOptions={{
+            </Route>
+          </Routes>
+          <Toaster position="bottom-right" toastOptions={{
           style: {
             background: '#1E293B',
             color: '#F8FAFC',
@@ -67,7 +77,8 @@ function App() {
             boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)'
           }
         }} />
-      </Router>
+        </Router>
+      </AuthProvider>
     </QueryClientProvider>
   );
 }

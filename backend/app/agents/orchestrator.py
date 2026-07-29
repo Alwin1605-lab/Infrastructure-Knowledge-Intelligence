@@ -92,6 +92,7 @@ class AgentOrchestrator:
         question: str,
         top_k: int = 5,
         include_kg: bool = True,
+        workspace_id: str | None = None,
     ) -> dict[str, Any]:
         """Execute the full 5-agent pipeline for a user query.
 
@@ -111,6 +112,7 @@ class AgentOrchestrator:
 
         # --- Fresh stateless state ---
         state = new_agent_state(question=question, top_k=top_k, include_kg=include_kg)
+        state["workspace_id"] = workspace_id
         session_id = state["session_id"]
 
         logger.info(

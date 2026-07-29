@@ -20,6 +20,7 @@ from app.core.exceptions import DocumentUploadError, DocumentExtractionError, Ve
 from app.core.logging import get_logger
 from app.db.repositories.document_repo import DocumentRepository
 from app.models.document import Document, DocumentStatus, DocumentType, ExtractedPage
+from app.models.workspace_document import WorkspaceDocument
 from app.utils.pdf_parser import extract_text_from_pdf
 from app.utils.file_handler import save_upload, validate_content_type, delete_file
 from app.utils.text_splitter import chunk_text, build_page_boundaries
@@ -65,8 +66,10 @@ class DocumentService:
         file: BinaryIO,
         filename: str,
         content_type: str,
-        document_type: DocumentType = DocumentType.GENERAL,
-    ) -> Document:
+        document_type: str = DocumentType.GENERAL,
+        workspace_id: Optional[str] = None,
+        owner_id: Optional[str] = None,
+    ):
         """Upload and fully process a building document.
 
         Pipeline:
@@ -105,20 +108,35 @@ class DocumentService:
         )
 
         # Step 3: Create document record
-        document = Document(
-            filename=filename,
-            file_path=file_path,
-            file_size_bytes=file_size,
-            content_type=content_type,
-            document_type=document_type,
-            status=DocumentStatus.UPLOADED,
-        )
-        await self._repo.create(document)
+        if workspace_id and owner_id:
+            document = WorkspaceDocument(
+                filename=filename,
+                file_path=file_path,
+                content_type=content_type,
+                workspace_id=workspace_id,
+                owner_id=owner_id,
+                status="uploaded"
+            )
+            await document.insert()
+        else:
+            document = Document(
+                filename=filename,
+                file_path=file_path,
+                file_size_bytes=file_size,
+                content_type=content_type,
+                document_type=document_type,
+                status=DocumentStatus.UPLOADED,
+            )
+            await self._repo.create(document)
 
         # Step 4: Extract text
         try:
-            document.mark_extracting()
-            await self._repo.update(document)
+            if isinstance(document, Document):
+                document.mark_extracting()
+                await self._repo.update(document)
+            else:
+                document.status = "extracting"
+                await document.save()
 
             result = extract_text_from_pdf(file_path)
 
@@ -132,20 +150,33 @@ class DocumentService:
                 for page in result.pages
             ]
 
-            document.mark_extracted(
-                pages=extracted_pages,
-                full_text=result.full_text,
-            )
-            document.metadata = result.metadata
-            await self._repo.update(document)
+            if isinstance(document, Document):
+                document.mark_extracted(
+                    pages=extracted_pages,
+                    full_text=result.full_text,
+                )
+                document.metadata = result.metadata
+                await self._repo.update(document)
+            else:
+                document.status = "extracted"
+                document.pages = result.total_pages
+                await document.save()
 
         except DocumentExtractionError:
-            document.mark_failed("Text extraction failed.")
-            await self._repo.update(document)
+            if isinstance(document, Document):
+                document.mark_failed("Text extraction failed.")
+                await self._repo.update(document)
+            else:
+                document.status = "failed"
+                await document.save()
             raise
         except Exception as exc:
-            document.mark_failed(str(exc))
-            await self._repo.update(document)
+            if isinstance(document, Document):
+                document.mark_failed(str(exc))
+                await self._repo.update(document)
+            else:
+                document.status = "failed"
+                await document.save()
             raise DocumentExtractionError(
                 f"Unexpected error during extraction: {exc}"
             ) from exc
@@ -153,8 +184,12 @@ class DocumentService:
         # Step 5 & 6: Chunk + Embed (if ChromaDB indexer is available)
         if self._chroma_indexer and result.full_text.strip():
             try:
-                document.status = DocumentStatus.CHUNKING
-                await self._repo.update(document)
+                if isinstance(document, Document):
+                    document.status = DocumentStatus.CHUNKING
+                    await self._repo.update(document)
+                else:
+                    document.status = "chunking"
+                    await document.save()
 
                 # Build page boundary markers for citation annotation
                 page_boundaries = build_page_boundaries([
@@ -166,6 +201,13 @@ class DocumentService:
                     for p in result.pages
                 ])
 
+                # Build extra metadata
+                metadata_updates = {}
+                if isinstance(document, WorkspaceDocument):
+                    metadata_updates = {"workspace_id": workspace_id, "is_global": False}
+                else:
+                    metadata_updates = {"is_global": True}
+
                 # Chunk the extracted text
                 chunks = chunk_text(
                     text=result.full_text,
@@ -175,6 +217,10 @@ class DocumentService:
                     chunk_overlap=self._chunk_overlap,
                     page_boundaries=page_boundaries,
                 )
+                
+                # Attach extra metadata to each chunk
+                for chunk in chunks:
+                    chunk.metadata.update(metadata_updates)
 
                 logger.info(
                     "document_chunked",
@@ -182,19 +228,27 @@ class DocumentService:
                     total_chunks=len(chunks),
                 )
 
-                document.status = DocumentStatus.EMBEDDING
-                await self._repo.update(document)
+                if isinstance(document, Document):
+                    document.status = DocumentStatus.EMBEDDING
+                    await self._repo.update(document)
+                else:
+                    document.status = "embedding"
+                    await document.save()
 
                 # Delete any existing chunks for this doc (idempotent re-upload)
                 await self._chroma_indexer.delete_document_chunks(str(document.id))
 
                 # Embed and store in ChromaDB
                 indexed_count = await self._chroma_indexer.index_chunks(chunks)
-                document.total_chunks = indexed_count
-                await self._repo.update(document)
+                if isinstance(document, Document):
+                    document.total_chunks = indexed_count
+                    await self._repo.update(document)
+                else:
+                    document.chunks_created = indexed_count
+                    await document.save()
 
-                # Step 7: Knowledge Graph Extraction & Indexing (if kg_builder is available)
-                if self._kg_builder and extracted_pages:
+                # Step 7: Knowledge Graph Extraction & Indexing (if kg_builder is available and it's global)
+                if self._kg_builder and extracted_pages and isinstance(document, Document):
                     try:
                         document.status = DocumentStatus.INDEXING_KG
                         await self._repo.update(document)
@@ -212,8 +266,12 @@ class DocumentService:
                             error=str(kg_exc),
                         )
 
-                document.mark_completed(total_chunks=indexed_count)
-                await self._repo.update(document)
+                if isinstance(document, Document):
+                    document.mark_completed(total_chunks=indexed_count)
+                    await self._repo.update(document)
+                else:
+                    document.status = "completed"
+                    await document.save()
 
                 logger.info(
                     "document_fully_processed",
@@ -230,8 +288,12 @@ class DocumentService:
                     document_id=str(document.id),
                     error=str(exc),
                 )
-                document.mark_failed(f"Embedding failed: {exc}. Document text still available.")
-                await self._repo.update(document)
+                if isinstance(document, Document):
+                    document.mark_failed(f"Embedding failed: {exc}. Document text still available.")
+                    await self._repo.update(document)
+                else:
+                    document.status = "failed"
+                    await document.save()
         else:
             if not self._chroma_indexer:
                 logger.warning(

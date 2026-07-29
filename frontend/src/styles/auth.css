@@ -1,0 +1,124 @@
+/* auth.css */
+.auth-layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--color-bg-base);
+}
+
+.auth-visual {
+  flex: 1;
+  display: none;
+  background: linear-gradient(135deg, #111827 0%, #1e3a8a 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .auth-visual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+  }
+}
+
+.auth-visual::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(circle at 15% 50%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.auth-visual::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4wNSkiLz48L3N2Zz4=') repeat;
+  pointer-events: none;
+}
+
+.auth-visual-content {
+  position: relative;
+  z-index: 10;
+}
+
+.auth-form-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: var(--color-bg-base);
+}
+
+.auth-form-wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input Styles */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--color-text-tertiary);
+  pointer-events: none;
+}
+
+.input-wrapper input,
+.input-wrapper select {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-surface);
+  color: var(--color-text-primary);
+  font-size: 0.9375rem;
+  transition: all 0.2s ease;
+}
+
+.input-wrapper input {
+  padding: 0 1rem 0 2.75rem;
+}
+
+.input-wrapper select {
+  appearance: none;
+}
+
+.input-wrapper input:focus,
+.input-wrapper select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.input-wrapper input::placeholder {
+  color: var(--color-text-tertiary);
+  font-weight: 300;
+}

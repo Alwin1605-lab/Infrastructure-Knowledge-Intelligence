@@ -16,6 +16,7 @@ from app.schemas.evaluation import (
     EvaluationHistoryItem
 )
 from app.services.evaluation_service import EvaluationService
+from app.api.deps import CurrentUserDep
 
 logger = get_logger(__name__)
 
@@ -45,6 +46,7 @@ EvaluationServiceDep = Annotated[EvaluationService, Depends(get_evaluation_servi
 async def run_benchmark(
     request: BenchmarkRequest,
     eval_service: EvaluationServiceDep,
+    current_user: CurrentUserDep,
 ) -> BenchmarkResponse:
     """Execute the benchmark suite."""
     logger.info("benchmark_started", category=request.category, top_k=request.top_k)
@@ -68,7 +70,7 @@ async def run_benchmark(
     summary="List Benchmark History",
     description="Retrieve past benchmark runs saved in the evaluation_results directory.",
 )
-async def list_history(eval_service: EvaluationServiceDep) -> list[EvaluationHistoryItem]:
+async def list_history(eval_service: EvaluationServiceDep, current_user: CurrentUserDep) -> list[EvaluationHistoryItem]:
     """List historical benchmark runs."""
     try:
         history = eval_service.list_history()
@@ -89,6 +91,7 @@ async def list_history(eval_service: EvaluationServiceDep) -> list[EvaluationHis
 async def run_ablation(
     request: AblationRequest,
     eval_service: EvaluationServiceDep,
+    current_user: CurrentUserDep,
 ) -> AblationResponse:
     """Execute ablation test."""
     logger.info("ablation_started", question=request.question[:80])

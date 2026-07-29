@@ -79,6 +79,7 @@ class RetrievalAgent(BaseAgent):
                 question=query,
                 top_k=top_k,
                 include_kg_context=include_kg,
+                workspace_id=state.get("workspace_id")
             )
             rag_response = await self._pipeline.query(request)
 

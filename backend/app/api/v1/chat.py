@@ -17,7 +17,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, HTTPException, Request, status
 from fastapi.responses import StreamingResponse
 
-from app.api.deps import LLMProviderDep, EmbeddingServiceDep, SettingsDep
+from app.api.deps import LLMProviderDep, EmbeddingServiceDep, SettingsDep, CurrentUserDep
 from app.core.logging import get_logger
 from app.schemas.chat import ChatRequest, ChatResponse
 from app.services.rag_service import RAGService
@@ -69,6 +69,7 @@ RAGServiceDep = Annotated[RAGService, Depends(get_rag_service)]
 async def query_building_knowledge(
     request: ChatRequest,
     rag_service: RAGServiceDep,
+    current_user: CurrentUserDep,
 ) -> ChatResponse:
     """Execute a hybrid RAG query against the building knowledge base.
 
@@ -132,6 +133,7 @@ async def stream_building_knowledge(
     rag_service: RAGServiceDep,
     llm_provider: LLMProviderDep,
     embedding_service: EmbeddingServiceDep,
+    current_user: CurrentUserDep,
 ) -> StreamingResponse:
     """Stream an AI response for a building engineering query.
 
@@ -208,7 +210,7 @@ async def stream_building_knowledge(
     summary="RAG Pipeline Health Check",
     description="Verify that the RAG pipeline is initialized and all components are operational.",
 )
-async def rag_health_check(rag_service: RAGServiceDep) -> dict:
+async def rag_health_check(rag_service: RAGServiceDep, current_user: CurrentUserDep) -> dict:
     """Return the health status of the RAG pipeline and its sub-components."""
     return await rag_service.health()
 
@@ -218,7 +220,7 @@ async def rag_health_check(rag_service: RAGServiceDep) -> dict:
     summary="RAG Pipeline Configuration",
     description="Returns the pipeline configuration: stages, models, thresholds, and domain info.",
 )
-async def pipeline_info(settings: SettingsDep) -> dict:
+async def pipeline_info(settings: SettingsDep, current_user: CurrentUserDep) -> dict:
     """Return pipeline configuration metadata for transparency and debugging."""
     return {
         "pipeline_name": "HybridRAGPipeline",

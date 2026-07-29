@@ -42,6 +42,8 @@ class Report(BeanieDocument):
     """
 
     title: str = Field(..., description="Report title.")
+    workspace_id: str | None = Field(default=None, description="ID of the workspace this report belongs to.")
+    owner_id: str | None = Field(default=None, description="ID of the user who created this report.")
     format: ReportFormat = Field(
         default=ReportFormat.PDF,
         description="Output format.",
@@ -86,6 +88,8 @@ class Report(BeanieDocument):
         indexes = [
             "status",
             "created_at",
+            "workspace_id",
+            "owner_id"
         ]
 
     def mark_completed(self, file_path: str) -> None:

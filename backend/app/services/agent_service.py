@@ -60,6 +60,7 @@ class AgentService:
         question: str,
         top_k: int = 5,
         include_kg: bool = True,
+        workspace_id: str | None = None,
     ) -> dict[str, Any]:
         """Execute the full agent pipeline for a user query.
 
@@ -75,6 +76,7 @@ class AgentService:
             question=question,
             top_k=top_k,
             include_kg=include_kg,
+            workspace_id=workspace_id,
         )
 
     async def health(self) -> dict[str, Any]:

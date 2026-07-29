@@ -11,7 +11,7 @@ from typing import Optional
 
 from fastapi import APIRouter, File, Form, UploadFile, HTTPException, Query
 
-from app.api.deps import SettingsDep, ChromaIndexerDep, KGBuilderDep
+from app.api.deps import SettingsDep, ChromaIndexerDep, KGBuilderDep, CurrentUserDep
 from app.core.exceptions import DocumentNotFoundError, DocumentUploadError, DocumentExtractionError
 from app.core.logging import get_logger
 from app.models.document import DocumentType, DocumentStatus
@@ -33,6 +33,7 @@ async def upload_document(
     settings: SettingsDep,
     chroma_indexer: ChromaIndexerDep,
     kg_builder: KGBuilderDep,
+    current_user: CurrentUserDep,
     file: UploadFile = File(..., description="PDF file to upload."),
     document_type: DocumentType = Form(
         default=DocumentType.GENERAL,
@@ -50,6 +51,9 @@ async def upload_document(
     6. Indexed in ChromaDB for semantic retrieval
     7. Entities extracted & indexed into Neo4j Building KG
     """
+    if current_user.role != "Administrator":
+        raise HTTPException(status_code=403, detail="Only administrators can manage the Global Knowledge Base")
+        
     if not file.filename:
         raise HTTPException(status_code=400, detail="No filename provided.")
 
@@ -84,6 +88,7 @@ async def upload_document(
 @router.get("", response_model=DocumentListResponse)
 async def list_documents(
     settings: SettingsDep,
+    current_user: CurrentUserDep,
     skip: int = Query(default=0, ge=0, description="Pagination offset."),
     limit: int = Query(default=50, ge=1, le=100, description="Page size."),
     status: Optional[DocumentStatus] = Query(
@@ -123,6 +128,7 @@ async def list_documents(
 async def get_document(
     document_id: str,
     settings: SettingsDep,
+    current_user: CurrentUserDep,
 ):
     """Get detailed information about a specific document.
 
@@ -164,8 +170,11 @@ async def delete_document(
     settings: SettingsDep,
     chroma_indexer: ChromaIndexerDep,
     kg_builder: KGBuilderDep,
+    current_user: CurrentUserDep,
 ):
     """Delete a document, its file, its vector embeddings, and its KG entities."""
+    if current_user.role != "Administrator":
+        raise HTTPException(status_code=403, detail="Only administrators can manage the Global Knowledge Base")
     service = DocumentService(settings, chroma_indexer=chroma_indexer, kg_builder=kg_builder)
     try:
         await service.delete_document(document_id)

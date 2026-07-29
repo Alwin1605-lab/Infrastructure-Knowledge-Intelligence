@@ -30,6 +30,12 @@ class Settings(BaseSettings):
     DEBUG: bool = True
     API_V1_PREFIX: str = "/api/v1"
 
+    # --- Authentication & Security ---
+    SECRET_KEY: str = "U3qF6Egh8nCUOgrKv7uK0JdObaYqxqvycNEGGjBRUh4"  # Default fallback for dev, must override in .env
+    ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    REFRESH_TOKEN_EXPIRE_DAYS: int = 7
+
     # --- LLM Provider ---
     LLM_PROVIDER: str = "groq"  # Options: groq | ollama
 

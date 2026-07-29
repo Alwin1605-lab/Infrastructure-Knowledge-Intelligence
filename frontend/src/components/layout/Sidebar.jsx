@@ -8,9 +8,11 @@ import {
   FileBarChart, 
   BookOpen, 
   Settings,
-  TerminalSquare
+  TerminalSquare,
+  LogOut
 } from 'lucide-react';
 import { cn } from '../ui';
+import { useAuth } from '../../context/AuthContext';
 
 const MAIN_NAV = [
   { name: 'Home', path: '/', icon: Home },
@@ -23,6 +25,7 @@ const MAIN_NAV = [
 ];
 
 export function Sidebar() {
+  const { user, logout } = useAuth();
   return (
     <div className="w-64 h-screen bg-white border-r border-slate-200 flex flex-col shrink-0 shadow-sm z-10">
       <div className="p-6 border-b border-slate-100 flex items-center gap-3">
@@ -69,12 +72,12 @@ export function Sidebar() {
         ))}
       </nav>
       
-      <div className="p-4 border-t border-slate-100">
+      <div className="p-4 border-t border-slate-100 flex flex-col gap-2">
         <NavLink
           to="/dev"
           className={({ isActive }) =>
             cn(
-              "flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors text-sm font-medium text-slate-500 hover:bg-slate-50 hover:text-slate-700",
+              "flex items-center gap-3 px-3 py-2 rounded-xl transition-colors text-sm font-medium text-slate-500 hover:bg-slate-50 hover:text-slate-700",
               isActive && "bg-slate-100 text-slate-800"
             )
           }
@@ -82,6 +85,24 @@ export function Sidebar() {
           <TerminalSquare className="w-5 h-5 text-slate-400" />
           Developer Mode
         </NavLink>
+        
+        {user && (
+          <div className="mt-2 pt-4 border-t border-slate-100">
+            <div className="flex items-center justify-between px-2">
+              <div className="flex flex-col truncate">
+                <span className="text-sm font-medium text-slate-900 truncate">{user.full_name}</span>
+                <span className="text-xs text-slate-500 truncate">{user.organization}</span>
+              </div>
+              <button 
+                onClick={logout}
+                className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+                title="Log out"
+              >
+                <LogOut size={16} />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

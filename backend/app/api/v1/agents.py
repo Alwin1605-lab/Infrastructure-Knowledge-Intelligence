@@ -14,6 +14,8 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, Request, status
 
+from app.api.deps import CurrentUserDep
+
 from app.core.logging import get_logger
 from app.schemas.agents import (
     AgentExecutionStepSchema,
@@ -78,6 +80,7 @@ AgentServiceDep = Annotated[AgentService, Depends(get_agent_service)]
 async def run_agent_pipeline(
     request: AgentPipelineRequest,
     agent_service: AgentServiceDep,
+    current_user: CurrentUserDep,
 ) -> AgentPipelineResponse:
     """Execute the full 5-agent pipeline for a building engineering query.
 
@@ -147,7 +150,7 @@ async def run_agent_pipeline(
     summary="Agent Pipeline Health Check",
     description="Verify that the 5-agent pipeline is initialized and all components are operational.",
 )
-async def agent_health(agent_service: AgentServiceDep) -> dict:
+async def agent_health(agent_service: AgentServiceDep, current_user: CurrentUserDep) -> dict:
     """Return the health status of the Agent pipeline and its components."""
     return await agent_service.health()
 
@@ -160,7 +163,7 @@ async def agent_health(agent_service: AgentServiceDep) -> dict:
         "execution order, retry policy, and system configuration."
     ),
 )
-async def pipeline_info(request: Request) -> dict:
+async def pipeline_info(request: Request, current_user: CurrentUserDep) -> dict:
     """Return the agent pipeline configuration for transparency and debugging."""
     from app.config import get_settings
     settings = get_settings()
