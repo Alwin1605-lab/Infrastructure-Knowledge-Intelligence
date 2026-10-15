@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-08-10T08:50:40.169952",
+  "total_documents_processed": 2,
+  "completed": 1,
+  "failed": 0,
+  "partial": 0,
+  "total_chunks": 243,
+  "total_kg_entities": 13,
+  "total_kg_relationships": 10,
+  "documents": [
+    {
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "status": "indexing_kg",
+      "chunks": 237,
+      "entities": 0,
+      "relationships": 0
+    },
+    {
+      "filename": "DRCS Cover - To author.pdf",
+      "status": "completed",
+      "chunks": 6,
+      "entities": 13,
+      "relationships": 10
+    }
+  ]
+}

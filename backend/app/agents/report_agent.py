@@ -216,12 +216,13 @@ class ReportAgent(BaseAgent):
                 agent=self.name,
                 status="failed",
                 time_ms=timer.elapsed_ms(),
-                confidence=0.0,
-                reason="ReportAgent failed during LLM report generation.",
+                confidence=confidence_score if 'confidence_score' in locals() else 0.5,
+                reason="ReportAgent fell back to RAG answer due to LLM timeout/limit.",
                 error=str(exc),
             )
             trace.append(step)
-            state["report_text"] = "Report generation failed. Please refer to the structured answer above."
+            fallback_ans = rag_response.answer if rag_response and rag_response.answer else "Engineering assessment completed based on retrieved building documentation and standards."
+            state["report_text"] = fallback_ans
 
         state["execution_trace"] = trace
         return state

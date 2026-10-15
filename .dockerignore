@@ -1,0 +1,10 @@
+.venv
+venv
+__pycache__
+*.pyc
+node_modules
+.git
+.DS_Store
+uploads
+.env
+users.md

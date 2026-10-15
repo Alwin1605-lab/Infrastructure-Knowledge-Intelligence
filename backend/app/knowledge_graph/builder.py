@@ -10,8 +10,10 @@ Domain: Buildings only (RCC, Residential, Commercial, Institutional, Government)
 import json
 import re
 from typing import Optional
+import asyncio
 
-from app.core.exceptions import KGBuildError, KGConnectionError
+from app.config import get_settings
+from app.core.exceptions import KGBuildError, KGConnectionError, LLMRateLimitError
 from app.core.logging import get_logger
 from app.llm.base import BaseLLMProvider
 from app.models.document import ExtractedPage
@@ -37,6 +39,27 @@ class KGBuilder:
 
     def __init__(self, llm_provider: BaseLLMProvider) -> None:
         self._llm = llm_provider
+        self.settings = get_settings()
+
+    async def _extract_with_retry(self, coro_func, *args, **kwargs):
+        """Execute a coroutine with exponential backoff on rate limits."""
+        max_retries = self.settings.MAX_RETRIES
+        base_delay = 5.0
+        
+        for attempt in range(max_retries):
+            try:
+                return await coro_func(*args, **kwargs)
+            except LLMRateLimitError as e:
+                if attempt == max_retries - 1:
+                    logger.error("kg_max_retries_exceeded", error=str(e))
+                    raise
+                
+                delay = e.retry_after if getattr(e, 'retry_after', None) else base_delay * (2 ** attempt)
+                logger.warning(f"Rate limited. Retrying in {delay} seconds...", attempt=attempt+1, max_retries=max_retries)
+                await asyncio.sleep(delay)
+            except Exception as e:
+                # Other exceptions bubble up immediately
+                raise
 
     async def build_from_document(
         self,
@@ -73,45 +96,54 @@ class KGBuilder:
         consolidated_graph = ExtractedGraph()
         pages_to_process = pages[:max_pages_to_process]
 
-        for p in pages_to_process:
-            if not p.text or not p.text.strip():
-                continue
-
-            try:
-                # Step 1: Extract entities from page text
-                entities_graph = await self._extract_entities_from_text(p.text)
-                if not entities_graph.entities:
+        for i in range(0, len(pages_to_process), self.settings.KG_BATCH_SIZE_PAGES):
+            batch = pages_to_process[i:i + self.settings.KG_BATCH_SIZE_PAGES]
+            
+            for p in batch:
+                if not p.text or not p.text.strip():
                     continue
 
-                # Step 2: Extract relationships given the extracted entities and text
-                entities_json_str = json.dumps(
-                    [{"name": e.name, "type": e.canonical_type.value} for e in entities_graph.entities],
-                    indent=2,
-                )
-                relationships_graph = await self._extract_relationships_from_text(p.text, entities_json_str)
+                try:
+                    # Step 1: Extract entities from page text with retry
+                    entities_graph = await self._extract_with_retry(self._extract_entities_from_text, p.text)
+                    if not entities_graph.entities:
+                        continue
 
-                # Combine into single page graph
-                page_graph = ExtractedGraph(
-                    entities=entities_graph.entities,
-                    relationships=relationships_graph.relationships,
-                )
-                consolidated_graph = consolidated_graph.merge(page_graph)
+                    # Step 2: Extract relationships given the extracted entities and text with retry
+                    entities_json_str = json.dumps(
+                        [{"name": e.name, "type": e.canonical_type.value} for e in entities_graph.entities],
+                        indent=2,
+                    )
+                    relationships_graph = await self._extract_with_retry(
+                        self._extract_relationships_from_text, p.text, entities_json_str
+                    )
 
-                logger.debug(
-                    "kg_page_extracted",
-                    document_id=document_id,
-                    page_number=p.page_number,
-                    entities=len(entities_graph.entities),
-                    relationships=len(relationships_graph.relationships),
-                )
-            except Exception as exc:
-                logger.warning(
-                    "kg_page_extraction_error",
-                    document_id=document_id,
-                    page_number=p.page_number,
-                    error=str(exc),
-                )
-                continue
+                    # Combine into single page graph
+                    page_graph = ExtractedGraph(
+                        entities=entities_graph.entities,
+                        relationships=relationships_graph.relationships,
+                    )
+                    consolidated_graph = consolidated_graph.merge(page_graph)
+
+                    logger.debug(
+                        "kg_page_extracted",
+                        document_id=document_id,
+                        page_number=p.page_number,
+                        entities=len(entities_graph.entities),
+                        relationships=len(relationships_graph.relationships),
+                    )
+                except LLMRateLimitError:
+                    # Rate limit exceeded even after retries, bubble up to trigger RATE_LIMITED state
+                    logger.error("kg_batch_rate_limit_exceeded_bubbling_up", document_id=document_id)
+                    raise
+                except Exception as exc:
+                    logger.warning(
+                        "kg_page_extraction_error",
+                        document_id=document_id,
+                        page_number=p.page_number,
+                        error=str(exc),
+                    )
+                    continue
 
         logger.info(
             "kg_extraction_complete",

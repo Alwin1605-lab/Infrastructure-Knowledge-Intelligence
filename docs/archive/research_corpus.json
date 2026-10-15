@@ -1,0 +1,399 @@
+{
+  "summary": {
+    "total_selected": 6,
+    "total_excluded": 80,
+    "category_distribution": {
+      "GENERAL": 6
+    }
+  },
+  "selected_documents": [
+    {
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "filename": "DRCS Cover - To author.pdf",
+      "category": "GENERAL",
+      "source": "knowledge_base",
+      "page_count": 1,
+      "chunks": 0,
+      "kg_entities": 0,
+      "kg_relationships": 0,
+      "processing_status": "completed"
+    },
+    {
+      "document_id": "6a79a3f88ad17e8f86e6c72a",
+      "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+      "category": "GENERAL",
+      "source": "knowledge_base",
+      "page_count": 2,
+      "chunks": 0,
+      "kg_entities": 0,
+      "kg_relationships": 0,
+      "processing_status": "completed"
+    },
+    {
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "filename": "New Building Services Template_v4.pdf",
+      "category": "GENERAL",
+      "source": "knowledge_base",
+      "page_count": 2,
+      "chunks": 0,
+      "kg_entities": 0,
+      "kg_relationships": 0,
+      "processing_status": "completed"
+    },
+    {
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "filename": "viga-and-corbel-inspection.pdf",
+      "category": "GENERAL",
+      "source": "knowledge_base",
+      "page_count": 4,
+      "chunks": 0,
+      "kg_entities": 0,
+      "kg_relationships": 0,
+      "processing_status": "completed"
+    },
+    {
+      "document_id": "6a79a455976f591cd07e5757",
+      "filename": "gurugram-page044-45.pdf",
+      "category": "GENERAL",
+      "source": "knowledge_base",
+      "page_count": 2,
+      "chunks": 0,
+      "kg_entities": 0,
+      "kg_relationships": 0,
+      "processing_status": "completed"
+    },
+    {
+      "document_id": "6a79a3b8ca0dbb46c36a02d6",
+      "filename": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "category": "GENERAL",
+      "source": "knowledge_base",
+      "page_count": 1,
+      "chunks": 0,
+      "kg_entities": 0,
+      "kg_relationships": 0,
+      "processing_status": "completed"
+    }
+  ],
+  "excluded_documents": [
+    {
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "1619158892927-Indian Railway Bridge Manual.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Building-Maintenance-amp-Construction-Tools-and-Maintenance-Tasks-Interactive-1536695206.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Compendium_of_High_Rise_Buildings_December_2019.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Construction-of-Amphitheatre-Seating-in-front-of-Admin-Building-IIT-Jodhpur-639126337134717790.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "csrfpr.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "design-standards.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Reducing_Carbon_Footprint_in_Buildings_2024.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "s41598-025-19257-3.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "s41598-025-92002-y.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "UAP 5050- Facility Maintenance- Repair- and Alteration.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "ucop-facilities-manual.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "UNM-Design-Guidelines-Draft8_03-31-07.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "UNMH-Clinic-Standards_Revised04-12-10.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "viga-guidelines.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "viga-restoration-screw-on-viga.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Compendium_of_Norms_for_Designing_of_Hospitals_and_Medical_Institutions.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "CPWD_Works_Manual_2024.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Final_Book_Heritage.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Guideleines_Sustainable_Habitat.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Guidelines_for_Substation_and_power_Distribution_Systems_of_Buildings_2019.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Handbookofficebuilding.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "handbook_on_Repairs_Rehabilitation_of_RCC_Buildings.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "IGDBooklet.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Introducing_BIM_in_CPWD.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Maintenance_manual_2023.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Quality_Assurance_Manual_2022.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Space_for_Electrical_and_Machanical_Services_in_Buildings.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Specs2019V1.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "file_62f310ab-b9df-401e-854c-9385040c0e29.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "REPORT ON INSPECTION.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "SAFETY_HEALTH_AND_ENVIRONMENT_HANDBOOK_2019.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "BUILDINGS_CONDITION_ASSESSMENT_PROJECT_REPORT_Nuhu_Aminu_Nuhu.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Inspection Report in OA No.144-2017 (page nos.232-307).pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Next-Generation Autonomous Transportation Infrastructure System.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "pfd-condition-assessment-guide-buildings-v2.3.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "REPORT ON INSPECTION (1).pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Report-(30) 01.05.2023 to 31.05.2023.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Sample-Building-Report-July-2023.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "BFOC-101.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "nationalbuilding02.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "nbc-2016-volume-1.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "10689.16345.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "1604550498496-ROB.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "2024062491.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "bidge_inspection_maintenance_final17022015_pdf.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Concrete_Technology_MS_Shetty_PDF_UserUpload.Net.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Construction_method_of_bridge_maintenance_knowledg.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "cvl864L2.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Design&manual Vol-I.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "designmanual.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "EC_15.02.2020_Issued by SEIAA, Tvm.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Inspection_Manual.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "irc-sp-0181996-manual-for-highway-bridge-maintenance-inspection.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "irc.gov.in.sp.052.1999.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "s42979-025-04530-z.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Specs2019V2.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "structrual-audit-draft-submitted-to-mcgm.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Structural-Audit-Report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Structure-Audit-Report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Building-Maintenance-PDFDrive-1-1.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "electrical-specifications.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "s11831-025-10486-3.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "viga-and-corbel-repair.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "\u5efa\u7b51\u5de5\u7a0b\u6807\u51c6\u89c4\u8303\u667a\u80fd\u89e3\u8bd1\u5173\u952e\u6280\u672f\u53ca\u5e94\u7528.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "s41524-025-01540-6.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "s10462-025-11422-4.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Audit-Inspection-Report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "file_62f310ab-b9df-401e-854c-9385040c0e29.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "Green-audit-report-IIT-Bhubaneshwar_Final.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "IJRAR22B1572.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "IRJET-V4I5840.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "StructuralAudit-draftpaper.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "temp_6a72f762fd113b24ec2b090a.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "temp_6a72f762fd113b24ec2b090b.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "temp_6a72f762fd113b24ec2b090c.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "468f69d9512a44beb430900cd037cec3_test_building_report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "55e74539323442f198ee35418ba98982_test_building_report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "d6c2f5ce41194c928c61b59af45500f2_test_building_report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    },
+    {
+      "filename": "test_building_report.pdf",
+      "reason": "Not successfully processed / Not indexed"
+    }
+  ]
+}

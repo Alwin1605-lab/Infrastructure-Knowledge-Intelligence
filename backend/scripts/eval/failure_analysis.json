@@ -1,0 +1,155 @@
+{
+  "total_failures_detected": 11,
+  "failure_classifications": {
+    "Poor Retrieval": 0,
+    "Missing Knowledge": 11,
+    "Hallucination Risk": 0,
+    "Low Confidence": 0,
+    "Missing Knowledge Graph Links": 11
+  },
+  "detailed_failures": [
+    {
+      "id": "Q-2541c7a7",
+      "question": "Based on IS 456 : 2000 Plain and Reinforced Concrete, what are the critical parameters for m30 concrete in structural design applications? (Variation 16)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "M30 Concrete",
+        "Reinforced Concrete",
+        "Nominal Cover"
+      ]
+    },
+    {
+      "id": "Q-6509c0a6",
+      "question": "Based on Structural Audit Report - Tower B, what are the critical parameters for rebound hammer in concrete technology applications? (Variation 10)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Rebound Hammer",
+        "Ultrasonic Pulse Velocity",
+        "Core Test"
+      ]
+    },
+    {
+      "id": "Q-d1a9ff11",
+      "question": "Based on Fosroc Renderoc RG Technical Manual, what are the critical parameters for anti-carbonation coating in concrete repair & rehabilitation applications? (Variation 2)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Anti-carbonation Coating",
+        "Patch Repair",
+        "Steel Reinforcement"
+      ]
+    },
+    {
+      "id": "Q-db11bb5a",
+      "question": "Based on National Building Code (NBC) 2016 Part 4, what are the critical parameters for load-bearing wall in fire safety applications? (Variation 11)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Load-bearing Wall",
+        "Intumescent Paint",
+        "Fire Resistance Rating"
+      ]
+    },
+    {
+      "id": "Q-f58ff20b",
+      "question": "Based on National Building Code (NBC) 2016 Part 4, what are the critical parameters for load-bearing wall in corrosion & durability applications? (Variation 10)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Load-bearing Wall",
+        "Intumescent Paint",
+        "Fire Resistance Rating"
+      ]
+    },
+    {
+      "id": "Q-5a22bc15",
+      "question": "Based on Fosroc Renderoc RG Technical Manual, what are the critical parameters for anti-carbonation coating in corrosion & durability applications? (Variation 18)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Anti-carbonation Coating",
+        "Patch Repair",
+        "Steel Reinforcement"
+      ]
+    },
+    {
+      "id": "Q-8677c356",
+      "question": "Based on IS 456 : 2000 Plain and Reinforced Concrete, what are the critical parameters for m30 concrete in corrosion & durability applications? (Variation 19)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "M30 Concrete",
+        "Reinforced Concrete",
+        "Nominal Cover"
+      ]
+    },
+    {
+      "id": "Q-e538d87d",
+      "question": "Based on Journal of Geotechnical Engineering, Vol 45: SPT Correlations, what are the critical parameters for standard penetration test in geotechnical engineering applications? (Variation 14)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Standard Penetration Test",
+        "N-value",
+        "Terzaghi Formula"
+      ]
+    },
+    {
+      "id": "Q-d9978421",
+      "question": "Based on IS 456 : 2000 Plain and Reinforced Concrete, what are the critical parameters for m30 concrete in building materials applications? (Variation 6)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "M30 Concrete",
+        "Reinforced Concrete",
+        "Nominal Cover"
+      ]
+    },
+    {
+      "id": "Q-bc171a2a",
+      "question": "Based on IS 456 : 2000 Plain and Reinforced Concrete, what are the critical parameters for m30 concrete in building standards & codes applications? (Variation 1)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "M30 Concrete",
+        "Reinforced Concrete",
+        "Nominal Cover"
+      ]
+    },
+    {
+      "id": "Q-7991aa0c",
+      "question": "Based on Structural Audit Report - Tower B, what are the critical parameters for rebound hammer in case studies & maintenance applications? (Variation 19)",
+      "reasons": [
+        "Missing Knowledge",
+        "Missing Knowledge Graph Links"
+      ],
+      "missing_entities": [
+        "Rebound Hammer",
+        "Ultrasonic Pulse Velocity",
+        "Core Test"
+      ]
+    }
+  ]
+}

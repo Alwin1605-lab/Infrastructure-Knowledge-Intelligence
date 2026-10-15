@@ -1,0 +1,12 @@
+{
+  "timestamp": 1786007737.376453,
+  "total_requests": 500,
+  "total_time_seconds": 1.6617021560668945,
+  "throughput_req_per_sec": 300.89628166786326,
+  "success_rate": 0.976,
+  "error_rate": 0.024,
+  "avg_latency": 1.0383204910598818,
+  "p95_latency": 1.5020816326141357,
+  "memory_usage_mb": 516.9342666384974,
+  "cpu_usage_pct": 74.24737176860452
+}

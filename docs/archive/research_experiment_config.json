@@ -1,0 +1,7 @@
+{
+  "rag_chunk_size": 1000,
+  "rag_chunk_overlap": 200,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "llm_model": "llama-3.1-8b-instant",
+  "kg_batch_size": 5
+}

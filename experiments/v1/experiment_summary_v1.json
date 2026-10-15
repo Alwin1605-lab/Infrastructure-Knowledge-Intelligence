@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "total_questions": 5,
+    "total_architectures": 5,
+    "total_expected_runs": 25,
+    "actual_successful_runs": 25,
+    "failed_runs": 0,
+    "timeout_runs": 0,
+    "rate_limited_runs": 0
+  },
+  "architectures": {
+    "LLM-only": {
+      "runs": 0,
+      "success_rate": 1.0,
+      "latency": {
+        "mean": 10290.4,
+        "median": 925,
+        "min": 737,
+        "max": 40882,
+        "p95": "NOT_STATISTICALLY_MEANINGFUL"
+      },
+      "retrieval": {
+        "hit_rate": "NOT_VERIFIABLE",
+        "precision": "NOT_VERIFIABLE",
+        "recall": "NOT_VERIFIABLE",
+        "mrr": "NOT_VERIFIABLE"
+      },
+      "answer": {
+        "point_coverage": 0.2,
+        "citation_coverage": 1.0,
+        "semantic_quality": "NOT_EVALUATED"
+      },
+      "kg": {
+        "entity_coverage": "NOT_APPLICABLE",
+        "relationship_coverage": "NOT_APPLICABLE"
+      },
+      "agent": {
+        "success_rate": "NOT_APPLICABLE"
+      }
+    },
+    "RAG-only": {
+      "runs": 0,
+      "success_rate": 1.0,
+      "latency": {
+        "mean": 15816.6,
+        "median": 8758,
+        "min": 451,
+        "max": 53198,
+        "p95": "NOT_STATISTICALLY_MEANINGFUL"
+      },
+      "retrieval": {
+        "hit_rate": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      },
+      "answer": {
+        "point_coverage": 0.2,
+        "citation_coverage": 1.0,
+        "semantic_quality": "NOT_EVALUATED"
+      },
+      "kg": {
+        "entity_coverage": "NOT_APPLICABLE",
+        "relationship_coverage": "NOT_APPLICABLE"
+      },
+      "agent": {
+        "success_rate": "NOT_APPLICABLE"
+      }
+    },
+    "RAG+KG": {
+      "runs": 0,
+      "success_rate": 1.0,
+      "latency": {
+        "mean": 9567.2,
+        "median": 4838,
+        "min": 560,
+        "max": 34449,
+        "p95": "NOT_STATISTICALLY_MEANINGFUL"
+      },
+      "retrieval": {
+        "hit_rate": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      },
+      "answer": {
+        "point_coverage": 0.2,
+        "citation_coverage": 1.0,
+        "semantic_quality": "NOT_EVALUATED"
+      },
+      "kg": {
+        "entity_coverage": 0.0,
+        "relationship_coverage": "NOT_VERIFIABLE"
+      },
+      "agent": {
+        "success_rate": "NOT_APPLICABLE"
+      }
+    },
+    "Hybrid RAG": {
+      "runs": 0,
+      "success_rate": 1.0,
+      "latency": {
+        "mean": 26.8,
+        "median": 27,
+        "min": 19,
+        "max": 36,
+        "p95": "NOT_STATISTICALLY_MEANINGFUL"
+      },
+      "retrieval": {
+        "hit_rate": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      },
+      "answer": {
+        "point_coverage": 1.0,
+        "citation_coverage": 1.0,
+        "semantic_quality": "NOT_EVALUATED"
+      },
+      "kg": {
+        "entity_coverage": "NOT_APPLICABLE",
+        "relationship_coverage": "NOT_APPLICABLE"
+      },
+      "agent": {
+        "success_rate": "NOT_APPLICABLE"
+      }
+    },
+    "Hybrid RAG+Agentic": {
+      "runs": 0,
+      "success_rate": 1.0,
+      "latency": {
+        "mean": 20326.6,
+        "median": 23419,
+        "min": 2799,
+        "max": 28476,
+        "p95": "NOT_STATISTICALLY_MEANINGFUL"
+      },
+      "retrieval": {
+        "hit_rate": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "mrr": 0.0
+      },
+      "answer": {
+        "point_coverage": 0.0,
+        "citation_coverage": 1.0,
+        "semantic_quality": "NOT_EVALUATED"
+      },
+      "kg": {
+        "entity_coverage": 0.0,
+        "relationship_coverage": "NOT_VERIFIABLE"
+      },
+      "agent": {
+        "success_rate": 1.0
+      }
+    }
+  }
+}

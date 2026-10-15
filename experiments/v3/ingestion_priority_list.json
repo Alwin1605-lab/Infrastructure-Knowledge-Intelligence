@@ -1,0 +1,77 @@
+{
+  "fully_processed_count": 6,
+  "fully_processed_ids": [
+    "6a7990b8c902988cd052c9d3",
+    "6a79a3b8ca0dbb46c36a02d6",
+    "6a79a3f88ad17e8f86e6c72a",
+    "6a79a41a08ca0700b6046c74",
+    "6a79a455976f591cd07e5757",
+    "6a79a4acc42349d6271bf3cd"
+  ],
+  "recoverable_documents": [
+    {
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "chromadb_chunks": 237,
+      "pages": 123,
+      "issue": "KG indexing failed (Settings.embed_documents attribute error)",
+      "recovery_action": "Mark status=completed since embeddings exist; skip KG for now"
+    }
+  ],
+  "acquired_documents_count": 20,
+  "acquired_document_titles": [
+    "Carbonation of cement paste: Understanding, challenges, and opportunities",
+    "Substantial global carbon uptake by cement carbonation",
+    "Understanding the carbonation of concrete with supplementary cementitious materials: a critical review by RILEM TC 281-CCC",
+    "Durability performance of concrete made with fine recycled concrete aggregates",
+    "3D printing using concrete extrusion: A roadmap for research",
+    "Effects of Carbonation on Corrosion Rate of Reinforcing Steel in Different Concrete and Repair Materials",
+    "A Review of Self\u2010Healing Concrete for Damage Management of Structures",
+    "Alkali-Activated Slag Concrete with Recycled Aggregate: Long-Term Performance",
+    "The role of relative humidity and cement type on carbonation resistance of concrete",
+    "Impact of hydrated magnesium carbonate additives on the carbonation of reactive MgO cements",
+    "Optimal design algorithm for seismic retrofitting of RC columns with steel jacketing technique",
+    "Seismic Performance of Exterior RC Beam\u2013Column Joints Retrofitted using Various Retrofit Solutions",
+    "Experimental tests on retrofitted RC beam-column joints underdesigned to seismic loads. General approach",
+    "Seismic Behavior of Substandard RC Columns Retrofitted with Embedded Aramid Fiber Reinforced Polymer (AFRP) Reinforcement",
+    "SEISMIC PERFORMANCE AND DESIGN OF RC COLUMNS RETROFITTED BY PC BAR PRESTRESSING AS EXTERNAL HOOPS",
+    "Seismic Assessment of RC Bridge Columns Retrofitted with Near-Surface Mounted Shape Memory Alloy Technique",
+    "Seismic Behavior of Exterior RC Beam-Column Joints Retrofitted using CFRP Sheets",
+    "Seismic Performance Evaluation of RC Columns Retrofitted by 3D Textile Reinforced Mortars",
+    "Performance evaluation of structures with reinforced concrete columns retrofitted with steel jacketing",
+    "Impact of seismic retrofitting on progressive collapse resistance of RC frame structures"
+  ],
+  "domain_priority": [
+    {
+      "priority": 1,
+      "domain": "Structural Engineering / Concrete",
+      "recommendation": "Concrete Carbonation and Durability series (titles in acquired_docs)",
+      "action": "Ingest from acquired_documents or upload new PDFs"
+    },
+    {
+      "priority": 2,
+      "domain": "Inspection / Maintenance",
+      "recommendation": "Additional building inspection reports",
+      "action": "Upload additional PDF inspection reports"
+    },
+    {
+      "priority": 3,
+      "domain": "Repair / Rehabilitation",
+      "recommendation": "Corbel/viga follow-on documents; repair manuals",
+      "action": "Upload repair & rehabilitation manuals"
+    },
+    {
+      "priority": 4,
+      "domain": "Construction / Methods",
+      "recommendation": "Building construction procedure docs",
+      "action": "Upload construction method statements"
+    },
+    {
+      "priority": 5,
+      "domain": "Geotechnical / Fire / Safety",
+      "recommendation": "Add at least one doc each if available",
+      "action": "Upload geotechnical or fire-safety documents"
+    }
+  ],
+  "recommendation": "INSUFFICIENT_CORPUS: Only 6 fully processed documents with embeddings. LEDG is recoverable (237 chunks already indexed). Suggest: (1) Mark LEDG completed, (2) ingest ~10-15 additional domain-diverse PDFs to reach 15-20 fully processed documents before benchmark construction."
+}

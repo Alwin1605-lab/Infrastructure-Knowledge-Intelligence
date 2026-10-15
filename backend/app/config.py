@@ -29,9 +29,15 @@ class Settings(BaseSettings):
     APP_ENV: str = "development"
     DEBUG: bool = True
     API_V1_PREFIX: str = "/api/v1"
+    
+    # --- Processing ---
+    DOCUMENT_PROCESSING_TIMEOUT_SECONDS: int = 3600
+    KG_BATCH_SIZE_PAGES: int = 5
+    MAX_RETRIES: int = 3
+    LLM_TIMEOUT_SECONDS: int = 120
 
     # --- Authentication & Security ---
-    SECRET_KEY: str = "U3qF6Egh8nCUOgrKv7uK0JdObaYqxqvycNEGGjBRUh4"  # Default fallback for dev, must override in .env
+    SECRET_KEY: str = "dev-insecure-secret-key-change-in-production-min-32-chars"  # Default fallback for dev, must override in .env
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
@@ -41,11 +47,35 @@ class Settings(BaseSettings):
 
     # --- Groq ---
     GROQ_API_KEY: str = ""
-    GROQ_MODEL: str = "llama-3.1-8b-instant"
+    GROQ_1: str = ""
+    GROQ_2: str = ""
+    GROQ_API_KEYS: str = ""
+    GROQ_MODEL: str = "openai/gpt-oss-20b"
     GROQ_MAX_RETRIES: int = 3
     GROQ_RETRY_DELAY: float = 1.0
     GROQ_TEMPERATURE: float = 0.1
     GROQ_MAX_TOKENS: int = 4096
+
+    # --- Google Gemini ---
+    GEMINI_API_KEY: str = ""
+    GEMINI_1: str = ""
+    GEMINI_MODEL: str = "gemini-flash-latest-high-res-exp"
+    GEMINI_TEMPERATURE: float = 0.1
+    GEMINI_MAX_TOKENS: int = 4096
+
+    def get_groq_api_keys(self) -> list[str]:
+        """Return all configured Groq API keys as a deduplicated list."""
+        keys = []
+        if self.GROQ_API_KEYS:
+            keys.extend([k.strip() for k in self.GROQ_API_KEYS.split(",") if k.strip()])
+        for k in [self.GROQ_API_KEY, self.GROQ_1, self.GROQ_2]:
+            if k and k.strip() and k.strip() not in keys:
+                keys.append(k.strip())
+        return keys
+
+    def get_gemini_api_key(self) -> str:
+        """Return the active Google Gemini API key if available."""
+        return (self.GEMINI_API_KEY or self.GEMINI_1 or "").strip()
 
     # --- Ollama ---
     OLLAMA_BASE_URL: str = "http://localhost:11434"
@@ -57,7 +87,7 @@ class Settings(BaseSettings):
 
     # --- MongoDB ---
     MONGODB_URI: str = "mongodb://localhost:27017"
-    MONGODB_DATABASE: str = "building_knowledge"
+    MONGODB_DATABASE: str = "infra_knowledge"
 
     # --- Neo4j ---
     NEO4J_URI: str = "bolt://localhost:7687"
@@ -71,7 +101,7 @@ class Settings(BaseSettings):
 
     # --- RAG ---
     RAG_TOP_K: int = 5
-    RAG_SIMILARITY_THRESHOLD: float = 0.7
+    RAG_SIMILARITY_THRESHOLD: float = 0.35
     RAG_CHUNK_SIZE: int = 1000
     RAG_CHUNK_OVERLAP: int = 200
 

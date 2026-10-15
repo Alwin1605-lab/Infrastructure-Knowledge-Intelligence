@@ -1,0 +1,34 @@
+{
+  "metrics_status": {
+    "latency": {
+      "LLM-only": "VALID",
+      "RAG-only": "VALID",
+      "RAG+KG": "VALID",
+      "Hybrid RAG": "INVALID",
+      "Hybrid RAG+Agentic": "VALID",
+      "Notes": "Hybrid RAG latency is INVALID for comparison because it bypassed LLM generation via early rejection."
+    },
+    "retrieval": {
+      "hit_rate": "NOT_VERIFIABLE",
+      "precision": "NOT_VERIFIABLE",
+      "recall": "NOT_VERIFIABLE",
+      "mrr": "NOT_VERIFIABLE",
+      "Notes": "Ground truth chunks do not exist in the benchmark, and evidence strings are truncated, making deterministic intersection impossible."
+    },
+    "answer": {
+      "point_coverage": "INVALID",
+      "citation_coverage": "INVALID",
+      "semantic_quality": "NOT_VERIFIABLE",
+      "Notes": "Point coverage algorithm awarded 1.0 to fallback messages. Citation coverage awarded 1.0 to all because ground_truth source_document was missing."
+    },
+    "kg": {
+      "entity_coverage": "NOT_VERIFIABLE",
+      "relationship_coverage": "NOT_VERIFIABLE",
+      "Notes": "No ground truth entities were provided in the benchmark dataset."
+    },
+    "agent": {
+      "success_rate": "VALID",
+      "Notes": "Agent success rate correctly tracks whether the orchestrator pipeline executed without crashing."
+    }
+  }
+}

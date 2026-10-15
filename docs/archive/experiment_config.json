@@ -1,0 +1,17 @@
+{
+  "corpus_version": "v1.0",
+  "benchmark_version": "v1.0",
+  "llm_model": "llama-3.1-8b-instant",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "top_k": 5,
+  "kg_configuration": {
+    "batch_size": 5
+  },
+  "agent_configuration": {
+    "max_steps": 10
+  },
+  "timestamp": "2026-08-10T15:38:00Z",
+  "software_version": "1.0.0"
+}

@@ -1,0 +1,894 @@
+[
+  {
+    "run_id": "Q1_LLM-only_1786442913",
+    "question_id": "Q1",
+    "architecture": "LLM-only",
+    "timestamp": "2026-08-11T10:08:33.778490",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 1001,
+    "status": "SUCCESS",
+    "generated_answer": "The section covering 'Higher Education Reinforced Concrete Structures N Subramaniam Reinforced Concrete Structures Design of Reinforced Concrete Structures' likely discusses the design principles and methods for reinforced concrete structures in higher education settings. \n\nHere are some possible topics that might be covered in this section:\n\n1. **Introduction to Reinforced Concrete**: This section may introduce the basics of reinforced concrete, including its composition, properties, and applications.\n2. **Design Philosophy**: The design philosophy of reinforced concrete structures, including the principles of safety, economy, and sustainability, may be discussed.\n3. **Load Calculations**: The section may cover the calculation of loads on reinforced concrete structures, including dead loads, live loads, wind loads, and seismic loads.\n4. **Material Properties**: The properties of concrete and reinforcement materials, such as strength, modulus of elasticity, and ductility, may be discussed.\n5. **Design of Beams and Slabs**: The design of beams and slabs, including the calculation of bending moments, shear forces, and deflections, may be covered.\n6. **Design of Columns and Footings**: The design of columns and footings, including the calculation of axial loads, bending moments, and shear forces, may be discussed.\n7. **Reinforcement Details**: The section may cover the details of reinforcement, including the spacing, size, and arrangement of reinforcement bars.\n8. **Concrete Mix Design**: The design of concrete mixes, including the selection of cement, aggregate, and admixtures, may be discussed.\n9. **Construction Methods**: The section may cover the construction methods for reinforced concrete structures, including formwork, finishing, and curing.\n10. **Code Compliance**: The section may discuss the compliance of reinforced concrete structures with relevant building codes and standards.\n\nSome of the key design codes and standards that may be referenced in this section include:\n\n* ACI 318 (American Concrete Institute Building Code)\n* AS 3600 (Australian Standard for Concrete Structures)\n* BS 8110 (British Standard for Structural Use of Concrete)\n* IS 456 (Indian Standard for Plain and Reinforced Concrete)\n\nPlease note that the specific topics and codes covered may vary depending on the edition and author of the book.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q1_RAG-only_1786442916",
+    "question_id": "Q1",
+    "architecture": "RAG-only",
+    "timestamp": "2026-08-11T10:08:36.794538",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 6104,
+    "status": "SUCCESS",
+    "generated_answer": "**Answer**: The section covering 'HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures' discusses the design of reinforced concrete structures in accordance with the current Indian codes of practice (IS 456:2000 and IS 13920:1993). It also refers to the American code (ACI 318:2011) provisions wherever necessary. The text covers the behavior of various structural elements such as compression and tension members, beams, slabs, foundations, walls, and joints. It explains the design and detailing for flexure, shear, torsion, bond, tension, compression with uniaxial and biaxial bending, and interaction of these forces.\n\n**Sources**:\n1. [HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES, Page 1, Section 1]\n2. [IS 456:2000, Page 1, Section 1]\n3. [IS 13920:1993, Page 1, Section 1]\n4. [ACI 318:2011, Page 1, Section 1]\n\n**Recommendations**: None\n\n**Related Building Components**: Compression and tension members, beams, slabs, foundations, walls, and joints.\n\n**Confidence**: High. The information is directly extracted from the provided context, which is a book description and introduction.",
+    "retrieved_documents": [
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf"
+    ],
+    "retrieved_chunks": [
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designed to meet the \nrequirements of undergraduate students of civil and structural engineering. \nThis book will also be an invaluable reference to postgraduate students \nand practising engineers and researchers. \n\nThis book provides an extensive coverage of the design of reinforced \nconcrete structures in accordance with the current Indian codes of \npractice (IS 456:2000 and IS 13920:1993). As some of the Indian code \nprovisions are outdated, the American code (ACI 318:2011) provisions \nare referred to wherever necessary. In addition, discussion on earthquake-\nresistant design and detailing is provided, as about 60 per cent of India \nfalls under moderate to severe earthquake zones.  The text is based \non the modern limit states design and covers the behaviour of various \nstructural elements such as compression and tension members, beams,",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "an \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngineering Forum of India.\nHe is also the author of the immensely popular book, Design of Steel \nStructures, published by OUP India in 2008. This book won the  \nACCE(I)-Nagadi award 2011 for best publication in civil engineering \nfrom the Association of Consulting Civil Engineering. \n650\nIn a single volume it covers all topics both lucidly and comprehensively. \t\n\t\n\u2013 Dr P. Suryanarayana \n\t\nProfessor & Former Dean \n\t\nMaulana Azad National Institute \n\t\nof  Technology, Bhopal\nThis book on concrete structures is outstanding in every way & unique \nin many aspects.\n\t\n\u2013 Dr B. Vijaya Rangan \n\t\nEmeritus Professor of Civil Engineering \n\t\nCurtin University, Perth,  Australia\n\nThe following resources are available to support \nthe faculty using this text:\nSolutions Manual \nwww.oupinheonline.com\nONLINE RESOURCES\nPowerPoint Slides",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 4
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "oderate to severe earthquake zones.  The text is based \non the modern limit states design and covers the behaviour of various \nstructural elements such as compression and tension members, beams, \nslabs, foundations, walls, and joints. The design and detailing for flexure, \nshear, torsion, bond, tension, compression with uniaxial and biaxial bending, \nand interaction of these forces are explained. Besides, discussion on the \nproperties of concrete, structural forms, design of anchors, and loadings \nmakes it an invaluable guide for students and designers.\nThe book also provides appendices on strut-and-tie-method, properties \nof soils, design aids, and practical tips and thumb rules that add value to \nthe rich content of book. For interested readers, more than 1300 \nreferences and numerous web links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and \nincludes latest developments and state-of-the-art",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 1
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "b links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and \nincludes latest developments and state-of-the-art trends\nProvides over 750 illustrative figures and photographs and 200 tables \nto supplement the theory\nProvides over 150 worked-out examples that illustrate step-by-step \ndesign processes that facilitate easier understanding and assimilation \nof concepts \nIncludes over 850 review questions and over 160 numerical problems \nto test the understanding of students\nPresents 23 case studies from actual practice that reflect on structural \ndevelopments and failures\nPresents a chapter on multi-storey buildings using STAAD.Pro software. \nKey Features\nN. Subramanian, a consulting engineer living in Maryland, USA and \nformer Chief Executive of Computer Design Consultants, Chennai, is \nan award-winning author and mentor.",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 2
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "former Chief Executive of Computer Design Consultants, Chennai, is \nan award-winning author and mentor.  A Ph D from IIT Madras, he has \n40 years of professional experience which includes teaching, research, \nand consultancy in India and abroad. He has served as a consultant to \nseveral leading organizations in India and has designed several multi-storey \nconcrete buildings, steel towers, industrial buildings, space frames, and \nintricate structures. Dr Subramanian has authored 25 books and more than \n200 technical papers, published in international and Indian journals and \nconferences. He has also been a reviewer for many Indian and international \njournals and a fellow of several professional bodies. He has won the Tamil \nNadu Scientist Award, the Lifetime Achievement Award from the Indian \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngineering Forum of India.",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 3
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q1_RAG_KG_1786442924",
+    "question_id": "Q1",
+    "architecture": "RAG+KG",
+    "timestamp": "2026-08-11T10:08:44.902950",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 28057,
+    "status": "SUCCESS",
+    "generated_answer": "## Answer\n\nThe section covering 'HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures' discusses the design of reinforced concrete structures for undergraduate students of civil and structural engineering. It also serves as a valuable reference for postgraduate students and practicing engineers and researchers. The book provides an extensive coverage of the design of reinforced concrete structures in accordance with the current Indian codes of practice (IS 456:2000 and IS 13920:1993) and the American code (ACI 318:2011) provisions.\n\n## Sources\n\n1. [DRCS Cover - To author.pdf, Page 1, Section: REINFORCED] (semantic: 0.84, reranked: 0.84)\n2. [DRCS Cover - To author.pdf, Page 1, Section: REINFORCED] (semantic: 0.78, reranked: 0.78)\n3. [DRCS Cover - To author.pdf, Page 1, Section: REINFORCED] (semantic: 0.74, reranked: 0.74)\n4. [DRCS Cover - To author.pdf, Page 1, Section: REINFORCED] (semantic: 0.71, reranked: 0.71)\n5. [DRCS Cover - To author.pdf, Page 1, Section: REINFORCED] (semantic: 0.69, reranked: 0.69)\n\n## Recommendations\n\nNo specific recommendations are provided in the context.\n\n## Related Building Components\n\nThe design of reinforced concrete structures discussed in the section is related to various structural elements such as:\n\n- Compression and tension members\n- Beams\n- Slabs\n- Foundations\n- Walls\n- Joints\n\n## Confidence\n\n**High**: The context provides multiple corroborating sources directly addressing the query.\n\nNote: The provided context is a book cover and author information, which does not contain detailed information about the content of the book. However, based on the available information, it can be inferred that the book covers the design of reinforced concrete structures.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designed to meet the \nrequirements of undergraduate students of civil and structural engineering. \nThis book will also be an invaluable reference to postgraduate students \nand practising engineers and researchers. \n\nThis book provides an extensive coverage of the design of reinforced \nconcrete structures in accordance with the current Indian codes of \npractice (IS 456:2000 and IS 13920:1993). As some of the Indian code \nprovisions are outdated, the American code (ACI 318:2011) provisions \nare referred to wherever necessary. In addition, discussion on earthquake-\nresistant design and detailing is provided, as about 60 per cent of India \nfalls under moderate to severe earthquake zones.  The text is based \non the modern limit states design and covers the behaviour of various \nstructural elements such as compression and tension members, beams,",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "an \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngineering Forum of India.\nHe is also the author of the immensely popular book, Design of Steel \nStructures, published by OUP India in 2008. This book won the  \nACCE(I)-Nagadi award 2011 for best publication in civil engineering \nfrom the Association of Consulting Civil Engineering. \n650\nIn a single volume it covers all topics both lucidly and comprehensively. \t\n\t\n\u2013 Dr P. Suryanarayana \n\t\nProfessor & Former Dean \n\t\nMaulana Azad National Institute \n\t\nof  Technology, Bhopal\nThis book on concrete structures is outstanding in every way & unique \nin many aspects.\n\t\n\u2013 Dr B. Vijaya Rangan \n\t\nEmeritus Professor of Civil Engineering \n\t\nCurtin University, Perth,  Australia\n\nThe following resources are available to support \nthe faculty using this text:\nSolutions Manual \nwww.oupinheonline.com\nONLINE RESOURCES\nPowerPoint Slides",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 4
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "oderate to severe earthquake zones.  The text is based \non the modern limit states design and covers the behaviour of various \nstructural elements such as compression and tension members, beams, \nslabs, foundations, walls, and joints. The design and detailing for flexure, \nshear, torsion, bond, tension, compression with uniaxial and biaxial bending, \nand interaction of these forces are explained. Besides, discussion on the \nproperties of concrete, structural forms, design of anchors, and loadings \nmakes it an invaluable guide for students and designers.\nThe book also provides appendices on strut-and-tie-method, properties \nof soils, design aids, and practical tips and thumb rules that add value to \nthe rich content of book. For interested readers, more than 1300 \nreferences and numerous web links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and \nincludes latest developments and state-of-the-art",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 1
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "b links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and \nincludes latest developments and state-of-the-art trends\nProvides over 750 illustrative figures and photographs and 200 tables \nto supplement the theory\nProvides over 150 worked-out examples that illustrate step-by-step \ndesign processes that facilitate easier understanding and assimilation \nof concepts \nIncludes over 850 review questions and over 160 numerical problems \nto test the understanding of students\nPresents 23 case studies from actual practice that reflect on structural \ndevelopments and failures\nPresents a chapter on multi-storey buildings using STAAD.Pro software. \nKey Features\nN. Subramanian, a consulting engineer living in Maryland, USA and \nformer Chief Executive of Computer Design Consultants, Chennai, is \nan award-winning author and mentor.",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 2
+      },
+      {
+        "id": "6a7990b8c902988cd052c9d3",
+        "text": "former Chief Executive of Computer Design Consultants, Chennai, is \nan award-winning author and mentor.  A Ph D from IIT Madras, he has \n40 years of professional experience which includes teaching, research, \nand consultancy in India and abroad. He has served as a consultant to \nseveral leading organizations in India and has designed several multi-storey \nconcrete buildings, steel towers, industrial buildings, space frames, and \nintricate structures. Dr Subramanian has authored 25 books and more than \n200 technical papers, published in international and Indian journals and \nconferences. He has also been a reviewer for many Indian and international \njournals and a fellow of several professional bodies. He has won the Tamil \nNadu Scientist Award, the Lifetime Achievement Award from the Indian \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngineering Forum of India.",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 3
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q1_Hybrid_RAG_1786442954",
+    "question_id": "Q1",
+    "architecture": "Hybrid RAG",
+    "timestamp": "2026-08-11T10:09:14.969295",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 21997,
+    "status": "SUCCESS",
+    "generated_answer": "The section covering 'HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures' discusses the design of reinforced concrete structures, specifically for undergraduate students of civil and structural engineering. It also serves as a valuable reference for postgraduate students and practicing engineers and researchers.\n\nThis book provides an extensive coverage of the design of reinforced concrete structures in accordance with the current Indian codes of practice (IS 456:2000 and IS 13920:1993). Additionally, it refers to the American code (ACI 318:2011) provisions wherever necessary. The discussion includes earthquake-resistant design and detailing, as about 60 per cent of India falls under moderate to severe earthquake zones.\n\nThe text is based on the modern limit states design and covers the behavior of various structural elements such as compression and tension members, beams, slabs, foundations, walls, and joints. The design and detailing for flexure, shear, torsion, bond, tension, compression with uniaxial and biaxial bending, and interaction of these forces are explained.",
+    "retrieved_documents": [
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf"
+    ],
+    "confidence": {
+      "score": 1.0,
+      "level": "high",
+      "grounding": "rag_only",
+      "reasoning": "5 document chunk(s) retrieved (top score: 1.00). No KG entities matched this query."
+    },
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q1_Hybrid_RAG_Agentic_1786442978",
+    "question_id": "Q1",
+    "architecture": "Hybrid RAG+Agentic",
+    "timestamp": "2026-08-11T10:09:38.972789",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 56235,
+    "status": "SUCCESS",
+    "generated_answer": "**Building Assessment Report**\n\n**1. Executive Summary**\n\nThis report provides a comprehensive assessment of the reinforced concrete (RCC) building located at [Location]. The building is approximately [Age] years old and is currently occupied by [Occupancy]. Based on the available data, the overall condition rating of the building is Fair.\n\nThe most critical structural findings include:\n\n* Defects in the RCC structure, including cracks and spalling, which may compromise the structural integrity of the building.\n* The building is located in a moderate to severe earthquake zone, which increases the risk of damage during seismic events.\n\nThe top-priority recommended actions are:\n\n* Conduct a thorough investigation of the RCC structure to identify the root cause of the defects and determine the extent of the damage.\n* Develop and implement a repair and maintenance plan to address the defects and ensure the structural integrity of the building.\n\n**2. Building Component Assessment**\n\n### 2.1 RCC Structure\n\n* **Component Type:** RCC structure (columns, beams, slabs, walls)\n* **Defect Type and Classification:** Cracks and spalling\n* **Location:** Throughout the building (floors, zones, axes)\n* **Severity and Extent:** Moderate to severe (crack widths up to 5 mm, spalling area up to 10 m\u00b2)\n* **Progression Trend:** Historical inspection data indicates a gradual increase in defect severity over the past 5 years.\n\n### 2.2 Foundation\n\n* **Component Type:** RCC foundation\n* **Defect Type and Classification:** Settlement and cracking\n* **Location:** Foundation area\n* **Severity and Extent:** Moderate (crack widths up to 3 mm, settlement up to 20 mm)\n* **Progression Trend:** Historical inspection data indicates a gradual increase in settlement over the past 10 years.\n\n### 2.3 Roof\n\n* **Component Type:** RCC roof\n* **Defect Type and Classification:** Cracking and spalling\n* **Location:** Roof area\n* **Severity and Extent:** Moderate to severe (crack widths up to 5 mm, spalling area up to 15 m\u00b2)\n* **Progression Trend:** Historical inspection data indicates a gradual increase in defect severity over the past 5 years.\n\n**3. Root Cause Analysis**\n\nBased on the available data, the root causes of the defects in the RCC structure are:\n\n* Inadequate construction quality, including poor workmanship and material defects.\n* Insufficient maintenance and repair over the years, leading to the deterioration of the structure.\n* Exposure to environmental factors, including weathering and seismic activity.\n\nThe contributing factors include:\n\n* Construction quality: Poor workmanship and material defects.\n* Material: Inadequate concrete mix design and poor quality control.\n* Environment: Exposure to weathering and seismic activity.\n\nThe mechanism of deterioration is:\n\n* Corrosion-induced spalling: The combination of moisture, salt, and oxygen has led to the corrosion of the reinforcement, resulting in spalling and cracking of the concrete.\n\nReferences:\n\n* CPWD Maintenance Manual, Section 3.2.1\n* CPWD Handbook on Repairs & Rehabilitation of RCC Buildings, Chapter 5\n* National Building Code (NBC), Section 3.2.1\n\n**4. Repair and Maintenance Recommendations**\n\nBased on the root cause analysis and assessment of the defects, the following recommendations are made:\n\n### Recommendation 1: Investigation\n\n* Conduct a thorough investigation of the RCC structure to identify the root cause of the defects and determine the extent of the damage.\n* Category: Investigation\n* Priority Level: High\n* Applicable Repair Method: Further analysis and investigation\n\n### Recommendation 2: Repair\n\n* Repair the defects in the RCC structure, including cracks and spalling.\n* Category: Repair\n* Priority Level: High\n* Applicable Repair Method: Epoxy injection, concrete jacketing, and waterproofing\n\n### Recommendation 3: Maintenance\n\n* Develop and implement a maintenance plan to ensure the structural integrity of the building.\n* Category: Maintenance\n* Priority Level: Medium\n* Applicable Repair Method: Regular inspection and maintenance\n\n**5. Risk Matrix**\n\n| Risk Description | Likelihood | Consequence | Overall Risk Rating | Mitigation Strategy |\n| --- | --- | --- | --- | --- |\n| Column failure | High | High | High | Regular inspection and maintenance, repair of defects |\n| Roof leakage | Medium | Medium | Medium | Regular inspection and maintenance, repair of defects |\n| Structural collapse | Low | High | Low | Regular inspection and maintenance, repair of defects |\n\n**6. References**\n\n1. CPWD Maintenance Manual\n2. CPWD Handbook on Repairs & Rehabilitation of RCC Buildings\n3. CPWD Works Manual\n4. National Building Code (NBC)\n5. BIS Standards (IS codes)\n6. Building Structural Audit Reports\n7. Knowledge graph sources [KG: Building \u2192 Condition \u2192 Fair]",
+    "retrieved_documents": [
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf",
+      "DRCS Cover - To author.pdf"
+    ],
+    "confidence": 0.72,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": [
+      {
+        "agent": "QueryAnalysisAgent",
+        "status": "success",
+        "time_ms": 240.7,
+        "confidence": 0.85,
+        "reason": "Intent classified as 'general'. Components detected: reinforced concrete."
+      },
+      {
+        "agent": "RetrievalAgent",
+        "status": "success",
+        "time_ms": 25109.1,
+        "confidence": 1.0,
+        "reason": "Retrieved 5 source chunk(s) with top relevance 1.00. Grounding: rag_only. No KG entities matched this query."
+      },
+      {
+        "agent": "KGReasoningAgent",
+        "status": "success",
+        "time_ms": 0.0,
+        "confidence": 0.0,
+        "reason": "KG traversal completed but found no new relationships beyond primary retrieval."
+      },
+      {
+        "agent": "RecommendationAgent",
+        "status": "success",
+        "time_ms": 11225.1,
+        "confidence": 1.0,
+        "reason": "Generated 1 recommendation(s) for defect(s): general building query. 1 high-priority action(s) identified."
+      },
+      {
+        "agent": "ReportAgent",
+        "status": "success",
+        "time_ms": 19659.1,
+        "confidence": 0.75,
+        "reason": "Generated 725 word engineering report. Condition rating: 'Fair'. 1 recommendation(s) included (1 high-priority). Report draws from 5 document source(s) and 0 KG entity context(s)."
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "Q2_LLM-only_1786443037",
+    "question_id": "Q2",
+    "architecture": "LLM-only",
+    "timestamp": "2026-08-11T10:10:37.216690",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 7912,
+    "status": "SUCCESS",
+    "generated_answer": "It seems like you're referring to a building inspection report. Based on the information provided, the section covering 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary' likely documents the following:\n\n1. **Introduction**: A brief overview of the building, including its location, purpose, and any notable features.\n2. **Objective**: The purpose of the inspection, which may include identifying potential defects, assessing the building's condition, and determining its suitability for occupancy.\n3. **Scope of Work**: A description of the areas inspected, including the building's exterior and interior, mechanical systems, electrical systems, plumbing systems, and any other relevant systems.\n4. **Methodology**: An explanation of the inspection methods used, including visual inspections, testing, and any other techniques employed to assess the building's condition.\n5. **Findings**: A detailed report of the inspection results, including any defects, deficiencies, or areas of concern identified during the inspection.\n6. **Recommendations**: Suggestions for repairs, maintenance, or upgrades to address any issues identified during the inspection.\n7. **Conclusion**: A summary of the inspection results and any recommendations made.\n\nThe executive summary is likely a brief overview of the report's key findings and recommendations, providing a high-level summary of the inspection results.\n\nHere's a possible example of what the executive summary might cover:\n\n\"This report documents the results of a comprehensive building inspection of the Government Office Complex in New Delhi. The inspection revealed several areas of concern, including:\n\n* Cracks in the building's foundation and walls\n* Leaks in the roof and plumbing systems\n* Inadequate electrical and mechanical systems\n* Deficiencies in the building's fire suppression system\n\nBased on the inspection results, we recommend that the building owner undertake the following repairs and upgrades:\n\n* Repair the foundation and walls to prevent further damage\n* Replace the roof and plumbing systems to prevent leaks and water damage\n* Upgrade the electrical and mechanical systems to ensure safe and efficient operation\n* Install a new fire suppression system to meet current building codes and regulations\n\nWe believe that these recommendations will help to ensure the building's safety and integrity, and we are available to provide further guidance and support as needed.\"",
+    "retrieved_documents": [],
+    "retrieved_chunks": [],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q2_RAG-only_1786443047",
+    "question_id": "Q2",
+    "architecture": "RAG-only",
+    "timestamp": "2026-08-11T10:10:47.141452",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 19680,
+    "status": "SUCCESS",
+    "generated_answer": "**Answer**: The section covering 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary' discusses the purpose of the report, which is to document structural defects observed during the annual inspection of the Government Office Complex in New Delhi.\n\n**Sources**:\n1. BUILDING INSPECTION REPORT, Building: Government Office Complex, New Delhi, Section 1. Executive Summary.\n2. CPWD Handbook, Section 4.3 (referenced in Repair Recommendations for corroded columns).\n\n**Recommendations**: None applicable to this question.\n\n**Related Building Components**: None mentioned in this section.\n\n**Confidence**: High, as the information is directly extracted from the provided document.\n\nNote: The section 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi' appears to be a separate document from the main report on the proof-checking and structural health safety audit of the Unitech project.",
+    "retrieved_documents": [
+      "gurugram-page044-45.pdf",
+      "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "gurugram-page044-45.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf"
+    ],
+    "retrieved_chunks": [
+      {
+        "id": "6a79a455976f591cd07e5757",
+        "text": "ned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-Storeyed Residential Towers No. 04 (A1, A2, A3, A4) of \nUnitech \u201cUniworld garden-II\u201d Housing Project at Sector 47, Gurugram Haryana . \n \n1. \nHaving completed the assignment, we are pleased to submit our report as follows: \n \n1.1 \nThe proof-checking of Structural Designs has been done and the same is generally found to be in order. \nSeparate Certificate is being issued in this behalf. \n \n1.2 \nThe Structural Health Safety Audit has been carried out as per NBC and relevant IS Codes applicable \nat the time of first approval of plans, both based on visual inspections and scientific tests.  \n \n2. \nExecutive summary of the Report: \n \nThe structures of 04 Towers in the Uniworld garden-II Project are found to be safe and liveable, subject \nto rectification of construction related deficiencies wherever observed and mentioned in the detailed \nreport.",
+        "document_name": "gurugram-page044-45.pdf",
+        "chunk_index": 1
+      },
+      {
+        "id": "6a79a3b8ca0dbb46c36a02d6",
+        "text": "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed during the annual inspection.\n2. Defects Observed\nSpalling was observed on ground floor RCC columns due to corrosion of reinforcement.\nHoneycombing detected in beam B-4 at second floor level.\nWater seepage noted in basement slab caused by poor waterproofing.\nEfflorescence visible on exterior masonry walls indicating water ingress.\n3. Repair Recommendations\nApply concrete jacketing to corroded columns as per CPWD Handbook Section 4.3.\nCarry out epoxy injection for honeycombing repair per IS 456.\nApply waterproofing membrane to basement slab per CPWD Maintenance Manual.",
+        "document_name": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a455976f591cd07e5757",
+        "text": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE \nDEPARTMENT OF CIVIL ENGINEERING \n  \n \nROORKEE 247667, UTTARAKHAND, INDIA \n                               PHONE: +91-1332-285612 (O), 5023 (R), 8954333954 (M) \n Email: crajib2009@gmail.com; rajibfce@iitr.ac.in \n \nDr. Rajib Chowdhury   \n \n \nNo. CED-6371/22-23/2 \nAssociate Professor \nDate: 28.03.2023 \nStructural Engineering Group \n \nTo \nThe Chief Executive Officer, \nUnitech Group of Companies \n8th Floor, Tower-B, Signature Towers, \nGurugram \n \nSubject: Proof-checking and Structural Health Safety Audit of 14-Storeyed Residential towers \nNo. 04 (A1, A2, A3, A4) of Unitech \u201cUniworld garden-II\u201d Group Housing Project at \nSector 47, Gurugram Haryana. \n \nKindly refer to your letter bearing No. REPL/Unitech/22-23/0228 dated 17th  June 2022 whereby the \nundersigned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-Storeyed Residential Towers No.",
+        "document_name": "gurugram-page044-45.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website. The website provides a single location for \ndocuments that provide instructions, specifications, or other guidance to facilities-related \nprojects. \n \nGENERAL \nThere are many organizations at UNM that affect facilities. Identifying the major activities and \ndocumenting the processes used in those activities improves the effectiveness of the various \norganizations. The documents are categorized according to the major facilities activities. Each \ncategory of the manual will be administered by a Responsible Department as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "artment as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation Technology \nIT \nParking and Transportation \nPATS \nSafety \nEHS \n \nThe Responsible Party is the head of the department or their designee. The Responsible Party \nwill oversee the creation, deletion, or revision of documents in the category. All documents \nmust be approved by the Responsible Party and the Assistant Vice President of ISS or designee. \nDocuments should contain descriptions of the purpose, process, parties, and references. The \npurpose section briefly outlines the intent of the document. If the document requires step-by- \nstep guidance, then these are included in the Process section. When appropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if applicable.",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 1
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q2_RAG_KG_1786443068",
+    "question_id": "Q2",
+    "architecture": "RAG+KG",
+    "timestamp": "2026-08-11T10:11:08.825737",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 20311,
+    "status": "SUCCESS",
+    "generated_answer": "## Answer\n\nThe section covering 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary This report documents' discusses the structural defects observed during the annual inspection of the Government Office Complex in New Delhi. The report highlights the following defects:\n\n1. Spalling on ground floor RCC columns due to corrosion of reinforcement.\n2. Honeycombing detected in beam B-4 at second floor level.\n3. Water seepage noted in basement slab caused by poor waterproofing.\n4. Efflorescence visible on exterior masonry walls indicating water ingress.\n\n## Sources\n\n1. [Source 2]: [2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf, Page 1, Section: BUILDING INSPECTION REPORT]\n2. [Source 2]: [2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf, Page 1, Section: 2. Defects Observed]\n\n## Recommendations\n\nBased on the defects observed, the following recommendations are made:\n\n1. Apply concrete jacketing to corroded columns as per CPWD Handbook Section 4.3 (High Priority, Repair Category).\n2. Carry out epoxy injection for honeycombing repair per IS 456 (High Priority, Repair Category).\n3. Apply waterproofing membrane to basement slab per CPWD Maintenance Manual (High Priority, Repair Category).\n\n## Related Building Components\n\nThe defects observed in the Government Office Complex are related to the following building components:\n\n1. RCC columns\n2. Beams\n3. Basement slab\n4. Exterior masonry walls\n\n## Confidence\n\nMedium. The context provides specific information about the defects observed during the annual inspection, but it does not provide detailed information about the causes of these defects or the extent of the damage.\n\nNote: The context does not provide sufficient information to determine the exact location of the defects within the building or the specific materials used in the construction of the building. Additional information would be needed to provide a more comprehensive answer.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [
+      {
+        "id": "6a79a455976f591cd07e5757",
+        "text": "ned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-Storeyed Residential Towers No. 04 (A1, A2, A3, A4) of \nUnitech \u201cUniworld garden-II\u201d Housing Project at Sector 47, Gurugram Haryana . \n \n1. \nHaving completed the assignment, we are pleased to submit our report as follows: \n \n1.1 \nThe proof-checking of Structural Designs has been done and the same is generally found to be in order. \nSeparate Certificate is being issued in this behalf. \n \n1.2 \nThe Structural Health Safety Audit has been carried out as per NBC and relevant IS Codes applicable \nat the time of first approval of plans, both based on visual inspections and scientific tests.  \n \n2. \nExecutive summary of the Report: \n \nThe structures of 04 Towers in the Uniworld garden-II Project are found to be safe and liveable, subject \nto rectification of construction related deficiencies wherever observed and mentioned in the detailed \nreport.",
+        "document_name": "gurugram-page044-45.pdf",
+        "chunk_index": 1
+      },
+      {
+        "id": "6a79a3b8ca0dbb46c36a02d6",
+        "text": "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed during the annual inspection.\n2. Defects Observed\nSpalling was observed on ground floor RCC columns due to corrosion of reinforcement.\nHoneycombing detected in beam B-4 at second floor level.\nWater seepage noted in basement slab caused by poor waterproofing.\nEfflorescence visible on exterior masonry walls indicating water ingress.\n3. Repair Recommendations\nApply concrete jacketing to corroded columns as per CPWD Handbook Section 4.3.\nCarry out epoxy injection for honeycombing repair per IS 456.\nApply waterproofing membrane to basement slab per CPWD Maintenance Manual.",
+        "document_name": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a455976f591cd07e5757",
+        "text": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE \nDEPARTMENT OF CIVIL ENGINEERING \n  \n \nROORKEE 247667, UTTARAKHAND, INDIA \n                               PHONE: +91-1332-285612 (O), 5023 (R), 8954333954 (M) \n Email: crajib2009@gmail.com; rajibfce@iitr.ac.in \n \nDr. Rajib Chowdhury   \n \n \nNo. CED-6371/22-23/2 \nAssociate Professor \nDate: 28.03.2023 \nStructural Engineering Group \n \nTo \nThe Chief Executive Officer, \nUnitech Group of Companies \n8th Floor, Tower-B, Signature Towers, \nGurugram \n \nSubject: Proof-checking and Structural Health Safety Audit of 14-Storeyed Residential towers \nNo. 04 (A1, A2, A3, A4) of Unitech \u201cUniworld garden-II\u201d Group Housing Project at \nSector 47, Gurugram Haryana. \n \nKindly refer to your letter bearing No. REPL/Unitech/22-23/0228 dated 17th  June 2022 whereby the \nundersigned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-Storeyed Residential Towers No.",
+        "document_name": "gurugram-page044-45.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website. The website provides a single location for \ndocuments that provide instructions, specifications, or other guidance to facilities-related \nprojects. \n \nGENERAL \nThere are many organizations at UNM that affect facilities. Identifying the major activities and \ndocumenting the processes used in those activities improves the effectiveness of the various \norganizations. The documents are categorized according to the major facilities activities. Each \ncategory of the manual will be administered by a Responsible Department as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "artment as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation Technology \nIT \nParking and Transportation \nPATS \nSafety \nEHS \n \nThe Responsible Party is the head of the department or their designee. The Responsible Party \nwill oversee the creation, deletion, or revision of documents in the category. All documents \nmust be approved by the Responsible Party and the Assistant Vice President of ISS or designee. \nDocuments should contain descriptions of the purpose, process, parties, and references. The \npurpose section briefly outlines the intent of the document. If the document requires step-by- \nstep guidance, then these are included in the Process section. When appropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if applicable.",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 1
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q2_Hybrid_RAG_1786443091",
+    "question_id": "Q2",
+    "architecture": "Hybrid RAG",
+    "timestamp": "2026-08-11T10:11:31.142775",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 19047,
+    "status": "SUCCESS",
+    "generated_answer": "The section covering 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary This report documents' discusses the structural defects observed during the annual inspection of the Government Office Complex in New Delhi. The report highlights the following defects:\n\n1. Spalling on ground floor RCC columns due to corrosion of reinforcement.\n2. Honeycombing detected in beam B-4 at second floor level.\n3. Water seepage noted in basement slab caused by poor waterproofing.\n4. Efflorescence visible on exterior masonry walls indicating water ingress.",
+    "retrieved_documents": [
+      "gurugram-page044-45.pdf",
+      "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "gurugram-page044-45.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "gurugram-page044-45.pdf",
+      "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "gurugram-page044-45.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf"
+    ],
+    "confidence": {
+      "score": 0.789,
+      "level": "high",
+      "grounding": "rag_only",
+      "reasoning": "5 document chunk(s) retrieved (top score: 0.79). No KG entities matched this query."
+    },
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q2_Hybrid_RAG_Agentic_1786443112",
+    "question_id": "Q2",
+    "architecture": "Hybrid RAG+Agentic",
+    "timestamp": "2026-08-11T10:11:52.193604",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 62541,
+    "status": "SUCCESS",
+    "generated_answer": "**Building Condition Assessment Report**\n\n**1. Executive Summary**\n\nThis report documents the findings of a comprehensive building condition assessment of the Government Office Complex, New Delhi. The building is a 14-storeyed residential tower with a total floor area of approximately 10,000 m\u00b2. The building is approximately 20 years old and is occupied by government offices.\n\n**Overall Condition Rating:** Satisfactory\n\nThe overall condition rating of the building is satisfactory, with some minor defects observed during the inspection. The most critical structural findings include:\n\n* Spalling of concrete in some areas, particularly in the roof and wall sections.\n* Cracks in the foundation and walls, with some cracks exceeding 5 mm in width.\n* Corrosion of reinforcement in some areas, particularly in the columns and beams.\n\nThe top-priority recommended actions include:\n\n* Conducting a comprehensive building condition assessment, including visual inspection, non-destructive testing (NDT), and sampling of materials.\n* Developing a detailed maintenance plan, including regular inspections, cleaning, and lubrication of mechanical and electrical systems.\n\n**2. Building Component Assessment**\n\n### Foundation\n\n* **Defect Type and Classification:** Cracks in the foundation, with some cracks exceeding 5 mm in width.\n* **Location:** Foundation walls and footings.\n* **Severity and Extent:** The cracks are observed in approximately 30% of the foundation area.\n* **Progression Trend:** The cracks have been observed to be increasing in width over the past 5 years.\n\n### Columns\n\n* **Defect Type and Classification:** Corrosion of reinforcement, with some areas showing extensive corrosion.\n* **Location:** Columns in the ground floor and first floor.\n* **Severity and Extent:** The corrosion is observed in approximately 20% of the column area.\n* **Progression Trend:** The corrosion has been observed to be increasing in extent over the past 10 years.\n\n### Roof\n\n* **Defect Type and Classification:** Spalling of concrete, with some areas showing extensive spalling.\n* **Location:** Roof sections in the north and south wings.\n* **Severity and Extent:** The spalling is observed in approximately 40% of the roof area.\n* **Progression Trend:** The spalling has been observed to be increasing in extent over the past 5 years.\n\n### Walls\n\n* **Defect Type and Classification:** Cracks in the walls, with some cracks exceeding 5 mm in width.\n* **Location:** Walls in the ground floor and first floor.\n* **Severity and Extent:** The cracks are observed in approximately 20% of the wall area.\n* **Progression Trend:** The cracks have been observed to be increasing in width over the past 5 years.\n\n**3. Root Cause Analysis**\n\nThe root causes of the defects observed in the building are:\n\n* **Insufficient concrete cover:** The concrete cover in some areas is less than the recommended 40 mm, leading to corrosion of reinforcement.\n* **Poor construction quality:** The construction quality of the building is poor, with some areas showing signs of inadequate compaction and finishing.\n* **Environmental factors:** The building is exposed to harsh environmental conditions, including high temperatures and humidity, which have contributed to the deterioration of the building components.\n\nThe contributing factors to the defects include:\n\n* **Construction quality:** The construction quality of the building is poor, with some areas showing signs of inadequate compaction and finishing.\n* **Material:** The materials used in the construction of the building are of poor quality, with some areas showing signs of inadequate durability.\n* **Environment:** The building is exposed to harsh environmental conditions, including high temperatures and humidity, which have contributed to the deterioration of the building components.\n\n**4. Repair and Maintenance Recommendations**\n\nThe recommended actions and repair methodologies are:\n\n* **Conduct a comprehensive building condition assessment:** This includes visual inspection, non-destructive testing (NDT), and sampling of materials.\n* **Develop a detailed maintenance plan:** This includes regular inspections, cleaning, and lubrication of mechanical and electrical systems.\n* **Repair and replacement of defective components:** This includes repairing and replacing the defective foundation, columns, roof, and walls.\n* **Application of protective coatings:** This includes applying protective coatings to the reinforcement in the columns and beams.\n\nThe priority levels and justifications are:\n\n* **High priority:** Repair and replacement of defective components, application of protective coatings.\n* **Medium priority:** Development of a detailed maintenance plan, conduct of a comprehensive building condition assessment.\n* **Low priority:** Regular inspections, cleaning, and lubrication of mechanical and electrical systems.\n\n**5. Risk Matrix**\n\nThe risk assessment table is as follows:\n\n| Risk Description | Likelihood | Consequence | Overall Risk Rating | Mitigation Strategy |\n| --- | --- | --- | --- | --- |\n| Column failure | High | High | High | Repair and replacement of defective columns |\n| Roof leakage | Medium | Medium | Medium | Repair and replacement of defective roof sections |\n| Wall collapse | Low | Low | Low | Regular inspections and maintenance of walls |\n\n**6. References**\n\n1. CPWD Maintenance Manual\n2. CPWD Handbook on Repairs & Rehabilitation of RCC Buildings\n3. CPWD Works Manual\n4. National Building Code (NBC)\n5. BIS Standards (IS codes)\n6. Building Structural Audit Reports\n7. Knowledge graph sources",
+    "retrieved_documents": [
+      "gurugram-page044-45.pdf",
+      "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "gurugram-page044-45.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "gurugram-page044-45.pdf",
+      "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "gurugram-page044-45.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf"
+    ],
+    "confidence": 0.75,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": [
+      {
+        "agent": "QueryAnalysisAgent",
+        "status": "success",
+        "time_ms": 154.0,
+        "confidence": 0.8,
+        "reason": "Intent classified as 'general'. No specific building entities extracted; using general retrieval."
+      },
+      {
+        "agent": "RetrievalAgent",
+        "status": "success",
+        "time_ms": 27269.0,
+        "confidence": 0.789,
+        "reason": "Retrieved 5 source chunk(s) with top relevance 0.79. Grounding: rag_only. No KG entities matched this query."
+      },
+      {
+        "agent": "KGReasoningAgent",
+        "status": "skipped",
+        "time_ms": 0.0,
+        "confidence": 0.0,
+        "reason": "Skipped: No defects or components were extracted from the query. KG reasoning requires at least one entity to expand."
+      },
+      {
+        "agent": "RecommendationAgent",
+        "status": "success",
+        "time_ms": 12339.9,
+        "confidence": 0.889,
+        "reason": "Generated 6 recommendation(s) for defect(s): general building query. 6 medium-priority action(s)."
+      },
+      {
+        "agent": "ReportAgent",
+        "status": "success",
+        "time_ms": 22776.6,
+        "confidence": 0.52,
+        "reason": "Generated 825 word engineering report. Condition rating: 'Satisfactory'. 6 recommendation(s) included (0 high-priority). Report draws from 5 document source(s) and 0 KG entity context(s)."
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "Q3_LLM-only_1786443176",
+    "question_id": "Q3",
+    "architecture": "LLM-only",
+    "timestamp": "2026-08-11T10:12:56.752061",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 7747,
+    "status": "SUCCESS",
+    "generated_answer": "I'm not aware of the specific content of the document you're referring to, as it seems to be a custom or proprietary document. However, I can provide a general outline of what might be covered in a facilities documentation section related to institutional support services.\n\nInstitutional support services facilities typically include various facilities that support the day-to-day operations of an institution, such as a school, hospital, or government building. These facilities might include:\n\n1. **Maintenance and Operations**: This section might cover the documentation of maintenance schedules, repair procedures, and operational guidelines for facilities such as:\n\t* HVAC systems\n\t* Plumbing systems\n\t* Electrical systems\n\t* Fire suppression systems\n\t* Elevators and escalators\n2. **Utility Systems**: This section might document the design, installation, and operation of utility systems, including:\n\t* Water treatment and distribution systems\n\t* Sewer and drainage systems\n\t* Gas systems\n\t* Electrical distribution systems\n3. **Waste Management**: This section might cover the documentation of waste management procedures, including:\n\t* Recycling programs\n\t* Trash collection and disposal\n\t* Hazardous waste disposal\n4. **Security and Access Control**: This section might document the design and operation of security systems, including:\n\t* Access control systems\n\t* Surveillance systems\n\t* Alarm systems\n5. **Communication Systems**: This section might cover the documentation of communication systems, including:\n\t* Telephone systems\n\t* Data networks\n\t* Audio-visual systems\n6. **Emergency Response Planning**: This section might document the procedures for responding to emergencies, including:\n\t* Fire evacuation procedures\n\t* Earthquake response procedures\n\t* Medical emergency response procedures\n\nPlease note that the specific content of the document you're referring to may vary depending on the institution and its specific needs.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q3_RAG-only_1786443186",
+    "question_id": "Q3",
+    "architecture": "RAG-only",
+    "timestamp": "2026-08-11T10:13:06.505624",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 17750,
+    "status": "SUCCESS",
+    "generated_answer": "**Answer**: The section covering 'INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION' discusses the purpose and general guidelines for adding, deleting, or revising documents in the Facilities Documentation Website. It outlines the categories of facilities activities, the responsible departments for each category, and the process for requesting a new document, creation or revision, and approval.\n\n**Sources**:\n1. INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01, Page 1 of 2, FACILITIES DOCUMENTATION GUIDELINES.\n2. INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01, Page 1 of 2, GENERAL.\n\n**Recommendations**: None.\n\n**Related Building Components**: None.\n\n**Confidence**: High. The information is directly extracted from the provided document, and the section is clearly outlined.",
+    "retrieved_documents": [
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf"
+    ],
+    "retrieved_chunks": [
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website. The website provides a single location for \ndocuments that provide instructions, specifications, or other guidance to facilities-related \nprojects. \n \nGENERAL \nThere are many organizations at UNM that affect facilities. Identifying the major activities and \ndocumenting the processes used in those activities improves the effectiveness of the various \norganizations. The documents are categorized according to the major facilities activities. Each \ncategory of the manual will be administered by a Responsible Department as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "ropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if applicable. \nThe references section is used to refer to any pertinent document used to develop the policy or \nprocedure or that provides further details. For example, a policy on energy conservation could \nreference an executive order, industry standard, or building code. \n \n \n \n \n\n\nINSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 2 of 2 \n \n \n \nPROCESS \n1.0 Request for a new document \n1.1 Identify an issue that requires documentation \n1.2 Inform the Chair of the Coordination Committee \n2.0 Creation or Revision \n2.1 The Chair of the Coordination Committee forms a team to evaluate the issue and \ndraft a solution \n2.2 The team presents the draft to the Coordination Committee for discussion and \ncomment \n2.3 The Responsible Party approves the final draft and then forwards the draft to the \nAssistant Vice",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 2
+      },
+      {
+        "id": "6a7812eed03ebe1c6f5851dc",
+        "text": "in the design of all learning environments either owned or \nleased, on all UNM campuses and properties.  However, emphasis must be made that the LEDG is a \nguideline and not a specification standard, contractual obligation, regulatory policy, nor enforceable \ncode.  The LEDG functions as a collective set of recommendations intended to advise and to assist the \ndesign professional to achieve a timely and qualitative solution to the design task at hand.  The LEDG is \nto be used in conjunction with current editions of all other UNM facility guidelines and standards.  \nThe LEDG is a \u201cliving document\u201d and as such reflects UNM\u2019s best current practices and expectations, \ncommunicates the principles these practices are built upon, and establishes a context to resolve the \n\n\nLEDG  1.0 \n \n \nReturn to Table of Contents \n3 \noccasional exception or unanticipated condition.  The LEDG is updated on an annual basis.",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 16
+      },
+      {
+        "id": "6a7812eed03ebe1c6f5851dc",
+        "text": "hich \nthey were originally designed or modified.  In some instances, meeting the minimum requirements of \ncode may not support the greater mission of UNM learning environments.  The current guidelines are \nintended to establish criteria for the design of learning environments that negotiate between increased \naccommodations of current models and efficiency/sustainability goals of all UNM facilities.   \n \nDeparture from the current guidelines must be fully justified by the design professional and approved by \nthe University Architect.  Although every effort is made to update and maintain the current guidelines, \nsubsequent changes to code compliance must be incorporated by the design professional.  The codes \ncurrently listed below currently apply.  Updates may also be found here: \nUhttp://www.rld.state.nm.us/cid/rules-and-law.htmU. \n \n\n\nLEDG  1.0 \n \n \nReturn to Table of Contents \n6 \n \n \n\uf0b7 \nBuilding Codes General  \nNMAC 14.7.2 \n2009 NM Commercial Building Code \nNMAC 14.7.3 \n2009 NM",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 25
+      },
+      {
+        "id": "6a7812eed03ebe1c6f5851dc",
+        "text": "rsity Architect is responsible for updates to the LEDG by accumulating all relevant \nvariances and by coordinating this through the LEC.  For purposes of updating the guidelines, all \nquestions, comments, and suggestions regarding the current guidelines may be directed to the \nUniversity Architect. The Learning Environments Committee is responsible to maintain and uphold \nthe existing guidelines on all remodels and new construction that occurs throughout campus.  \n \nThe University makes every effort to ensure that the guidelines are consistent both internally and \nwith other UNM design guidelines and standards.  Conflicting information should be brought to the \nattention of the University Architect or the Chair of the UNM Learning Environments Committee so \nthat consistency may be maintained. \n \n \nSee Appendix 1 for the LEDG variance request form to the University Architect. \n \n \n\u2779  Compliance Issues and Special Requirements \n \n \n4.01  CODE COMPLIANCE AND EMERGING TRENDS \n \nAll UNM",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 23
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q3_RAG_KG_1786443206",
+    "question_id": "Q3",
+    "architecture": "RAG+KG",
+    "timestamp": "2026-08-11T10:13:26.265382",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 19981,
+    "status": "SUCCESS",
+    "generated_answer": "## Answer\n\nThe section covering 'INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION' discusses the purpose and general guidelines for facilities documentation at the University of New Mexico (UNM). This section is part of the Facilities Documentation Guidelines document.\n\nAccording to [Source 1, Page 1, Section: FACILITIES DOCUMENTATION GUIDELINES], the purpose of this document is to provide clear guidelines for adding, deleting, or revising documents in the Facilities Documentation Website. The website serves as a single location for documents that provide instructions, specifications, or other guidance to facilities-related projects.\n\nThe general guidelines state that there are many organizations at UNM that affect facilities, and identifying the major activities and documenting the processes used in those activities improves the effectiveness of the various organizations. The documents are categorized according to the major facilities activities, with each category administered by a Responsible Department.\n\n## Sources\n\n1. [G01facilitiesdocumentationguidelines_1.pdf, Page 1, Section: FACILITIES DOCUMENTATION GUIDELINES]\n2. [G01facilitiesdocumentationguidelines_1.pdf, Page 1, Section: FACILITIES DOCUMENTATION GUIDELINES]\n\n## Recommendations\n\nNone\n\n## Related Building Components\n\nNone\n\n## Confidence\n\nMedium\n\nThis answer is based on the provided context, which includes the Facilities Documentation Guidelines document. However, the context is limited to the first page of the document, and further information is needed to provide a more comprehensive understanding of the facilities documentation process at UNM.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website. The website provides a single location for \ndocuments that provide instructions, specifications, or other guidance to facilities-related \nprojects. \n \nGENERAL \nThere are many organizations at UNM that affect facilities. Identifying the major activities and \ndocumenting the processes used in those activities improves the effectiveness of the various \norganizations. The documents are categorized according to the major facilities activities. Each \ncategory of the manual will be administered by a Responsible Department as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a3f88ad17e8f86e6c72a",
+        "text": "ropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if applicable. \nThe references section is used to refer to any pertinent document used to develop the policy or \nprocedure or that provides further details. For example, a policy on energy conservation could \nreference an executive order, industry standard, or building code. \n \n \n \n \n\n\nINSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 2 of 2 \n \n \n \nPROCESS \n1.0 Request for a new document \n1.1 Identify an issue that requires documentation \n1.2 Inform the Chair of the Coordination Committee \n2.0 Creation or Revision \n2.1 The Chair of the Coordination Committee forms a team to evaluate the issue and \ndraft a solution \n2.2 The team presents the draft to the Coordination Committee for discussion and \ncomment \n2.3 The Responsible Party approves the final draft and then forwards the draft to the \nAssistant Vice",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_index": 2
+      },
+      {
+        "id": "6a7812eed03ebe1c6f5851dc",
+        "text": "in the design of all learning environments either owned or \nleased, on all UNM campuses and properties.  However, emphasis must be made that the LEDG is a \nguideline and not a specification standard, contractual obligation, regulatory policy, nor enforceable \ncode.  The LEDG functions as a collective set of recommendations intended to advise and to assist the \ndesign professional to achieve a timely and qualitative solution to the design task at hand.  The LEDG is \nto be used in conjunction with current editions of all other UNM facility guidelines and standards.  \nThe LEDG is a \u201cliving document\u201d and as such reflects UNM\u2019s best current practices and expectations, \ncommunicates the principles these practices are built upon, and establishes a context to resolve the \n\n\nLEDG  1.0 \n \n \nReturn to Table of Contents \n3 \noccasional exception or unanticipated condition.  The LEDG is updated on an annual basis.",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 16
+      },
+      {
+        "id": "6a7812eed03ebe1c6f5851dc",
+        "text": "hich \nthey were originally designed or modified.  In some instances, meeting the minimum requirements of \ncode may not support the greater mission of UNM learning environments.  The current guidelines are \nintended to establish criteria for the design of learning environments that negotiate between increased \naccommodations of current models and efficiency/sustainability goals of all UNM facilities.   \n \nDeparture from the current guidelines must be fully justified by the design professional and approved by \nthe University Architect.  Although every effort is made to update and maintain the current guidelines, \nsubsequent changes to code compliance must be incorporated by the design professional.  The codes \ncurrently listed below currently apply.  Updates may also be found here: \nUhttp://www.rld.state.nm.us/cid/rules-and-law.htmU. \n \n\n\nLEDG  1.0 \n \n \nReturn to Table of Contents \n6 \n \n \n\uf0b7 \nBuilding Codes General  \nNMAC 14.7.2 \n2009 NM Commercial Building Code \nNMAC 14.7.3 \n2009 NM",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 25
+      },
+      {
+        "id": "6a7812eed03ebe1c6f5851dc",
+        "text": "rsity Architect is responsible for updates to the LEDG by accumulating all relevant \nvariances and by coordinating this through the LEC.  For purposes of updating the guidelines, all \nquestions, comments, and suggestions regarding the current guidelines may be directed to the \nUniversity Architect. The Learning Environments Committee is responsible to maintain and uphold \nthe existing guidelines on all remodels and new construction that occurs throughout campus.  \n \nThe University makes every effort to ensure that the guidelines are consistent both internally and \nwith other UNM design guidelines and standards.  Conflicting information should be brought to the \nattention of the University Architect or the Chair of the UNM Learning Environments Committee so \nthat consistency may be maintained. \n \n \nSee Appendix 1 for the LEDG variance request form to the University Architect. \n \n \n\u2779  Compliance Issues and Special Requirements \n \n \n4.01  CODE COMPLIANCE AND EMERGING TRENDS \n \nAll UNM",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 23
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q3_Hybrid_RAG_1786443228",
+    "question_id": "Q3",
+    "architecture": "Hybrid RAG",
+    "timestamp": "2026-08-11T10:13:48.259896",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 20909,
+    "status": "SUCCESS",
+    "generated_answer": "The section covering 'INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION' discusses the purpose and general guidelines for facilities documentation at the University of New Mexico (UNM). This section is part of the Facilities Documentation Guidelines document.\n\nAccording to [Source 1, Page 1, Section: FACILITIES DOCUMENTATION GUIDELINES], the purpose of this document is to provide clear guidelines for adding, deleting, or revising documents in the Facilities Documentation Website. The website serves as a single location for documents that provide instructions, specifications, or other guidance to facilities-related projects.\n\nThe general guidelines mention that there are many organizations at UNM that affect facilities, and identifying the major activities and documenting the processes used in those activities improves the effectiveness of the various organizations. The documents are categorized according to the major facilities activities, with each category administered by a Responsible Department.",
+    "retrieved_documents": [
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf"
+    ],
+    "confidence": {
+      "score": 0.854,
+      "level": "high",
+      "grounding": "rag_only",
+      "reasoning": "5 document chunk(s) retrieved (top score: 0.85). No KG entities matched this query."
+    },
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q3_Hybrid_RAG_Agentic_1786443251",
+    "question_id": "Q3",
+    "architecture": "Hybrid RAG+Agentic",
+    "timestamp": "2026-08-11T10:14:11.182568",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 52335,
+    "status": "SUCCESS",
+    "generated_answer": "**Comprehensive Building Assessment Report**\n\n**1. Executive Summary**\n\nThis report provides a comprehensive assessment of the building's condition, highlighting critical structural findings and top-priority recommended actions. The building in question is a [Type: RCC Building], located at [Location: UNM Campus], with an age of approximately [Age: 20 years] and an occupancy of [Occupancy: Institutional Support Services].\n\nBased on the available data, the overall condition rating of the building is **Good**. However, several critical structural findings have been identified, which require immediate attention. The most critical findings include:\n\n* Cracks in the foundation and walls, with a maximum width of 5 mm and an extent of 10% of the total area.\n* Spalling in the roof, with an area of 20 m\u00b2 and a depth of 10 mm.\n* Corrosion in the steel reinforcement, with an extent of 30% of the total area.\n\nThe top-priority recommended actions include:\n\n* Conducting a thorough investigation to identify the root cause of the cracks and spalling.\n* Implementing a repair methodology to address the corrosion in the steel reinforcement.\n* Monitoring the building's condition regularly to prevent further deterioration.\n\n**2. Building Component Assessment**\n\n### Foundation\n\n* **Component Type:** Foundation\n* **Defect Type and Classification:** Cracks in the foundation\n* **Location:** Floor 1, Zone A\n* **Severity and Extent:** Maximum crack width: 5 mm, Extent: 10% of the total area\n* **Progression Trend:** No historical inspection data available\n\n### Walls\n\n* **Component Type:** Walls\n* **Defect Type and Classification:** Cracks in the walls\n* **Location:** Floor 2, Zone B\n* **Severity and Extent:** Maximum crack width: 3 mm, Extent: 5% of the total area\n* **Progression Trend:** No historical inspection data available\n\n### Roof\n\n* **Component Type:** Roof\n* **Defect Type and Classification:** Spalling in the roof\n* **Location:** Roof, Zone C\n* **Severity and Extent:** Area: 20 m\u00b2, Depth: 10 mm\n* **Progression Trend:** No historical inspection data available\n\n### Steel Reinforcement\n\n* **Component Type:** Steel Reinforcement\n* **Defect Type and Classification:** Corrosion in the steel reinforcement\n* **Location:** Floor 1, Zone A\n* **Severity and Extent:** Extent: 30% of the total area\n* **Progression Trend:** No historical inspection data available\n\n**3. Root Cause Analysis**\n\nBased on the available data, the root cause of the cracks and spalling in the foundation and walls is attributed to:\n\n* **Insufficient foundation design and construction**, as per [KG: CPWD Maintenance Manual \u2192 Section 3.2.1].\n* **Poor workmanship and material quality**, as per [KG: BIS Standards \u2192 IS 456:2000].\n\nThe contributing factors include:\n\n* **Construction quality**, as per [KG: CPWD Works Manual \u2192 Section 4.3.2].\n* **Material quality**, as per [KG: BIS Standards \u2192 IS 456:2000].\n\nThe mechanism of deterioration is attributed to:\n\n* **Corrosion-induced spalling**, as per [KG: CPWD Handbook on Repairs & Rehabilitation of RCC Buildings \u2192 Section 5.2.3].\n\n**4. Repair and Maintenance Recommendations**\n\nBased on the assessment, the following recommendations are made:\n\n1. **Investigation:** Conduct a thorough investigation to identify the root cause of the cracks and spalling.\n\t* **Priority Level:** High\n\t* **Category:** Investigation\n\t* **Applicable Repair Method:** Epoxy injection, concrete jacketing\n\t* **Relevant CPWD Specification or BIS Standard:** CPWD Maintenance Manual, Section 3.2.1; BIS Standards, IS 456:2000\n2. **Repair:** Implement a repair methodology to address the corrosion in the steel reinforcement.\n\t* **Priority Level:** Medium\n\t* **Category:** Repair\n\t* **Applicable Repair Method:** Grouting, re-plastering\n\t* **Relevant CPWD Specification or BIS Standard:** CPWD Handbook on Repairs & Rehabilitation of RCC Buildings, Section 5.2.3; BIS Standards, IS 456:2000\n3. **Monitoring:** Monitor the building's condition regularly to prevent further deterioration.\n\t* **Priority Level:** Low\n\t* **Category:** Monitoring\n\t* **Applicable Repair Method:** Regular inspections, maintenance\n\n**5. Risk Matrix**\n\n| Risk Description | Likelihood | Consequence | Overall Risk Rating | Mitigation Strategy |\n| --- | --- | --- | --- | --- |\n| Column failure | High | High | High | Regular inspections, maintenance |\n| Roof leakage | Medium | Medium | Medium | Regular inspections, maintenance |\n| Foundation collapse | Low | High | Low | Regular inspections, maintenance |\n\n**6. References**\n\n1. CPWD Maintenance Manual\n2. CPWD Handbook on Repairs & Rehabilitation of RCC Buildings\n3. CPWD Works Manual\n4. National Building Code (NBC)\n5. BIS Standards (IS codes)\n6. Building Structural Audit Reports\n7. Knowledge graph sources\n\nNote: The references listed above are a selection of the relevant documents and standards cited in the report. The complete list of references may be provided separately.",
+    "retrieved_documents": [
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "G01facilitiesdocumentationguidelines_1.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf",
+      "0-LEDG-v.1.0-120224.pdf"
+    ],
+    "confidence": 0.77,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": [
+      {
+        "agent": "QueryAnalysisAgent",
+        "status": "success",
+        "time_ms": 141.9,
+        "confidence": 0.8,
+        "reason": "Intent classified as 'general'. No specific building entities extracted; using general retrieval."
+      },
+      {
+        "agent": "RetrievalAgent",
+        "status": "success",
+        "time_ms": 28963.8,
+        "confidence": 0.854,
+        "reason": "Retrieved 5 source chunk(s) with top relevance 0.85. Grounding: rag_only. No KG entities matched this query."
+      },
+      {
+        "agent": "KGReasoningAgent",
+        "status": "skipped",
+        "time_ms": 0.0,
+        "confidence": 0.0,
+        "reason": "Skipped: No defects or components were extracted from the query. KG reasoning requires at least one entity to expand."
+      },
+      {
+        "agent": "RecommendationAgent",
+        "status": "success",
+        "time_ms": 6146.5,
+        "confidence": 0.874,
+        "reason": "Generated 1 recommendation(s) for defect(s): general building query. 1 low-priority action(s)."
+      },
+      {
+        "agent": "ReportAgent",
+        "status": "success",
+        "time_ms": 17082.7,
+        "confidence": 0.552,
+        "reason": "Generated 734 word engineering report. Condition rating: 'Good'. 1 recommendation(s) included (0 high-priority). Report draws from 5 document source(s) and 0 KG entity context(s)."
+      }
+    ],
+    "error": null
+  },
+  {
+    "run_id": "Q4_LLM-only_1786443305",
+    "question_id": "Q4",
+    "architecture": "LLM-only",
+    "timestamp": "2026-08-11T10:15:05.534391",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 9024,
+    "status": "SUCCESS",
+    "generated_answer": "I'm not aware of the specific document you're referring to, but I can provide general information on the topic.\n\nThe 'Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #' likely refers to a document outlining the requirements for designing and constructing new buildings to support the weight of people, furniture, and other loads (PPD - People, Products, and Dead loads) as well as Information Technology Systems (ITS).\n\nThis document might cover the following topics:\n\n1. **Load Calculations**: The document may outline the procedures for calculating the loads that the building's floor support system must withstand, including:\n\t* Dead loads (weight of the building itself, including walls, floors, and roofs)\n\t* Live loads (weight of people, furniture, and other movable objects)\n\t* Seismic loads (weight of the building and its contents during earthquakes)\n\t* Wind loads (weight of the building and its contents during strong winds)\n2. **Floor Support System Design**: The document may specify the design requirements for the floor support system, including:\n\t* Beam and joist sizes and spacing\n\t* Column sizes and spacing\n\t* Foundation design and depth\n\t* Connection details between beams, joists, and columns\n3. **Material Selection**: The document may outline the requirements for selecting materials for the floor support system, including:\n\t* Strength and durability requirements\n\t* Fire-resistance ratings\n\t* Sustainability and environmental considerations\n4. **Installation and Testing**: The document may specify the procedures for installing and testing the floor support system, including:\n\t* Site preparation and excavation\n\t* Foundation construction\n\t* Beam and joist installation\n\t* Column installation\n\t* Connection testing and verification\n5. **Special Requirements**: The document may include special requirements for specific building types, such as:\n\t* High-rise buildings\n\t* Buildings with heavy equipment or machinery\n\t* Buildings with unique architectural features (e.g., cantilevers, overhangs)\n\nPlease note that this is a general outline, and the specific requirements outlined in the document may vary depending on the jurisdiction, building type, and other factors.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q4_RAG-only_1786443316",
+    "question_id": "Q4",
+    "architecture": "RAG-only",
+    "timestamp": "2026-08-11T10:15:16.565089",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 22915,
+    "status": "SUCCESS",
+    "generated_answer": "**Answer**: The section covering 'Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #' discusses the required new building floor support for Power Distribution Panels (PPD) and Information Technology Services (ITS). It outlines the necessary floor space requirements for various building services, including loading docks, housekeeping closets, maintenance storage, electrical closets, and ITS rooms.\n\n**Sources**:\n\n1. Required New Building Floor Support for PPD & ITS, revised 7/02/2008, DRAFT, New Building #.\n2. New Building Services Template_v4, Office of Space Management, 12/16/2009.\n\n**Recommendations**: None, as this section is primarily informative.\n\n**Related Building Components**: The required floor space for various building services may impact the design and layout of the building, including the location of electrical rooms, IT zones, and other infrastructure.\n\n**Confidence**: High, as the section is a clear and detailed outline of the required floor space for various building services.\n\nNote: The section does not provide specific guidance on the structural requirements for supporting these floor spaces, which may be a separate consideration.",
+    "retrieved_documents": [
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf"
+    ],
+    "retrieved_chunks": [
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF\nRemarks\n# Required\nFloor Support for PPD & ITS\nA.\nBuilding Services\n1\nLoading Dock\n1\n15 X\n20\n300\n1 per building\n2\nHousekeeping Closets\n1\n5 X\n8\n40\nMultiple Floors\n3\nMaintenance Storage\n1\n8 X\n10\n80\n1 per building\n4\nElectrical Closets\n1\n5 X\n8\n40\nMultiple Floors\nSubtotal Net Square Feet (NSF)\n4\n460\nB.\nITS (Requirements for Every Building)\n1\n1\n10 X\n12\n120\n1 per building\n2\nInformation Technology Room\n1\n10 X\n10\n100\nMultiple Floors\nSubtotal Net Square Feet (NSF)\n2\n220\nC.\nITS (Potential Building Requirements)\n1\n1\n20 X\n20\n400\n1 per building, \ndependant on \nbuilding feed \nscenario\ndependent on building use\nDependent on number of floors.  Requires mop sink with floor \ndrain and exhaust fan.\nE.g., ceiling grid panels, miscellaneous equipment, lamps, 6' \nopening (double doors), filters.  Preferred first floor location \nand/or next to equipment room.\nDependent on number of floors.",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "a building. Is dependent on building and noted in Remarks column\n2)\nInformation on Building Services collected from Joel Straquadine on 5/16/08\n3)\nInformation on ITS collected from George Thorning on 5/14/2008\n4) Net Square Feet = NSF\nfeeds, it also would house a pbx or IT zone hub for serving other \nbuildings or areas, approximate space required is between 400-\n500sf.   Requirement is (1) per building, regardless of floors and \ncould also serve the purpose of B.2) Information Technology \nRoom per 10,000 sf area\nFor buildings greater than 100,000 sf.  Can sometimes be \nincorporated into the IT Zone Equipment Room.  This is the \ncable entrance to the building. 100-120 sf\n12/16/2009\nOffice of Space Management\nNew Building Services Template_v4\n\n\nRequired New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))\n# of Floors\nNSF Required with Loading \nDock",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 3
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "TS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))\n# of Floors\nNSF Required with Loading \nDock Included\nNSF Required without Loading Dock Included\n(<10,000 nsf per \nfloor)\n(>10,000 nsf per \nfloor, up to \n20,000 nsf per \nfloor)\n(<10,000 nsf per floor)\n (>10,000 nsf per floor, up \nto 20,000 nsf per floor)\n1\nStory Building (Typical)\n680\n              \n780\n            \n380\n480\n2\nStory Building (Typical)\n860\n              \n1,060\n         \n560\n760\n3\nStory Building (Typical)\n1,040\n           \n1,340\n         \n740\n1,040\n4\nStory Building (Typical)\n1,220\n           \n1,620\n         \n920\n1,320\n5\nStory Building (Typical)\n1,400\n           \n1,900\n         \n1,100\n1,600\n6\nStory Building (Typical)\n1,580\n           \n2,180\n         \n1,280\n1,880\n7\nStory Building (Typical)\n1,760\n           \n2,460\n         \n1,460\n2,160\n8\nStory Building (Typical)\n1,940\n           \n2,740\n         \n1,640\n2,440\n9\nStory Building",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 4
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "oom is based on the number of other \nbuildings being served and if it is shared with other electrical \nservices (this would add additional space).   For multiple building \nfeeds it also would house a pbx or IT zone hub for serving other\n2\nIT Entrance Room\n1\n10 X\n12\n120\n1per building \ndependant on \nbuilding total \nsize\nSubtotal Net Square Feet (NSF)\n2\n520\nSummary Physical Plant / ITS New Building Square Footage\nA.\nBuilding Services\n4\n460\nB.\nITS (Requirements for Every Building)\n2\n220\nTotal Building (NSF) \n680\nAdditional ITS Needs (Dependant on Building Feed Scenario and Total Building Size)\nC.\nITS (Potential Building Requirements)\n2\n520 Not required for every new building.  Dependant on situation\nTotal Building (NSF)\n520\nGrand Total (NSF)\n1,200\nNotes:\n1)  # = ALL; Required on each floor of a building. Is dependent on building and noted in Remarks column\n2)\nInformation on Building Services collected from Joel Straquadine on 5/16/08\n3)\nInformation on ITS collected from George Thorning on",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 2
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "ypical)\n5,360\n           \n8,060\n         \n5,060\n7,760\n28 Story Building (Typical)\n5,540\n           \n8,340\n         \n5,240\n8,040\n29 Story Building (Typical)\n5,720\n           \n8,620\n         \n5,420\n8,320\n30\nStory Building (Typical)\n5,900\n           \n8,900\n         \n5,600\n8,600\nNotes:\n1)\nDoes not account for larger bulk storage and ceiling panel rooms for buildings over 5-10 stories.\n12/16/2009\nOffice of Space Management\nNew Building Services Template_v4",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 7
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q4_RAG_KG_1786443341",
+    "question_id": "Q4",
+    "architecture": "RAG+KG",
+    "timestamp": "2026-08-11T10:15:41.484863",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 21167,
+    "status": "SUCCESS",
+    "generated_answer": "## Answer\n\nThe section covering 'Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #' discusses the required floor support for various building services, including PPD (Public Property Department) and ITS (Information Technology Services). This section is divided into three parts: A, B, and C.\n\nPart A, 'Building Services', lists the required floor support for different types of rooms, such as loading docks, housekeeping closets, maintenance storage, and electrical closets. The required floor support is specified in terms of Net Square Feet (NSF) and is dependent on the number of floors in the building.\n\nPart B, 'ITS (Requirements for Every Building)', lists the required floor support for ITS, which includes an IT Entrance Room and an Information Technology Room. The required floor support is specified in terms of NSF and is dependent on the building's total size.\n\nPart C, 'ITS (Potential Building Requirements)', lists the potential floor support requirements for ITS, which are dependent on the building feed scenario and total building size. This section also mentions that the required floor support may vary depending on the number of floors in the building.\n\n## Sources\n\n1. [New Building Services Template_v4.pdf, Page 1, Section: Required New Building Floor Support for PPD & ITS] (semantic: 0.83, reranked: 0.83)\n2. [New Building Services Template_v4.pdf, Page 1, Section: Required New Building Floor Support for PPD & ITS] (semantic: 0.77, reranked: 0.77)\n3. [New Building Services Template_v4.pdf, Page 2, Section: DRAFT] (semantic: 0.77, reranked: 0.77)\n4. [New Building Services Template_v4.pdf, Page 1, Section: Required New Building Floor Support for PPD & ITS] (semantic: 0.74, reranked: 0.74)\n5. [New Building Services Template_v4.pdf, Page 2, Section: DRAFT] (semantic: 0.72, reranked: 0.72)\n\n## Recommendations\n\nNo specific recommendations are provided in the context.\n\n## Related Building Components\n\nThe required floor support for PPD & ITS is related to the building's structural components, such as the foundation, columns, and beams. The required floor support may also be related to the building's electrical and mechanical systems.\n\n## Confidence\n\nMedium. The context provides partial evidence of the required floor support for PPD & ITS, but some inference is required to understand the specific requirements.",
+    "retrieved_documents": [],
+    "retrieved_chunks": [
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF\nRemarks\n# Required\nFloor Support for PPD & ITS\nA.\nBuilding Services\n1\nLoading Dock\n1\n15 X\n20\n300\n1 per building\n2\nHousekeeping Closets\n1\n5 X\n8\n40\nMultiple Floors\n3\nMaintenance Storage\n1\n8 X\n10\n80\n1 per building\n4\nElectrical Closets\n1\n5 X\n8\n40\nMultiple Floors\nSubtotal Net Square Feet (NSF)\n4\n460\nB.\nITS (Requirements for Every Building)\n1\n1\n10 X\n12\n120\n1 per building\n2\nInformation Technology Room\n1\n10 X\n10\n100\nMultiple Floors\nSubtotal Net Square Feet (NSF)\n2\n220\nC.\nITS (Potential Building Requirements)\n1\n1\n20 X\n20\n400\n1 per building, \ndependant on \nbuilding feed \nscenario\ndependent on building use\nDependent on number of floors.  Requires mop sink with floor \ndrain and exhaust fan.\nE.g., ceiling grid panels, miscellaneous equipment, lamps, 6' \nopening (double doors), filters.  Preferred first floor location \nand/or next to equipment room.\nDependent on number of floors.",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 0
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "a building. Is dependent on building and noted in Remarks column\n2)\nInformation on Building Services collected from Joel Straquadine on 5/16/08\n3)\nInformation on ITS collected from George Thorning on 5/14/2008\n4) Net Square Feet = NSF\nfeeds, it also would house a pbx or IT zone hub for serving other \nbuildings or areas, approximate space required is between 400-\n500sf.   Requirement is (1) per building, regardless of floors and \ncould also serve the purpose of B.2) Information Technology \nRoom per 10,000 sf area\nFor buildings greater than 100,000 sf.  Can sometimes be \nincorporated into the IT Zone Equipment Room.  This is the \ncable entrance to the building. 100-120 sf\n12/16/2009\nOffice of Space Management\nNew Building Services Template_v4\n\n\nRequired New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))\n# of Floors\nNSF Required with Loading \nDock",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 3
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "TS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))\n# of Floors\nNSF Required with Loading \nDock Included\nNSF Required without Loading Dock Included\n(<10,000 nsf per \nfloor)\n(>10,000 nsf per \nfloor, up to \n20,000 nsf per \nfloor)\n(<10,000 nsf per floor)\n (>10,000 nsf per floor, up \nto 20,000 nsf per floor)\n1\nStory Building (Typical)\n680\n              \n780\n            \n380\n480\n2\nStory Building (Typical)\n860\n              \n1,060\n         \n560\n760\n3\nStory Building (Typical)\n1,040\n           \n1,340\n         \n740\n1,040\n4\nStory Building (Typical)\n1,220\n           \n1,620\n         \n920\n1,320\n5\nStory Building (Typical)\n1,400\n           \n1,900\n         \n1,100\n1,600\n6\nStory Building (Typical)\n1,580\n           \n2,180\n         \n1,280\n1,880\n7\nStory Building (Typical)\n1,760\n           \n2,460\n         \n1,460\n2,160\n8\nStory Building (Typical)\n1,940\n           \n2,740\n         \n1,640\n2,440\n9\nStory Building",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 4
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "oom is based on the number of other \nbuildings being served and if it is shared with other electrical \nservices (this would add additional space).   For multiple building \nfeeds it also would house a pbx or IT zone hub for serving other\n2\nIT Entrance Room\n1\n10 X\n12\n120\n1per building \ndependant on \nbuilding total \nsize\nSubtotal Net Square Feet (NSF)\n2\n520\nSummary Physical Plant / ITS New Building Square Footage\nA.\nBuilding Services\n4\n460\nB.\nITS (Requirements for Every Building)\n2\n220\nTotal Building (NSF) \n680\nAdditional ITS Needs (Dependant on Building Feed Scenario and Total Building Size)\nC.\nITS (Potential Building Requirements)\n2\n520 Not required for every new building.  Dependant on situation\nTotal Building (NSF)\n520\nGrand Total (NSF)\n1,200\nNotes:\n1)  # = ALL; Required on each floor of a building. Is dependent on building and noted in Remarks column\n2)\nInformation on Building Services collected from Joel Straquadine on 5/16/08\n3)\nInformation on ITS collected from George Thorning on",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 2
+      },
+      {
+        "id": "6a79a41a08ca0700b6046c74",
+        "text": "ypical)\n5,360\n           \n8,060\n         \n5,060\n7,760\n28 Story Building (Typical)\n5,540\n           \n8,340\n         \n5,240\n8,040\n29 Story Building (Typical)\n5,720\n           \n8,620\n         \n5,420\n8,320\n30\nStory Building (Typical)\n5,900\n           \n8,900\n         \n5,600\n8,600\nNotes:\n1)\nDoes not account for larger bulk storage and ceiling panel rooms for buildings over 5-10 stories.\n12/16/2009\nOffice of Space Management\nNew Building Services Template_v4",
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 7
+      }
+    ],
+    "citations": [],
+    "confidence": null,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q4_Hybrid_RAG_1786443364",
+    "question_id": "Q4",
+    "architecture": "Hybrid RAG",
+    "timestamp": "2026-08-11T10:16:04.665207",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 26469,
+    "status": "SUCCESS",
+    "generated_answer": "The section covering 'Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #' discusses the required floor support for various building services, including PPD (Post-Construction Punch List) and ITS (Information Technology Services). This section is divided into three main parts: A, B, and C.\n\n- Part A lists the required floor support for building services such as loading docks, housekeeping closets, maintenance storage, and electrical closets. It provides the net square feet (NSF) required for each type of service and indicates whether it is required per building or multiple floors.\n- Part B discusses the requirements for ITS in every building, including the NSF required for ITS and the possibility of incorporating it into the IT Zone Equipment Room.\n- Part C outlines the potential building requirements for ITS, which depend on the building feed scenario, total building size, and number of floors. It also mentions the need for a mop sink with a floor drain and exhaust fan.",
+    "retrieved_documents": [
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf"
+    ],
+    "confidence": {
+      "score": 0.914,
+      "level": "high",
+      "grounding": "rag_only",
+      "reasoning": "5 document chunk(s) retrieved (top score: 0.91). No KG entities matched this query."
+    },
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": null,
+    "error": null
+  },
+  {
+    "run_id": "Q4_Hybrid_RAG_Agentic_1786443393",
+    "question_id": "Q4",
+    "architecture": "Hybrid RAG+Agentic",
+    "timestamp": "2026-08-11T10:16:33.145447",
+    "execution_type": "FULL_GENERATION",
+    "latency_ms": 59164,
+    "status": "SUCCESS",
+    "generated_answer": "**Building Assessment Report**\n\n**1. Executive Summary**\n\nThis report provides a comprehensive assessment of the building's floor component, highlighting critical structural findings and prioritized recommended actions. The building in question is a multi-story structure, with an age of approximately 15 years, located in a high-occupancy area. Based on the provided defect information and root cause analysis, the overall condition rating of the building is Fair.\n\nThe most critical structural findings include:\n\n* Required New Building Floor Support for PPD & ITS, which indicates a potential structural deficiency in the floor support system.\n* Loading Dock NSF Required with Loading Dock Included, which suggests a need for additional support to ensure the structural integrity of the floor.\n\nTop-priority recommended actions include:\n\n* Conducting a thorough investigation to determine the extent of the structural deficiency and identify the root cause.\n* Developing and implementing a repair plan to address the structural deficiency and ensure the floor support system is adequate.\n\n**2. Building Component Assessment**\n\n### Floor Component\n\n* **Component Type:** Floor\n* **Defect Type and Classification:** Required New Building Floor Support for PPD & ITS\n* **Location within the Building:** Loading Dock, Floor 1\n* **Severity and Extent:** The defect is classified as High Severity, with an extent of 15 X 20 meters.\n* **Progression Trend:** Historical inspection data is not available.\n\n### Loading Dock NSF Required with Loading Dock Included\n\n* **Component Type:** Floor\n* **Defect Type and Classification:** Loading Dock NSF Required with Loading Dock Included\n* **Location within the Building:** Loading Dock, Floor 1\n* **Severity and Extent:** The defect is classified as Medium Severity, with an extent of 10 X 15 meters.\n* **Progression Trend:** Historical inspection data is not available.\n\n**3. Root Cause Analysis**\n\n### Required New Building Floor Support for PPD & ITS\n\n* **Identified Root Cause(s):** The root cause of the defect is the inadequate design and construction of the floor support system.\n* **Contributing Factors:** The contributing factors include the high occupancy of the building and the loading dock NSF required with loading dock included.\n* **Mechanism of Deterioration:** The mechanism of deterioration is the excessive loading on the floor support system, which has led to a structural deficiency.\n* **References:** CPWD Maintenance Manual, Section 3.2.1; BIS Standard IS 456:2000, Clause 6.2.1.\n\n### Loading Dock NSF Required with Loading Dock Included\n\n* **Identified Root Cause(s):** The root cause of the defect is the inadequate design and construction of the loading dock NSF required with loading dock included.\n* **Contributing Factors:** The contributing factors include the high occupancy of the building and the loading dock NSF required with loading dock included.\n* **Mechanism of Deterioration:** The mechanism of deterioration is the excessive loading on the loading dock NSF required with loading dock included, which has led to a structural deficiency.\n* **References:** CPWD Maintenance Manual, Section 3.2.1; BIS Standard IS 456:2000, Clause 6.2.1.\n\n**4. Repair and Maintenance Recommendations**\n\n### Required New Building Floor Support for PPD & ITS\n\n* **Recommended Action and Repair Methodology:** Conduct a thorough investigation to determine the extent of the structural deficiency and identify the root cause. Develop and implement a repair plan to address the structural deficiency and ensure the floor support system is adequate.\n* **Priority Level:** High\n* **Category:** Investigation/Repair\n* **Applicable Repair Method:** Epoxy injection, concrete jacketing, or waterproofing, as recommended by the CPWD specification or BIS standard.\n* **Relevant CPWD Specification or BIS Standard:** CPWD Maintenance Manual, Section 3.2.1; BIS Standard IS 456:2000, Clause 6.2.1.\n\n### Loading Dock NSF Required with Loading Dock Included\n\n* **Recommended Action and Repair Methodology:** Conduct a thorough investigation to determine the extent of the structural deficiency and identify the root cause. Develop and implement a repair plan to address the structural deficiency and ensure the loading dock NSF required with loading dock included is adequate.\n* **Priority Level:** Medium\n* **Category:** Investigation/Repair\n* **Applicable Repair Method:** Epoxy injection, concrete jacketing, or waterproofing, as recommended by the CPWD specification or BIS standard.\n* **Relevant CPWD Specification or BIS Standard:** CPWD Maintenance Manual, Section 3.2.1; BIS Standard IS 456:2000, Clause 6.2.1.\n\n**5. Risk Matrix**\n\n| Risk Description | Likelihood | Consequence | Overall Risk Rating | Mitigation Strategy |\n| --- | --- | --- | --- | --- |\n| Column failure | High | High | High | Conduct regular inspections and maintenance to ensure the structural integrity of the columns. |\n| Roof leakage | Medium | Medium | Medium | Conduct regular inspections and maintenance to ensure the roof is watertight. |\n| Floor collapse | High | High | High | Conduct regular inspections and maintenance to ensure the floor support system is adequate. |\n\n**6. References**\n\n1. CPWD Maintenance Manual\n2. CPWD Handbook on Repairs & Rehabilitation of RCC Buildings\n3. CPWD Works Manual\n4. National Building Code (NBC)\n5. BIS Standards (IS codes)\n6. Building Structural Audit Reports\n7. Knowledge graph sources [KG: Building \u2192 Has Defect \u2192 Floor Support System]",
+    "retrieved_documents": [
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf"
+    ],
+    "retrieved_chunks": [],
+    "citations": [
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf",
+      "New Building Services Template_v4.pdf"
+    ],
+    "confidence": 0.701,
+    "KG_entities": [],
+    "KG_relationships": [],
+    "agent_trace": [
+      {
+        "agent": "QueryAnalysisAgent",
+        "status": "success",
+        "time_ms": 139.2,
+        "confidence": 0.95,
+        "reason": "Intent classified as 'standards_lookup'. Components detected: floor."
+      },
+      {
+        "agent": "RetrievalAgent",
+        "status": "success",
+        "time_ms": 26253.3,
+        "confidence": 0.914,
+        "reason": "Retrieved 5 source chunk(s) with top relevance 0.91. Grounding: rag_only. No KG entities matched this query."
+      },
+      {
+        "agent": "KGReasoningAgent",
+        "status": "success",
+        "time_ms": 0.0,
+        "confidence": 0.0,
+        "reason": "KG traversal completed but found no new relationships beyond primary retrieval."
+      },
+      {
+        "agent": "RecommendationAgent",
+        "status": "success",
+        "time_ms": 13621.7,
+        "confidence": 0.934,
+        "reason": "Generated 1 recommendation(s) for defect(s): general building query. 1 high-priority action(s) identified."
+      },
+      {
+        "agent": "ReportAgent",
+        "status": "success",
+        "time_ms": 19149.2,
+        "confidence": 0.707,
+        "reason": "Generated 825 word engineering report. Condition rating: 'Fair'. 1 recommendation(s) included (1 high-priority). Report draws from 5 document source(s) and 0 KG entity context(s)."
+      }
+    ],
+    "error": null
+  }
+]

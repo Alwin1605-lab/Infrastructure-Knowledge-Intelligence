@@ -1,0 +1,63 @@
+{
+  "contract_version": "1.0",
+  "phase": "12.2",
+  "experiment": "Corrected Pilot",
+  "corpus": {
+    "version": "live_snapshot",
+    "chromadb_collection": "infra_documents",
+    "chromadb_chunks": 268
+  },
+  "benchmark": {
+    "version": "corrected_v2",
+    "total_questions": 4,
+    "source_file": "experiments/v2/corrected_benchmark_questions.json",
+    "validation_status": "VALIDATED"
+  },
+  "models": {
+    "llm_provider": "groq",
+    "llm_model": "llama-3.1-8b-instant",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  },
+  "retrieval_parameters": {
+    "top_k": 5,
+    "similarity_threshold": 0.7,
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "retrieval_adapter": "scripts/12_experiment_retriever.py",
+    "retrieval_notes": "Experiment retriever omits is_global=True filter due to production metadata defect."
+  },
+  "architectures": [
+    "LLM-only",
+    "RAG-only",
+    "RAG+KG",
+    "Hybrid RAG",
+    "Hybrid RAG+Agentic"
+  ],
+  "evaluation_rules": {
+    "citation": {
+      "citation_present": "Strict boolean",
+      "citation_document_correct": "Deterministic string match of document_id",
+      "citation_page_correct": "Deterministic integer match",
+      "citation_chunk_correct": "Deterministic string match of chunk_id",
+      "citation_evidence_supported": "Deterministic substring match of expected chunk text",
+      "empty_target_policy": "INVALID_GROUND_TRUTH -> NOT_VERIFIABLE"
+    },
+    "answer_point": {
+      "match_type": "Deterministic substring matching against cleaned lowercase text",
+      "empty_target_policy": "NOT_VERIFIABLE"
+    },
+    "metrics_calculation": {
+      "valid_ground_truth_failed_retrieval": 0,
+      "missing_invalid_ground_truth": "NOT_VERIFIABLE",
+      "architecture_not_applicable": "NOT_APPLICABLE",
+      "experiment_failure": "FAILED",
+      "insufficient_sample": "INCONCLUSIVE"
+    }
+  },
+  "execution": {
+    "timeout_seconds": 120,
+    "rate_limit_delay_seconds": 2,
+    "record_execution_type": true
+  }
+}

@@ -61,6 +61,336 @@ class DocumentService:
         self._chroma_indexer = chroma_indexer
         self._kg_builder = kg_builder
 
+    async def upload_and_queue(
+        self,
+        file,
+        filename: str,
+        content_type: str,
+        document_type: str = "general",
+        category: str = "GENERAL",
+        workspace_id: Optional[str] = None,
+        owner_id: Optional[str] = None,
+    ) -> "ProcessingJob":
+        """Upload file and create a background processing job.
+        
+        Returns the ProcessingJob immediately. Processing runs in background.
+        """
+        from app.models.processing_job import ProcessingJob, JobStatus, JobStep
+        from app.models.document import DocumentCategory
+        from app.services.notification_service import NotificationService
+        import hashlib
+        import asyncio
+        
+        # Step 1: Validate and save file
+        from app.utils.file_handler import save_upload, validate_content_type
+        if not validate_content_type(content_type):
+            raise DocumentUploadError(f"Unsupported content type: {content_type}")
+        
+        # Read file content for hashing
+        file_content = file.read()
+        file.seek(0)
+        sha256_hash = hashlib.sha256(file_content).hexdigest()
+        
+        # Check for duplicate
+        existing = await Document.find_one({"sha256_hash": sha256_hash})
+        is_duplicate = existing is not None
+        
+        # Handle versioning
+        version = 1
+        original_filename = filename
+        existing_versions = await Document.find({"original_filename": filename}).sort("-version").limit(1).to_list()
+        if existing_versions:
+            version = existing_versions[0].version + 1
+        
+        file_path, file_size = await save_upload(
+            file=file,
+            filename=filename,
+            upload_dir=self._upload_dir,
+            max_size_mb=self._max_upload_size_mb,
+        )
+        
+        # Step 2: Create Document record
+        try:
+            doc_category = DocumentCategory[category] if hasattr(DocumentCategory, category) else DocumentCategory.GENERAL
+        except (KeyError, AttributeError):
+            doc_category = DocumentCategory.GENERAL
+        
+        document = Document(
+            filename=filename,
+            file_path=file_path,
+            file_size_bytes=file_size,
+            content_type=content_type,
+            document_type=document_type,
+            status=DocumentStatus.UPLOADED,
+            sha256_hash=sha256_hash,
+            version=version,
+            original_filename=original_filename,
+            category=doc_category,
+            indexed_by=owner_id,
+        )
+        await self._repo.create(document)
+        
+        # Step 3: Create ProcessingJob
+        job = ProcessingJob(
+            document_id=str(document.id),
+            filename=filename,
+            status=JobStatus.QUEUED,
+            current_step=JobStep.UPLOAD,
+            user_id=owner_id or "system",
+            workspace_id=workspace_id,
+        )
+        await job.insert()
+        
+        # Step 4: Launch background task
+        asyncio.create_task(
+            self._process_document_background(
+                job=job,
+                document=document,
+                is_duplicate=is_duplicate,
+                workspace_id=workspace_id,
+                owner_id=owner_id,
+            )
+        )
+        
+        logger.info(
+            "document_queued_for_processing",
+            job_id=str(job.id),
+            document_id=str(document.id),
+            is_duplicate=is_duplicate,
+        )
+        return job
+    
+    async def _process_document_background(
+        self,
+        job: "ProcessingJob",
+        document,
+        is_duplicate: bool = False,
+        workspace_id: Optional[str] = None,
+        owner_id: Optional[str] = None,
+    ) -> None:
+        from app.models.processing_job import JobStatus, JobStep
+        from datetime import datetime, timezone
+        import time
+        import asyncio
+        from app.config import get_settings
+        
+        start_time = time.time()
+        settings = get_settings()
+        
+        async def update_job(step: str, status=None, **kwargs):
+            job.current_step = step
+            if status:
+                job.status = status
+            for k, v in kwargs.items():
+                setattr(job, k, v)
+            job.elapsed_seconds = time.time() - start_time
+            job.updated_at = datetime.now(timezone.utc)
+            await job.save()
+
+        async def _processing_pipeline():
+            await update_job(JobStep.UPLOAD, JobStatus.RUNNING, started_at=datetime.now(timezone.utc))
+            
+            # EXTRACTION
+            if JobStep.EXTRACTION not in job.completed_steps:
+                await update_job(JobStep.EXTRACTION)
+                if isinstance(document, type(document)): # To avoid circular imports
+                    document.mark_extracting()
+                    await self._repo.update(document)
+                
+                from app.utils.pdf_parser import extract_text_from_pdf
+                from app.models.document import ExtractedPage
+                result = extract_text_from_pdf(document.file_path)
+                
+                extracted_pages = [
+                    ExtractedPage(
+                        page_number=p.page_number,
+                        text=p.text,
+                        sections=p.sections,
+                        char_count=p.char_count,
+                    )
+                    for p in result.pages
+                ]
+                
+                auto_meta = {}
+                if result.metadata:
+                    auto_meta = {
+                        "title": result.metadata.get("title", ""),
+                        "author": result.metadata.get("author", ""),
+                        "creation_date": result.metadata.get("creationDate", ""),
+                        "pages": result.total_pages,
+                    }
+                
+                if isinstance(document, type(document)):
+                    document.mark_extracted(pages=extracted_pages, full_text=result.full_text)
+                    document.metadata = result.metadata
+                    document.auto_metadata = auto_meta
+                    await self._repo.update(document)
+                
+                job.completed_steps.append(JobStep.EXTRACTION)
+                job.pages_extracted = result.total_pages
+                job.total_pages = result.total_pages
+                await update_job(JobStep.CHUNKING)
+            else:
+                # Need extracted_pages for downstream
+                from app.models.document import ExtractedPage
+                extracted_pages = document.pages
+                result_full_text = document.full_text
+
+            # CHUNKING + EMBEDDING
+            if self._chroma_indexer and document.full_text.strip():
+                if JobStep.EMBEDDING not in job.completed_steps:
+                    if isinstance(document, type(document)):
+                        document.status = document.status.CHUNKING
+                        await self._repo.update(document)
+                    
+                    from app.utils.text_splitter import chunk_text, build_page_boundaries
+                    page_boundaries = build_page_boundaries([
+                        {"page_number": p.page_number, "text": p.text, "sections": p.sections}
+                        for p in extracted_pages
+                    ])
+                    
+                    metadata_updates = {"is_global": True}
+                    if workspace_id:
+                        metadata_updates = {"workspace_id": workspace_id, "is_global": False}
+                    
+                    chunks = chunk_text(
+                        text=document.full_text,
+                        document_id=str(document.id),
+                        document_name=document.filename,
+                        chunk_size=self._chunk_size,
+                        chunk_overlap=self._chunk_overlap,
+                        page_boundaries=page_boundaries,
+                    )
+                    for chunk in chunks:
+                        chunk.metadata.update(metadata_updates)
+                    
+                    if JobStep.CHUNKING not in job.completed_steps:
+                        job.completed_steps.append(JobStep.CHUNKING)
+                    job.chunks_created = len(chunks)
+                    await update_job(JobStep.EMBEDDING)
+                    
+                    if isinstance(document, type(document)):
+                        document.status = document.status.EMBEDDING
+                        await self._repo.update(document)
+                    
+                    await self._chroma_indexer.delete_document_chunks(str(document.id))
+                    indexed_count = await self._chroma_indexer.index_chunks(chunks)
+                    
+                    if isinstance(document, type(document)):
+                        document.total_chunks = indexed_count
+                        await self._repo.update(document)
+                    
+                    job.completed_steps.append(JobStep.EMBEDDING)
+                    job.embeddings_created = indexed_count
+                
+                # KG INDEXING
+                if self._kg_builder and extracted_pages:
+                    if JobStep.KG_INDEXING not in job.completed_steps:
+                        await update_job(JobStep.KG_INDEXING)
+                        if isinstance(document, type(document)):
+                            document.status = document.status.INDEXING_KG
+                            await self._repo.update(document)
+                        
+                        # Delete existing entities for idempotency
+                        await self._kg_builder.delete_document_entities(str(document.id))
+                        
+                        total_entities, total_rels = await self._kg_builder.build_from_document(
+                            document_id=str(document.id),
+                            filename=document.filename,
+                            pages=extracted_pages,
+                        )
+                        document.mark_kg_indexed(total_entities, total_rels)
+                        job.kg_nodes_created = total_entities
+                        job.kg_relations_created = total_rels
+                        job.completed_steps.append(JobStep.KG_INDEXING)
+                    
+                if isinstance(document, type(document)):
+                    document.mark_completed(total_chunks=document.total_chunks)
+                    await self._repo.update(document)
+            
+            # COMPLETED
+            job.status = JobStatus.COMPLETED
+            job.current_step = JobStep.COMPLETED
+            if JobStep.COMPLETED not in job.completed_steps:
+                job.completed_steps.append(JobStep.COMPLETED)
+            job.completed_at = datetime.now(timezone.utc)
+            job.elapsed_seconds = time.time() - start_time
+            await job.save()
+            
+            try:
+                from app.services.notification_service import NotificationService
+                from app.models.notification import NotificationType
+                notif_svc = NotificationService()
+                await notif_svc.create(
+                    user_id=owner_id or "system",
+                    title="Document Indexed Successfully",
+                    message=f"'{document.filename}' has been indexed.",
+                    notification_type=NotificationType.DOCUMENT_INDEXED,
+                    link=f"/docs",
+                )
+            except Exception:
+                pass
+
+        try:
+            # Wrap entire pipeline in asyncio.wait_for for global timeout
+            timeout_seconds = settings.DOCUMENT_PROCESSING_TIMEOUT_SECONDS
+            await asyncio.wait_for(_processing_pipeline(), timeout=timeout_seconds)
+            
+        except asyncio.TimeoutError:
+            logger.error("document_processing_timeout", job_id=str(job.id))
+            job.status = JobStatus.TIMEOUT
+            job.failed_step = str(job.current_step)
+            job.error_message = f"Processing timed out after {timeout_seconds} seconds"
+            job.elapsed_seconds = time.time() - start_time
+            await job.save()
+            if isinstance(document, type(document)):
+                document.status = document.status.TIMEOUT
+                await self._repo.update(document)
+                
+        except Exception as exc:
+            import traceback
+            logger.error("document_background_processing_failed", error=str(exc), traceback=traceback.format_exc())
+            from app.core.exceptions import LLMRateLimitError
+            
+            if isinstance(exc, LLMRateLimitError):
+                job.status = JobStatus.RATE_LIMITED
+                doc_status = document.status.RATE_LIMITED
+            else:
+                job.status = JobStatus.FAILED
+                doc_status = document.status.FAILED
+                
+            job.failed_step = str(job.current_step)
+            job.error_message = str(exc)
+            job.elapsed_seconds = time.time() - start_time
+            await job.save()
+            
+            if isinstance(document, type(document)):
+                document.status = doc_status
+                document.error_message = str(exc)
+                await self._repo.update(document)
+
+    async def get_job_status(self, job_id: str):
+        from app.models.processing_job import ProcessingJob
+        try:
+            return await ProcessingJob.get(job_id)
+        except Exception:
+            return None
+    
+    async def list_jobs(
+        self,
+        user_id: Optional[str] = None,
+        status=None,
+        limit: int = 20,
+    ):
+        """List processing jobs."""
+        from app.models.processing_job import ProcessingJob
+        filters = {}
+        if user_id:
+            filters["user_id"] = user_id
+        if status:
+            filters["status"] = status
+        return await ProcessingJob.find(filters).sort("-created_at").limit(limit).to_list()
+
     async def upload_document(
         self,
         file: BinaryIO,

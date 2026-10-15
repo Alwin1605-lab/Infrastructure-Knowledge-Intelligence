@@ -70,7 +70,7 @@ class RetrievalAgent(BaseAgent):
             state["execution_trace"] = trace
             return state
 
-        query = state.get("reformulated_query") or state.get("original_question", "")
+        query = state.get("original_question", "")
         top_k = state.get("top_k", 5)
         include_kg = state.get("include_kg", True)
 

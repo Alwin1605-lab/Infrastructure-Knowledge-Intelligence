@@ -70,14 +70,16 @@ class GroqProvider(BaseLLMProvider):
         Raises:
             LLMConfigurationError: If the Groq API key is missing or empty.
         """
-        if not settings.GROQ_API_KEY:
+        self._api_keys: list[str] = settings.get_groq_api_keys()
+        if not self._api_keys:
             raise LLMConfigurationError(
                 provider="groq",
-                message="GROQ_API_KEY is required but not set. "
+                message="GROQ_API_KEY (or GROQ_1, GROQ_2, GROQ_API_KEYS) is required. "
                 "Please set it in your environment or .env file.",
             )
 
-        self._api_key: str = settings.GROQ_API_KEY
+        self._current_key_idx: int = 0
+        self._api_key: str = self._api_keys[0]
         self._model: str = settings.GROQ_MODEL
         self._temperature: float = settings.GROQ_TEMPERATURE
         self._max_tokens: int = settings.GROQ_MAX_TOKENS
@@ -86,13 +88,33 @@ class GroqProvider(BaseLLMProvider):
 
         self._client = AsyncGroq(api_key=self._api_key)
 
+        # Initialize optional Gemini fallback provider
+        self._fallback_provider: BaseLLMProvider | None = None
+        if settings.get_gemini_api_key():
+            try:
+                from app.llm.gemini_provider import GeminiProvider
+                self._fallback_provider = GeminiProvider(settings)
+                logger.info("gemini_fallback_provider_enabled", model=settings.GEMINI_MODEL)
+            except Exception as exc:
+                logger.warning("gemini_fallback_init_failed", error=str(exc))
+
         logger.info(
             "groq_provider_initialized",
             model=self._model,
+            num_keys=len(self._api_keys),
             temperature=self._temperature,
             max_tokens=self._max_tokens,
-            max_retries=self._max_retries,
+            fallback_available=bool(self._fallback_provider),
         )
+
+    def _rotate_key(self) -> str:
+        """Switch to the next available Groq API key."""
+        if len(self._api_keys) > 1:
+            self._current_key_idx = (self._current_key_idx + 1) % len(self._api_keys)
+            self._api_key = self._api_keys[self._current_key_idx]
+            self._client = AsyncGroq(api_key=self._api_key)
+            logger.info("groq_key_rotated", key_index=self._current_key_idx + 1, total_keys=len(self._api_keys))
+        return self._api_key
 
     # ------------------------------------------------------------------
     # Properties
@@ -100,20 +122,12 @@ class GroqProvider(BaseLLMProvider):
 
     @property
     def provider_name(self) -> str:
-        """Return the provider name.
-
-        Returns:
-            str: Always ``'groq'``.
-        """
+        """Return the provider name."""
         return "groq"
 
     @property
     def model_name(self) -> str:
-        """Return the active Groq model name.
-
-        Returns:
-            str: The configured Groq model identifier.
-        """
+        """Return the active Groq model name."""
         return self._model
 
     # ------------------------------------------------------------------
@@ -128,78 +142,75 @@ class GroqProvider(BaseLLMProvider):
         max_tokens: int | None = None,
         **kwargs,
     ) -> LLMResponse:
-        """Generate a single, complete response from the Groq API.
-
-        Builds a message list from the prompt (and optional system prompt),
-        sends it to the Groq chat completions endpoint, and returns a
-        standardized :class:`LLMResponse`.
-
-        Args:
-            prompt: The user prompt to send.
-            system_prompt: Optional system instruction.
-            temperature: Sampling temperature override.
-            max_tokens: Max tokens override.
-            **kwargs: Passed directly to the Groq API.
-
-        Returns:
-            LLMResponse: Standardized response with content, usage, etc.
-
-        Raises:
-            LLMRateLimitError: When Groq rate limits are exceeded.
-            LLMConnectionError: When the Groq API is unreachable.
-            LLMGenerationError: For any other API error.
-        """
+        """Generate a response using Groq key rotation with Gemini fallback."""
         messages = self._build_messages(prompt, system_prompt)
         effective_temperature = temperature if temperature is not None else self._temperature
         effective_max_tokens = max_tokens if max_tokens is not None else self._max_tokens
 
-        try:
-            response = await self._generate_with_retry(
-                messages=messages,
-                temperature=effective_temperature,
-                max_tokens=effective_max_tokens,
-                **kwargs,
-            )
-        except RateLimitError as exc:
-            logger.warning("groq_rate_limit_exceeded", model=self._model, error=str(exc))
-            raise LLMRateLimitError(
-                provider="groq",
-                message=f"Groq rate limit exceeded: {exc}",
-                retry_after=getattr(exc, "retry_after", None),
-            ) from exc
-        except APIConnectionError as exc:
-            logger.error("groq_connection_error", model=self._model, error=str(exc))
-            raise LLMConnectionError(
-                provider="groq",
-                message=f"Failed to connect to Groq API: {exc}",
-            ) from exc
-        except APIStatusError as exc:
-            logger.error(
-                "groq_api_status_error",
-                model=self._model,
-                status_code=exc.status_code,
-                error=str(exc),
-            )
-            raise LLMGenerationError(
-                provider="groq",
-                message=f"Groq API error (HTTP {exc.status_code}): {exc}",
-            ) from exc
+        last_error = None
+        attempts = len(self._api_keys)
 
-        choice = response.choices[0]
-        usage = response.usage
+        for attempt in range(attempts):
+            try:
+                response = await self._generate_with_retry(
+                    messages=messages,
+                    temperature=effective_temperature,
+                    max_tokens=effective_max_tokens,
+                    **kwargs,
+                )
 
-        return LLMResponse(
-            content=choice.message.content or "",
-            model=response.model,
+                choice = response.choices[0]
+                usage = response.usage
+
+                return LLMResponse(
+                    content=choice.message.content or "",
+                    model=response.model,
+                    provider="groq",
+                    usage={
+                        "prompt_tokens": usage.prompt_tokens if usage else 0,
+                        "completion_tokens": usage.completion_tokens if usage else 0,
+                        "total_tokens": usage.total_tokens if usage else 0,
+                    },
+                    finish_reason=choice.finish_reason,
+                    raw_response=response.model_dump() if hasattr(response, "model_dump") else {},
+                )
+
+            except (RateLimitError, APIStatusError) as exc:
+                last_error = exc
+                logger.warning(
+                    "groq_attempt_failed_rotating",
+                    attempt=attempt + 1,
+                    total_attempts=attempts,
+                    error=str(exc),
+                )
+                self._rotate_key()
+            except APIConnectionError as exc:
+                last_error = exc
+                logger.warning("groq_connection_error_rotating", error=str(exc))
+                self._rotate_key()
+
+        # If all Groq keys failed, attempt Gemini fallback
+        if self._fallback_provider:
+            logger.info("delegating_to_gemini_fallback", reason=str(last_error))
+            try:
+                return await self._fallback_provider.generate(
+                    prompt=prompt,
+                    system_prompt=system_prompt,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    **kwargs,
+                )
+            except Exception as fb_exc:
+                logger.error("gemini_fallback_also_failed", error=str(fb_exc))
+                raise LLMGenerationError(
+                    provider="groq/gemini",
+                    message=f"All Groq keys failed ({last_error}), and Gemini fallback also failed: {fb_exc}",
+                ) from fb_exc
+
+        raise LLMGenerationError(
             provider="groq",
-            usage={
-                "prompt_tokens": usage.prompt_tokens if usage else 0,
-                "completion_tokens": usage.completion_tokens if usage else 0,
-                "total_tokens": usage.total_tokens if usage else 0,
-            },
-            finish_reason=choice.finish_reason,
-            raw_response=response.model_dump() if hasattr(response, "model_dump") else {},
-        )
+            message=f"All {attempts} Groq API keys failed. Last error: {last_error}",
+        ) from last_error
 
     async def generate_stream(
         self,

@@ -35,3 +35,9 @@ api_v1_router.include_router(evaluation.router, prefix="/eval", tags=["Evaluatio
 # Future routers (Phase 8+):
 # from app.api.v1 import reports
 # api_v1_router.include_router(reports.router, prefix="/reports", tags=["Reports"])
+
+from app.api.v1 import search, analytics, notifications, acquisition
+api_v1_router.include_router(search.router)
+api_v1_router.include_router(analytics.router)
+api_v1_router.include_router(notifications.router)
+api_v1_router.include_router(acquisition.router)

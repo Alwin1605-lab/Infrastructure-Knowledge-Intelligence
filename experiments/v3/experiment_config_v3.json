@@ -1,0 +1,51 @@
+{
+  "experiment_version": "v3",
+  "status": "BENCHMARK_READY",
+  "created_at": "2026-08-19T08:31:19.429532+00:00Z",
+  "corpus": {
+    "document_count": 20,
+    "chroma_vector_count": 1066,
+    "corpus_inventory_sha256": "75a68942838d1d5c3fee1ae1726abf594307743f8873ace19dd1ab030548033f",
+    "domains": [
+      "Building Guidelines, Codes & Facility Specifications",
+      "Inspection & Structural Health Monitoring",
+      "Concrete Durability & Carbonation",
+      "Seismic & Structural Retrofitting",
+      "Geotechnical & Foundation Engineering"
+    ]
+  },
+  "benchmark": {
+    "question_count": 105,
+    "validation_success_rate": "100.0%",
+    "benchmark_questions_sha256": "803b61b1c1ebde180af200bc1e830486dfbe9ddce2b48d41b3526fd37fd939b3",
+    "domain_distribution": {
+      "Building Guidelines, Codes & Facility Specifications": 23,
+      "Inspection & Structural Health Monitoring": 26,
+      "Concrete Durability & Carbonation": 17,
+      "Seismic & Structural Retrofitting": 21,
+      "Geotechnical & Foundation Engineering": 18
+    },
+    "difficulty_distribution": {
+      "easy": 40,
+      "medium": 32,
+      "hard": 33
+    },
+    "multi_document_questions": 4,
+    "kg_grounded_questions": 0
+  },
+  "system_configuration": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "llm_model": "groq/compound-mini",
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "distance_metric": "cosine",
+    "retrieval_parameters": {
+      "top_k": 5,
+      "is_global_filter": true
+    },
+    "knowledge_graph": {
+      "database": "infra_knowledge",
+      "neo4j_uri": "bolt://localhost:7687"
+    }
+  }
+}

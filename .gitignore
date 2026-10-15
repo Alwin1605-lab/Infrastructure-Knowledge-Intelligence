@@ -3,10 +3,11 @@
 #  .gitignore
 # =========================================
 
-# --- Environment Variables ---
+# --- Environment Variables & Secrets ---
 .env
 .env.*
 !.env.example
+**/users.md
 
 # --- Python / Backend ---
 __pycache__/
@@ -62,13 +63,23 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
-# --- Project-Specific ---
+# --- Project Uploads & Data ---
 backend/uploads/
-backend/uploads/**/*.pdf
+backend/uploads/**/*
 uploads/
 knowledge_base/
 data/
 Papers/
+
+# --- Root-level test documents & deliverable exports ---
+/*.pdf
+/*.doc
+/*.docx
+Engineering_Assessment_Report_*
+
+# --- Colab / Scratch Jupyter Notebooks in root ---
+/*.ipynb
+.ipynb_checkpoints/
 
 # --- Docker ---
 docker-compose.override.yml
@@ -79,21 +90,25 @@ models--*/
 hub/
 *.log
 logs/
-.ipynb_checkpoints/
 *.db
 *.sqlite
 *.sqlite3
 
-# ChromaDB
+# --- ChromaDB Vector Store ---
 chroma/
 chromadb/
+chroma_db/
+backend/chroma_db/
+backend/chroma_db_docker/
 persist/
 vectorstore/
+*.bin
+*.pickle
 
-# MongoDB
+# --- MongoDB Dumps ---
 dump/
 
-# Neo4j Data (if running locally)
+# --- Neo4j Local Data & Logs ---
 neo4j/data/
 neo4j/logs/
 

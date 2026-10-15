@@ -1,0 +1,32 @@
+[
+    {
+        "id": "q1",
+        "category": "Structural Design",
+        "question": "What is the minimum grade of concrete for reinforced concrete structures exposed to severe environmental conditions according to standard codes?",
+        "expected_keywords": ["M30", "severe", "exposure", "IS 456", "durability"]
+    },
+    {
+        "id": "q2",
+        "category": "Concrete Repair",
+        "question": "What are the recommended methods for repairing carbonation-induced corrosion in reinforced concrete columns?",
+        "expected_keywords": ["anti-carbonation", "coating", "patch repair", "alkalinity", "re-alkalization"]
+    },
+    {
+        "id": "q3",
+        "category": "Fire Safety",
+        "question": "What is the required fire resistance rating for load-bearing walls in high-rise residential buildings?",
+        "expected_keywords": ["hours", "fire rating", "NBC", "load-bearing"]
+    },
+    {
+        "id": "q4",
+        "category": "Geotechnical",
+        "question": "How is the safe bearing capacity of soil determined using a standard penetration test (SPT)?",
+        "expected_keywords": ["N-value", "Terzaghi", "settlement", "bearing capacity"]
+    },
+    {
+        "id": "q5",
+        "category": "Inspection",
+        "question": "What non-destructive testing (NDT) methods are used to determine the compressive strength of existing concrete structures?",
+        "expected_keywords": ["rebound hammer", "ultrasonic pulse velocity", "UPV", "core test"]
+    }
+]

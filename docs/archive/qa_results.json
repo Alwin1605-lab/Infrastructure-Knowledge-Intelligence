@@ -1,0 +1,85 @@
+{
+    "stats": {
+        "Total Tests": 7,
+        "Passed": 0,
+        "Failed": 7,
+        "Skipped": 0,
+        "Unavailable": 0,
+        "Timeouts": 0,
+        "Partial": 0,
+        "Not Verifiable": 0
+    },
+    "failures": [
+        {
+            "test": "KB Integrity: 0-LEDG-v.1.0-120224.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: running",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        },
+        {
+            "test": "KB Integrity: DRCS Cover - To author.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: completed",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        },
+        {
+            "test": "KB Integrity: G01facilitiesdocumentationguidelines_1.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: completed",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        },
+        {
+            "test": "KB Integrity: New Building Services Template_v4.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: completed",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        },
+        {
+            "test": "KB Integrity: viga-and-corbel-inspection.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: completed",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        },
+        {
+            "test": "KB Integrity: gurugram-page044-45.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: completed",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        },
+        {
+            "test": "KB Integrity: 2024062491.pdf",
+            "endpoint": "Integrity Check",
+            "error_message": "Status is PARTIAL. Job: completed",
+            "category": "DOCUMENT_PROCESSING_FAILED",
+            "severity": "MEDIUM",
+            "traceback": null,
+            "suggested_fix": "",
+            "timestamp": "2026-08-12T08:38:12.597894"
+        }
+    ],
+    "timestamp": "2026-08-12T08:38:24.176537"
+}

@@ -262,8 +262,16 @@ class DocumentAnalyzer:
             org = "BIS (Bureau of Indian Standards)"
         elif "audit report" in first_2000 or "structural audit" in first_2000:
             doc_type = DocumentType.STRUCTURAL_AUDIT_REPORT.value
+        elif "inspection checklist" in first_2000 or "audit checklist" in first_2000:
+            doc_type = DocumentType.INSPECTION_CHECKLIST.value
         elif "inspection report" in first_2000 or "condition assessment" in first_2000:
             doc_type = DocumentType.INSPECTION_REPORT.value
+        elif "technical data sheet" in first_2000 or "tds" in first_2000:
+            doc_type = DocumentType.TECHNICAL_DATA_SHEET.value
+        elif "product manual" in first_2000 or "user manual" in first_2000:
+            doc_type = DocumentType.PRODUCT_MANUAL.value
+        elif "installation guide" in first_2000 or "installation instructions" in first_2000:
+            doc_type = DocumentType.INSTALLATION_GUIDE.value
         elif "journal" in first_2000 or "abstract" in first_2000 or "doi" in first_2000 or "ijrar" in first_2000 or "irjet" in first_2000:
             doc_type = DocumentType.RESEARCH_PAPER.value
         elif "manual" in first_2000 or "guidelines" in first_2000:

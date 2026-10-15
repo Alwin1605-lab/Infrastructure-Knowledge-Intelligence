@@ -1,0 +1,9 @@
+[
+  {
+    "run_id": "Q2_LLM-only_1786374533",
+    "question_id": "Q2",
+    "architecture": "LLM-only",
+    "timestamp": "2026-08-10T15:08:53.900167",
+    "latency_ms": 1974,
+    "status": "SUCCESS",
+    "generated_answer": 

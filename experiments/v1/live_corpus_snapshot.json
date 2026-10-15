@@ -1,0 +1,63 @@
+{
+  "execution_environment": "local",
+  "mongodb": [
+    {
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "filename": "DRCS Cover - To author.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a79a3b8ca0dbb46c36a02d6",
+      "filename": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a79a3f88ad17e8f86e6c72a",
+      "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "filename": "New Building Services Template_v4.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a79a455976f591cd07e5757",
+      "filename": "gurugram-page044-45.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a79a49e2815b095647496ce",
+      "filename": "2024062491.pdf",
+      "status": null
+    },
+    {
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "filename": "viga-and-corbel-inspection.pdf",
+      "status": null
+    }
+  ],
+  "chromadb": {
+    "collection_name": "infra_documents",
+    "vector_count": 268,
+    "unique_document_ids": [
+      "6a79a3b8ca0dbb46c36a02d6",
+      "6a79a41a08ca0700b6046c74",
+      "6a79a4acc42349d6271bf3cd",
+      "6a79a455976f591cd07e5757",
+      "6a79a3f88ad17e8f86e6c72a",
+      "6a7812eed03ebe1c6f5851dc",
+      "6a7990b8c902988cd052c9d3"
+    ]
+  },
+  "neo4j": {
+    "entity_count": 102,
+    "relationship_count": 213,
+    "source_documents": []
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "document_id": "6a7990b8c902988cd052c9d3",
+    "filename": "DRCS Cover - To author.pdf",
+    "category": "GENERAL",
+    "source": "knowledge_base",
+    "page_count": 1,
+    "chunks": 0,
+    "kg_entities": 0,
+    "kg_relationships": 0,
+    "processing_status": "completed"
+  },
+  {
+    "document_id": "6a79a3b8ca0dbb46c36a02d6",
+    "filename": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+    "category": "GENERAL",
+    "source": "knowledge_base",
+    "page_count": 1,
+    "chunks": 0,
+    "kg_entities": 0,
+    "kg_relationships": 0,
+    "processing_status": "completed"
+  },
+  {
+    "document_id": "6a79a3f88ad17e8f86e6c72a",
+    "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+    "category": "GENERAL",
+    "source": "knowledge_base",
+    "page_count": 2,
+    "chunks": 0,
+    "kg_entities": 0,
+    "kg_relationships": 0,
+    "processing_status": "completed"
+  },
+  {
+    "document_id": "6a79a41a08ca0700b6046c74",
+    "filename": "New Building Services Template_v4.pdf",
+    "category": "GENERAL",
+    "source": "knowledge_base",
+    "page_count": 2,
+    "chunks": 0,
+    "kg_entities": 0,
+    "kg_relationships": 0,
+    "processing_status": "completed"
+  },
+  {
+    "document_id": "6a79a455976f591cd07e5757",
+    "filename": "gurugram-page044-45.pdf",
+    "category": "GENERAL",
+    "source": "knowledge_base",
+    "page_count": 2,
+    "chunks": 0,
+    "kg_entities": 0,
+    "kg_relationships": 0,
+    "processing_status": "completed"
+  },
+  {
+    "document_id": "6a79a4acc42349d6271bf3cd",
+    "filename": "viga-and-corbel-inspection.pdf",
+    "category": "GENERAL",
+    "source": "knowledge_base",
+    "page_count": 4,
+    "chunks": 0,
+    "kg_entities": 0,
+    "kg_relationships": 0,
+    "processing_status": "completed"
+  }
+]

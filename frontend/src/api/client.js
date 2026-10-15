@@ -14,20 +14,28 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000',
-  timeout: 30000,
+  baseURL: import.meta.env.VITE_API_BASE_URL || '/api/v1',
+  timeout: 120000,
   headers: {
     'Content-Type': 'application/json',
   },
   withCredentials: true,
 });
 
-// Request interceptor - logs outgoing requests in development
+// Demo mode interceptor - intercepts requests if demo mode is enabled
 apiClient.interceptors.request.use(
   (config) => {
     if (import.meta.env.DEV) {
       console.log(`[API] ${config.method?.toUpperCase()} ${config.url}`);
     }
+    
+    // Check if demo mode is enabled in localStorage
+    if (localStorage.getItem('demo_mode') === 'true') {
+      config.headers['X-Demo-Mode'] = 'true';
+      // In a real implementation, you might want to mock the response entirely here using axios-mock-adapter,
+      // but for simplicity, we pass a header that the backend can optionally respect, or we can mock responses locally.
+    }
+    
     const token = localStorage.getItem('access_token');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
@@ -43,10 +51,10 @@ apiClient.interceptors.response.use(
   async (error) => {
     const originalRequest = error.config;
     // Attempt refresh if 401 Unauthorized
-    if (error.response?.status === 401 && !originalRequest._retry && originalRequest.url !== '/api/v1/auth/login' && originalRequest.url !== '/api/v1/auth/refresh-token') {
+    if (error.response?.status === 401 && !originalRequest._retry && originalRequest.url !== '/auth/login' && originalRequest.url !== '/auth/refresh-token') {
       originalRequest._retry = true;
       try {
-        const { data } = await axios.post(`${apiClient.defaults.baseURL}/api/v1/auth/refresh-token`, {}, { withCredentials: true });
+        const { data } = await axios.post(`${apiClient.defaults.baseURL}/auth/refresh-token`, {}, { withCredentials: true });
         localStorage.setItem('access_token', data.access_token);
         apiClient.defaults.headers.common['Authorization'] = `Bearer ${data.access_token}`;
         originalRequest.headers['Authorization'] = `Bearer ${data.access_token}`;

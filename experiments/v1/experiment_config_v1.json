@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-08-10T14:41:13.608851",
+  "environment": {
+    "os": "win32",
+    "python_version": "3.12.9"
+  },
+  "hashes": {
+    "corpus_hash": "4a865a7cc0980de94a08b2d082b51eb800d33df968e4c927615fc4eb784e09ac",
+    "benchmark_hash": "b49e10ec0a45a03ffc80285dc8d108e33f982a7df0245d7d4368b09119f1f42f",
+    "configuration_hash": "806dae8fa84a5bcd0c63a99326ccc88ff55e85dfa9fdd9118923c7c8e7194860"
+  },
+  "models": {
+    "llm_model": "llama-3.1-8b-instant",
+    "embedding_model": "all-MiniLM-L6-v2"
+  },
+  "chunking": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200
+  },
+  "knowledge_graph": {
+    "batch_size": 5
+  }
+}

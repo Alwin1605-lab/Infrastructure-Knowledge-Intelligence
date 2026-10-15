@@ -71,7 +71,8 @@ async def login(
     form_data: Annotated[OAuth2PasswordRequestForm, Depends()]
 ):
     """Authenticate user and return tokens."""
-    user = await User.find_one({"email": form_data.username})
+    clean_email = (form_data.username or "").strip().lower()
+    user = await User.find_one({"email": {"$regex": f"^{clean_email}$", "$options": "i"}})
     if not user or not verify_password(form_data.password, user.hashed_password):
         raise HTTPException(status_code=400, detail="Incorrect email or password")
         

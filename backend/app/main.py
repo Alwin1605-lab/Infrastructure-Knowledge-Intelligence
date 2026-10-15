@@ -156,7 +156,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     
     def format_status(service_name, dict_key):
         status = health_data.services.get(dict_key)
-        icon = "✓" if status == "ok" else "✗"
+        icon = "[OK]" if status == "ok" else "[FAIL]"
         return f"{service_name:<12} {icon} {'Connected/Ready' if status == 'ok' else 'Disconnected/Down'}"
         
     print(format_status("MongoDB", "mongodb"))

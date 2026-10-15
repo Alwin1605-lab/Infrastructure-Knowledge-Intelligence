@@ -1,0 +1,52 @@
+[
+  {
+    "scenario": "E2E User Query",
+    "steps": [
+      "Login",
+      "Create Workspace",
+      "Upload Document",
+      "Process",
+      "Query",
+      "Generate Report"
+    ],
+    "status": "PASSED",
+    "latency": 0.5008680820465088
+  },
+  {
+    "scenario": "Research Acquisition",
+    "steps": [
+      "Search OpenAlex",
+      "Add to Queue",
+      "Admin Approve",
+      "Process & Index",
+      "Query"
+    ],
+    "status": "PASSED",
+    "latency": 0.4038505554199219
+  },
+  {
+    "scenario": "Admin Upload",
+    "steps": [
+      "Upload Standard",
+      "Validate Metadata",
+      "Detect Duplicates",
+      "Version & Index"
+    ],
+    "status": "PASSED",
+    "latency": 0.31165528297424316
+  },
+  {
+    "scenario": "Frontend Routes",
+    "steps": [
+      "GET /",
+      "GET /dashboard",
+      "GET /documents",
+      "GET /workspaces",
+      "GET /assistant",
+      "GET /analytics",
+      "GET /acquisition"
+    ],
+    "status": "PASSED",
+    "latency": 0.20536470413208008
+  }
+]

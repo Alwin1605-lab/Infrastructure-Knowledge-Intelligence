@@ -1,0 +1,4098 @@
+{
+  "collection_name": "infra_documents",
+  "timestamp": "2026-08-11T13:41:41.039159Z",
+  "vector_count": 268,
+  "backup_script_version": "1.0",
+  "vectors": [
+    {
+      "id": "5f5b2b6e033d2a6812a3b248a71d7834",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 0,
+      "metadata": {
+        "page_number": 1,
+        "section": "Learning Environments Design Guidelines",
+        "start_char": 0,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 959,
+        "chunk_index": 0
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "fe8606cd99a81bbc91c0b40e6fc39ee2",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 1,
+      "metadata": {
+        "section": "Table of Contents",
+        "end_char": 1773,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 2,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 800,
+        "chunk_index": 1
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "3b8cf3484c57a7b6cba06fac3d13398d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 2,
+      "metadata": {
+        "page_number": 2,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 1600,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 2600,
+        "chunk_index": 2,
+        "section": "Table of Contents"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "14a94e5562d92d911af17ad52604fa6e",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 3,
+      "metadata": {
+        "section": "Table of Contents",
+        "end_char": 3347,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 2,
+        "chunk_index": 3,
+        "start_char": 2400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "fa156fa0eb6bc61e2ff6150bbb8c580d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 4,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 3200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "Table of Contents",
+        "chunk_index": 4,
+        "end_char": 4183,
+        "page_number": 2
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "9735c61002da1597ab9d898438022de8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 5,
+      "metadata": {
+        "section": "Table of Contents",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 4000,
+        "page_number": 2,
+        "end_char": 4937,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 5
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "60344dfc947bc8257d24d672ff802cdf",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 6,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "section": "Table of Contents",
+        "end_char": 5780,
+        "start_char": 4800,
+        "page_number": 2,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 6
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "282191b6482141ab717ba6493862a8b9",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 7,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 6586,
+        "page_number": 3,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 7,
+        "start_char": 5600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "9dd82e7e71118dd222425ee2cb9fb18d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 8,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 7309,
+        "start_char": 6400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 8,
+        "page_number": 3
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "f90f226216cd1fee3afe2d0a6fa1da1f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 9,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 7200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 8135,
+        "page_number": 3,
+        "chunk_index": 9
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "d8a668cfffec076cb3e1c4bb85d0a809",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 10,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 8000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 3,
+        "end_char": 8969,
+        "chunk_index": 10
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "f1eb73eb739a27cabd2f017210df1feb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 11,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 11,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 3,
+        "end_char": 9800,
+        "start_char": 8800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "cf4d5f6c0cd4a942a9d1705d812544cd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 12,
+      "metadata": {
+        "end_char": 10582,
+        "page_number": 3,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 9600,
+        "chunk_index": 12
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "946f91d5227cb68a9f0dd44001ab6a7a",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 13,
+      "metadata": {
+        "chunk_index": 13,
+        "start_char": 10400,
+        "end_char": 11304,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 3,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "d9956a3d294539fa5cb1cdfb6b5a6201",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 14,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 14,
+        "start_char": 11200,
+        "page_number": 3,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 12115
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "c007a97bd1f236896afac7a131a6e77e",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 15,
+      "metadata": {
+        "section": "\u2776 Introduction",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 12000,
+        "end_char": 12904,
+        "chunk_index": 15,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 4
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 4
+    },
+    {
+      "id": "412aae5b8590a59eea917d4c889a2c09",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 16,
+      "metadata": {
+        "page_number": 4,
+        "start_char": 12800,
+        "end_char": 13714,
+        "chunk_index": 16,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u2776 Introduction",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 4
+    },
+    {
+      "id": "afe545b94ebf45cf5915dc72e00b3256",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 17,
+      "metadata": {
+        "end_char": 14541,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 5,
+        "chunk_index": 17,
+        "section": "\u2777 Acknowledgements",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 13600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 5
+    },
+    {
+      "id": "27ca38c5e2ff00a86d496dec78a075b8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 18,
+      "metadata": {
+        "end_char": 15360,
+        "start_char": 14400,
+        "section": "\u2777 Acknowledgements",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 5,
+        "chunk_index": 18
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 5
+    },
+    {
+      "id": "d5f9ede05126e49c07c2bfd420e3b071",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 19,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 16126,
+        "page_number": 5,
+        "start_char": 15200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "section": "\u2777 Acknowledgements",
+        "chunk_index": 19
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 5
+    },
+    {
+      "id": "0e6dd0966b73667cf50c60b5dc6c06ca",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 20,
+      "metadata": {
+        "section": "\u2777 Acknowledgements",
+        "page_number": 5,
+        "chunk_index": 20,
+        "start_char": 16000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 16991
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 5
+    },
+    {
+      "id": "e79dcfca85c4b8e9cf1bc7cb9222db97",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 21,
+      "metadata": {
+        "start_char": 16800,
+        "section": "\u2778 Update and Approval Process",
+        "page_number": 6,
+        "end_char": 17743,
+        "chunk_index": 21,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 6
+    },
+    {
+      "id": "2dcef7050c94202de7c7fe775f15dd3c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 22,
+      "metadata": {
+        "chunk_index": 22,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 17600,
+        "page_number": 6,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u2778 Update and Approval Process",
+        "end_char": 18537
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 6
+    },
+    {
+      "id": "43a0dbaa72c2b1ad486a8a838705bea2",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 23,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 23,
+        "start_char": 18400,
+        "end_char": 19397,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u2779 Compliance Issues and Special Requirements",
+        "page_number": 7
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 7
+    },
+    {
+      "id": "2745254c4a2ea7b92389f584d93c3dbe",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 24,
+      "metadata": {
+        "start_char": 19200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 7,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u2779 Compliance Issues and Special Requirements",
+        "chunk_index": 24,
+        "end_char": 20177
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 7
+    },
+    {
+      "id": "7d2a7cca40dc14e5bb26083da4316980",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 25,
+      "metadata": {
+        "end_char": 20996,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 25,
+        "page_number": 7,
+        "start_char": 20000,
+        "section": "\u2779 Compliance Issues and Special Requirements",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 7
+    },
+    {
+      "id": "d449d269ce3ba526594ae30f1c4a2148",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 26,
+      "metadata": {
+        "start_char": 20800,
+        "section": "\u2779 Compliance Issues and Special Requirements",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 21800,
+        "page_number": 7,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 26
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 7
+    },
+    {
+      "id": "47575c08880b1a1b8e15d8d63cd4bd2e",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 27,
+      "metadata": {
+        "end_char": 22600,
+        "start_char": 21600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 27,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 8
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 8
+    },
+    {
+      "id": "5b5b301904edb307d07887801466fc26",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 28,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 22400,
+        "chunk_index": 28,
+        "page_number": 8,
+        "end_char": 23350
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 8
+    },
+    {
+      "id": "57ed9a9b9278e7b224e61c4e49bfbd76",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 29,
+      "metadata": {
+        "page_number": 9,
+        "start_char": 23200,
+        "chunk_index": 29,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 24111
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 9
+    },
+    {
+      "id": "afb304df814d8e22cc709edbf15baf64",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 30,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 24964,
+        "start_char": 24000,
+        "chunk_index": 30,
+        "page_number": 9
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 9
+    },
+    {
+      "id": "e4cb6d927530f1191a6423b3bc338fcd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 31,
+      "metadata": {
+        "chunk_index": 31,
+        "end_char": 25796,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 24800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 9
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 9
+    },
+    {
+      "id": "5891be4c3f9cfbf196bb50dbf681ad49",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 32,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 26591,
+        "start_char": 25600,
+        "chunk_index": 32,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 10
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 10
+    },
+    {
+      "id": "93ca922919420b44fe7c984adbff2f65",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 33,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 33,
+        "start_char": 26400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 10,
+        "end_char": 27385
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 10
+    },
+    {
+      "id": "7caddc1d51b752b63890caf5ffc891ae",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 34,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 28198,
+        "page_number": 10,
+        "chunk_index": 34,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 27200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 10
+    },
+    {
+      "id": "e7ba8d02b12660b10c6fe0cee0c64dbc",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 35,
+      "metadata": {
+        "page_number": 11,
+        "chunk_index": 35,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 28000,
+        "end_char": 28992
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 11
+    },
+    {
+      "id": "b2cf5550908bdbf0bb7d2a200065813c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 36,
+      "metadata": {
+        "page_number": 11,
+        "chunk_index": 36,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 28800,
+        "end_char": 29800,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 11
+    },
+    {
+      "id": "f352369e001c6cd6a23882d52056be42",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 37,
+      "metadata": {
+        "end_char": 30518,
+        "chunk_index": 37,
+        "page_number": 11,
+        "start_char": 29600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 11
+    },
+    {
+      "id": "ace147e14d54ac7adeebc04e5886a552",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 38,
+      "metadata": {
+        "end_char": 31397,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 30400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 11,
+        "chunk_index": 38
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 11
+    },
+    {
+      "id": "eccbe48f61cb61b6a49849730558a261",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 39,
+      "metadata": {
+        "chunk_index": 39,
+        "start_char": 31200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 32177,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 11
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 11
+    },
+    {
+      "id": "b8d642ce64fdb5ab88923eaec394acef",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 40,
+      "metadata": {
+        "start_char": 32000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 40,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 32926,
+        "page_number": 12
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 12
+    },
+    {
+      "id": "28d407b9ded5cb8bdbe95cda0eb038c3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 41,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 32800,
+        "chunk_index": 41,
+        "end_char": 33790,
+        "page_number": 12,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 12
+    },
+    {
+      "id": "d21ed45179e4c7764911a446d6f41dda",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 42,
+      "metadata": {
+        "chunk_index": 42,
+        "start_char": 33600,
+        "end_char": 34588,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 12
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 12
+    },
+    {
+      "id": "e530eb336164c6744bcf64100e62af12",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 43,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 34400,
+        "end_char": 35358,
+        "page_number": 13,
+        "chunk_index": 43,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 13
+    },
+    {
+      "id": "17530250563d9240c280d569a94574d8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 44,
+      "metadata": {
+        "end_char": 36195,
+        "start_char": 35200,
+        "section": "\u277a Space Type Definitions",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 44,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 14
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 14
+    },
+    {
+      "id": "f0bb51738de4d48b8f69b496de124eee",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 45,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 14,
+        "chunk_index": 45,
+        "section": "\u277a Space Type Definitions",
+        "end_char": 36923,
+        "start_char": 36000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 14
+    },
+    {
+      "id": "e3f738aa69bd2748b327f99bc6ea2658",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 46,
+      "metadata": {
+        "page_number": 14,
+        "start_char": 36800,
+        "section": "\u277a Space Type Definitions",
+        "chunk_index": 46,
+        "end_char": 37797,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 14
+    },
+    {
+      "id": "a7c2f8d72911f131777fe5adbc778e5f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 47,
+      "metadata": {
+        "chunk_index": 47,
+        "start_char": 37600,
+        "section": "remain flexible and therefore capacity should not drive the formal and functional definition of the space",
+        "page_number": 15,
+        "end_char": 38597,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 15
+    },
+    {
+      "id": "ca890ea09c69c0e3bd2787967a289e1a",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 48,
+      "metadata": {
+        "chunk_index": 48,
+        "start_char": 38400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 39308,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 15,
+        "section": "remain flexible and therefore capacity should not drive the formal and functional definition of the space"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 15
+    },
+    {
+      "id": "dc2da9479a61f407f138cfcc752ffe72",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 49,
+      "metadata": {
+        "start_char": 39200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 16,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 40193,
+        "chunk_index": 49
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 16
+    },
+    {
+      "id": "72091a4b22162e1d36a83acf401bfb40",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 50,
+      "metadata": {
+        "chunk_index": 50,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 16,
+        "start_char": 40000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 40993
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 16
+    },
+    {
+      "id": "a72f9bba49efffa34a39dfd8590c2f07",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 51,
+      "metadata": {
+        "chunk_index": 51,
+        "page_number": 17,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 41716,
+        "start_char": 40800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 17
+    },
+    {
+      "id": "962852722429186b51f579696cd31827",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 52,
+      "metadata": {
+        "chunk_index": 52,
+        "page_number": 18,
+        "start_char": 41600,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 42528
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 18
+    },
+    {
+      "id": "91a41c68b5bc6598d4be9e043f6effde",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 53,
+      "metadata": {
+        "end_char": 43400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 53,
+        "start_char": 42400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 19
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 19
+    },
+    {
+      "id": "29860f122c202982c0c508bcbe3d0af1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 54,
+      "metadata": {
+        "chunk_index": 54,
+        "end_char": 44126,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 20,
+        "start_char": 43200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 20
+    },
+    {
+      "id": "070efc49c30804daf41bee6eb08217dd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 55,
+      "metadata": {
+        "chunk_index": 55,
+        "end_char": 44941,
+        "start_char": 44000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 21,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 21
+    },
+    {
+      "id": "54a76341ca8570f19eb7897855c72987",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 56,
+      "metadata": {
+        "end_char": 45798,
+        "chunk_index": 56,
+        "page_number": 22,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 44800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 22
+    },
+    {
+      "id": "02d428638c8469e2117f309b6be85b50",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 57,
+      "metadata": {
+        "start_char": 45600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 46515,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 25,
+        "chunk_index": 57
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 25
+    },
+    {
+      "id": "09837b0d1cdb7278896ae0fb47825146",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 58,
+      "metadata": {
+        "start_char": 46400,
+        "end_char": 47400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 25,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 58
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 25
+    },
+    {
+      "id": "37b17be3351dbdd112b19cb34c68371c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 59,
+      "metadata": {
+        "end_char": 48190,
+        "page_number": 25,
+        "chunk_index": 59,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 47200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 25
+    },
+    {
+      "id": "bdd6909bfa53b8bdabbdc888c906f283",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 60,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 26,
+        "end_char": 48975,
+        "chunk_index": 60,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 48000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 26
+    },
+    {
+      "id": "d4ff07e05d532401d3d889c20b4e3f88",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 61,
+      "metadata": {
+        "end_char": 49742,
+        "page_number": 26,
+        "start_char": 48800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 61,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 26
+    },
+    {
+      "id": "693685f35156e5db622ed75130796c95",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 62,
+      "metadata": {
+        "chunk_index": 62,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 49600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 50534,
+        "page_number": 28
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 28
+    },
+    {
+      "id": "e41e1df4b3677f07c4326e97ea46ce9f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 63,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 50400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 51392,
+        "page_number": 28,
+        "chunk_index": 63
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 28
+    },
+    {
+      "id": "3df104334c3a5ee0c919251d2c02398c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 64,
+      "metadata": {
+        "end_char": 52162,
+        "chunk_index": 64,
+        "page_number": 28,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 51200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 28
+    },
+    {
+      "id": "73ff837e68bcfe064278cc0bea9c0b11",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 65,
+      "metadata": {
+        "start_char": 52000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 29,
+        "chunk_index": 65,
+        "end_char": 52964
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 29
+    },
+    {
+      "id": "0687e2d0ae2cd3743e430575ffa6da25",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 66,
+      "metadata": {
+        "end_char": 53760,
+        "chunk_index": 66,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 29,
+        "start_char": 52800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 29
+    },
+    {
+      "id": "06f384a8ad715ffb67d6f7905076749a",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 67,
+      "metadata": {
+        "start_char": 53600,
+        "page_number": 30,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 54510,
+        "chunk_index": 67
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 30
+    },
+    {
+      "id": "5147367e47b2ae83315c2cef934f5960",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 68,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 54400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 68,
+        "end_char": 55327,
+        "page_number": 31
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 31
+    },
+    {
+      "id": "794847c4e11933e8db47e098ad1fd0b8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 69,
+      "metadata": {
+        "start_char": 55200,
+        "end_char": 56120,
+        "chunk_index": 69,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 31,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 31
+    },
+    {
+      "id": "594b6872a0e4708dfd0e2a8a1ed5c408",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 70,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 56947,
+        "page_number": 33,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 70,
+        "start_char": 56000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 33
+    },
+    {
+      "id": "4bd0bfd1ecee88b51fafb653cd386aa3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 71,
+      "metadata": {
+        "start_char": 56800,
+        "page_number": 33,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 71,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 57734
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 33
+    },
+    {
+      "id": "dc21c3673ca8344e8875313d7a5c91c5",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 72,
+      "metadata": {
+        "start_char": 57600,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 34,
+        "chunk_index": 72,
+        "end_char": 58598
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 34
+    },
+    {
+      "id": "dac22db1868d5ad33796e270776162bf",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 73,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 58400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 59395,
+        "page_number": 35,
+        "chunk_index": 73
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 35
+    },
+    {
+      "id": "58f0ccf000c53672f0fcfe6ad0035a29",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 74,
+      "metadata": {
+        "chunk_index": 74,
+        "page_number": 36,
+        "start_char": 59200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 60145
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 36
+    },
+    {
+      "id": "6026f97575ea9f0c3c2962304d82a4a3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 75,
+      "metadata": {
+        "start_char": 60000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 75,
+        "end_char": 60947,
+        "page_number": 36
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 36
+    },
+    {
+      "id": "3201557e9d427d1e1c9a17dd95805067",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 76,
+      "metadata": {
+        "end_char": 61710,
+        "start_char": 60800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 36,
+        "chunk_index": 76,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 36
+    },
+    {
+      "id": "47b3965b3e7b264ead12ee1cf896cea5",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 77,
+      "metadata": {
+        "chunk_index": 77,
+        "start_char": 61600,
+        "end_char": 62598,
+        "page_number": 37,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 37
+    },
+    {
+      "id": "654eec0808058da3f71fe71a915ff956",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 78,
+      "metadata": {
+        "page_number": 37,
+        "chunk_index": 78,
+        "start_char": 62400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 63396
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 37
+    },
+    {
+      "id": "609d9e35b5b265b86378e2b10378fede",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 79,
+      "metadata": {
+        "page_number": 38,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u277b Technology Tiers",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 64145,
+        "start_char": 63200,
+        "chunk_index": 79
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 38
+    },
+    {
+      "id": "dca718eec377b910149c51eb917c5e09",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 80,
+      "metadata": {
+        "chunk_index": 80,
+        "end_char": 64990,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 39,
+        "start_char": 64000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 39
+    },
+    {
+      "id": "a20f28e40d577844bfc17db855182bfa",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 81,
+      "metadata": {
+        "end_char": 65795,
+        "start_char": 64800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 81,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 39
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 39
+    },
+    {
+      "id": "ea57ae196245271b0f3b841929299d64",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 82,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 82,
+        "start_char": 65600,
+        "page_number": 39,
+        "end_char": 66599
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 39
+    },
+    {
+      "id": "ec2dedcff4d536ee5ad2671ad1538081",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 83,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 83,
+        "start_char": 66400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 39,
+        "end_char": 67377
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 39
+    },
+    {
+      "id": "e3be5f5dec1c310e9a2ae670bcb1c51c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 84,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 68137,
+        "chunk_index": 84,
+        "start_char": 67200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 40
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 40
+    },
+    {
+      "id": "7a72a3ca43c2de4fe2e347e2a74c4e36",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 85,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 68996,
+        "chunk_index": 85,
+        "page_number": 40,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 68000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 40
+    },
+    {
+      "id": "4d85cf3bcd767ce72f29cedc59f465f7",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 86,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 86,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 40,
+        "start_char": 68800,
+        "end_char": 69748
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 40
+    },
+    {
+      "id": "8737d852d6b6722a9292cff444b3692c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 87,
+      "metadata": {
+        "section": "\u277c Room Design",
+        "end_char": 70596,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 87,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 69600,
+        "page_number": 41
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 41
+    },
+    {
+      "id": "b0e7b444d8d52d19729c4326dea0ad55",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 88,
+      "metadata": {
+        "chunk_index": 88,
+        "start_char": 70400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 71360,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 42
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 42
+    },
+    {
+      "id": "7f126b3d401a2b7f77c08e655332e9f1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 89,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 89,
+        "page_number": 43,
+        "end_char": 72195,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 71200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 43
+    },
+    {
+      "id": "98de89998c3312004d031ee6258d027e",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 90,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 43,
+        "chunk_index": 90,
+        "end_char": 72996,
+        "start_char": 72000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 43
+    },
+    {
+      "id": "c4243a08d3ebf4c105fa719d53f8149c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 91,
+      "metadata": {
+        "chunk_index": 91,
+        "page_number": 44,
+        "end_char": 73800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 72800,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 44
+    },
+    {
+      "id": "0094176d40011439deb0e642777210cc",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 92,
+      "metadata": {
+        "page_number": 45,
+        "end_char": 74538,
+        "chunk_index": 92,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 73600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 45
+    },
+    {
+      "id": "e62bc2172057faadb286f9462cac36cd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 93,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "7.05 SIGHT LINES",
+        "end_char": 75400,
+        "start_char": 74400,
+        "page_number": 46,
+        "chunk_index": 93
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 46
+    },
+    {
+      "id": "a361f3d169fdb1a5438e5bd847bf368f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 94,
+      "metadata": {
+        "start_char": 75200,
+        "end_char": 76197,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 47,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 94
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 47
+    },
+    {
+      "id": "cf3e005dd19f541436636a71b6cac378",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 95,
+      "metadata": {
+        "end_char": 76961,
+        "chunk_index": 95,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 48,
+        "start_char": 76000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 48
+    },
+    {
+      "id": "5294ae773e99c25db19c16a0ca24706e",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 96,
+      "metadata": {
+        "page_number": 48,
+        "start_char": 76800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 96,
+        "end_char": 77799
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 48
+    },
+    {
+      "id": "5df9ffae534bebee7b3d192267cc2441",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 97,
+      "metadata": {
+        "end_char": 78561,
+        "start_char": 77600,
+        "chunk_index": 97,
+        "page_number": 49,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 49
+    },
+    {
+      "id": "69e23d158a20dcd1364ab0857816a0bd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 98,
+      "metadata": {
+        "end_char": 79368,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 78400,
+        "page_number": 49,
+        "chunk_index": 98,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 49
+    },
+    {
+      "id": "ec6d901705c40dacf2dddb7d5eab6574",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 99,
+      "metadata": {
+        "page_number": 49,
+        "end_char": 80148,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 99,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 79200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 49
+    },
+    {
+      "id": "38e622089c1e686c6ff6c4ad17b3c4b6",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 100,
+      "metadata": {
+        "end_char": 80997,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 50,
+        "chunk_index": 100,
+        "section": "\u277d Room Furnishings",
+        "start_char": 80000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 50
+    },
+    {
+      "id": "b0fd2b8a708da89beec76db91856b83f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 101,
+      "metadata": {
+        "page_number": 50,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 101,
+        "section": "\u277d Room Furnishings",
+        "start_char": 80800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 81772
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 50
+    },
+    {
+      "id": "2ddadd1f239d1e70419709799aed3103",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 102,
+      "metadata": {
+        "start_char": 81600,
+        "page_number": 50,
+        "section": "\u277d Room Furnishings",
+        "chunk_index": 102,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 82598,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 50
+    },
+    {
+      "id": "5c7feac411fda5e1e8001d6b3b755aee",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 103,
+      "metadata": {
+        "chunk_index": 103,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 83395,
+        "start_char": 82400,
+        "page_number": 50,
+        "section": "\u277d Room Furnishings"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 50
+    },
+    {
+      "id": "9eab73d4e23e388ec461cce0f5c66c92",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 104,
+      "metadata": {
+        "chunk_index": 104,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 84200,
+        "start_char": 83200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 51
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 51
+    },
+    {
+      "id": "ed1e2b11b92b3e62872793b3a60004a2",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 105,
+      "metadata": {
+        "start_char": 84000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 105,
+        "page_number": 52,
+        "end_char": 84973
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 52
+    },
+    {
+      "id": "723819a50f3128d64c768819aa651ed5",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 106,
+      "metadata": {
+        "page_number": 52,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 84800,
+        "chunk_index": 106,
+        "end_char": 85735
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 52
+    },
+    {
+      "id": "922f79c7fe8c63df431555f35ac4bd8b",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 107,
+      "metadata": {
+        "chunk_index": 107,
+        "end_char": 86573,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 85600,
+        "page_number": 53,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 53
+    },
+    {
+      "id": "4acbd183e3dc19804772f0da7acba0bb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 108,
+      "metadata": {
+        "chunk_index": 108,
+        "start_char": 86400,
+        "page_number": 53,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 87337,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 53
+    },
+    {
+      "id": "5b9e58f8532b2a3f6704a52bebc5e6bb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 109,
+      "metadata": {
+        "start_char": 87200,
+        "page_number": 54,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 109,
+        "end_char": 88125
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 54
+    },
+    {
+      "id": "d21bd4d2f8a3ec4ec9d8429621e25672",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 110,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 88978,
+        "start_char": 88000,
+        "chunk_index": 110,
+        "page_number": 54,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 54
+    },
+    {
+      "id": "d9136f60d0a9c8ef80b1261a9c2ac133",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 111,
+      "metadata": {
+        "end_char": 89793,
+        "chunk_index": 111,
+        "start_char": 88800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 54,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 54
+    },
+    {
+      "id": "5c5ad9256b1cb16900591b424f500b76",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 112,
+      "metadata": {
+        "page_number": 55,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 90599,
+        "chunk_index": 112,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 89600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 55
+    },
+    {
+      "id": "cd3201ca55775d3964c8851ef000c4bb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 113,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 91396,
+        "chunk_index": 113,
+        "start_char": 90400,
+        "page_number": 55
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 55
+    },
+    {
+      "id": "59cff49236b1593a7eb44ae9925c9817",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 114,
+      "metadata": {
+        "end_char": 92179,
+        "chunk_index": 114,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 56,
+        "start_char": 91200,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 56
+    },
+    {
+      "id": "99bb500be0ab28469df33ffbe8b62bd1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 115,
+      "metadata": {
+        "page_number": 56,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 92000,
+        "end_char": 92998,
+        "chunk_index": 115
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 56
+    },
+    {
+      "id": "6ceca2bc46c25f9ff5aa27eda4cc2b21",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 116,
+      "metadata": {
+        "end_char": 93799,
+        "chunk_index": 116,
+        "page_number": 56,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 92800,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 56
+    },
+    {
+      "id": "2f1036b70afa8c17f8194d3ecd622fc9",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 117,
+      "metadata": {
+        "chunk_index": 117,
+        "page_number": 57,
+        "end_char": 94580,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 93600,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 57
+    },
+    {
+      "id": "bd02f1b23130a376a18c58eed5481be1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 118,
+      "metadata": {
+        "chunk_index": 118,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 95397,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 58,
+        "start_char": 94400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 58
+    },
+    {
+      "id": "4f6ef2a70a4ae1ee7f2977fe978faa18",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 119,
+      "metadata": {
+        "page_number": 59,
+        "chunk_index": 119,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 96191,
+        "start_char": 95200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 59
+    },
+    {
+      "id": "7287f9d934b8c6a424fca6371408ab22",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 120,
+      "metadata": {
+        "page_number": 60,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 96995,
+        "chunk_index": 120,
+        "start_char": 96000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 60
+    },
+    {
+      "id": "06021832fdf35d436e2d275d8942620f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 121,
+      "metadata": {
+        "end_char": 97744,
+        "start_char": 96800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 61,
+        "chunk_index": 121
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 61
+    },
+    {
+      "id": "0af32201e965147ccafcb274783d0ec1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 122,
+      "metadata": {
+        "start_char": 97600,
+        "page_number": 62,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 98600,
+        "chunk_index": 122,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 62
+    },
+    {
+      "id": "af43da08ddff8016a966a747ec58cfbd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 123,
+      "metadata": {
+        "end_char": 99396,
+        "page_number": 63,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 98400,
+        "chunk_index": 123,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 63
+    },
+    {
+      "id": "970ce8935fff0a4d81e78fc7e0cecac0",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 124,
+      "metadata": {
+        "start_char": 99200,
+        "end_char": 100152,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 124,
+        "page_number": 64,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 64
+    },
+    {
+      "id": "a7bb7fc79ef3c3cca872cd70bc43e37f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 125,
+      "metadata": {
+        "chunk_index": 125,
+        "end_char": 101000,
+        "page_number": 64,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 100000,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 64
+    },
+    {
+      "id": "3ba8b9304e48cfa21f49f8090f23c635",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 126,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 101799,
+        "chunk_index": 126,
+        "page_number": 66,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 100800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 66
+    },
+    {
+      "id": "ef08b975b9941ebad9be96ef7666f15f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 127,
+      "metadata": {
+        "chunk_index": 127,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 101600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 102598,
+        "page_number": 66
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 66
+    },
+    {
+      "id": "cc42ec9a6f2fa6e754bf0f1821c780d0",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 128,
+      "metadata": {
+        "chunk_index": 128,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 67,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 103385,
+        "start_char": 102400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 67
+    },
+    {
+      "id": "41b62f0f65e83fa8fd91de245ab45406",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 129,
+      "metadata": {
+        "chunk_index": 129,
+        "end_char": 104140,
+        "start_char": 103200,
+        "page_number": 67,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 67
+    },
+    {
+      "id": "3d64fa70b68033a3d84a969b313affbb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 130,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 67,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 104000,
+        "chunk_index": 130,
+        "end_char": 104918
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 67
+    },
+    {
+      "id": "cb0fcb562e5163002f2aece18fc4d74a",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 131,
+      "metadata": {
+        "section": "8.06 INSTRUCTOR REFERENCE TABLES",
+        "page_number": 68,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 131,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 105716,
+        "start_char": 104800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 68
+    },
+    {
+      "id": "b7aefee549501310ca27aa1e0d8d5553",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 132,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 69,
+        "start_char": 105600,
+        "chunk_index": 132,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u277e Instructional Technologies and Equipment",
+        "end_char": 106545
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 69
+    },
+    {
+      "id": "cb0128c2ecef3d9cc360ad9e86dc9f5e",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 133,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 106400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "section": "\u277e Instructional Technologies and Equipment",
+        "end_char": 107386,
+        "chunk_index": 133,
+        "page_number": 69
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 69
+    },
+    {
+      "id": "b41f74dd849d9cd9cb7efe9fc06c54a4",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 134,
+      "metadata": {
+        "chunk_index": 134,
+        "page_number": 69,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u277e Instructional Technologies and Equipment",
+        "end_char": 108190,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 107200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 69
+    },
+    {
+      "id": "4fd60651bf3bd5256d93add49f3883d6",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 135,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 135,
+        "end_char": 108942,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 108000,
+        "page_number": 70
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 70
+    },
+    {
+      "id": "e957469d5139e4e0e5077f04c70bec43",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 136,
+      "metadata": {
+        "chunk_index": 136,
+        "end_char": 109799,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 108800,
+        "page_number": 70,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 70
+    },
+    {
+      "id": "a49b9778ad96703149e88ee694a6ebcb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 137,
+      "metadata": {
+        "start_char": 109600,
+        "page_number": 71,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 110565,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 137
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 71
+    },
+    {
+      "id": "1be93a360a7498dc5e6206b238860bea",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 138,
+      "metadata": {
+        "end_char": 111400,
+        "chunk_index": 138,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 110400,
+        "page_number": 71
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 71
+    },
+    {
+      "id": "1e18924007fee599628a48cf1ee73d44",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 139,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 112121,
+        "chunk_index": 139,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 71,
+        "start_char": 111200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 71
+    },
+    {
+      "id": "5f62d05250d91a491533ff1db7abc328",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 140,
+      "metadata": {
+        "chunk_index": 140,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 112000,
+        "end_char": 112951,
+        "page_number": 72
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 72
+    },
+    {
+      "id": "884ef4173c4e07cad8ad3bf8bc32d928",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 141,
+      "metadata": {
+        "page_number": 72,
+        "end_char": 113752,
+        "start_char": 112800,
+        "chunk_index": 141,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 72
+    },
+    {
+      "id": "3a73fe8867b88fa5fa965a308e025424",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 142,
+      "metadata": {
+        "section": "9.05 FLAT-PANEL SCREENS",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 114595,
+        "start_char": 113600,
+        "page_number": 73,
+        "chunk_index": 142,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 73
+    },
+    {
+      "id": "e2291daf0400b26b8bd0444f5236d4e3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 143,
+      "metadata": {
+        "start_char": 114400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 115398,
+        "chunk_index": 143,
+        "page_number": 74,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 74
+    },
+    {
+      "id": "8a581debe107118f14dc1fafce85c1d3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 144,
+      "metadata": {
+        "start_char": 115200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 144,
+        "end_char": 116200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 74
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 74
+    },
+    {
+      "id": "e4081bc8f7f2edf8b85c7cd78811bc59",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 145,
+      "metadata": {
+        "chunk_index": 145,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 116997,
+        "page_number": 74,
+        "start_char": 116000
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 74
+    },
+    {
+      "id": "d193dcb39aef3ac2ef672e9a896a10d7",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 146,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 116800,
+        "page_number": 75,
+        "chunk_index": 146,
+        "end_char": 117741,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "section": "9.06 PROJECTION SCREENS"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 75
+    },
+    {
+      "id": "8580264fd40096f9c3faf909dff3081d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 147,
+      "metadata": {
+        "end_char": 118596,
+        "start_char": 117600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 75,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "section": "9.06 PROJECTION SCREENS",
+        "chunk_index": 147
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 75
+    },
+    {
+      "id": "c50df48530b25bc634c2fa4c5bab26dd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 148,
+      "metadata": {
+        "start_char": 118400,
+        "page_number": 76,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 148,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 119400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 76
+    },
+    {
+      "id": "592ca13a8cb6ce2f31b125f5dedd9e0c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 149,
+      "metadata": {
+        "end_char": 120190,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 149,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 119200,
+        "page_number": 76
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 76
+    },
+    {
+      "id": "6d8b5f014ee84702f34eb8242ed73c42",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 150,
+      "metadata": {
+        "start_char": 120000,
+        "chunk_index": 150,
+        "page_number": 77,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 120995,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 77
+    },
+    {
+      "id": "8f2e5507268fb3062edb7f7864270e48",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 151,
+      "metadata": {
+        "end_char": 121702,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 151,
+        "start_char": 120800,
+        "page_number": 77,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 77
+    },
+    {
+      "id": "84bea785bff3ac82b66f55b87472b960",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 152,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 152,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 78,
+        "start_char": 121600,
+        "end_char": 122591
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 78
+    },
+    {
+      "id": "aaba852e6aed3cf3d87e14a8564f7bb1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 153,
+      "metadata": {
+        "chunk_index": 153,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 78,
+        "end_char": 123378,
+        "start_char": 122400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 78
+    },
+    {
+      "id": "24dbd89ed8eab7c8ea02bd4bc4b3987a",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 154,
+      "metadata": {
+        "page_number": 79,
+        "start_char": 123200,
+        "chunk_index": 154,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 124176,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 79
+    },
+    {
+      "id": "8eb7a1b22ae4b178a89025412d0964c3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 155,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 124000,
+        "end_char": 124952,
+        "page_number": 79,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 155
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 79
+    },
+    {
+      "id": "3f9d24c08057c6327274631e1b2362da",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 156,
+      "metadata": {
+        "start_char": 124800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 156,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 125799,
+        "page_number": 80
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 80
+    },
+    {
+      "id": "84066ba14bdc3317f25f21eb55afd391",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 157,
+      "metadata": {
+        "page_number": 80,
+        "start_char": 125600,
+        "end_char": 126554,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 157,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 80
+    },
+    {
+      "id": "a88697a2f6a9275307eeca5bdd05ac0d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 158,
+      "metadata": {
+        "page_number": 81,
+        "start_char": 126400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 127386,
+        "chunk_index": 158,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 81
+    },
+    {
+      "id": "c720d20549ba91223ad0a517097ac902",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 159,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 81,
+        "end_char": 128176,
+        "start_char": 127200,
+        "chunk_index": 159
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 81
+    },
+    {
+      "id": "7c8973e218508516d5a8fe3983c5347b",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 160,
+      "metadata": {
+        "start_char": 128000,
+        "end_char": 128983,
+        "page_number": 82,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 160
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 82
+    },
+    {
+      "id": "5ddf183338e6e2e626fc29bee66b02eb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 161,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 161,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 83,
+        "end_char": 129770,
+        "start_char": 128800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 83
+    },
+    {
+      "id": "1216c95657c4454d37063622d3444d47",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 162,
+      "metadata": {
+        "start_char": 129600,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 130600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 84,
+        "chunk_index": 162
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 84
+    },
+    {
+      "id": "3be6ff9df5a91ef9a00a1a768397bf12",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 163,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 131399,
+        "start_char": 130400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 163,
+        "page_number": 84
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 84
+    },
+    {
+      "id": "92d2032e242d2923d3c6359ebe0d7671",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 164,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 132142,
+        "page_number": 85,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 164,
+        "start_char": 131200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 85
+    },
+    {
+      "id": "3152a13eed64f9cfdf015b882b4c03cd",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 165,
+      "metadata": {
+        "page_number": 86,
+        "start_char": 132000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 165,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 132909
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 86
+    },
+    {
+      "id": "29be5557b37684e47e682555bb9ba0b2",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 166,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 133782,
+        "start_char": 132800,
+        "page_number": 86,
+        "chunk_index": 166,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 86
+    },
+    {
+      "id": "6643aa82b9b150dfc9d34880b4424456",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 167,
+      "metadata": {
+        "chunk_index": 167,
+        "page_number": 88,
+        "end_char": 134597,
+        "start_char": 133600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 88
+    },
+    {
+      "id": "14efff27d35920312369000d71c4cb6c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 168,
+      "metadata": {
+        "page_number": 88,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 135399,
+        "chunk_index": 168,
+        "start_char": 134400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 88
+    },
+    {
+      "id": "aef68351428bd5e2106d7d741ae7e39c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 169,
+      "metadata": {
+        "section": "\u277f Other Concerns",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 89,
+        "chunk_index": 169,
+        "start_char": 135200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 136192
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 89
+    },
+    {
+      "id": "fc142821fc90484a06ca957396aa36e6",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 170,
+      "metadata": {
+        "section": "\u277f Other Concerns",
+        "page_number": 89,
+        "start_char": 136000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 136935,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 170
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 89
+    },
+    {
+      "id": "c82846349662daf281d75f792fcc23c8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 171,
+      "metadata": {
+        "page_number": 90,
+        "start_char": 136800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 171,
+        "end_char": 137779,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 90
+    },
+    {
+      "id": "c9ad11205539228639cdc6d1b0aa8218",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 172,
+      "metadata": {
+        "chunk_index": 172,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 137600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 138523,
+        "page_number": 90
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 90
+    },
+    {
+      "id": "6590e5165075cd6856b1bac645a2d0e7",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 173,
+      "metadata": {
+        "end_char": 139399,
+        "page_number": 90,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 173,
+        "start_char": 138400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 90
+    },
+    {
+      "id": "5131942bc6256345a9f7d86b916e2884",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 174,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 91,
+        "end_char": 140186,
+        "chunk_index": 174,
+        "start_char": 139200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 91
+    },
+    {
+      "id": "94cc5ff338ca37112c0512524685a172",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 175,
+      "metadata": {
+        "start_char": 140000,
+        "page_number": 91,
+        "end_char": 140971,
+        "chunk_index": 175,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 91
+    },
+    {
+      "id": "5a0fa6c344f426a322a45a18af41063d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 176,
+      "metadata": {
+        "page_number": 93,
+        "chunk_index": 176,
+        "start_char": 140800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 141793
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 93
+    },
+    {
+      "id": "0e7774cdd247d0a8191abbc10849f8c2",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 177,
+      "metadata": {
+        "chunk_index": 177,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 142509,
+        "page_number": 93,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 141600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 93
+    },
+    {
+      "id": "10c6429402c05604fabad07b61bf1c5f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 178,
+      "metadata": {
+        "end_char": 143382,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 94,
+        "chunk_index": 178,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 142400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 94
+    },
+    {
+      "id": "3b76a186e8f3d7b74cca74eede7d2a95",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 179,
+      "metadata": {
+        "chunk_index": 179,
+        "start_char": 143200,
+        "page_number": 94,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 144130,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 94
+    },
+    {
+      "id": "112757e2d89ca52fb89c0098ad096167",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 180,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 144997,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 94,
+        "start_char": 144000,
+        "chunk_index": 180
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 94
+    },
+    {
+      "id": "d6166ea69dd9a9e35cc437e566b1f581",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 181,
+      "metadata": {
+        "start_char": 144800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 145719,
+        "chunk_index": 181,
+        "page_number": 95,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 95
+    },
+    {
+      "id": "5dbc419e7318d2ac52f43241ccba02b0",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 182,
+      "metadata": {
+        "start_char": 145600,
+        "page_number": 95,
+        "end_char": 146560,
+        "chunk_index": 182,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 95
+    },
+    {
+      "id": "5fd3851eeeb1a571c7b07c9de3a9ad5d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 183,
+      "metadata": {
+        "page_number": 96,
+        "start_char": 146400,
+        "end_char": 147373,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 183,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 96
+    },
+    {
+      "id": "d68a24e12672479fc6789089e6868ccc",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 184,
+      "metadata": {
+        "chunk_index": 184,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 96,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 148184,
+        "start_char": 147200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 96
+    },
+    {
+      "id": "d2387a48542023c17535b57c9e8f0893",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 185,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 97,
+        "chunk_index": 185,
+        "end_char": 148925,
+        "start_char": 148000,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 97
+    },
+    {
+      "id": "4e595d406a5a65c5e63984a70cf807b3",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 186,
+      "metadata": {
+        "page_number": 97,
+        "chunk_index": 186,
+        "start_char": 148800,
+        "end_char": 149730,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 97
+    },
+    {
+      "id": "02f783c0b1ae40f6a53389330ae35d94",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 187,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 149600,
+        "chunk_index": 187,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 150598,
+        "page_number": 97
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 97
+    },
+    {
+      "id": "8ea37cb5517b95e34db52edecd076942",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 188,
+      "metadata": {
+        "chunk_index": 188,
+        "end_char": 151400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 98,
+        "start_char": 150400,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 98
+    },
+    {
+      "id": "302c5afffe74e94872d80f52c6ffd96d",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 189,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 152178,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 189,
+        "start_char": 151200,
+        "page_number": 98
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 98
+    },
+    {
+      "id": "e6f178932d7759261f5f84855e1c09b1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 190,
+      "metadata": {
+        "end_char": 153000,
+        "page_number": 98,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 152000,
+        "chunk_index": 190
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 98
+    },
+    {
+      "id": "37c917509f20650606b9ac2ee0be8eea",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 191,
+      "metadata": {
+        "page_number": 98,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 191,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 153794,
+        "start_char": 152800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 98
+    },
+    {
+      "id": "f2eebb78c1a4d09ce85e449ab5315d93",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 192,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 99,
+        "chunk_index": 192,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 153600,
+        "end_char": 154574
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 99
+    },
+    {
+      "id": "11ddc353c6ad47ad451e2ff8f3b78385",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 193,
+      "metadata": {
+        "end_char": 155400,
+        "chunk_index": 193,
+        "start_char": 154400,
+        "page_number": 99,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 99
+    },
+    {
+      "id": "e6a6d8438836c82bdf2d6de593f553c8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 194,
+      "metadata": {
+        "start_char": 155200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 156164,
+        "page_number": 99,
+        "chunk_index": 194,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 99
+    },
+    {
+      "id": "d4a18ee5417d3f807c7cdb31d8d41659",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 195,
+      "metadata": {
+        "page_number": 99,
+        "chunk_index": 195,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 156997,
+        "start_char": 156000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 99
+    },
+    {
+      "id": "61ec0c2bb82c0f848c21d14449cc2687",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 196,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 196,
+        "page_number": 100,
+        "end_char": 157712,
+        "start_char": 156800,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 100
+    },
+    {
+      "id": "a39d14c336cfc34b90e67eebd85c8f42",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 197,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 197,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 100,
+        "start_char": 157600,
+        "end_char": 158600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 100
+    },
+    {
+      "id": "a0b3a2dfbd76b814944fe44cce50f49c",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 198,
+      "metadata": {
+        "start_char": 158400,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 101,
+        "chunk_index": 198,
+        "end_char": 159397
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 101
+    },
+    {
+      "id": "19298fbbdbc6d1aa61566b40afb9ba59",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 199,
+      "metadata": {
+        "page_number": 101,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 160175,
+        "chunk_index": 199,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 159200
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 101
+    },
+    {
+      "id": "fea0b9770507c6e74e0d1f22471b77ed",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 200,
+      "metadata": {
+        "page_number": 101,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 200,
+        "start_char": 160000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 160999
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 101
+    },
+    {
+      "id": "e5d7038317781b321dea8f7060edddb1",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 201,
+      "metadata": {
+        "page_number": 101,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 201,
+        "end_char": 161748,
+        "start_char": 160800,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 101
+    },
+    {
+      "id": "d167a7a20588d37df5449e09565b36af",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 202,
+      "metadata": {
+        "start_char": 161600,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 102,
+        "end_char": 162600,
+        "chunk_index": 202
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 102
+    },
+    {
+      "id": "5b1aa4aa5b25d6aeb34934cfd8202890",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 203,
+      "metadata": {
+        "chunk_index": 203,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 102,
+        "start_char": 162400,
+        "end_char": 163394
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 102
+    },
+    {
+      "id": "0fdaeae715e37c211064a111ea6ee487",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 204,
+      "metadata": {
+        "page_number": 104,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 163200,
+        "end_char": 164197,
+        "chunk_index": 204,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 104
+    },
+    {
+      "id": "f4a583115f39aea591964e9a7fb4e33f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 205,
+      "metadata": {
+        "start_char": 164000,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 205,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 164995,
+        "page_number": 104
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 104
+    },
+    {
+      "id": "0109be33006f16b86099544d2d9b16d0",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 206,
+      "metadata": {
+        "start_char": 164800,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 165797,
+        "chunk_index": 206,
+        "page_number": 105
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 105
+    },
+    {
+      "id": "b640fa82f649f5a802a8d5d71c71b6d6",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 207,
+      "metadata": {
+        "end_char": 166541,
+        "page_number": 105,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 207,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 165600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 105
+    },
+    {
+      "id": "715cf46dcc0f1fbda6c8eac834fd218f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 208,
+      "metadata": {
+        "end_char": 167318,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 208,
+        "start_char": 166400,
+        "page_number": 106,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 106
+    },
+    {
+      "id": "3cd289013217ab32b8ae17f7645694bc",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 209,
+      "metadata": {
+        "page_number": 106,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 167200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 209,
+        "end_char": 168197
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 106
+    },
+    {
+      "id": "41f5541a0adf113277d6f0df9796745b",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 210,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "\u24eb Conclusion",
+        "page_number": 107,
+        "chunk_index": 210,
+        "start_char": 168000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 168988
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 107
+    },
+    {
+      "id": "e0368d8359d563009f2379091a03680f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 211,
+      "metadata": {
+        "section": "Appendix 1: LEDG Variance Form",
+        "start_char": 168800,
+        "page_number": 109,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 211,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 169740
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 109
+    },
+    {
+      "id": "05a8be1dad50340cb6c8f434b317a682",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 212,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 111,
+        "chunk_index": 212,
+        "start_char": 169600,
+        "end_char": 170595,
+        "section": "Appendix 2: Technology Tier Specifications",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 111
+    },
+    {
+      "id": "7ccde0e7deb5a4a9927c7c3ea5aa3297",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 213,
+      "metadata": {
+        "page_number": 111,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 213,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "section": "Appendix 2: Technology Tier Specifications",
+        "end_char": 171360,
+        "start_char": 170400
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 111
+    },
+    {
+      "id": "355de84c469a40e0557561a3e4e67a36",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 214,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 171200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 214,
+        "page_number": 112,
+        "end_char": 172114
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 112
+    },
+    {
+      "id": "44169c10c220a3ab55f435121d643f19",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 215,
+      "metadata": {
+        "start_char": 172000,
+        "chunk_index": 215,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 172997,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 112
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 112
+    },
+    {
+      "id": "e46f8ce6f4abe8c0efb8df9ab7d5b7dc",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 216,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 173748,
+        "start_char": 172800,
+        "chunk_index": 216,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 113
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 113
+    },
+    {
+      "id": "1d8ffa2efaba8523cc8efd4dc6148feb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 217,
+      "metadata": {
+        "start_char": 173600,
+        "end_char": 174593,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 217,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 113
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 113
+    },
+    {
+      "id": "b82903a6c13cf6d0d746ba578f5c579f",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 218,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 174400,
+        "end_char": 175330,
+        "page_number": 114,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 218
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 114
+    },
+    {
+      "id": "22e1fe13df019c60da87c733a6bbd360",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 219,
+      "metadata": {
+        "end_char": 176188,
+        "chunk_index": 219,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 175200,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 114
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 114
+    },
+    {
+      "id": "ebe78bb5ac33621d47153eb9785d55be",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 220,
+      "metadata": {
+        "end_char": 176994,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 176000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 114,
+        "chunk_index": 220
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 114
+    },
+    {
+      "id": "a5d977000485fc10028604b98def1eeb",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 221,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 115,
+        "end_char": 177705,
+        "start_char": 176800,
+        "chunk_index": 221
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 115
+    },
+    {
+      "id": "7e9ac01078aec5120c00a74c549aa5b4",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 222,
+      "metadata": {
+        "end_char": 178586,
+        "chunk_index": 222,
+        "page_number": 115,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 177600,
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 115
+    },
+    {
+      "id": "3015f60fd8a23555f33751fbb164a7a7",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 223,
+      "metadata": {
+        "end_char": 179390,
+        "start_char": 178400,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 223,
+        "page_number": 116
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 116
+    },
+    {
+      "id": "4806cb6cfdf9139c2c8af08bb56118a4",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 224,
+      "metadata": {
+        "end_char": 180186,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 179200,
+        "chunk_index": 224,
+        "page_number": 116,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 116
+    },
+    {
+      "id": "42762a1591b96b81d85df88470f9b847",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 225,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 225,
+        "end_char": 180997,
+        "start_char": 180000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 117
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 117
+    },
+    {
+      "id": "3a59b6ba1212f628b565da111c6f7f09",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 226,
+      "metadata": {
+        "page_number": 118,
+        "chunk_index": 226,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "start_char": 180800,
+        "end_char": 181793,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 118
+    },
+    {
+      "id": "8c77f0ad80f0a1c1a905d26c7ffef6e2",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 227,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 119,
+        "chunk_index": 227,
+        "end_char": 182543,
+        "start_char": 181600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 119
+    },
+    {
+      "id": "bf91edd2e2b346f891540b619aade1de",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 228,
+      "metadata": {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "end_char": 183399,
+        "chunk_index": 228,
+        "start_char": 182400,
+        "page_number": 119,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 119
+    },
+    {
+      "id": "9264ba991e528a1d64b83406c524281a",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 229,
+      "metadata": {
+        "chunk_index": 229,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 120,
+        "start_char": 183200,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 184199
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 120
+    },
+    {
+      "id": "8f22d3e42a25944c4b773aaabe10adea",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 230,
+      "metadata": {
+        "start_char": 184000,
+        "page_number": 120,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_index": 230,
+        "end_char": 184982
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 120
+    },
+    {
+      "id": "c9f24513d771961251cfb4e257b04e39",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 231,
+      "metadata": {
+        "chunk_index": 231,
+        "start_char": 184800,
+        "page_number": 121,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "end_char": 185800
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 121
+    },
+    {
+      "id": "d01e90247ca2af65c3d8091ff1cca0db",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 232,
+      "metadata": {
+        "end_char": 186599,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 121,
+        "chunk_index": 232,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "start_char": 185600
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 121
+    },
+    {
+      "id": "366ae076a5e13a6b082c18807c814680",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 233,
+      "metadata": {
+        "chunk_index": 233,
+        "start_char": 186400,
+        "page_number": 122,
+        "end_char": 187399,
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 122
+    },
+    {
+      "id": "c24e9a1c606b5f3dc4fcd9abb4fef207",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 234,
+      "metadata": {
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "chunk_index": 234,
+        "start_char": 187200,
+        "end_char": 188109,
+        "page_number": 122
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 122
+    },
+    {
+      "id": "bfaab5b860dffe6bdf6d3914020eb230",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 235,
+      "metadata": {
+        "start_char": 188000,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "page_number": 122,
+        "chunk_index": 235,
+        "end_char": 188964,
+        "document_name": "0-LEDG-v.1.0-120224.pdf"
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 122
+    },
+    {
+      "id": "be7d8277ed5ef8db44f179ab4e875ba8",
+      "document_id": "6a7812eed03ebe1c6f5851dc",
+      "chunk_index": 236,
+      "metadata": {
+        "end_char": 189119,
+        "chunk_index": 236,
+        "start_char": 188800,
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "document_name": "0-LEDG-v.1.0-120224.pdf",
+        "page_number": 123
+      },
+      "filename": "0-LEDG-v.1.0-120224.pdf",
+      "page_number": 123
+    },
+    {
+      "id": "f2e793073fa9f198b5e49ed30c42c418",
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "chunk_index": 0,
+      "metadata": {
+        "section": "REINFORCED",
+        "start_char": 0,
+        "end_char": 995,
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 0,
+        "page_number": 1
+      },
+      "filename": "DRCS Cover - To author.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "1b652d99adaddd3350910625d7b9794d",
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "chunk_index": 1,
+      "metadata": {
+        "chunk_index": 1,
+        "start_char": 800,
+        "end_char": 1787,
+        "document_name": "DRCS Cover - To author.pdf",
+        "page_number": 1,
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "section": "REINFORCED"
+      },
+      "filename": "DRCS Cover - To author.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "e9eeed11b64a037c26acf3f6b4465f97",
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "chunk_index": 2,
+      "metadata": {
+        "end_char": 2505,
+        "chunk_index": 2,
+        "page_number": 1,
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "section": "REINFORCED",
+        "start_char": 1600,
+        "document_name": "DRCS Cover - To author.pdf"
+      },
+      "filename": "DRCS Cover - To author.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "78e366274f47e88a8eddaef00ed143ef",
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "chunk_index": 3,
+      "metadata": {
+        "end_char": 3372,
+        "page_number": 1,
+        "start_char": 2400,
+        "section": "REINFORCED",
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 3,
+        "document_id": "6a7990b8c902988cd052c9d3"
+      },
+      "filename": "DRCS Cover - To author.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "d5fc1dc435cdc48f7f9a85d70e73e875",
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "chunk_index": 4,
+      "metadata": {
+        "page_number": 1,
+        "chunk_index": 4,
+        "document_name": "DRCS Cover - To author.pdf",
+        "start_char": 3200,
+        "end_char": 4171,
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "section": "REINFORCED"
+      },
+      "filename": "DRCS Cover - To author.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "a0114d89714d256e5d12124a9871592c",
+      "document_id": "6a7990b8c902988cd052c9d3",
+      "chunk_index": 5,
+      "metadata": {
+        "section": "REINFORCED",
+        "page_number": 1,
+        "start_char": 4000,
+        "end_char": 4171,
+        "document_name": "DRCS Cover - To author.pdf",
+        "chunk_index": 5,
+        "document_id": "6a7990b8c902988cd052c9d3"
+      },
+      "filename": "DRCS Cover - To author.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "e3c8e940c6ba8a9f2696792a8a1d501a",
+      "document_id": "6a79a3b8ca0dbb46c36a02d6",
+      "chunk_index": 0,
+      "metadata": {
+        "section": "BUILDING INSPECTION REPORT",
+        "chunk_index": 0,
+        "end_char": 719,
+        "document_name": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+        "start_char": 0,
+        "document_id": "6a79a3b8ca0dbb46c36a02d6",
+        "page_number": 1
+      },
+      "filename": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "8eb788829719d07a1e302247e519bebe",
+      "document_id": "6a79a3f88ad17e8f86e6c72a",
+      "chunk_index": 0,
+      "metadata": {
+        "section": "FACILITIES DOCUMENTATION GUIDELINES",
+        "start_char": 0,
+        "page_number": 1,
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "end_char": 991,
+        "chunk_index": 0
+      },
+      "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "8792d43dd9578808ded689748dc61d51",
+      "document_id": "6a79a3f88ad17e8f86e6c72a",
+      "chunk_index": 1,
+      "metadata": {
+        "start_char": 800,
+        "section": "FACILITIES DOCUMENTATION GUIDELINES",
+        "end_char": 1758,
+        "page_number": 1,
+        "chunk_index": 1,
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf"
+      },
+      "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "c4bf3fb7d06a399e41d4a24981a16d05",
+      "document_id": "6a79a3f88ad17e8f86e6c72a",
+      "chunk_index": 2,
+      "metadata": {
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "end_char": 2598,
+        "chunk_index": 2,
+        "section": "FACILITIES DOCUMENTATION GUIDELINES",
+        "page_number": 1,
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "start_char": 1600
+      },
+      "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "6ce21521fcbd5785a116afbf767577cf",
+      "document_id": "6a79a3f88ad17e8f86e6c72a",
+      "chunk_index": 3,
+      "metadata": {
+        "chunk_index": 3,
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "page_number": 2,
+        "end_char": 2954,
+        "document_name": "G01facilitiesdocumentationguidelines_1.pdf",
+        "start_char": 2400
+      },
+      "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "0d90c5a0a4a7b8981326cbc0fd75e4d4",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 0,
+      "metadata": {
+        "document_name": "New Building Services Template_v4.pdf",
+        "end_char": 987,
+        "page_number": 1,
+        "section": "Required New Building Floor Support for PPD & ITS",
+        "chunk_index": 0,
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "start_char": 0
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "1e4286f15a21312f532c68f829bdcb84",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 1,
+      "metadata": {
+        "start_char": 800,
+        "page_number": 1,
+        "section": "Required New Building Floor Support for PPD & ITS",
+        "chunk_index": 1,
+        "document_name": "New Building Services Template_v4.pdf",
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "end_char": 1747
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "9908cb7b8b9ca4ff3caf47199831e835",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 2,
+      "metadata": {
+        "start_char": 1600,
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "end_char": 2600,
+        "document_name": "New Building Services Template_v4.pdf",
+        "section": "Required New Building Floor Support for PPD & ITS",
+        "page_number": 1,
+        "chunk_index": 2
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "ba8d2bf3564a5777862b7efa24611c80",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 3,
+      "metadata": {
+        "section": "Required New Building Floor Support for PPD & ITS",
+        "start_char": 2400,
+        "page_number": 1,
+        "document_name": "New Building Services Template_v4.pdf",
+        "chunk_index": 3,
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "end_char": 3394
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "3fd73d3894e99130cb7c41150798a413",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 4,
+      "metadata": {
+        "page_number": 2,
+        "chunk_index": 4,
+        "section": "DRAFT",
+        "document_name": "New Building Services Template_v4.pdf",
+        "end_char": 4196,
+        "start_char": 3200,
+        "document_id": "6a79a41a08ca0700b6046c74"
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "5d5d7420f557e7d78894cbd2824c65f6",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 5,
+      "metadata": {
+        "page_number": 2,
+        "start_char": 4000,
+        "document_name": "New Building Services Template_v4.pdf",
+        "section": "DRAFT",
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "chunk_index": 5,
+        "end_char": 4995
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "1c528638625695a6c7a187157cf520d9",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 6,
+      "metadata": {
+        "page_number": 2,
+        "end_char": 5789,
+        "chunk_index": 6,
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "start_char": 4800,
+        "document_name": "New Building Services Template_v4.pdf",
+        "section": "DRAFT"
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "a3012d4a6797280787157c9962bb34e2",
+      "document_id": "6a79a41a08ca0700b6046c74",
+      "chunk_index": 7,
+      "metadata": {
+        "section": "DRAFT",
+        "document_name": "New Building Services Template_v4.pdf",
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "page_number": 2,
+        "end_char": 6055,
+        "start_char": 5600,
+        "chunk_index": 7
+      },
+      "filename": "New Building Services Template_v4.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "514059c3b5a051eed181274f53419b65",
+      "document_id": "6a79a455976f591cd07e5757",
+      "chunk_index": 0,
+      "metadata": {
+        "document_name": "gurugram-page044-45.pdf",
+        "document_id": "6a79a455976f591cd07e5757",
+        "start_char": 0,
+        "section": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE",
+        "page_number": 1,
+        "end_char": 980,
+        "chunk_index": 0
+      },
+      "filename": "gurugram-page044-45.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "df1e99cb1665252b8525522bfb8dbeca",
+      "document_id": "6a79a455976f591cd07e5757",
+      "chunk_index": 1,
+      "metadata": {
+        "section": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE",
+        "document_id": "6a79a455976f591cd07e5757",
+        "end_char": 1800,
+        "document_name": "gurugram-page044-45.pdf",
+        "page_number": 1,
+        "start_char": 800,
+        "chunk_index": 1
+      },
+      "filename": "gurugram-page044-45.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "72cbf95088b47eccb4d39e46eb0d8b2c",
+      "document_id": "6a79a455976f591cd07e5757",
+      "chunk_index": 2,
+      "metadata": {
+        "chunk_index": 2,
+        "document_id": "6a79a455976f591cd07e5757",
+        "document_name": "gurugram-page044-45.pdf",
+        "section": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE",
+        "end_char": 2401,
+        "start_char": 1600,
+        "page_number": 1
+      },
+      "filename": "gurugram-page044-45.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "fa4be23dcaa0483fa95812094f723d55",
+      "document_id": "6a79a455976f591cd07e5757",
+      "chunk_index": 3,
+      "metadata": {
+        "page_number": 2,
+        "document_name": "gurugram-page044-45.pdf",
+        "end_char": 2401,
+        "start_char": 2400,
+        "chunk_index": 3,
+        "document_id": "6a79a455976f591cd07e5757"
+      },
+      "filename": "gurugram-page044-45.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "6195d0a28a6f4cdf3c81c20f9f63732f",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 0,
+      "metadata": {
+        "chunk_index": 0,
+        "page_number": 1,
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "start_char": 0,
+        "end_char": 1000,
+        "document_name": "viga-and-corbel-inspection.pdf",
+        "section": "INSPECTING"
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "6033a22d07b46970752594b52c2bee86",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 1,
+      "metadata": {
+        "chunk_index": 1,
+        "document_name": "viga-and-corbel-inspection.pdf",
+        "section": "INSPECTING",
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "end_char": 1770,
+        "start_char": 800,
+        "page_number": 1
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "344efa3f357af8bb4469aef220328a2c",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 2,
+      "metadata": {
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "section": "INSPECTING",
+        "page_number": 1,
+        "chunk_index": 2,
+        "start_char": 1600,
+        "document_name": "viga-and-corbel-inspection.pdf",
+        "end_char": 2591
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 1
+    },
+    {
+      "id": "2ee3c4b9830653b01390087d8a48c72b",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 3,
+      "metadata": {
+        "document_name": "viga-and-corbel-inspection.pdf",
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "start_char": 2400,
+        "end_char": 3397,
+        "section": "TOOLS AND",
+        "chunk_index": 3,
+        "page_number": 2
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "ac99ba30d368af9737a89a7f690a7f74",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 4,
+      "metadata": {
+        "start_char": 3200,
+        "page_number": 2,
+        "end_char": 4176,
+        "section": "TOOLS AND",
+        "chunk_index": 4,
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "document_name": "viga-and-corbel-inspection.pdf"
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 2
+    },
+    {
+      "id": "dc10f5af9e9db64d778fe47621dd1e4d",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 5,
+      "metadata": {
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "start_char": 4000,
+        "page_number": 3,
+        "chunk_index": 5,
+        "end_char": 4952,
+        "document_name": "viga-and-corbel-inspection.pdf"
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "4a547ca35fc44c0ac8d8ecb0833e1426",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 6,
+      "metadata": {
+        "end_char": 5704,
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "document_name": "viga-and-corbel-inspection.pdf",
+        "page_number": 3,
+        "chunk_index": 6,
+        "start_char": 4800
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 3
+    },
+    {
+      "id": "8be7067fdf1dfcca8260bf2259d9112b",
+      "document_id": "6a79a4acc42349d6271bf3cd",
+      "chunk_index": 7,
+      "metadata": {
+        "end_char": 5817,
+        "start_char": 5600,
+        "document_name": "viga-and-corbel-inspection.pdf",
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "page_number": 3,
+        "chunk_index": 7
+      },
+      "filename": "viga-and-corbel-inspection.pdf",
+      "page_number": 3
+    }
+  ]
+}

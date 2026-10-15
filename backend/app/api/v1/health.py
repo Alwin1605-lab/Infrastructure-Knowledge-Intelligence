@@ -1,3 +1,4 @@
+import psutil
 from fastapi import APIRouter, Request
 from pydantic import BaseModel
 
@@ -7,7 +8,9 @@ class SystemHealthResponse(BaseModel):
     status: str
     versions: dict
     services: dict
+    system_metrics: dict
     knowledge_base: dict
+    queue_stats: dict
 
 @router.get("/system", response_model=SystemHealthResponse)
 async def get_system_health(request: Request):
@@ -32,7 +35,7 @@ async def get_system_health(request: Request):
 
     # Check MongoDB
     try:
-        from app.db.models import Document
+        from app.models.document import Document
         # Just ping DB to check if it's up
         if await Document.find_all().limit(1).to_list() is not None:
             services["mongodb"] = "ok"
@@ -60,13 +63,23 @@ async def get_system_health(request: Request):
     kb_stats = {
         "documents_indexed": 0,
         "kg_nodes": 0,
-        "kg_relationships": 0
+        "kg_relationships": 0,
+        "chroma_chunks": 0
     }
 
     if services["mongodb"] == "ok":
         try:
-            from app.db.models import Document
+            from app.models.document import Document
             kb_stats["documents_indexed"] = await Document.count()
+        except Exception:
+            pass
+            
+    if services["chromadb"] == "ok":
+        try:
+            client = getattr(request.app.state, "chroma_client", None)
+            if client:
+                col = await client.get_or_create_collection("infrastructure_knowledge")
+                kb_stats["chroma_chunks"] = await col.count()
         except Exception:
             pass
             
@@ -83,11 +96,27 @@ async def get_system_health(request: Request):
         except Exception:
             pass
 
+    # 4. System Metrics
+    system_metrics = {
+        "memory_percent": psutil.virtual_memory().percent,
+        "cpu_percent": psutil.cpu_percent(interval=None)
+    }
+    
+    # 5. Queue Stats
+    try:
+        from app.services.analytics_service import AnalyticsService
+        svc = AnalyticsService()
+        queue_stats = await svc.get_processing_queue_stats()
+    except Exception:
+        queue_stats = {}
+
     overall_status = "ok" if all(v == "ok" for v in services.values()) else "degraded"
 
     return SystemHealthResponse(
         status=overall_status,
         versions=versions,
         services=services,
-        knowledge_base=kb_stats
+        system_metrics=system_metrics,
+        knowledge_base=kb_stats,
+        queue_stats=queue_stats
     )

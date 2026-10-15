@@ -20,6 +20,10 @@ class DocumentType(str, Enum):
     INSPECTION_REPORT = "Inspection Report"
     STRUCTURAL_AUDIT_REPORT = "Structural Audit Report"
     BUILDING_MAINTENANCE_MANUAL = "Building Maintenance Manual"
+    TECHNICAL_DATA_SHEET = "Technical Data Sheet"
+    PRODUCT_MANUAL = "Product Manual"
+    INSTALLATION_GUIDE = "Installation Guide"
+    INSPECTION_CHECKLIST = "Inspection Checklist"
     OTHER = "Other"
 
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { useWorkspace, useDeleteWorkspace } from '../hooks/useWorkspacesQuery';
 import { workspacesApi } from '../api/workspaces';
 import { Building2, MapPin, Calendar, Upload, FileText, ArrowLeft, Loader2, Trash2 } from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
@@ -7,35 +8,24 @@ import { formatDistanceToNow } from 'date-fns';
 export function WorkspaceDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [workspace, setWorkspace] = useState(null);
-  const [loading, setLoading] = useState(true);
+  
+  const { data: workspace, isLoading: loading, isError } = useWorkspace(id);
+  const deleteMutation = useDeleteWorkspace();
+
   const [uploading, setUploading] = useState(false);
   const [file, setFile] = useState(null);
 
   useEffect(() => {
-    fetchWorkspace();
-  }, [id]);
-
-  const fetchWorkspace = async () => {
-    try {
-      const { data } = await workspacesApi.get(id);
-      setWorkspace(data);
-    } catch (err) {
-      console.error(err);
+    if (isError) {
       navigate('/workspaces');
-    } finally {
-      setLoading(false);
     }
-  };
+  }, [isError, navigate]);
 
   const handleDelete = async () => {
     if (!window.confirm("Are you sure you want to delete this workspace? All data will be lost.")) return;
-    try {
-      await workspacesApi.delete(id);
-      navigate('/workspaces');
-    } catch (err) {
-      alert("Failed to delete workspace.");
-    }
+    deleteMutation.mutate(id, {
+      onSuccess: () => navigate('/workspaces')
+    });
   };
 
   const handleUpload = async (e) => {

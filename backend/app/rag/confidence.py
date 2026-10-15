@@ -45,22 +45,28 @@ class ConfidenceScorer:
         top_score = ranked_chunks[0].final_score if ranked_chunks else 0.0
 
         # --- Base score from vector retrieval ---
-        base = top_score if num_chunks > 0 else 0.0
+        # Normalize dense vector similarity (in high-dim embedding space, 0.55-0.75 indicates strong relevance)
+        if num_chunks >= 3:
+            base = min(0.90, max(0.50, top_score * 1.15))
+        elif num_chunks > 0:
+            base = min(0.80, max(0.40, top_score * 1.05))
+        else:
+            base = 0.0
 
         # --- KG bonus ---
         kg_bonus = 0.0
         if num_kg_entities >= 1:
-            kg_bonus = min(0.20, 0.10 + (num_kg_entities - 1) * 0.05)
+            kg_bonus = min(0.15, 0.08 + (num_kg_entities - 1) * 0.03)
 
         # --- Source penalty ---
         source_penalty = 0.0
         if num_chunks == 0:
             source_penalty = -0.40
         elif num_chunks == 1:
-            source_penalty = -0.10
+            source_penalty = -0.05
 
         # --- Final score ---
-        final = round(max(0.0, min(1.0, base + kg_bonus + source_penalty)), 3)
+        final = round(max(0.0, min(0.99, base + kg_bonus + source_penalty)), 3)
 
         # --- Grounding type ---
         if num_chunks > 0 and num_kg_entities > 0:

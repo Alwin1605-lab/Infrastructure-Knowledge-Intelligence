@@ -1,0 +1,97 @@
+[
+  {
+    "id": "Q2",
+    "category": "factual",
+    "difficulty": "medium",
+    "question": "What is discussed in the section covering 'HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures'?",
+    "ground_truth_documents": [
+      "6a7990b8c902988cd052c9d3"
+    ],
+    "ground_truth_evidence": [
+      "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designed to meet the \nrequirements of undergraduate stude..."
+    ],
+    "ground_truth_entities": [],
+    "expected_answer_points": [
+      "HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures"
+    ],
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "id": "Q3",
+    "category": "factual",
+    "difficulty": "medium",
+    "question": "What is discussed in the section covering 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary This report documents'?",
+    "ground_truth_documents": [
+      "6a79a3b8ca0dbb46c36a02d6"
+    ],
+    "ground_truth_evidence": [
+      "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed during the annual inspection.\n2. Defects Observed\nSpall..."
+    ],
+    "ground_truth_entities": [],
+    "expected_answer_points": [
+      "BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary This report documents"
+    ],
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "id": "Q4",
+    "category": "factual",
+    "difficulty": "medium",
+    "question": "What is discussed in the section covering 'INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION'?",
+    "ground_truth_documents": [
+      "6a79a3f88ad17e8f86e6c72a"
+    ],
+    "ground_truth_evidence": [
+      "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines..."
+    ],
+    "ground_truth_entities": [],
+    "expected_answer_points": [
+      "INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION"
+    ],
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "id": "Q5",
+    "category": "factual",
+    "difficulty": "medium",
+    "question": "What is discussed in the section covering 'Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #'?",
+    "ground_truth_documents": [
+      "6a79a41a08ca0700b6046c74"
+    ],
+    "ground_truth_evidence": [
+      "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF\nRemarks\n# Required\nFloor Support for PPD & ITS\nA.\nBuilding Services\n1\nLoading Dock\n1\n15 X\n20..."
+    ],
+    "ground_truth_entities": [],
+    "expected_answer_points": [
+      "Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #"
+    ],
+    "source_pages": [
+      1
+    ]
+  },
+  {
+    "id": "Q6",
+    "category": "factual",
+    "difficulty": "medium",
+    "question": "What is discussed in the section covering 'INDIAN INSTITUTE OF TECHNOLOGY ROORKEE DEPARTMENT OF CIVIL ENGINEERING ROORKEE 247667 UTTARAKHAND INDIA PHONE: +91-1332-285612'?",
+    "ground_truth_documents": [
+      "6a79a455976f591cd07e5757"
+    ],
+    "ground_truth_evidence": [
+      "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE \nDEPARTMENT OF CIVIL ENGINEERING \n  \n \nROORKEE 247667, UTTARAKHAND, INDIA \n                               PHONE: +91-1332-285612 (O), 5023 (R), 8954333954 (M) \n ..."
+    ],
+    "ground_truth_entities": [],
+    "expected_answer_points": [
+      "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE DEPARTMENT OF CIVIL ENGINEERING ROORKEE 247667 UTTARAKHAND INDIA PHONE: +91-1332-285612"
+    ],
+    "source_pages": [
+      1
+    ]
+  }
+]

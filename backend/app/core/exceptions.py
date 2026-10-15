@@ -56,7 +56,8 @@ class LLMProviderError(InfraKnowledgeError):
         provider: The name of the LLM provider that caused the error.
     """
 
-    def __init__(self, provider: str, message: str, *args, **kwargs):
+    def __init__(self, provider: str, message: str = "", *args, **kwargs):
+        kwargs.pop("message", None)
         self.provider = provider
         super().__init__(f"[{provider}] {message}", *args, **kwargs)
 
@@ -78,12 +79,12 @@ class LLMRateLimitError(LLMProviderError):
         retry_after: Suggested wait time in seconds before retrying, if provided.
     """
 
-    def __init__(self, provider: str, retry_after: float | None = None, *args, **kwargs):
+    def __init__(self, provider: str, message: str = "Rate limit exceeded", retry_after: float | None = None, *args, **kwargs):
         self.retry_after = retry_after
-        msg = "Rate limit exceeded"
-        if retry_after:
-            msg += f" (retry after {retry_after}s)"
-        super().__init__(provider, msg, *args, **kwargs)
+        if retry_after and "retry after" not in message:
+            message += f" (retry after {retry_after}s)"
+        kwargs.pop("message", None)
+        super().__init__(provider, message, *args, **kwargs)
 
 
 class LLMGenerationError(LLMProviderError):

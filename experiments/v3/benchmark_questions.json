@@ -1,0 +1,3079 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "5f5b2b6e033d2a6812a3b248a71d7834",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Learning Environments Design Guidelines\nLEDG\nVERSION   1.0\nl\ne\na\nr\nn\ni\nn\ng\n \ne\nn\nv\ni\nr\no\nn\nm\ne\nn\nt\ns\n \nc\no\nm\nm\ni\nt\nt\ne\ne\nU N M\n\n\nLEDG  1.0 \n \n \nReturn to Table of Contents \n0 \n \n \n \n \n \nTable of Contents \n \n \n \n \n\u2776  INTRODUCTION ...............................................................................................................",
+    "expected_answer_points": [
+      "Learning Environments Design Guidelines\nLEDG\nVERSION   1.0\nl\ne\na\nr\nn\ni\nn\ng\n \ne\nn\nv\ni\nr\no\nn\nm\ne\nn\nt\ns\n \nc\no\nm\nm\ni\nt\nt\ne\ne\nU N M\n\n\nLEDG  1.0 \n \n \nReturn",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "5f5b2b6e033d2a6812a3b248a71d7834",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Learning Environments Design Guidelines\nLEDG\nVERSION   1.0\nl\ne\na\nr\nn\ni\nn\ng\n \ne\nn\nv\ni\nr\no\nn\nm\ne\nn\nt\ns\n \nc\no\nm\nm\ni\nt\nt\ne\ne\nU N M\n\n\nLEDG  1.0 \n \n \nReturn to Table of Contents \n0 \n \n \n \n \n \nTable of Contents \n \n \n \n \n\u2776  INTRODUCTION ..............................................................................................................."
+      }
+    ]
+  },
+  {
+    "question_id": "Q002",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 7)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "43a0dbaa72c2b1ad486a8a838705bea2",
+    "chunk_index": 23,
+    "page": 7,
+    "exact_ground_truth_evidence": "rsity Architect is responsible for updates to the LEDG by accumulating all relevant \nvariances and by coordinating this through the LEC.",
+    "expected_answer_points": [
+      "rsity Architect is responsible for updates to the LEDG by accumulating all relevant \nvariances and by coordinating this through the LEC.",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 7"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "43a0dbaa72c2b1ad486a8a838705bea2",
+        "chunk_index": 23,
+        "page": 7,
+        "evidence": "rsity Architect is responsible for updates to the LEDG by accumulating all relevant \nvariances and by coordinating this through the LEC."
+      }
+    ]
+  },
+  {
+    "question_id": "Q003",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 14)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "e3f738aa69bd2748b327f99bc6ea2658",
+    "chunk_index": 46,
+    "page": 14,
+    "exact_ground_truth_evidence": "mparison between larger seminar rooms and smaller \nlecture rooms, or between larger lecture rooms and smaller auditoriums.",
+    "expected_answer_points": [
+      "mparison between larger seminar rooms and smaller \nlecture rooms, or between larger lecture rooms and smaller auditoriums.",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 14"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "e3f738aa69bd2748b327f99bc6ea2658",
+        "chunk_index": 46,
+        "page": 14,
+        "evidence": "mparison between larger seminar rooms and smaller \nlecture rooms, or between larger lecture rooms and smaller auditoriums."
+      }
+    ]
+  },
+  {
+    "question_id": "Q004",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 31)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "794847c4e11933e8db47e098ad1fd0b8",
+    "chunk_index": 69,
+    "page": 31,
+    "exact_ground_truth_evidence": "use this type of room.  \nSpecialized equipment and furniture such as layout tables and tack boards are present in these rooms.",
+    "expected_answer_points": [
+      "use this type of room.  \nSpecialized equipment and furniture such as layout tables and tack boards are present in these rooms.",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 31"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "794847c4e11933e8db47e098ad1fd0b8",
+        "chunk_index": 69,
+        "page": 31,
+        "evidence": "use this type of room.  \nSpecialized equipment and furniture such as layout tables and tack boards are present in these rooms."
+      }
+    ]
+  },
+  {
+    "question_id": "Q005",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 45)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "0094176d40011439deb0e642777210cc",
+    "chunk_index": 92,
+    "page": 45,
+    "exact_ground_truth_evidence": "1.0 \n \n \nReturn to Table of Contents \n43 \n7.04  FRONT OF ROOM \n \n \nFront of Learning Room, Mitchell Hall \n \n \nInstructor Station, Mitchell Hall \n \nThe front of the room is an important design feature for those learning environments which support \nforward-facing instruction.",
+    "expected_answer_points": [
+      "1.0 \n \n \nReturn to Table of Contents \n43 \n7.04  FRONT OF ROOM \n \n \nFront of Learning Room, Mitchell Hall \n \n \nInstructor Station, Mitchell Hall \n \nThe",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 45"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "0094176d40011439deb0e642777210cc",
+        "chunk_index": 92,
+        "page": 45,
+        "evidence": "1.0 \n \n \nReturn to Table of Contents \n43 \n7.04  FRONT OF ROOM \n \n \nFront of Learning Room, Mitchell Hall \n \n \nInstructor Station, Mitchell Hall \n \nThe front of the room is an important design feature for those learning environments which support \nforward-facing instruction."
+      }
+    ]
+  },
+  {
+    "question_id": "Q006",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 56)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "99bb500be0ab28469df33ffbe8b62bd1",
+    "chunk_index": 115,
+    "page": 56,
+    "exact_ground_truth_evidence": "hat will best serve your department and the University.  You may also use the above contact should \nyour department experience any issues requiring repair of furniture purchased.",
+    "expected_answer_points": [
+      "hat will best serve your department and the University.  You may also use the above contact should \nyour department experience any issues requiring re",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 56"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "99bb500be0ab28469df33ffbe8b62bd1",
+        "chunk_index": 115,
+        "page": 56,
+        "evidence": "hat will best serve your department and the University.  You may also use the above contact should \nyour department experience any issues requiring repair of furniture purchased."
+      }
+    ]
+  },
+  {
+    "question_id": "Q007",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 71)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "1be93a360a7498dc5e6206b238860bea",
+    "chunk_index": 138,
+    "page": 71,
+    "exact_ground_truth_evidence": "ter and some \ntype of large video display, makes the surface of the display become touch sensitive in some manner \nand allows it to be used to control the computer.",
+    "expected_answer_points": [
+      "ter and some \ntype of large video display, makes the surface of the display become touch sensitive in some manner \nand allows it to be used to control",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 71"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "1be93a360a7498dc5e6206b238860bea",
+        "chunk_index": 138,
+        "page": 71,
+        "evidence": "ter and some \ntype of large video display, makes the surface of the display become touch sensitive in some manner \nand allows it to be used to control the computer."
+      }
+    ]
+  },
+  {
+    "question_id": "Q008",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 83)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "5ddf183338e6e2e626fc29bee66b02eb",
+    "chunk_index": 161,
+    "page": 83,
+    "exact_ground_truth_evidence": "is long enough to reach all areas of the instructor workstation.  \nContact IT for specifications.  Project Administrators shall make arrangements to activate phone and \ndata service.",
+    "expected_answer_points": [
+      "is long enough to reach all areas of the instructor workstation.  \nContact IT for specifications.  Project Administrators shall make arrangements to a",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 83"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "5ddf183338e6e2e626fc29bee66b02eb",
+        "chunk_index": 161,
+        "page": 83,
+        "evidence": "is long enough to reach all areas of the instructor workstation.  \nContact IT for specifications.  Project Administrators shall make arrangements to activate phone and \ndata service."
+      }
+    ]
+  },
+  {
+    "question_id": "Q009",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 96)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "d68a24e12672479fc6789089e6868ccc",
+    "chunk_index": 184,
+    "page": 96,
+    "exact_ground_truth_evidence": "e provided for a ductwork, piping systems, electrical \nconduits, cable tray, special plumbing systems, etc.",
+    "expected_answer_points": [
+      "e provided for a ductwork, piping systems, electrical \nconduits, cable tray, special plumbing systems, etc.",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 96"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "d68a24e12672479fc6789089e6868ccc",
+        "chunk_index": 184,
+        "page": 96,
+        "evidence": "e provided for a ductwork, piping systems, electrical \nconduits, cable tray, special plumbing systems, etc."
+      }
+    ]
+  },
+  {
+    "question_id": "Q010",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 105)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a7812eed03ebe1c6f5851dc",
+    "ground_truth_filename": "0-LEDG-v.1.0-120224.pdf",
+    "ground_truth_chunk_id": "b640fa82f649f5a802a8d5d71c71b6d6",
+    "chunk_index": 207,
+    "page": 105,
+    "exact_ground_truth_evidence": "ach floor in locations where recyclable items are \npredominantly generated. \n \nRecycling containers should not be located within learning rooms, but should be located within lobbies, \nlunch rooms, informal gathering areas, or along corridor walls near learning room doors while in close \nproximity to trash receptacles so as to discourage contamination of recycling containers with trash.",
+    "expected_answer_points": [
+      "ach floor in locations where recyclable items are \npredominantly generated. \n \nRecycling containers should not be located within learning rooms, but s",
+      "Ground truth excerpt from 0-LEDG-v.1.0-120224.pdf page 105"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7812eed03ebe1c6f5851dc",
+        "filename": "0-LEDG-v.1.0-120224.pdf",
+        "chunk_id": "b640fa82f649f5a802a8d5d71c71b6d6",
+        "chunk_index": 207,
+        "page": 105,
+        "evidence": "ach floor in locations where recyclable items are \npredominantly generated. \n \nRecycling containers should not be located within learning rooms, but should be located within lobbies, \nlunch rooms, informal gathering areas, or along corridor walls near learning room doors while in close \nproximity to trash receptacles so as to discourage contamination of recycling containers with trash."
+      }
+    ]
+  },
+  {
+    "question_id": "Q011",
+    "question": "What guideline, service requirement, or specification is mandated in DRCS Cover - To author.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a7990b8c902988cd052c9d3",
+    "ground_truth_filename": "DRCS Cover - To author.pdf",
+    "ground_truth_chunk_id": "f2e793073fa9f198b5e49ed30c42c418",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designed to meet the \nrequirements of undergraduate students of civil and structural engineering.",
+    "expected_answer_points": [
+      "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designe",
+      "Ground truth excerpt from DRCS Cover - To author.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "filename": "DRCS Cover - To author.pdf",
+        "chunk_id": "f2e793073fa9f198b5e49ed30c42c418",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designed to meet the \nrequirements of undergraduate students of civil and structural engineering."
+      }
+    ]
+  },
+  {
+    "question_id": "Q012",
+    "question": "What guideline, service requirement, or specification is mandated in DRCS Cover - To author.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a7990b8c902988cd052c9d3",
+    "ground_truth_filename": "DRCS Cover - To author.pdf",
+    "ground_truth_chunk_id": "e9eeed11b64a037c26acf3f6b4465f97",
+    "chunk_index": 2,
+    "page": 1,
+    "exact_ground_truth_evidence": "b links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and",
+    "expected_answer_points": [
+      "b links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and",
+      "Ground truth excerpt from DRCS Cover - To author.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "filename": "DRCS Cover - To author.pdf",
+        "chunk_id": "e9eeed11b64a037c26acf3f6b4465f97",
+        "chunk_index": 2,
+        "page": 1,
+        "evidence": "b links are provided in the chapters for \nfurther study and research. \nBased on the latest version of IS 456:2000 and IS 13920:1993 and"
+      }
+    ]
+  },
+  {
+    "question_id": "Q013",
+    "question": "What guideline, service requirement, or specification is mandated in DRCS Cover - To author.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a7990b8c902988cd052c9d3",
+    "ground_truth_filename": "DRCS Cover - To author.pdf",
+    "ground_truth_chunk_id": "d5fc1dc435cdc48f7f9a85d70e73e875",
+    "chunk_index": 4,
+    "page": 1,
+    "exact_ground_truth_evidence": "an \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngineering Forum of India.\nHe is also the author of the immensely popular book, Design of Steel \nStructures, published by OUP India in 2008.",
+    "expected_answer_points": [
+      "an \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngine",
+      "Ground truth excerpt from DRCS Cover - To author.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a7990b8c902988cd052c9d3",
+        "filename": "DRCS Cover - To author.pdf",
+        "chunk_id": "d5fc1dc435cdc48f7f9a85d70e73e875",
+        "chunk_index": 4,
+        "page": 1,
+        "evidence": "an \nConcrete Institute (ICI) and the ACCE(I)-Nagadi best book award for \ntwo of his books. He also serves as a mentor at the online Structural \nEngineering Forum of India.\nHe is also the author of the immensely popular book, Design of Steel \nStructures, published by OUP India in 2008."
+      }
+    ]
+  },
+  {
+    "question_id": "Q014",
+    "question": "What guideline, service requirement, or specification is mandated in 2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a79a3b8ca0dbb46c36a02d6",
+    "ground_truth_filename": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+    "ground_truth_chunk_id": "e3c8e940c6ba8a9f2696792a8a1d501a",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed during the annual inspection.\n2.",
+    "expected_answer_points": [
+      "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed durin",
+      "Ground truth excerpt from 2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a3b8ca0dbb46c36a02d6",
+        "filename": "2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf",
+        "chunk_id": "e3c8e940c6ba8a9f2696792a8a1d501a",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed during the annual inspection.\n2."
+      }
+    ]
+  },
+  {
+    "question_id": "Q015",
+    "question": "What guideline, service requirement, or specification is mandated in G01facilitiesdocumentationguidelines_1.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a79a3f88ad17e8f86e6c72a",
+    "ground_truth_filename": "G01facilitiesdocumentationguidelines_1.pdf",
+    "ground_truth_chunk_id": "8eb788829719d07a1e302247e519bebe",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website.",
+    "expected_answer_points": [
+      "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThi",
+      "Ground truth excerpt from G01facilitiesdocumentationguidelines_1.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_id": "8eb788829719d07a1e302247e519bebe",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website."
+      }
+    ]
+  },
+  {
+    "question_id": "Q016",
+    "question": "What guideline, service requirement, or specification is mandated in G01facilitiesdocumentationguidelines_1.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a79a3f88ad17e8f86e6c72a",
+    "ground_truth_filename": "G01facilitiesdocumentationguidelines_1.pdf",
+    "ground_truth_chunk_id": "8792d43dd9578808ded689748dc61d51",
+    "chunk_index": 1,
+    "page": 1,
+    "exact_ground_truth_evidence": "artment as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation Technology \nIT \nParking and Transportation \nPATS \nSafety \nEHS \n \nThe Responsible Party is the head of the department or their designee.",
+    "expected_answer_points": [
+      "artment as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainabili",
+      "Ground truth excerpt from G01facilitiesdocumentationguidelines_1.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_id": "8792d43dd9578808ded689748dc61d51",
+        "chunk_index": 1,
+        "page": 1,
+        "evidence": "artment as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation Technology \nIT \nParking and Transportation \nPATS \nSafety \nEHS \n \nThe Responsible Party is the head of the department or their designee."
+      }
+    ]
+  },
+  {
+    "question_id": "Q017",
+    "question": "What guideline, service requirement, or specification is mandated in G01facilitiesdocumentationguidelines_1.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a79a3f88ad17e8f86e6c72a",
+    "ground_truth_filename": "G01facilitiesdocumentationguidelines_1.pdf",
+    "ground_truth_chunk_id": "c4bf3fb7d06a399e41d4a24981a16d05",
+    "chunk_index": 2,
+    "page": 1,
+    "exact_ground_truth_evidence": "ropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if applicable.",
+    "expected_answer_points": [
+      "ropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if appl",
+      "Ground truth excerpt from G01facilitiesdocumentationguidelines_1.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a3f88ad17e8f86e6c72a",
+        "filename": "G01facilitiesdocumentationguidelines_1.pdf",
+        "chunk_id": "c4bf3fb7d06a399e41d4a24981a16d05",
+        "chunk_index": 2,
+        "page": 1,
+        "evidence": "ropriate, each step in \nthe process will be numbered. The tasks and steps must be clear and concise. Include the \nexpected result from a task, if applicable."
+      }
+    ]
+  },
+  {
+    "question_id": "Q018",
+    "question": "What guideline, service requirement, or specification is mandated in New Building Services Template_v4.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a79a41a08ca0700b6046c74",
+    "ground_truth_filename": "New Building Services Template_v4.pdf",
+    "ground_truth_chunk_id": "0d90c5a0a4a7b8981326cbc0fd75e4d4",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF",
+    "expected_answer_points": [
+      "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF",
+      "Ground truth excerpt from New Building Services Template_v4.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "filename": "New Building Services Template_v4.pdf",
+        "chunk_id": "0d90c5a0a4a7b8981326cbc0fd75e4d4",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF"
+      }
+    ]
+  },
+  {
+    "question_id": "Q019",
+    "question": "What guideline, service requirement, or specification is mandated in New Building Services Template_v4.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a79a41a08ca0700b6046c74",
+    "ground_truth_filename": "New Building Services Template_v4.pdf",
+    "ground_truth_chunk_id": "9908cb7b8b9ca4ff3caf47199831e835",
+    "chunk_index": 2,
+    "page": 1,
+    "exact_ground_truth_evidence": "oom is based on the number of other \nbuildings being served and if it is shared with other electrical \nservices (this would add additional space).",
+    "expected_answer_points": [
+      "oom is based on the number of other \nbuildings being served and if it is shared with other electrical \nservices (this would add additional space).",
+      "Ground truth excerpt from New Building Services Template_v4.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "filename": "New Building Services Template_v4.pdf",
+        "chunk_id": "9908cb7b8b9ca4ff3caf47199831e835",
+        "chunk_index": 2,
+        "page": 1,
+        "evidence": "oom is based on the number of other \nbuildings being served and if it is shared with other electrical \nservices (this would add additional space)."
+      }
+    ]
+  },
+  {
+    "question_id": "Q020",
+    "question": "What guideline, service requirement, or specification is mandated in New Building Services Template_v4.pdf (page 2)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a79a41a08ca0700b6046c74",
+    "ground_truth_filename": "New Building Services Template_v4.pdf",
+    "ground_truth_chunk_id": "3fd73d3894e99130cb7c41150798a413",
+    "chunk_index": 4,
+    "page": 2,
+    "exact_ground_truth_evidence": "TS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))",
+    "expected_answer_points": [
+      "TS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))",
+      "Ground truth excerpt from New Building Services Template_v4.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a41a08ca0700b6046c74",
+        "filename": "New Building Services Template_v4.pdf",
+        "chunk_id": "3fd73d3894e99130cb7c41150798a413",
+        "chunk_index": 4,
+        "page": 2,
+        "evidence": "TS\nrevised 7/02/2008\nDRAFT\nNew Building Requirements - By Building Floors ((Does not include - C. ITS (Potential Building Requirements) information))"
+      }
+    ]
+  },
+  {
+    "question_id": "Q021",
+    "question": "What guideline, service requirement, or specification is mandated in gurugram-page044-45.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a79a455976f591cd07e5757",
+    "ground_truth_filename": "gurugram-page044-45.pdf",
+    "ground_truth_chunk_id": "514059c3b5a051eed181274f53419b65",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE \nDEPARTMENT OF CIVIL ENGINEERING \n  \n \nROORKEE 247667, UTTARAKHAND, INDIA \n                               PHONE: +91-1332-285612 (O), 5023 (R), 8954333954 (M) \n Email: crajib2009@gmail.com; rajibfce@iitr.ac.in \n \nDr.",
+    "expected_answer_points": [
+      "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE \nDEPARTMENT OF CIVIL ENGINEERING \n  \n \nROORKEE 247667, UTTARAKHAND, INDIA \n                               PHONE",
+      "Ground truth excerpt from gurugram-page044-45.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a455976f591cd07e5757",
+        "filename": "gurugram-page044-45.pdf",
+        "chunk_id": "514059c3b5a051eed181274f53419b65",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "INDIAN INSTITUTE OF TECHNOLOGY ROORKEE \nDEPARTMENT OF CIVIL ENGINEERING \n  \n \nROORKEE 247667, UTTARAKHAND, INDIA \n                               PHONE: +91-1332-285612 (O), 5023 (R), 8954333954 (M) \n Email: crajib2009@gmail.com; rajibfce@iitr.ac.in \n \nDr."
+      }
+    ]
+  },
+  {
+    "question_id": "Q022",
+    "question": "What guideline, service requirement, or specification is mandated in gurugram-page044-45.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a79a455976f591cd07e5757",
+    "ground_truth_filename": "gurugram-page044-45.pdf",
+    "ground_truth_chunk_id": "df1e99cb1665252b8525522bfb8dbeca",
+    "chunk_index": 1,
+    "page": 1,
+    "exact_ground_truth_evidence": "ned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-Storeyed Residential Towers No.",
+    "expected_answer_points": [
+      "ned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-St",
+      "Ground truth excerpt from gurugram-page044-45.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a455976f591cd07e5757",
+        "filename": "gurugram-page044-45.pdf",
+        "chunk_id": "df1e99cb1665252b8525522bfb8dbeca",
+        "chunk_index": 1,
+        "page": 1,
+        "evidence": "ned from IIT, Roorkee was engaged for the assignment of undertaking Proof-checking of Structural \nDrawings and Structural Health Safety Audit of 14-Storeyed Residential Towers No."
+      }
+    ]
+  },
+  {
+    "question_id": "Q023",
+    "question": "What guideline, service requirement, or specification is mandated in gurugram-page044-45.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a79a455976f591cd07e5757",
+    "ground_truth_filename": "gurugram-page044-45.pdf",
+    "ground_truth_chunk_id": "72cbf95088b47eccb4d39e46eb0d8b2c",
+    "chunk_index": 2,
+    "page": 1,
+    "exact_ground_truth_evidence": "04 Towers in the Uniworld garden-II Project are found to be safe and liveable, subject \nto rectification of construction related deficiencies wherever observed and mentioned in the detailed \nreport.",
+    "expected_answer_points": [
+      "04 Towers in the Uniworld garden-II Project are found to be safe and liveable, subject \nto rectification of construction related deficiencies wherever",
+      "Ground truth excerpt from gurugram-page044-45.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a455976f591cd07e5757",
+        "filename": "gurugram-page044-45.pdf",
+        "chunk_id": "72cbf95088b47eccb4d39e46eb0d8b2c",
+        "chunk_index": 2,
+        "page": 1,
+        "evidence": "04 Towers in the Uniworld garden-II Project are found to be safe and liveable, subject \nto rectification of construction related deficiencies wherever observed and mentioned in the detailed \nreport."
+      }
+    ]
+  },
+  {
+    "question_id": "Q024",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in viga-and-corbel-inspection.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a79a4acc42349d6271bf3cd",
+    "ground_truth_filename": "viga-and-corbel-inspection.pdf",
+    "ground_truth_chunk_id": "6195d0a28a6f4cdf3c81c20f9f63732f",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Inspecting Vigas and Corbels 159\nINSPECTING VIGAS\nAND CORBELS\nT\nhis section briefly explains how to inspect\nvigas and corbels and how best to preserve,\nrepair or replace them.\nThe method developed for the repair of\nviga ends uses a threaded glass fiber rod to join\nnew ends to existing vigas.",
+    "expected_answer_points": [
+      "Inspecting Vigas and Corbels 159\nINSPECTING VIGAS\nAND CORBELS\nT\nhis section briefly explains how to inspect\nvigas and corbels and how best to preserve",
+      "Ground truth excerpt from viga-and-corbel-inspection.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "filename": "viga-and-corbel-inspection.pdf",
+        "chunk_id": "6195d0a28a6f4cdf3c81c20f9f63732f",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Inspecting Vigas and Corbels 159\nINSPECTING VIGAS\nAND CORBELS\nT\nhis section briefly explains how to inspect\nvigas and corbels and how best to preserve,\nrepair or replace them.\nThe method developed for the repair of\nviga ends uses a threaded glass fiber rod to join\nnew ends to existing vigas."
+      }
+    ]
+  },
+  {
+    "question_id": "Q025",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in viga-and-corbel-inspection.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a79a4acc42349d6271bf3cd",
+    "ground_truth_filename": "viga-and-corbel-inspection.pdf",
+    "ground_truth_chunk_id": "344efa3f357af8bb4469aef220328a2c",
+    "chunk_index": 2,
+    "page": 1,
+    "exact_ground_truth_evidence": "ch viga must be\nassessed for structural stability. Look for failures,\ndamages from moisture, insects or fungus inva-",
+    "expected_answer_points": [
+      "ch viga must be\nassessed for structural stability. Look for failures,\ndamages from moisture, insects or fungus inva-",
+      "Ground truth excerpt from viga-and-corbel-inspection.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "filename": "viga-and-corbel-inspection.pdf",
+        "chunk_id": "344efa3f357af8bb4469aef220328a2c",
+        "chunk_index": 2,
+        "page": 1,
+        "evidence": "ch viga must be\nassessed for structural stability. Look for failures,\ndamages from moisture, insects or fungus inva-"
+      }
+    ]
+  },
+  {
+    "question_id": "Q026",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in viga-and-corbel-inspection.pdf (page 2)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a79a4acc42349d6271bf3cd",
+    "ground_truth_filename": "viga-and-corbel-inspection.pdf",
+    "ground_truth_chunk_id": "ac99ba30d368af9737a89a7f690a7f74",
+    "chunk_index": 4,
+    "page": 2,
+    "exact_ground_truth_evidence": "ayed wood, remove softened wood until solid wood is reached. When the softened\nwood has been removed, estimate the volume of solid material remaining: If the remaining solid wood is 60%\nor more of the total original volume, the viga should be consolidated (preferably using a dutchman).",
+    "expected_answer_points": [
+      "ayed wood, remove softened wood until solid wood is reached. When the softened\nwood has been removed, estimate the volume of solid material remaining:",
+      "Ground truth excerpt from viga-and-corbel-inspection.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a79a4acc42349d6271bf3cd",
+        "filename": "viga-and-corbel-inspection.pdf",
+        "chunk_id": "ac99ba30d368af9737a89a7f690a7f74",
+        "chunk_index": 4,
+        "page": 2,
+        "evidence": "ayed wood, remove softened wood until solid wood is reached. When the softened\nwood has been removed, estimate the volume of solid material remaining: If the remaining solid wood is 60%\nor more of the total original volume, the viga should be consolidated (preferably using a dutchman)."
+      }
+    ]
+  },
+  {
+    "question_id": "Q027",
+    "question": "According to acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a803c17bcf33fcc925f26bf",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+    "ground_truth_chunk_id": "29aeef6fa0b9f409dd584fa397e48a12",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "[image]\nLibrary\nRepository Home account_circle Login\nTitle\nMetadata\nAbstract\nFiles\nCarbonation of cement paste",
+    "expected_answer_points": [
+      "[image]\nLibrary\nRepository Home account_circle Login\nTitle\nMetadata\nAbstract\nFiles\nCarbonation of cement paste",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c17bcf33fcc925f26bf",
+        "filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+        "chunk_id": "29aeef6fa0b9f409dd584fa397e48a12",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "[image]\nLibrary\nRepository Home account_circle Login\nTitle\nMetadata\nAbstract\nFiles\nCarbonation of cement paste"
+      }
+    ]
+  },
+  {
+    "question_id": "Q028",
+    "question": "According to acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a803c17bcf33fcc925f26bf",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+    "ground_truth_chunk_id": "513153443ef3904a12a958ef8322d711",
+    "chunk_index": 1,
+    "page": 2,
+    "exact_ground_truth_evidence": "gust\nVolume number\n117\nPages (from-to)\n285-301\nDownloads counter\n901\nCollections\nInstitutional Repository",
+    "expected_answer_points": [
+      "gust\nVolume number\n117\nPages (from-to)\n285-301\nDownloads counter\n901\nCollections\nInstitutional Repository",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c17bcf33fcc925f26bf",
+        "filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+        "chunk_id": "513153443ef3904a12a958ef8322d711",
+        "chunk_index": 1,
+        "page": 2,
+        "evidence": "gust\nVolume number\n117\nPages (from-to)\n285-301\nDownloads counter\n901\nCollections\nInstitutional Repository"
+      }
+    ]
+  },
+  {
+    "question_id": "Q029",
+    "question": "According to acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a803c17bcf33fcc925f26bf",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+    "ground_truth_chunk_id": "233b87cf48f5655a5095a50b46997690",
+    "chunk_index": 2,
+    "page": 2,
+    "exact_ground_truth_evidence": "x. The present review summarises the state of\nthe art regarding the understanding and consequences of\ncarbonation of cement paste.",
+    "expected_answer_points": [
+      "x. The present review summarises the state of\nthe art regarding the understanding and consequences of\ncarbonation of cement paste.",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c17bcf33fcc925f26bf",
+        "filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+        "chunk_id": "233b87cf48f5655a5095a50b46997690",
+        "chunk_index": 2,
+        "page": 2,
+        "evidence": "x. The present review summarises the state of\nthe art regarding the understanding and consequences of\ncarbonation of cement paste."
+      }
+    ]
+  },
+  {
+    "question_id": "Q030",
+    "question": "According to acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a803c54bcf33fcc925f26c1",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf",
+    "ground_truth_chunk_id": "64581d5260dbc1a8e09b1fdc4475701e",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Skip to main content\nThank you for visiting nature.com. You are using a browser version\nwith limited support for CSS.",
+    "expected_answer_points": [
+      "Skip to main content\nThank you for visiting nature.com. You are using a browser version\nwith limited support for CSS.",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c54bcf33fcc925f26c1",
+        "filename": "acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf",
+        "chunk_id": "64581d5260dbc1a8e09b1fdc4475701e",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Skip to main content\nThank you for visiting nature.com. You are using a browser version\nwith limited support for CSS."
+      }
+    ]
+  },
+  {
+    "question_id": "Q031",
+    "question": "According to acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf, what key findings or processes regarding concrete carbonation are described in section/page 8?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a803c54bcf33fcc925f26c1",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf",
+    "ground_truth_chunk_id": "d3bfc8b67a24fbb89cb77bab7376330f",
+    "chunk_index": 10,
+    "page": 8,
+    "exact_ground_truth_evidence": ". A large and persistent carbon sink in the world\u2019s\nforests. Science 333, 988\u2013993 (2011).\nArticle\u00a0 Google Scholar\u00a0\n27.",
+    "expected_answer_points": [
+      ". A large and persistent carbon sink in the world\u2019s\nforests. Science 333, 988\u2013993 (2011).\nArticle\u00a0 Google Scholar\u00a0\n27.",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf page 8"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c54bcf33fcc925f26c1",
+        "filename": "acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf",
+        "chunk_id": "d3bfc8b67a24fbb89cb77bab7376330f",
+        "chunk_index": 10,
+        "page": 8,
+        "evidence": ". A large and persistent carbon sink in the world\u2019s\nforests. Science 333, 988\u2013993 (2011).\nArticle\u00a0 Google Scholar\u00a0\n27."
+      }
+    ]
+  },
+  {
+    "question_id": "Q032",
+    "question": "According to acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf, what key findings or processes regarding concrete carbonation are described in section/page 14?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a803c54bcf33fcc925f26c1",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf",
+    "ground_truth_chunk_id": "36f9685ce9089e9e1d16c1e4c217896c",
+    "chunk_index": 20,
+    "page": 14,
+    "exact_ground_truth_evidence": "344,\n31100346, 41629501, 71533005), Fund of Youth Innovation\nPromotion Association, Chinese Academy of Sciences, Fund of",
+    "expected_answer_points": [
+      "344,\n31100346, 41629501, 71533005), Fund of Youth Innovation\nPromotion Association, Chinese Academy of Sciences, Fund of",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf page 14"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c54bcf33fcc925f26c1",
+        "filename": "acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf",
+        "chunk_id": "36f9685ce9089e9e1d16c1e4c217896c",
+        "chunk_index": 20,
+        "page": 14,
+        "evidence": "344,\n31100346, 41629501, 71533005), Fund of Youth Innovation\nPromotion Association, Chinese Academy of Sciences, Fund of"
+      }
+    ]
+  },
+  {
+    "question_id": "Q033",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a803dadbcf33fcc925f26c3",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+    "ground_truth_chunk_id": "c67483702f451ce1ae2da26df86b38d7",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Article \n \nEffects of Carbonation on Corrosion Rate of \nReinforcing Steel in Different Concrete and Repair",
+    "expected_answer_points": [
+      "Article \n \nEffects of Carbonation on Corrosion Rate of \nReinforcing Steel in Different Concrete and Repair",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803dadbcf33fcc925f26c3",
+        "filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+        "chunk_id": "c67483702f451ce1ae2da26df86b38d7",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Article \n \nEffects of Carbonation on Corrosion Rate of \nReinforcing Steel in Different Concrete and Repair"
+      }
+    ]
+  },
+  {
+    "question_id": "Q034",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a803dadbcf33fcc925f26c3",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+    "ground_truth_chunk_id": "729740b86c8e84f6db230ad1451f54a5",
+    "chunk_index": 11,
+    "page": 2,
+    "exact_ground_truth_evidence": "rbonation on the corrosion behavior of steel \nembedded in OPC concrete together with OPC blended \nfly ash concrete with different w/b ratio.",
+    "expected_answer_points": [
+      "rbonation on the corrosion behavior of steel \nembedded in OPC concrete together with OPC blended \nfly ash concrete with different w/b ratio.",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803dadbcf33fcc925f26c3",
+        "filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+        "chunk_id": "729740b86c8e84f6db230ad1451f54a5",
+        "chunk_index": 11,
+        "page": 2,
+        "evidence": "rbonation on the corrosion behavior of steel \nembedded in OPC concrete together with OPC blended \nfly ash concrete with different w/b ratio."
+      }
+    ]
+  },
+  {
+    "question_id": "Q035",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 5?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a803dadbcf33fcc925f26c3",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+    "ground_truth_chunk_id": "0f1652902820a814f0176b341bc8f9a3",
+    "chunk_index": 22,
+    "page": 5,
+    "exact_ground_truth_evidence": "used in this test. The test was conducted by \nwetting the tips of the four electrodes with water and \nthen placing them on the uncoated surface of sample.",
+    "expected_answer_points": [
+      "used in this test. The test was conducted by \nwetting the tips of the four electrodes with water and \nthen placing them on the uncoated surface of sam",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf page 5"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803dadbcf33fcc925f26c3",
+        "filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+        "chunk_id": "0f1652902820a814f0176b341bc8f9a3",
+        "chunk_index": 22,
+        "page": 5,
+        "evidence": "used in this test. The test was conducted by \nwetting the tips of the four electrodes with water and \nthen placing them on the uncoated surface of sample."
+      }
+    ]
+  },
+  {
+    "question_id": "Q036",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 7?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a803dadbcf33fcc925f26c3",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+    "ground_truth_chunk_id": "22ed647d1ebe138f0614b3f1184653e9",
+    "chunk_index": 33,
+    "page": 7,
+    "exact_ground_truth_evidence": "rmally drier than at the deeper depth. \nTherefore, resistance measured by EIS is higher than \nWenner probe.",
+    "expected_answer_points": [
+      "rmally drier than at the deeper depth. \nTherefore, resistance measured by EIS is higher than \nWenner probe.",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf page 7"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803dadbcf33fcc925f26c3",
+        "filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+        "chunk_id": "22ed647d1ebe138f0614b3f1184653e9",
+        "chunk_index": 33,
+        "page": 7,
+        "evidence": "rmally drier than at the deeper depth. \nTherefore, resistance measured by EIS is higher than \nWenner probe."
+      }
+    ]
+  },
+  {
+    "question_id": "Q037",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 10?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a803dadbcf33fcc925f26c3",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+    "ground_truth_chunk_id": "90cd3a125ae80b6338822120d26c4f2f",
+    "chunk_index": 44,
+    "page": 10,
+    "exact_ground_truth_evidence": "(RD) decreased. Results also show good relationship \nwhich depends on type of binder. The relationship \nbetween remaining uncarbonated depth and corrosion \nrate is shown in Fig.",
+    "expected_answer_points": [
+      "(RD) decreased. Results also show good relationship \nwhich depends on type of binder. The relationship \nbetween remaining uncarbonated depth and corro",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf page 10"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803dadbcf33fcc925f26c3",
+        "filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+        "chunk_id": "90cd3a125ae80b6338822120d26c4f2f",
+        "chunk_index": 44,
+        "page": 10,
+        "evidence": "(RD) decreased. Results also show good relationship \nwhich depends on type of binder. The relationship \nbetween remaining uncarbonated depth and corrosion \nrate is shown in Fig."
+      }
+    ]
+  },
+  {
+    "question_id": "Q038",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a803f5cbcf33fcc925f26c5",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+    "ground_truth_chunk_id": "fe3ae83ae2c996343996449d66a80178",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Evaluating an eco-olivine nanosilica as an alternative silica\nsource in alkali-activated composites\nCitation for published version (APA):\nGao, X., Yu, Q., Lazaro Garcia, A., & Brouwers, H.",
+    "expected_answer_points": [
+      "Evaluating an eco-olivine nanosilica as an alternative silica\nsource in alkali-activated composites\nCitation for published version (APA):\nGao, X., Yu,",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803f5cbcf33fcc925f26c5",
+        "filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+        "chunk_id": "fe3ae83ae2c996343996449d66a80178",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Evaluating an eco-olivine nanosilica as an alternative silica\nsource in alkali-activated composites\nCitation for published version (APA):\nGao, X., Yu, Q., Lazaro Garcia, A., & Brouwers, H."
+      }
+    ]
+  },
+  {
+    "question_id": "Q039",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a803f5cbcf33fcc925f26c5",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+    "ground_truth_chunk_id": "885ab2673b14b6e54e73919233db5d3b",
+    "chunk_index": 11,
+    "page": 2,
+    "exact_ground_truth_evidence": "Copyright ASCE. For personal use only; all rights reserved.\n\n\ndissolution of olivine, with extremely low environmental impact\nand low energy costs, and hence this exhibits potential as a sustain-\nable silicate-based activator.",
+    "expected_answer_points": [
+      "Copyright ASCE. For personal use only; all rights reserved.\n\n\ndissolution of olivine, with extremely low environmental impact\nand low energy costs, an",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803f5cbcf33fcc925f26c5",
+        "filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+        "chunk_id": "885ab2673b14b6e54e73919233db5d3b",
+        "chunk_index": 11,
+        "page": 2,
+        "evidence": "Copyright ASCE. For personal use only; all rights reserved.\n\n\ndissolution of olivine, with extremely low environmental impact\nand low energy costs, and hence this exhibits potential as a sustain-\nable silicate-based activator."
+      }
+    ]
+  },
+  {
+    "question_id": "Q040",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 5?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a803f5cbcf33fcc925f26c5",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+    "ground_truth_chunk_id": "d7916d174776cf50350a454ec24de99f",
+    "chunk_index": 22,
+    "page": 5,
+    "exact_ground_truth_evidence": "quor (SiO2\u2236Na2O ratio of\n2\u22361) with a 48% solid content (i.e., 32% by weight of SiO2) is be-\ntween 420 and 1,250 MJ=t (European Commission 2007).",
+    "expected_answer_points": [
+      "quor (SiO2\u2236Na2O ratio of\n2\u22361) with a 48% solid content (i.e., 32% by weight of SiO2) is be-\ntween 420 and 1,250 MJ=t (European Commission 2007).",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf page 5"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803f5cbcf33fcc925f26c5",
+        "filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+        "chunk_id": "d7916d174776cf50350a454ec24de99f",
+        "chunk_index": 22,
+        "page": 5,
+        "evidence": "quor (SiO2\u2236Na2O ratio of\n2\u22361) with a 48% solid content (i.e., 32% by weight of SiO2) is be-\ntween 420 and 1,250 MJ=t (European Commission 2007)."
+      }
+    ]
+  },
+  {
+    "question_id": "Q041",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 6?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a803f5cbcf33fcc925f26c5",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+    "ground_truth_chunk_id": "199f7104e27f45a52a25519f1cbadb70",
+    "chunk_index": 33,
+    "page": 6,
+    "exact_ground_truth_evidence": "ownloaded from ascelibrary.org by Q.L. Yu on 01/09/18. Copyright ASCE. For personal use only; all rights reserved.\n\n\nIt is well known that the activator modulus plays an important\nrole in determining the compressive strength.",
+    "expected_answer_points": [
+      "ownloaded from ascelibrary.org by Q.L. Yu on 01/09/18. Copyright ASCE. For personal use only; all rights reserved.\n\n\nIt is well known that the activat",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803f5cbcf33fcc925f26c5",
+        "filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+        "chunk_id": "199f7104e27f45a52a25519f1cbadb70",
+        "chunk_index": 33,
+        "page": 6,
+        "evidence": "ownloaded from ascelibrary.org by Q.L. Yu on 01/09/18. Copyright ASCE. For personal use only; all rights reserved.\n\n\nIt is well known that the activator modulus plays an important\nrole in determining the compressive strength."
+      }
+    ]
+  },
+  {
+    "question_id": "Q042",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 8?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a803f5cbcf33fcc925f26c5",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+    "ground_truth_chunk_id": "08161d988606ac9d24100e2137f7337b",
+    "chunk_index": 44,
+    "page": 8,
+    "exact_ground_truth_evidence": "Activation of metakaolin/slag blends using alka-\nline solutions based on chemically modified silica fume and rice husk\nash.\u201d Waste Biomass.",
+    "expected_answer_points": [
+      "Activation of metakaolin/slag blends using alka-\nline solutions based on chemically modified silica fume and rice husk\nash.\u201d Waste Biomass.",
+      "Ground truth excerpt from acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf page 8"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a803f5cbcf33fcc925f26c5",
+        "filename": "acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf",
+        "chunk_id": "08161d988606ac9d24100e2137f7337b",
+        "chunk_index": 44,
+        "page": 8,
+        "evidence": "Activation of metakaolin/slag blends using alka-\nline solutions based on chemically modified silica fume and rice husk\nash.\u201d Waste Biomass."
+      }
+    ]
+  },
+  {
+    "question_id": "Q043",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf on page 1?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a80403fbcf33fcc925f26c7",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+    "ground_truth_chunk_id": "06ef9f53d7f38c792c932f54cb2c86fd",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Architectural Institute of Japan\nNII-Electronic Library Service\nArohiteotural\n\u30a8nstitute\n\u3000of\n\u3000Japan\n\u3010\u30ab\u30c6\u30b4\u30ea\u30fcII\u3011\u3000\uff0e",
+    "expected_answer_points": [
+      "Architectural Institute of Japan\nNII-Electronic Library Service\nArohiteotural\n\u30a8nstitute\n\u3000of\n\u3000Japan\n\u3010\u30ab\u30c6\u30b4\u30ea\u30fcII\u3011\u3000\uff0e",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80403fbcf33fcc925f26c7",
+        "filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+        "chunk_id": "06ef9f53d7f38c792c932f54cb2c86fd",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Architectural Institute of Japan\nNII-Electronic Library Service\nArohiteotural\n\u30a8nstitute\n\u3000of\n\u3000Japan\n\u3010\u30ab\u30c6\u30b4\u30ea\u30fcII\u3011\u3000\uff0e"
+      }
+    ]
+  },
+  {
+    "question_id": "Q044",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf on page 2?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a80403fbcf33fcc925f26c7",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+    "ground_truth_chunk_id": "16d787d61a82ea59a3813ec85e0506da",
+    "chunk_index": 10,
+    "page": 2,
+    "exact_ground_truth_evidence": "slip\u3000after\u3000shear\u3000failure\n\uff0c\n\u3000F\uff1d\n\u65e7e\u6e2cral \u4f3dlure\uff0c\n\u3000F\u2212B\u531abond\n\u3000\u3000\nslip\u3000afier\u3000flexural\n\u3000fallure\n\uff0c\n\uff08Y \uff5d\uff1dyield\n\u3000efrebar",
+    "expected_answer_points": [
+      "slip\u3000after\u3000shear\u3000failure\n\uff0c\n\u3000F\uff1d\n\u65e7e\u6e2cral \u4f3dlure\uff0c\n\u3000F\u2212B\u531abond\n\u3000\u3000\nslip\u3000afier\u3000flexural\n\u3000fallure\n\uff0c\n\uff08Y \uff5d\uff1dyield\n\u3000efrebar",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80403fbcf33fcc925f26c7",
+        "filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+        "chunk_id": "16d787d61a82ea59a3813ec85e0506da",
+        "chunk_index": 10,
+        "page": 2,
+        "evidence": "slip\u3000after\u3000shear\u3000failure\n\uff0c\n\u3000F\uff1d\n\u65e7e\u6e2cral \u4f3dlure\uff0c\n\u3000F\u2212B\u531abond\n\u3000\u3000\nslip\u3000afier\u3000flexural\n\u3000fallure\n\uff0c\n\uff08Y \uff5d\uff1dyield\n\u3000efrebar"
+      }
+    ]
+  },
+  {
+    "question_id": "Q045",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf on page 5?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a80403fbcf33fcc925f26c7",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+    "ground_truth_chunk_id": "c9c79d1114db05121ce6522ef8e390dc",
+    "chunk_index": 20,
+    "page": 5,
+    "exact_ground_truth_evidence": "7Calc \u201c \u7f6eated \u3000bond \u3000strength\n\uff08shearfailure\n\u3000specimens\n\uff5d\n18\n\u30114\n1\n\u3000\u3000\n\u3000\u3000\u3000\u3000\n\u3000\u3000\u3000\n\u3000\u3000\u3000\n0\uff0c\n6\n\u3000\u30000\uff0c\n6 \u3000\u3000\u8056O \u3000\u3000I4 \u5851",
+    "expected_answer_points": [
+      "7Calc \u201c \u7f6eated \u3000bond \u3000strength\n\uff08shearfailure\n\u3000specimens\n\uff5d\n18\n\u30114\n1\n\u3000\u3000\n\u3000\u3000\u3000\u3000\n\u3000\u3000\u3000\n\u3000\u3000\u3000\n0\uff0c\n6\n\u3000\u30000\uff0c\n6 \u3000\u3000\u8056O \u3000\u3000I4 \u5851",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf page 5"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80403fbcf33fcc925f26c7",
+        "filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+        "chunk_id": "c9c79d1114db05121ce6522ef8e390dc",
+        "chunk_index": 20,
+        "page": 5,
+        "evidence": "7Calc \u201c \u7f6eated \u3000bond \u3000strength\n\uff08shearfailure\n\u3000specimens\n\uff5d\n18\n\u30114\n1\n\u3000\u3000\n\u3000\u3000\u3000\u3000\n\u3000\u3000\u3000\n\u3000\u3000\u3000\n0\uff0c\n6\n\u3000\u30000\uff0c\n6 \u3000\u3000\u8056O \u3000\u3000I4 \u5851"
+      }
+    ]
+  },
+  {
+    "question_id": "Q046",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 1?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "f43e5615037e44505e56b2c559d3cd54",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "ORIGINAL ARTICLE \n \nReceived: December 21, 2019. In Revised Form: March 13, 2020. Accepted: March 16, 2020.",
+    "expected_answer_points": [
+      "ORIGINAL ARTICLE \n \nReceived: December 21, 2019. In Revised Form: March 13, 2020. Accepted: March 16, 2020.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "f43e5615037e44505e56b2c559d3cd54",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "ORIGINAL ARTICLE \n \nReceived: December 21, 2019. In Revised Form: March 13, 2020. Accepted: March 16, 2020."
+      }
+    ]
+  },
+  {
+    "question_id": "Q047",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 2?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "5f8520556ff862912950d2970b762f2e",
+    "chunk_index": 11,
+    "page": 2,
+    "exact_ground_truth_evidence": "while CFRP sheets were used to reinforce the \nrest of the eight specimens. The parameters that were examined were the impact of concrete compressive strength and \nthe angle of a twist.",
+    "expected_answer_points": [
+      "while CFRP sheets were used to reinforce the \nrest of the eight specimens. The parameters that were examined were the impact of concrete compressive s",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "5f8520556ff862912950d2970b762f2e",
+        "chunk_index": 11,
+        "page": 2,
+        "evidence": "while CFRP sheets were used to reinforce the \nrest of the eight specimens. The parameters that were examined were the impact of concrete compressive strength and \nthe angle of a twist."
+      }
+    ]
+  },
+  {
+    "question_id": "Q048",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 6?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "4cf9c2d9466ecbd1e9783888cbcd9f5b",
+    "chunk_index": 22,
+    "page": 6,
+    "exact_ground_truth_evidence": "2.2  Design of CFRP sheets \nThe CFRP strengthening was designed considering the total shear capacity of the joint core as the sum of concrete \nand CFRP contributions.",
+    "expected_answer_points": [
+      "2.2  Design of CFRP sheets \nThe CFRP strengthening was designed considering the total shear capacity of the joint core as the sum of concrete \nand CFR",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "4cf9c2d9466ecbd1e9783888cbcd9f5b",
+        "chunk_index": 22,
+        "page": 6,
+        "evidence": "2.2  Design of CFRP sheets \nThe CFRP strengthening was designed considering the total shear capacity of the joint core as the sum of concrete \nand CFRP contributions."
+      }
+    ]
+  },
+  {
+    "question_id": "Q049",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 9?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "8818ec5466528e11ef824a1e45ac7277",
+    "chunk_index": 33,
+    "page": 9,
+    "exact_ground_truth_evidence": "the beam at the shear link locations. When the load was +35.41 kN (DR% = +0.5%), the cracks first appeared in \nthe core.",
+    "expected_answer_points": [
+      "the beam at the shear link locations. When the load was +35.41 kN (DR% = +0.5%), the cracks first appeared in \nthe core.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 9"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "8818ec5466528e11ef824a1e45ac7277",
+        "chunk_index": 33,
+        "page": 9,
+        "evidence": "the beam at the shear link locations. When the load was +35.41 kN (DR% = +0.5%), the cracks first appeared in \nthe core."
+      }
+    ]
+  },
+  {
+    "question_id": "Q050",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 12?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "cdefe8f300f1ce749cb3339b766f5c9f",
+    "chunk_index": 44,
+    "page": 12,
+    "exact_ground_truth_evidence": "wn by the speed with which stiffness is lost. \n \nFigure 12: Stiffness Degradation of the specimens.",
+    "expected_answer_points": [
+      "wn by the speed with which stiffness is lost. \n \nFigure 12: Stiffness Degradation of the specimens.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 12"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "cdefe8f300f1ce749cb3339b766f5c9f",
+        "chunk_index": 44,
+        "page": 12,
+        "evidence": "wn by the speed with which stiffness is lost. \n \nFigure 12: Stiffness Degradation of the specimens."
+      }
+    ]
+  },
+  {
+    "question_id": "Q051",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 16?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "c69898bb97b79e071dd9792f49b47fd7",
+    "chunk_index": 55,
+    "page": 16,
+    "exact_ground_truth_evidence": "ved following the highest load. \n \n \nFigure 19: Analytical and experimental hysteretic load-displacement for CFRP.",
+    "expected_answer_points": [
+      "ved following the highest load. \n \n \nFigure 19: Analytical and experimental hysteretic load-displacement for CFRP.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 16"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "c69898bb97b79e071dd9792f49b47fd7",
+        "chunk_index": 55,
+        "page": 16,
+        "evidence": "ved following the highest load. \n \n \nFigure 19: Analytical and experimental hysteretic load-displacement for CFRP."
+      }
+    ]
+  },
+  {
+    "question_id": "Q052",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 19?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a80420dbcf33fcc925f26c9",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+    "ground_truth_chunk_id": "2bbe79a433cf870a325ce19ac67c33cf",
+    "chunk_index": 66,
+    "page": 19,
+    "exact_ground_truth_evidence": "nstruction, 11(6), 575\u2013589. doi:10.1061/(asce)1090-0268(2007)11:6(575). \nAlcocer, S. M., & Jirsa, J. O.",
+    "expected_answer_points": [
+      "nstruction, 11(6), 575\u2013589. doi:10.1061/(asce)1090-0268(2007)11:6(575). \nAlcocer, S. M., & Jirsa, J. O.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf page 19"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "2bbe79a433cf870a325ce19ac67c33cf",
+        "chunk_index": 66,
+        "page": 19,
+        "evidence": "nstruction, 11(6), 575\u2013589. doi:10.1061/(asce)1090-0268(2007)11:6(575). \nAlcocer, S. M., & Jirsa, J. O."
+      }
+    ]
+  },
+  {
+    "question_id": "Q053",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 1?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "bcc4fbcf9edbd255d2c986d6fa4576a3",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "* Corresponding author. \n   Email address: fulvio.parisi@unina.it. \n \n1 \nImpact of seismic retrofitting on progressive collapse resistance",
+    "expected_answer_points": [
+      "* Corresponding author. \n   Email address: fulvio.parisi@unina.it. \n \n1 \nImpact of seismic retrofitting on progressive collapse resistance",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "bcc4fbcf9edbd255d2c986d6fa4576a3",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "* Corresponding author. \n   Email address: fulvio.parisi@unina.it. \n \n1 \nImpact of seismic retrofitting on progressive collapse resistance"
+      }
+    ]
+  },
+  {
+    "question_id": "Q054",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 2?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "556b67c80b8bdc7c34843084d2a94ac9",
+    "chunk_index": 10,
+    "page": 2,
+    "exact_ground_truth_evidence": "ines [27], respectively, for positive and negative moments. Orton et al. [43] highlighted that, when beams \ndo not have sufficient rotational ductility to develop catenary action, the continuity provided by the positive moment \nreinforcement may not significantly improve the progressive collapse resistance.",
+    "expected_answer_points": [
+      "ines [27], respectively, for positive and negative moments. Orton et al. [43] highlighted that, when beams \ndo not have sufficient rotational ductilit",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "556b67c80b8bdc7c34843084d2a94ac9",
+        "chunk_index": 10,
+        "page": 2,
+        "evidence": "ines [27], respectively, for positive and negative moments. Orton et al. [43] highlighted that, when beams \ndo not have sufficient rotational ductility to develop catenary action, the continuity provided by the positive moment \nreinforcement may not significantly improve the progressive collapse resistance."
+      }
+    ]
+  },
+  {
+    "question_id": "Q055",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 3?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "c84121c83192b72366463bc9e2bb34ec",
+    "chunk_index": 20,
+    "page": 3,
+    "exact_ground_truth_evidence": "urrent study and will be investigated in future works. \n \n     Structural modelling and nonlinear analyses for both seismic and progressive collapse assessments were carried out \nthrough OpenSees [55], which was experimentally validated for progressive collapse analysis in previous studies (e.g., \n[48]).",
+    "expected_answer_points": [
+      "urrent study and will be investigated in future works. \n \n     Structural modelling and nonlinear analyses for both seismic and progressive collapse a",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 3"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "c84121c83192b72366463bc9e2bb34ec",
+        "chunk_index": 20,
+        "page": 3,
+        "evidence": "urrent study and will be investigated in future works. \n \n     Structural modelling and nonlinear analyses for both seismic and progressive collapse assessments were carried out \nthrough OpenSees [55], which was experimentally validated for progressive collapse analysis in previous studies (e.g., \n[48])."
+      }
+    ]
+  },
+  {
+    "question_id": "Q056",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 6?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "e08bb11003c3550ef1088f311fa3bbcd",
+    "chunk_index": 30,
+    "page": 6,
+    "exact_ground_truth_evidence": "loor level 1\nA\nB\nC\nD\nE\nF\n101\n102\n103\n104\n105\n106\n107\n201\n202\n203\n204\n205\n206\n207\n301\n302\n303\n304\n305",
+    "expected_answer_points": [
+      "loor level 1\nA\nB\nC\nD\nE\nF\n101\n102\n103\n104\n105\n106\n107\n201\n202\n203\n204\n205\n206\n207\n301\n302\n303\n304\n305",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "e08bb11003c3550ef1088f311fa3bbcd",
+        "chunk_index": 30,
+        "page": 6,
+        "evidence": "loor level 1\nA\nB\nC\nD\nE\nF\n101\n102\n103\n104\n105\n106\n107\n201\n202\n203\n204\n205\n206\n207\n301\n302\n303\n304\n305"
+      }
+    ]
+  },
+  {
+    "question_id": "Q057",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 9?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "bf575296bcaabf9fad4b4040aea57ef2",
+    "chunk_index": 40,
+    "page": 9,
+    "exact_ground_truth_evidence": "eel strain of longitudinal bars that is associated with actual collapse of RC frames under the column loss scenario \n[5].",
+    "expected_answer_points": [
+      "eel strain of longitudinal bars that is associated with actual collapse of RC frames under the column loss scenario \n[5].",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 9"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "bf575296bcaabf9fad4b4040aea57ef2",
+        "chunk_index": 40,
+        "page": 9,
+        "evidence": "eel strain of longitudinal bars that is associated with actual collapse of RC frames under the column loss scenario \n[5]."
+      }
+    ]
+  },
+  {
+    "question_id": "Q058",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 12?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "e08680b62ee9923f4f077e4ac0479a32",
+    "chunk_index": 50,
+    "page": 12,
+    "exact_ground_truth_evidence": "of design gravity load. Therefore, the level of structural \nrobustness for the case-study structure is significantly influenced by shear failure, highlighting the need for retrofitting to \nmitigate the progressive collapse potential.",
+    "expected_answer_points": [
+      "of design gravity load. Therefore, the level of structural \nrobustness for the case-study structure is significantly influenced by shear failure, high",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 12"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "e08680b62ee9923f4f077e4ac0479a32",
+        "chunk_index": 50,
+        "page": 12,
+        "evidence": "of design gravity load. Therefore, the level of structural \nrobustness for the case-study structure is significantly influenced by shear failure, highlighting the need for retrofitting to \nmitigate the progressive collapse potential."
+      }
+    ]
+  },
+  {
+    "question_id": "Q059",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 14?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "d55c846751ad714666df65d5e0716b3a",
+    "chunk_index": 60,
+    "page": 14,
+    "exact_ground_truth_evidence": "1.53 \n \n2.05 \n1.90 \n1.85 \n1.80 \n1.74 \n1.72 \n4 \n1.36 \n1.33 \n1.29 \n1.26 \n1.23 \n1.19 \n \n1.58 \n1.51 \n1.46 \n1.42 \n1.37 \n1.32 \n5 \n1.36 \n1.33 \n1.29 \n1.26 \n1.23 \n1.19 \n \n1.13 \n1.01 \n1.00 \n0.98 \n0.98 \n0.89 \n* Bold figures indicate DCR > 1.",
+    "expected_answer_points": [
+      "1.53 \n \n2.05 \n1.90 \n1.85 \n1.80 \n1.74 \n1.72 \n4 \n1.36 \n1.33 \n1.29 \n1.26 \n1.23 \n1.19 \n \n1.58 \n1.51 \n1.46 \n1.42 \n1.37 \n1.32 \n5 \n1.36 \n1.33 \n1.29 \n1.26 \n1.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 14"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "d55c846751ad714666df65d5e0716b3a",
+        "chunk_index": 60,
+        "page": 14,
+        "evidence": "1.53 \n \n2.05 \n1.90 \n1.85 \n1.80 \n1.74 \n1.72 \n4 \n1.36 \n1.33 \n1.29 \n1.26 \n1.23 \n1.19 \n \n1.58 \n1.51 \n1.46 \n1.42 \n1.37 \n1.32 \n5 \n1.36 \n1.33 \n1.29 \n1.26 \n1.23 \n1.19 \n \n1.13 \n1.01 \n1.00 \n0.98 \n0.98 \n0.89 \n* Bold figures indicate DCR > 1."
+      }
+    ]
+  },
+  {
+    "question_id": "Q060",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 16?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "0634beb57db3adf5b7950ae3f093c0b7",
+    "chunk_index": 70,
+    "page": 16,
+    "exact_ground_truth_evidence": "entally \ninvestigated the influence of anchorage techniques by varying the geometry and amount of CFRP materials on ten beam \nspecimens.",
+    "expected_answer_points": [
+      "entally \ninvestigated the influence of anchorage techniques by varying the geometry and amount of CFRP materials on ten beam \nspecimens.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 16"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "0634beb57db3adf5b7950ae3f093c0b7",
+        "chunk_index": 70,
+        "page": 16,
+        "evidence": "entally \ninvestigated the influence of anchorage techniques by varying the geometry and amount of CFRP materials on ten beam \nspecimens."
+      }
+    ]
+  },
+  {
+    "question_id": "Q061",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 18?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "55162ad36254a1ef1715a884bdadf93e",
+    "chunk_index": 80,
+    "page": 18,
+    "exact_ground_truth_evidence": "was performed on the structure with 4 m \u2264 Lb \n\u2264 5 m due to the lack of structural robustness in the other two cases.",
+    "expected_answer_points": [
+      "was performed on the structure with 4 m \u2264 Lb \n\u2264 5 m due to the lack of structural robustness in the other two cases.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 18"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "55162ad36254a1ef1715a884bdadf93e",
+        "chunk_index": 80,
+        "page": 18,
+        "evidence": "was performed on the structure with 4 m \u2264 Lb \n\u2264 5 m due to the lack of structural robustness in the other two cases."
+      }
+    ]
+  },
+  {
+    "question_id": "Q062",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 20?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8044dfbcf33fcc925f26cb",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+    "ground_truth_chunk_id": "99b8613e1c214bcd375a6ad39c608c15",
+    "chunk_index": 90,
+    "page": 20,
+    "exact_ground_truth_evidence": "ssive collapse: Learning from World Trade Center and building demolitions. \nJ Eng Mech. 2007; 133: 308\u2013319.",
+    "expected_answer_points": [
+      "ssive collapse: Learning from World Trade Center and building demolitions. \nJ Eng Mech. 2007; 133: 308\u2013319.",
+      "Ground truth excerpt from acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf page 20"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8044dfbcf33fcc925f26cb",
+        "filename": "acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf",
+        "chunk_id": "99b8613e1c214bcd375a6ad39c608c15",
+        "chunk_index": 90,
+        "page": 20,
+        "evidence": "ssive collapse: Learning from World Trade Center and building demolitions. \nJ Eng Mech. 2007; 133: 308\u2013319."
+      }
+    ]
+  },
+  {
+    "question_id": "Q063",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf (page 1)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a83260b9ad37224443c250e",
+    "ground_truth_filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf",
+    "ground_truth_chunk_id": "b0abc238a0ffce972540649d8b5954ef",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Proceedings of the XVII ECSMGE-2019  \nGeotechnical Engineering foundation of the future  \nISBN 978-9935-9436-1-3",
+    "expected_answer_points": [
+      "Proceedings of the XVII ECSMGE-2019  \nGeotechnical Engineering foundation of the future  \nISBN 978-9935-9436-1-3",
+      "Ground truth excerpt from acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83260b9ad37224443c250e",
+        "filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf",
+        "chunk_id": "b0abc238a0ffce972540649d8b5954ef",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Proceedings of the XVII ECSMGE-2019  \nGeotechnical Engineering foundation of the future  \nISBN 978-9935-9436-1-3"
+      }
+    ]
+  },
+  {
+    "question_id": "Q064",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf (page 3)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a83260b9ad37224443c250e",
+    "ground_truth_filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf",
+    "ground_truth_chunk_id": "a62b2853f24008981c642fdbbad7a0ee",
+    "chunk_index": 10,
+    "page": 3,
+    "exact_ground_truth_evidence": "ns le mat\u00e9riau mod\u00e8le du fait de sa diff\u00e9rence de \nnature par rapport au mat\u00e9riau initial. Ainsi, certains auteurs proposent d\u2019attribuer au mat\u00e9riau \nmod\u00e8le le m\u00eame pourcentage de fines que le mat\u00e9riau initial mais les conclusions de Verdugo et De \nLa Hoz (2006) montrent que cela sous-estime la r\u00e9sistance au cisaillement du sol initial.",
+    "expected_answer_points": [
+      "ns le mat\u00e9riau mod\u00e8le du fait de sa diff\u00e9rence de \nnature par rapport au mat\u00e9riau initial. Ainsi, certains auteurs proposent d\u2019attribuer au mat\u00e9riau \n",
+      "Ground truth excerpt from acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf page 3"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83260b9ad37224443c250e",
+        "filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf",
+        "chunk_id": "a62b2853f24008981c642fdbbad7a0ee",
+        "chunk_index": 10,
+        "page": 3,
+        "evidence": "ns le mat\u00e9riau mod\u00e8le du fait de sa diff\u00e9rence de \nnature par rapport au mat\u00e9riau initial. Ainsi, certains auteurs proposent d\u2019attribuer au mat\u00e9riau \nmod\u00e8le le m\u00eame pourcentage de fines que le mat\u00e9riau initial mais les conclusions de Verdugo et De \nLa Hoz (2006) montrent que cela sous-estime la r\u00e9sistance au cisaillement du sol initial."
+      }
+    ]
+  },
+  {
+    "question_id": "Q065",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf (page 6)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a83260b9ad37224443c250e",
+    "ground_truth_filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf",
+    "ground_truth_chunk_id": "137eb0e29ba292f0144a1985d9ad2fea",
+    "chunk_index": 20,
+    "page": 6,
+    "exact_ground_truth_evidence": "elling and experimental assessment of geomaterials \nECSMGE-2019 \u2013 Proceedings \n6 \nIGS \n \n \nFigure 2 : Courbes de cisaillement et de variation de volume des \u00e9prouvettes 0-5 et 0-30 mm \n \nLes courbes de variation de volume d\u00e9butent par une phase de contractance suivie d\u2019une phase de \ndilatance caract\u00e9ristiques de l\u2019\u00e9tat surconsolid\u00e9 des \u00e9prouvettes dans les deux bo\u00eetes.",
+    "expected_answer_points": [
+      "elling and experimental assessment of geomaterials \nECSMGE-2019 \u2013 Proceedings \n6 \nIGS \n \n \nFigure 2 : Courbes de cisaillement et de variation de volum",
+      "Ground truth excerpt from acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83260b9ad37224443c250e",
+        "filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf",
+        "chunk_id": "137eb0e29ba292f0144a1985d9ad2fea",
+        "chunk_index": 20,
+        "page": 6,
+        "evidence": "elling and experimental assessment of geomaterials \nECSMGE-2019 \u2013 Proceedings \n6 \nIGS \n \n \nFigure 2 : Courbes de cisaillement et de variation de volume des \u00e9prouvettes 0-5 et 0-30 mm \n \nLes courbes de variation de volume d\u00e9butent par une phase de contractance suivie d\u2019une phase de \ndilatance caract\u00e9ristiques de l\u2019\u00e9tat surconsolid\u00e9 des \u00e9prouvettes dans les deux bo\u00eetes."
+      }
+    ]
+  },
+  {
+    "question_id": "Q066",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 1)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326219ad37224443c2511",
+    "ground_truth_filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+    "ground_truth_chunk_id": "9c82b96da7bd9782f5ac86564df25f16",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "4th International Conference on  \nEarthquake Geotechnical Engineering \nJune 25-28, 2007 \nPaper No. 1387 \n \n \n \nA MACRO-ELEMENT FOR DYNAMIC SOIL-STRUCTURE \nINTERACTION ANALYSES OF SHALLOW FOUNDATIONS \nCharisis T.",
+    "expected_answer_points": [
+      "4th International Conference on  \nEarthquake Geotechnical Engineering \nJune 25-28, 2007 \nPaper No. 1387 \n \n \n \nA MACRO-ELEMENT FOR DYNAMIC SOIL-STRUCT",
+      "Ground truth excerpt from acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326219ad37224443c2511",
+        "filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+        "chunk_id": "9c82b96da7bd9782f5ac86564df25f16",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "4th International Conference on  \nEarthquake Geotechnical Engineering \nJune 25-28, 2007 \nPaper No. 1387 \n \n \n \nA MACRO-ELEMENT FOR DYNAMIC SOIL-STRUCTURE \nINTERACTION ANALYSES OF SHALLOW FOUNDATIONS \nCharisis T."
+      }
+    ]
+  },
+  {
+    "question_id": "Q067",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 3)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326219ad37224443c2511",
+    "ground_truth_filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+    "ground_truth_chunk_id": "84da2d1a0c998ace54ec97d4a696645d",
+    "chunk_index": 10,
+    "page": 3,
+    "exact_ground_truth_evidence": "namely on the inner \nand outer fibers of the beam. The beam passes to a phase of elasto-plastic response until the moment \nreaches its ultimate value \nu\nM\n.",
+    "expected_answer_points": [
+      "namely on the inner \nand outer fibers of the beam. The beam passes to a phase of elasto-plastic response until the moment \nreaches its ultimate value ",
+      "Ground truth excerpt from acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf page 3"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326219ad37224443c2511",
+        "filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+        "chunk_id": "84da2d1a0c998ace54ec97d4a696645d",
+        "chunk_index": 10,
+        "page": 3,
+        "evidence": "namely on the inner \nand outer fibers of the beam. The beam passes to a phase of elasto-plastic response until the moment \nreaches its ultimate value \nu\nM\n."
+      }
+    ]
+  },
+  {
+    "question_id": "Q068",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 6)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326219ad37224443c2511",
+    "ground_truth_filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+    "ground_truth_chunk_id": "065f21b9314d9f9b6ad8ad8adc935f19",
+    "chunk_index": 20,
+    "page": 6,
+    "exact_ground_truth_evidence": "the macro-element \n \n \nScope \nHaving defined the generalized forces and displacements variables that describe the macro-element, \nthe main objective is to derive the relationship that establishes the link between them.",
+    "expected_answer_points": [
+      "the macro-element \n \n \nScope \nHaving defined the generalized forces and displacements variables that describe the macro-element, \nthe main objective i",
+      "Ground truth excerpt from acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326219ad37224443c2511",
+        "filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+        "chunk_id": "065f21b9314d9f9b6ad8ad8adc935f19",
+        "chunk_index": 20,
+        "page": 6,
+        "evidence": "the macro-element \n \n \nScope \nHaving defined the generalized forces and displacements variables that describe the macro-element, \nthe main objective is to derive the relationship that establishes the link between them."
+      }
+    ]
+  },
+  {
+    "question_id": "Q069",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 9)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326219ad37224443c2511",
+    "ground_truth_filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+    "ground_truth_chunk_id": "3195b4b5d356296100583264e2de9664",
+    "chunk_index": 30,
+    "page": 9,
+    "exact_ground_truth_evidence": "sive soil with a vertical \ncohesion gradient. This was made possible using the kinematic approach of the Yield Design theory \n(Salen\u00e7on, 2002) in which, a series of three-dimensional virtual velocity fields were examined to \nprovide optimal upper bounds for the maximum combinations of seismic loads supported by the \nfooting.",
+    "expected_answer_points": [
+      "sive soil with a vertical \ncohesion gradient. This was made possible using the kinematic approach of the Yield Design theory \n(Salen\u00e7on, 2002) in whic",
+      "Ground truth excerpt from acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf page 9"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326219ad37224443c2511",
+        "filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf",
+        "chunk_id": "3195b4b5d356296100583264e2de9664",
+        "chunk_index": 30,
+        "page": 9,
+        "evidence": "sive soil with a vertical \ncohesion gradient. This was made possible using the kinematic approach of the Yield Design theory \n(Salen\u00e7on, 2002) in which, a series of three-dimensional virtual velocity fields were examined to \nprovide optimal upper bounds for the maximum combinations of seismic loads supported by the \nfooting."
+      }
+    ]
+  },
+  {
+    "question_id": "Q070",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 1)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "cca65db0b9e74d5eb5066cd82332b14e",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "CAN CHATGPT IMPLEMENT FINITE ELEMENT MODELS FOR\nGEOTECHNICAL ENGINEERING APPLICATIONS?\nA PREPRINT\nTaegu Kim",
+    "expected_answer_points": [
+      "CAN CHATGPT IMPLEMENT FINITE ELEMENT MODELS FOR\nGEOTECHNICAL ENGINEERING APPLICATIONS?\nA PREPRINT\nTaegu Kim",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "cca65db0b9e74d5eb5066cd82332b14e",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "CAN CHATGPT IMPLEMENT FINITE ELEMENT MODELS FOR\nGEOTECHNICAL ENGINEERING APPLICATIONS?\nA PREPRINT\nTaegu Kim"
+      }
+    ]
+  },
+  {
+    "question_id": "Q071",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 2)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "d4f475440f8f828661e9ab0bb321ee2c",
+    "chunk_index": 10,
+    "page": 2,
+    "exact_ground_truth_evidence": "self-correct finite element codes. Regardless, to the\nbest of the authors\u2019 knowledge, no attempts have been made to explore the LLM\u2019s capability for numerically solving",
+    "expected_answer_points": [
+      "self-correct finite element codes. Regardless, to the\nbest of the authors\u2019 knowledge, no attempts have been made to explore the LLM\u2019s capability for n",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "d4f475440f8f828661e9ab0bb321ee2c",
+        "chunk_index": 10,
+        "page": 2,
+        "evidence": "self-correct finite element codes. Regardless, to the\nbest of the authors\u2019 knowledge, no attempts have been made to explore the LLM\u2019s capability for numerically solving"
+      }
+    ]
+  },
+  {
+    "question_id": "Q072",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 4)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "f953e944332fd6fd432b1596af257889",
+    "chunk_index": 20,
+    "page": 4,
+    "exact_ground_truth_evidence": "n of Eqs. (13) and (14):\n\u2207\u00b7 \u03c3 + \u03c1g = 0.\n(15)\n2.3\nConstitutive equations\nFor unsaturated soils, a thermodynamically consistent Bishop-type effective stress \u03c3\u2032 may be written as [Borja, 2006,",
+    "expected_answer_points": [
+      "n of Eqs. (13) and (14):\n\u2207\u00b7 \u03c3 + \u03c1g = 0.\n(15)\n2.3\nConstitutive equations\nFor unsaturated soils, a thermodynamically consistent Bishop-type effective st",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 4"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "f953e944332fd6fd432b1596af257889",
+        "chunk_index": 20,
+        "page": 4,
+        "evidence": "n of Eqs. (13) and (14):\n\u2207\u00b7 \u03c3 + \u03c1g = 0.\n(15)\n2.3\nConstitutive equations\nFor unsaturated soils, a thermodynamically consistent Bishop-type effective stress \u03c3\u2032 may be written as [Borja, 2006,"
+      }
+    ]
+  },
+  {
+    "question_id": "Q073",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 6)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "ac63ed07cde63db1068a997a237ff526",
+    "chunk_index": 30,
+    "page": 6,
+    "exact_ground_truth_evidence": "most general and complex\ncase among the other problems considered in this study. As delineated in Appendix A.3, this problem assumes that\nthe phase constituents are incompressible and relies on a passive gas assumption that leads to a pseudo-three-phase\nformulation.",
+    "expected_answer_points": [
+      "most general and complex\ncase among the other problems considered in this study. As delineated in Appendix A.3, this problem assumes that\nthe phase co",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "ac63ed07cde63db1068a997a237ff526",
+        "chunk_index": 30,
+        "page": 6,
+        "evidence": "most general and complex\ncase among the other problems considered in this study. As delineated in Appendix A.3, this problem assumes that\nthe phase constituents are incompressible and relies on a passive gas assumption that leads to a pseudo-three-phase\nformulation."
+      }
+    ]
+  },
+  {
+    "question_id": "Q074",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 7)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "7b3d2bb7b137b3ac012bc317b1105fe0",
+    "chunk_index": 40,
+    "page": 7,
+    "exact_ground_truth_evidence": "iteratively until the code runs without any issues and yields results that are reasonably accurate. It should be noted that",
+    "expected_answer_points": [
+      "iteratively until the code runs without any issues and yields results that are reasonably accurate. It should be noted that",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 7"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "7b3d2bb7b137b3ac012bc317b1105fe0",
+        "chunk_index": 40,
+        "page": 7,
+        "evidence": "iteratively until the code runs without any issues and yields results that are reasonably accurate. It should be noted that"
+      }
+    ]
+  },
+  {
+    "question_id": "Q075",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 9)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "913d02f4736a3f8ecd664c2cb38b7452",
+    "chunk_index": 50,
+    "page": 9,
+    "exact_ground_truth_evidence": "n = interpolate(Constant(p_w0), V)\n# Define the variational problem\np = TrialFunction(V)\nv = TestFunction(V)",
+    "expected_answer_points": [
+      "n = interpolate(Constant(p_w0), V)\n# Define the variational problem\np = TrialFunction(V)\nv = TestFunction(V)",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 9"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "913d02f4736a3f8ecd664c2cb38b7452",
+        "chunk_index": 50,
+        "page": 9,
+        "evidence": "n = interpolate(Constant(p_w0), V)\n# Define the variational problem\np = TrialFunction(V)\nv = TestFunction(V)"
+      }
+    ]
+  },
+  {
+    "question_id": "Q076",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 12)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "957012ef49060a009feee27588815847",
+    "chunk_index": 60,
+    "page": 12,
+    "exact_ground_truth_evidence": "VAKN/QiO/e7X3H98BlJxkR\nzoyxSaMQ0T3uaMaoRa07+IDyFPTMBQRFmXBzDzRw5A\n2aI4mFM7Qvtbfqpa1zr0C37EvrLXhEdkQJhNb7XFp1",
+    "expected_answer_points": [
+      "VAKN/QiO/e7X3H98BlJxkR\nzoyxSaMQ0T3uaMaoRa07+IDyFPTMBQRFmXBzDzRw5A\n2aI4mFM7Qvtbfqpa1zr0C37EvrLXhEdkQJhNb7XFp1",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 12"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "957012ef49060a009feee27588815847",
+        "chunk_index": 60,
+        "page": 12,
+        "evidence": "VAKN/QiO/e7X3H98BlJxkR\nzoyxSaMQ0T3uaMaoRa07+IDyFPTMBQRFmXBzDzRw5A\n2aI4mFM7Qvtbfqpa1zr0C37EvrLXhEdkQJhNb7XFp1"
+      }
+    ]
+  },
+  {
+    "question_id": "Q077",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 15)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "a7c10b899dc620c50ad545cfce1f319e",
+    "chunk_index": 70,
+    "page": 15,
+    "exact_ground_truth_evidence": "ications? A PREPRINT\n0\n0.2\n0.4\n0.6\n0.8\n1\n-1.5\n-1\n-0.5\n0\n0.5\n1\n106\n(a)\n0\n0.2\n0.4\n0.6\n0.8\n1\n-2\n-1.5\n-1",
+    "expected_answer_points": [
+      "ications? A PREPRINT\n0\n0.2\n0.4\n0.6\n0.8\n1\n-1.5\n-1\n-0.5\n0\n0.5\n1\n106\n(a)\n0\n0.2\n0.4\n0.6\n0.8\n1\n-2\n-1.5\n-1",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 15"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "a7c10b899dc620c50ad545cfce1f319e",
+        "chunk_index": 70,
+        "page": 15,
+        "evidence": "ications? A PREPRINT\n0\n0.2\n0.4\n0.6\n0.8\n1\n-1.5\n-1\n-0.5\n0\n0.5\n1\n106\n(a)\n0\n0.2\n0.4\n0.6\n0.8\n1\n-2\n-1.5\n-1"
+      }
+    ]
+  },
+  {
+    "question_id": "Q078",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 17)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "d1308ee988e69ab1899feb16e775ef62",
+    "chunk_index": 80,
+    "page": 17,
+    "exact_ground_truth_evidence": "Can ChatGPT implement finite element models for geotechnical engineering applications? A PREPRINT\n0\n5\n10\n15\n20\n0\n2\n15\n12\n1\nFigure 12: Number of additional prompts required to pass the validation test for Model Problem (3).\n14, and successfully passing the validation test.",
+    "expected_answer_points": [
+      "Can ChatGPT implement finite element models for geotechnical engineering applications? A PREPRINT\n0\n5\n10\n15\n20\n0\n2\n15\n12\n1\nFigure 12: Number of additi",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 17"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "d1308ee988e69ab1899feb16e775ef62",
+        "chunk_index": 80,
+        "page": 17,
+        "evidence": "Can ChatGPT implement finite element models for geotechnical engineering applications? A PREPRINT\n0\n5\n10\n15\n20\n0\n2\n15\n12\n1\nFigure 12: Number of additional prompts required to pass the validation test for Model Problem (3).\n14, and successfully passing the validation test."
+      }
+    ]
+  },
+  {
+    "question_id": "Q079",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 20)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326249ad37224443c2514",
+    "ground_truth_filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+    "ground_truth_chunk_id": "e0c69478e5449fcc9cab773b326dcebc",
+    "chunk_index": 90,
+    "page": 20,
+    "exact_ground_truth_evidence": "he Mathematik, 20(3):179\u2013192, 1973.\nFranco Brezzi, Jim Douglas, and L Donatella Marini. Two families of mixed finite elements for second order elliptic\nproblems.",
+    "expected_answer_points": [
+      "he Mathematik, 20(3):179\u2013192, 1973.\nFranco Brezzi, Jim Douglas, and L Donatella Marini. Two families of mixed finite elements for second order ellipti",
+      "Ground truth excerpt from acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf page 20"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326249ad37224443c2514",
+        "filename": "acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf",
+        "chunk_id": "e0c69478e5449fcc9cab773b326dcebc",
+        "chunk_index": 90,
+        "page": 20,
+        "evidence": "he Mathematik, 20(3):179\u2013192, 1973.\nFranco Brezzi, Jim Douglas, and L Donatella Marini. Two families of mixed finite elements for second order elliptic\nproblems."
+      }
+    ]
+  },
+  {
+    "question_id": "Q080",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "1bd0f9be069d62c22d343c2d49122ca3",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Original Article\nStructural Health Monitoring\n2025, Vol. 24(3) 1752\u20131782\n\u0002 The Author(s) 2024\nArticle reuse guidelines:",
+    "expected_answer_points": [
+      "Original Article\nStructural Health Monitoring\n2025, Vol. 24(3) 1752\u20131782\n\u0002 The Author(s) 2024\nArticle reuse guidelines:",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "1bd0f9be069d62c22d343c2d49122ca3",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Original Article\nStructural Health Monitoring\n2025, Vol. 24(3) 1752\u20131782\n\u0002 The Author(s) 2024\nArticle reuse guidelines:"
+      }
+    ]
+  },
+  {
+    "question_id": "Q081",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 2)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "815e89ca5563d911a023f5284d6d538d",
+    "chunk_index": 11,
+    "page": 2,
+    "exact_ground_truth_evidence": "issues, while Kalman\nfilter\nphysics-based\nalternatives,\nwithout\nassuming\nmore information such as known system parameter of\nthe model,41 are also employed.",
+    "expected_answer_points": [
+      "issues, while Kalman\nfilter\nphysics-based\nalternatives,\nwithout\nassuming\nmore information such as known system parameter of\nthe model,41 are also empl",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "815e89ca5563d911a023f5284d6d538d",
+        "chunk_index": 11,
+        "page": 2,
+        "evidence": "issues, while Kalman\nfilter\nphysics-based\nalternatives,\nwithout\nassuming\nmore information such as known system parameter of\nthe model,41 are also employed."
+      }
+    ]
+  },
+  {
+    "question_id": "Q082",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 5)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "688efb8527d5fa2319340244f0cca60a",
+    "chunk_index": 22,
+    "page": 5,
+    "exact_ground_truth_evidence": "rnel\nsize\nand\nthe\nsubsampling\nare\nscalars.\nImportantly, this simplified structure of the convolu-\ntion neural network requires only one-dimensional\nconvolutions and therefore, a mobile and low-cost\nhardware implementation for near real-time applica-\ntions.",
+    "expected_answer_points": [
+      "rnel\nsize\nand\nthe\nsubsampling\nare\nscalars.\nImportantly, this simplified structure of the convolu-\ntion neural network requires only one-dimensional\nco",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 5"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "688efb8527d5fa2319340244f0cca60a",
+        "chunk_index": 22,
+        "page": 5,
+        "evidence": "rnel\nsize\nand\nthe\nsubsampling\nare\nscalars.\nImportantly, this simplified structure of the convolu-\ntion neural network requires only one-dimensional\nconvolutions and therefore, a mobile and low-cost\nhardware implementation for near real-time applica-\ntions."
+      }
+    ]
+  },
+  {
+    "question_id": "Q083",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 7)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "7cec60283151c0dfe15dc89bd413fc7c",
+    "chunk_index": 33,
+    "page": 7,
+    "exact_ground_truth_evidence": "for different\ntypes of model parameters within various dynamic sys-\ntems. Importantly, it is seen here that the transitional\nmodel assumed for the system parameters is involved\nin the full input-parameter-state estimation.",
+    "expected_answer_points": [
+      "for different\ntypes of model parameters within various dynamic sys-\ntems. Importantly, it is seen here that the transitional\nmodel assumed for the sys",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 7"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "7cec60283151c0dfe15dc89bd413fc7c",
+        "chunk_index": 33,
+        "page": 7,
+        "evidence": "for different\ntypes of model parameters within various dynamic sys-\ntems. Importantly, it is seen here that the transitional\nmodel assumed for the system parameters is involved\nin the full input-parameter-state estimation."
+      }
+    ]
+  },
+  {
+    "question_id": "Q084",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 9)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "856029aa3503f1bee29858b1962c930d",
+    "chunk_index": 44,
+    "page": 9,
+    "exact_ground_truth_evidence": "d the roof level, as depicted in\nFigure 7. These sensors have captured seismic events\nfrom 1987 to 2018.",
+    "expected_answer_points": [
+      "d the roof level, as depicted in\nFigure 7. These sensors have captured seismic events\nfrom 1987 to 2018.",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 9"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "856029aa3503f1bee29858b1962c930d",
+        "chunk_index": 44,
+        "page": 9,
+        "evidence": "d the roof level, as depicted in\nFigure 7. These sensors have captured seismic events\nfrom 1987 to 2018."
+      }
+    ]
+  },
+  {
+    "question_id": "Q085",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 19)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "dd6afff77117bfad7b838924e2f84ae7",
+    "chunk_index": 55,
+    "page": 19,
+    "exact_ground_truth_evidence": "DasyLab acquisition system\nrecorded structural responses, with sampling rates of\n250 Hz for shaker and ambient tests, and 1000 Hz for\nhammer tests.",
+    "expected_answer_points": [
+      "DasyLab acquisition system\nrecorded structural responses, with sampling rates of\n250 Hz for shaker and ambient tests, and 1000 Hz for\nhammer tests.",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 19"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "dd6afff77117bfad7b838924e2f84ae7",
+        "chunk_index": 55,
+        "page": 19,
+        "evidence": "DasyLab acquisition system\nrecorded structural responses, with sampling rates of\n250 Hz for shaker and ambient tests, and 1000 Hz for\nhammer tests."
+      }
+    ]
+  },
+  {
+    "question_id": "Q086",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 23)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "7aba76e9c1a27bb1f997fd744aa463be",
+    "chunk_index": 66,
+    "page": 23,
+    "exact_ground_truth_evidence": "related to the data-driven only\ntraining of the presented tools. It has observed110,119\u2013126\nthat by including a physics-aware constraint or a math-\nematical model, the training is improved.",
+    "expected_answer_points": [
+      "related to the data-driven only\ntraining of the presented tools. It has observed110,119\u2013126\nthat by including a physics-aware constraint or a math-\nem",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 23"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "7aba76e9c1a27bb1f997fd744aa463be",
+        "chunk_index": 66,
+        "page": 23,
+        "evidence": "related to the data-driven only\ntraining of the presented tools. It has observed110,119\u2013126\nthat by including a physics-aware constraint or a math-\nematical model, the training is improved."
+      }
+    ]
+  },
+  {
+    "question_id": "Q087",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 26)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "a2e72b7f969c4fc87b19fc85df300266",
+    "chunk_index": 77,
+    "page": 26,
+    "exact_ground_truth_evidence": "ty quantifi-\ncation where the structural load identification metho-\ndology should provide.129\u2013131 This is a desirable\nproperty for the structural load prediction approaches\nto possess that accurately representing the uncertainty\naround predictions.",
+    "expected_answer_points": [
+      "ty quantifi-\ncation where the structural load identification metho-\ndology should provide.129\u2013131 This is a desirable\nproperty for the structural load",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 26"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "a2e72b7f969c4fc87b19fc85df300266",
+        "chunk_index": 77,
+        "page": 26,
+        "evidence": "ty quantifi-\ncation where the structural load identification metho-\ndology should provide.129\u2013131 This is a desirable\nproperty for the structural load prediction approaches\nto possess that accurately representing the uncertainty\naround predictions."
+      }
+    ]
+  },
+  {
+    "question_id": "Q088",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 28)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "51ebfc914682e5115b89a6fbba9c4f93",
+    "chunk_index": 88,
+    "page": 28,
+    "exact_ground_truth_evidence": "Maes K, Karlsson F and Lombaert G. Tracking of\ninputs, states and parameters of linear structural dynamic\nsystems.",
+    "expected_answer_points": [
+      "Maes K, Karlsson F and Lombaert G. Tracking of\ninputs, states and parameters of linear structural dynamic\nsystems.",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 28"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "51ebfc914682e5115b89a6fbba9c4f93",
+        "chunk_index": 88,
+        "page": 28,
+        "evidence": "Maes K, Karlsson F and Lombaert G. Tracking of\ninputs, states and parameters of linear structural dynamic\nsystems."
+      }
+    ]
+  },
+  {
+    "question_id": "Q089",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 29)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "3bd0da53f9b3d78d388b3c12931871fb",
+    "chunk_index": 99,
+    "page": 29,
+    "exact_ground_truth_evidence": "nonlinear structures using deep recurrent neural\nnetwork. Mech Syst Signal Process 2019; 133: 106292.\n82.",
+    "expected_answer_points": [
+      "nonlinear structures using deep recurrent neural\nnetwork. Mech Syst Signal Process 2019; 133: 106292.\n82.",
+      "Ground truth excerpt from acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf page 29"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "3bd0da53f9b3d78d388b3c12931871fb",
+        "chunk_index": 99,
+        "page": 29,
+        "evidence": "nonlinear structures using deep recurrent neural\nnetwork. Mech Syst Signal Process 2019; 133: 106292.\n82."
+      }
+    ]
+  },
+  {
+    "question_id": "Q090",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a83263b9ad37224443c251a",
+    "ground_truth_filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+    "ground_truth_chunk_id": "f19f86eaf5b96724161bcdd3e832c19d",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "COMPRESSIVE-SENSING DATA RECONSTRUCTION FOR\nSTRUCTURAL HEALTH MONITORING: A MACHINE-LEARNING\nAPPROACH",
+    "expected_answer_points": [
+      "COMPRESSIVE-SENSING DATA RECONSTRUCTION FOR\nSTRUCTURAL HEALTH MONITORING: A MACHINE-LEARNING\nAPPROACH",
+      "Ground truth excerpt from acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83263b9ad37224443c251a",
+        "filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+        "chunk_id": "f19f86eaf5b96724161bcdd3e832c19d",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "COMPRESSIVE-SENSING DATA RECONSTRUCTION FOR\nSTRUCTURAL HEALTH MONITORING: A MACHINE-LEARNING\nAPPROACH"
+      }
+    ]
+  },
+  {
+    "question_id": "Q091",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 3)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a83263b9ad37224443c251a",
+    "ground_truth_filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+    "ground_truth_chunk_id": "66f0ac1b5ba9265081b663064653b9df",
+    "chunk_index": 11,
+    "page": 3,
+    "exact_ground_truth_evidence": "\uf8fa\uf8fb, U \u2208RN\u00d7K,\n(4)\nwhere unk is the data measured by the kth sensor at time tn.\nThen, let P denote a masking matrix to random sample the original signals U via element-wise multiplication,\nin which all elements inside are either 0 or 1 in the Bernoulli distribution with sampling ratio \u03b3 [equation (5)].",
+    "expected_answer_points": [
+      "\uf8fa\uf8fb, U \u2208RN\u00d7K,\n(4)\nwhere unk is the data measured by the kth sensor at time tn.\nThen, let P denote a masking matrix to random sample the original signal",
+      "Ground truth excerpt from acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf page 3"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83263b9ad37224443c251a",
+        "filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+        "chunk_id": "66f0ac1b5ba9265081b663064653b9df",
+        "chunk_index": 11,
+        "page": 3,
+        "evidence": "\uf8fa\uf8fb, U \u2208RN\u00d7K,\n(4)\nwhere unk is the data measured by the kth sensor at time tn.\nThen, let P denote a masking matrix to random sample the original signals U via element-wise multiplication,\nin which all elements inside are either 0 or 1 in the Bernoulli distribution with sampling ratio \u03b3 [equation (5)]."
+      }
+    ]
+  },
+  {
+    "question_id": "Q092",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 6)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a83263b9ad37224443c251a",
+    "ground_truth_filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+    "ground_truth_chunk_id": "e373eb4074bb9ac15dd51bff204278e4",
+    "chunk_index": 22,
+    "page": 6,
+    "exact_ground_truth_evidence": "Frequency (Hz)\n0\n100\n200\nVelocity (mm/s)\nSignal 3 - Comparison\n6\n\n\n2.0\n2.2\n2.4\n2.6\n2.8\n3.0\nTime (sec)",
+    "expected_answer_points": [
+      "Frequency (Hz)\n0\n100\n200\nVelocity (mm/s)\nSignal 3 - Comparison\n6\n\n\n2.0\n2.2\n2.4\n2.6\n2.8\n3.0\nTime (sec)",
+      "Ground truth excerpt from acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83263b9ad37224443c251a",
+        "filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+        "chunk_id": "e373eb4074bb9ac15dd51bff204278e4",
+        "chunk_index": 22,
+        "page": 6,
+        "evidence": "Frequency (Hz)\n0\n100\n200\nVelocity (mm/s)\nSignal 3 - Comparison\n6\n\n\n2.0\n2.2\n2.4\n2.6\n2.8\n3.0\nTime (sec)"
+      }
+    ]
+  },
+  {
+    "question_id": "Q093",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 11)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a83263b9ad37224443c251a",
+    "ground_truth_filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+    "ground_truth_chunk_id": "df423a975393c5ac4774abbf52eef6e6",
+    "chunk_index": 33,
+    "page": 11,
+    "exact_ground_truth_evidence": "ments such as nodes or weights. The integration of classical optimization problems and machine-learning techniques",
+    "expected_answer_points": [
+      "ments such as nodes or weights. The integration of classical optimization problems and machine-learning techniques",
+      "Ground truth excerpt from acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf page 11"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a83263b9ad37224443c251a",
+        "filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf",
+        "chunk_id": "df423a975393c5ac4774abbf52eef6e6",
+        "chunk_index": 33,
+        "page": 11,
+        "evidence": "ments such as nodes or weights. The integration of classical optimization problems and machine-learning techniques"
+      }
+    ]
+  },
+  {
+    "question_id": "Q094",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "580ec373ceb3c2381583b6c1afbd8383",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Data Set of Load Tests and Structural Health Monitoring\nof a concrete boxgirder bridge\nMartin K\u00f6hncke",
+    "expected_answer_points": [
+      "Data Set of Load Tests and Structural Health Monitoring\nof a concrete boxgirder bridge\nMartin K\u00f6hncke",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 1"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "580ec373ceb3c2381583b6c1afbd8383",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Data Set of Load Tests and Structural Health Monitoring\nof a concrete boxgirder bridge\nMartin K\u00f6hncke"
+      }
+    ]
+  },
+  {
+    "question_id": "Q095",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 2)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "227890ad710ee67ee098a8ed468c4e92",
+    "chunk_index": 11,
+    "page": 2,
+    "exact_ground_truth_evidence": "Class 30 according to the German standard DIN 1072 [3], with a permissible axle load of 10,000 kg. Due to\nits location and usage, the bridge is expected to experience limited exposure to de-icing salts, which would lead to\n2\n\n\nData Set of Load Tests and Structural Health Monitoring of a concrete boxgirder bridge\nchloride-induced corrosion and freeze-thaw damage.",
+    "expected_answer_points": [
+      "Class 30 according to the German standard DIN 1072 [3], with a permissible axle load of 10,000 kg. Due to\nits location and usage, the bridge is expect",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 2"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "227890ad710ee67ee098a8ed468c4e92",
+        "chunk_index": 11,
+        "page": 2,
+        "evidence": "Class 30 according to the German standard DIN 1072 [3], with a permissible axle load of 10,000 kg. Due to\nits location and usage, the bridge is expected to experience limited exposure to de-icing salts, which would lead to\n2\n\n\nData Set of Load Tests and Structural Health Monitoring of a concrete boxgirder bridge\nchloride-induced corrosion and freeze-thaw damage."
+      }
+    ]
+  },
+  {
+    "question_id": "Q096",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 6)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "6adf7bc8dadb5bd6d0b10a99cffb4b96",
+    "chunk_index": 22,
+    "page": 6,
+    "exact_ground_truth_evidence": "and (g) temperature probe\nTmp_151.\nThe sensors are named based on their measurement directions relative to the chosen global coordinate system: the\nY-axis runs longitudinally along the bridge, the X-axis transversely, and the Z-axis vertically upward.",
+    "expected_answer_points": [
+      "and (g) temperature probe\nTmp_151.\nThe sensors are named based on their measurement directions relative to the chosen global coordinate system: the\nY-",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 6"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "6adf7bc8dadb5bd6d0b10a99cffb4b96",
+        "chunk_index": 22,
+        "page": 6,
+        "evidence": "and (g) temperature probe\nTmp_151.\nThe sensors are named based on their measurement directions relative to the chosen global coordinate system: the\nY-axis runs longitudinally along the bridge, the X-axis transversely, and the Z-axis vertically upward."
+      }
+    ]
+  },
+  {
+    "question_id": "Q097",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 9)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "503e9567889f5f966b730135ed415458",
+    "chunk_index": 33,
+    "page": 9,
+    "exact_ground_truth_evidence": "[HH:MM]\nEstimated station from A00+000 [m]\nBridge reference\nA00+000\n1/4 point (west)\nMidpoint\n1/4 point (east)\nA30+000\nTruck reference\nFront\nAxle 1\nTruck midpoint\nAxle 2\nAxle 3\nFig.",
+    "expected_answer_points": [
+      "[HH:MM]\nEstimated station from A00+000 [m]\nBridge reference\nA00+000\n1/4 point (west)\nMidpoint\n1/4 point (east)\nA30+000\nTruck reference\nFront\nAxle 1\nTr",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 9"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "503e9567889f5f966b730135ed415458",
+        "chunk_index": 33,
+        "page": 9,
+        "evidence": "[HH:MM]\nEstimated station from A00+000 [m]\nBridge reference\nA00+000\n1/4 point (west)\nMidpoint\n1/4 point (east)\nA30+000\nTruck reference\nFront\nAxle 1\nTruck midpoint\nAxle 2\nAxle 3\nFig."
+      }
+    ]
+  },
+  {
+    "question_id": "Q098",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 11)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "5e15ca5c646b614b340a29c98e16cc10",
+    "chunk_index": 44,
+    "page": 11,
+    "exact_ground_truth_evidence": "f the reference-\nstate monitoring data identified stable modal frequencies for the first bending and torsional modes (Figure 11).",
+    "expected_answer_points": [
+      "f the reference-\nstate monitoring data identified stable modal frequencies for the first bending and torsional modes (Figure 11).",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 11"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "5e15ca5c646b614b340a29c98e16cc10",
+        "chunk_index": 44,
+        "page": 11,
+        "evidence": "f the reference-\nstate monitoring data identified stable modal frequencies for the first bending and torsional modes (Figure 11)."
+      }
+    ]
+  },
+  {
+    "question_id": "Q099",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 15)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "4b44896813b1a4090648e35aa816a3f3",
+    "chunk_index": 55,
+    "page": 15,
+    "exact_ground_truth_evidence": "section location and Table 5\nfor the sensor coordinates) were used to estimate the neutral-axis height during the ten loaded crawl-speed crossings,\nassuming a linear strain distribution over the depth, \ud835\udf00(\ud835\udc67) = \ud835\udf000 + \ud835\udf05\ud835\udc67, so that the neutral-axis height follows from\n\ud835\udc67NA = \ud835\udc671 \u2212\u0394\ud835\udf001 (\ud835\udc672 \u2212\ud835\udc671)/(\u0394\ud835\udf002 \u2212\u0394\ud835\udf001) with baseline-subtracted strains \u0394\ud835\udf00\ud835\udc56(Figure 17).",
+    "expected_answer_points": [
+      "section location and Table 5\nfor the sensor coordinates) were used to estimate the neutral-axis height during the ten loaded crawl-speed crossings,\nas",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 15"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "4b44896813b1a4090648e35aa816a3f3",
+        "chunk_index": 55,
+        "page": 15,
+        "evidence": "section location and Table 5\nfor the sensor coordinates) were used to estimate the neutral-axis height during the ten loaded crawl-speed crossings,\nassuming a linear strain distribution over the depth, \ud835\udf00(\ud835\udc67) = \ud835\udf000 + \ud835\udf05\ud835\udc67, so that the neutral-axis height follows from\n\ud835\udc67NA = \ud835\udc671 \u2212\u0394\ud835\udf001 (\ud835\udc672 \u2212\ud835\udc671)/(\u0394\ud835\udf002 \u2212\u0394\ud835\udf001) with baseline-subtracted strains \u0394\ud835\udf00\ud835\udc56(Figure 17)."
+      }
+    ]
+  },
+  {
+    "question_id": "Q100",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 19)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "e053c5a38cedd66057298c69a962e89e",
+    "chunk_index": 66,
+    "page": 19,
+    "exact_ground_truth_evidence": "load tests, the published data were aggregated to 1 Hz\nso that the full multi-week duration could be provided in a single, manageable record; the dynamic load test data were\nnot downsampled.",
+    "expected_answer_points": [
+      "load tests, the published data were aggregated to 1 Hz\nso that the full multi-week duration could be provided in a single, manageable record; the dyna",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 19"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "e053c5a38cedd66057298c69a962e89e",
+        "chunk_index": 66,
+        "page": 19,
+        "evidence": "load tests, the published data were aggregated to 1 Hz\nso that the full multi-week duration could be provided in a single, manageable record; the dynamic load test data were\nnot downsampled."
+      }
+    ]
+  },
+  {
+    "question_id": "Q101",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 21)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "ground_truth_document_id": "6a8326409ad37224443c251d",
+    "ground_truth_filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+    "ground_truth_chunk_id": "001b14f84a32fc911330c979fff7a4b2",
+    "chunk_index": 77,
+    "page": 21,
+    "exact_ground_truth_evidence": "ostic Load Testing, volume 12 of Structures\nand Infrastructures. CRC Press, 1st edition, 2019. doi:10.1201/9780429265426.\n[10] Eva O.",
+    "expected_answer_points": [
+      "ostic Load Testing, volume 12 of Structures\nand Infrastructures. CRC Press, 1st edition, 2019. doi:10.1201/9780429265426.\n[10] Eva O.",
+      "Ground truth excerpt from acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf page 21"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": false,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326409ad37224443c251d",
+        "filename": "acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf",
+        "chunk_id": "001b14f84a32fc911330c979fff7a4b2",
+        "chunk_index": 77,
+        "page": 21,
+        "evidence": "ostic Load Testing, volume 12 of Structures\nand Infrastructures. CRC Press, 1st edition, 2019. doi:10.1201/9780429265426.\n[10] Eva O."
+      }
+    ]
+  },
+  {
+    "question_id": "Q102",
+    "question": "How do the carbonation mechanisms in cement paste compare to the corrosion rate effects observed in reinforced concrete under carbonation?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a803c17bcf33fcc925f26bf",
+    "ground_truth_filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+    "ground_truth_chunk_id": "29aeef6fa0b9f409dd584fa397e48a12",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "[image]\nLibrary\nRepository Home account_circle Login\nTitle\nMetadata\nAbstract\nFiles\nCarbonation of cement paste",
+    "expected_answer_points": [
+      "[image]\nLibrary\nRepository Home account_circle Login\nTitle\nMetadata\nAbstract\nFiles\nCarbonation of cement paste",
+      "Article \n \nEffects of Carbonation on Corrosion Rate of \nReinforcing Steel in Different Concrete and Repair"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": true,
+    "supporting_documents": [
+      {
+        "document_id": "6a803c17bcf33fcc925f26bf",
+        "filename": "acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf",
+        "chunk_id": "29aeef6fa0b9f409dd584fa397e48a12",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "[image]\nLibrary\nRepository Home account_circle Login\nTitle\nMetadata\nAbstract\nFiles\nCarbonation of cement paste"
+      },
+      {
+        "document_id": "6a803dadbcf33fcc925f26c3",
+        "filename": "acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf",
+        "chunk_id": "c67483702f451ce1ae2da26df86b38d7",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Article \n \nEffects of Carbonation on Corrosion Rate of \nReinforcing Steel in Different Concrete and Repair"
+      }
+    ]
+  },
+  {
+    "question_id": "Q103",
+    "question": "Compare the seismic performance of RC columns retrofitted with PC bars against exterior beam-column joints retrofitted using CFRP.",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a80403fbcf33fcc925f26c7",
+    "ground_truth_filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+    "ground_truth_chunk_id": "06ef9f53d7f38c792c932f54cb2c86fd",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Architectural Institute of Japan\nNII-Electronic Library Service\nArohiteotural\n\u30a8nstitute\n\u3000of\n\u3000Japan\n\u3010\u30ab\u30c6\u30b4\u30ea\u30fcII\u3011\u3000\uff0e",
+    "expected_answer_points": [
+      "Architectural Institute of Japan\nNII-Electronic Library Service\nArohiteotural\n\u30a8nstitute\n\u3000of\n\u3000Japan\n\u3010\u30ab\u30c6\u30b4\u30ea\u30fcII\u3011\u3000\uff0e",
+      "ORIGINAL ARTICLE \n \nReceived: December 21, 2019. In Revised Form: March 13, 2020. Accepted: March 16, 2020."
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": true,
+    "supporting_documents": [
+      {
+        "document_id": "6a80403fbcf33fcc925f26c7",
+        "filename": "acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf",
+        "chunk_id": "06ef9f53d7f38c792c932f54cb2c86fd",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Architectural Institute of Japan\nNII-Electronic Library Service\nArohiteotural\n\u30a8nstitute\n\u3000of\n\u3000Japan\n\u3010\u30ab\u30c6\u30b4\u30ea\u30fcII\u3011\u3000\uff0e"
+      },
+      {
+        "document_id": "6a80420dbcf33fcc925f26c9",
+        "filename": "acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf",
+        "chunk_id": "f43e5615037e44505e56b2c559d3cd54",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "ORIGINAL ARTICLE \n \nReceived: December 21, 2019. In Revised Form: March 13, 2020. Accepted: March 16, 2020."
+      }
+    ]
+  },
+  {
+    "question_id": "Q104",
+    "question": "What are the differences between deep recurrent-convolutional neural networks and compressive sensing methods for structural health monitoring data reconstruction?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a8326369ad37224443c2517",
+    "ground_truth_filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+    "ground_truth_chunk_id": "1bd0f9be069d62c22d343c2d49122ca3",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Original Article\nStructural Health Monitoring\n2025, Vol. 24(3) 1752\u20131782\n\u0002 The Author(s) 2024\nArticle reuse guidelines:",
+    "expected_answer_points": [
+      "Original Article\nStructural Health Monitoring\n2025, Vol. 24(3) 1752\u20131782\n\u0002 The Author(s) 2024\nArticle reuse guidelines:",
+      "COMPRESSIVE-SENSING DATA RECONSTRUCTION FOR\nSTRUCTURAL HEALTH MONITORING: A MACHINE-LEARNING\nAPPROACH"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": true,
+    "supporting_documents": [
+      {
+        "document_id": "6a8326369ad37224443c2517",
+        "filename": "acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf",
+        "chunk_id": "1bd0f9be069d62c22d343c2d49122ca3",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Original Article\nStructural Health Monitoring\n2025, Vol. 24(3) 1752\u20131782\n\u0002 The Author(s) 2024\nArticle reuse guidelines:"
+      },
+      {
+        "document_id": "6a83263b9ad37224443c251a",
+        "filename": "acq_INSP_1901.01995v2_Compressive_Sensing_Data_Rec.pdf",
+        "chunk_id": "f19f86eaf5b96724161bcdd3e832c19d",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "COMPRESSIVE-SENSING DATA RECONSTRUCTION FOR\nSTRUCTURAL HEALTH MONITORING: A MACHINE-LEARNING\nAPPROACH"
+      }
+    ]
+  },
+  {
+    "question_id": "Q105",
+    "question": "How does granular soil shear strength estimation relate to macro-element dynamic soil-structure interaction modeling for shallow foundations?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "ground_truth_document_id": "6a83260b9ad37224443c250e",
+    "ground_truth_filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_stre.pdf",
+    "ground_truth_chunk_id": "b0abc238a0ffce972540649d8b5954ef",
+    "chunk_index": 0,
+    "page": 1,
+    "exact_ground_truth_evidence": "Proceedings of the XVII ECSMGE-2019  \nGeotechnical Engineering foundation of the future  \nISBN 978-9935-9436-1-3",
+    "expected_answer_points": [
+      "Proceedings of the XVII ECSMGE-2019  \nGeotechnical Engineering foundation of the future  \nISBN 978-9935-9436-1-3",
+      "4th International Conference on  \nEarthquake Geotechnical Engineering \nJune 25-28, 2007 \nPaper No. 1387 \n \n \n \nA MACRO-ELEMENT FOR DYNAMIC SOIL-STRUCT"
+    ],
+    "expected_entities": [],
+    "expected_relationships": [],
+    "is_multi_document": true,
+    "supporting_documents": [
+      {
+        "document_id": "6a83260b9ad37224443c250e",
+        "filename": "acq_GEOT_2001.00876v1_Estimation_of_the_shear_stre.pdf",
+        "chunk_id": "b0abc238a0ffce972540649d8b5954ef",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "Proceedings of the XVII ECSMGE-2019  \nGeotechnical Engineering foundation of the future  \nISBN 978-9935-9436-1-3"
+      },
+      {
+        "document_id": "6a8326219ad37224443c2511",
+        "filename": "acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_S.pdf",
+        "chunk_id": "9c82b96da7bd9782f5ac86564df25f16",
+        "chunk_index": 0,
+        "page": 1,
+        "evidence": "4th International Conference on  \nEarthquake Geotechnical Engineering \nJune 25-28, 2007 \nPaper No. 1387 \n \n \n \nA MACRO-ELEMENT FOR DYNAMIC SOIL-STRUCTURE \nINTERACTION ANALYSES OF SHALLOW FOUNDATIONS \nCharisis T."
+      }
+    ]
+  }
+]

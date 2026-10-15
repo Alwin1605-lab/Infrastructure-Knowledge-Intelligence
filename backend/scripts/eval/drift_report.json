@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-08-06T14:43:10.386054",
+  "drifts": {
+    "avg_latency": {
+      "current": 0.5518793211463394,
+      "previous": 0.5518793211463394,
+      "change_pct": 0.0,
+      "status": "STABLE"
+    },
+    "avg_precision": {
+      "current": 0.945,
+      "previous": 0.945,
+      "change_pct": 0.0,
+      "status": "STABLE"
+    },
+    "avg_recall": {
+      "current": 0.71825,
+      "previous": 0.71825,
+      "change_pct": 0.0,
+      "status": "STABLE"
+    },
+    "avg_kg_coverage": {
+      "current": 0.945,
+      "previous": 0.945,
+      "change_pct": 0.0,
+      "status": "STABLE"
+    }
+  },
+  "overall_status": "PASSED"
+}

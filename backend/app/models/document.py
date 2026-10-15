@@ -24,16 +24,40 @@ class DocumentStatus(str, Enum):
     EMBEDDING = "embedding"
     INDEXING_KG = "indexing_kg"
     COMPLETED = "completed"
+    PARTIAL = "partial"
     FAILED = "failed"
+    TIMEOUT = "timeout"
+    RATE_LIMITED = "rate_limited"
+
+
+class DocumentCategory(str, Enum):
+    IS_CODE = "IS_CODE"
+    NBC = "NBC"
+    CPWD = "CPWD"
+    ACI = "ACI"
+    ASTM = "ASTM"
+    FEMA = "FEMA"
+    NIST = "NIST"
+    RESEARCH = "RESEARCH"
+    CASE_STUDY = "CASE_STUDY"
+    INSPECTION = "INSPECTION"
+    REPAIR = "REPAIR"
+    MAINTENANCE = "MAINTENANCE"
+    DRAWING = "DRAWING"
+    GENERAL = "GENERAL"
+    OTHER = "OTHER"
 
 
 class DocumentType(str, Enum):
     """Type of infrastructure document."""
-
     INSPECTION_REPORT = "inspection_report"
     MAINTENANCE_MANUAL = "maintenance_manual"
     ENGINEERING_STANDARD = "engineering_standard"
     RESEARCH_PAPER = "research_paper"
+    TECHNICAL_DATA_SHEET = "technical_data_sheet"
+    PRODUCT_MANUAL = "product_manual"
+    INSTALLATION_GUIDE = "installation_guide"
+    INSPECTION_CHECKLIST = "inspection_checklist"
     GENERAL = "general"
 
 
@@ -91,6 +115,12 @@ class Document(BeanieDocument):
         default=DocumentStatus.UPLOADED,
         description="Current processing status.",
     )
+    category: DocumentCategory = Field(default=DocumentCategory.GENERAL)
+    sha256_hash: Optional[str] = Field(default=None)
+    version: int = Field(default=1)
+    original_filename: str = Field(default="")
+    auto_metadata: dict = Field(default_factory=dict)
+    indexed_by: Optional[str] = Field(default=None)
 
     # --- Extracted Content ---
     pages: list[ExtractedPage] = Field(

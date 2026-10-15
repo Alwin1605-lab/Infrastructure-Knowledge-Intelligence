@@ -25,6 +25,10 @@ from app.models.activity import ActivityLog
 from app.models.refresh_token import RefreshToken
 from app.models.user_preferences import UserPreferences
 from app.models.notification import Notification
+from app.models.processing_job import ProcessingJob
+from app.models.query_metric import QueryMetric
+from app.models.saved_search import SavedSearch
+from app.models.acquisition import SourceRegistry, AcquiredDocument, AcquisitionTask
 
 
 __all__ = [
@@ -38,7 +42,13 @@ __all__ = [
     "ActivityLog",
     "RefreshToken",
     "UserPreferences",
-    "Notification"
+    "Notification",
+    "ProcessingJob",
+    "QueryMetric",
+    "SavedSearch",
+    "SourceRegistry",
+    "AcquiredDocument",
+    "AcquisitionTask"
 ]
 
 # All Beanie document models — used by db/connection.py for initialization
@@ -53,5 +63,11 @@ ALL_MODELS = [
     ActivityLog,
     RefreshToken,
     UserPreferences,
-    Notification
+    Notification,
+    ProcessingJob,
+    QueryMetric,
+    SavedSearch,
+    SourceRegistry,
+    AcquiredDocument,
+    AcquisitionTask
 ]

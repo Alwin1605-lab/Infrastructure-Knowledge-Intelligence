@@ -1,0 +1,196 @@
+{
+  "A_llm_only": {
+    "reliability": {
+      "total_runs": 8,
+      "successful_runs": 6,
+      "failed_runs": 0,
+      "rate_limited_runs": 2,
+      "early_rejection_runs": 0,
+      "success_rate_pct": 75.0,
+      "failure_rate_pct": 0.0,
+      "early_rejection_rate_pct": 0.0
+    },
+    "performance_latency_ms": {
+      "mean": 18570.68,
+      "median": 4505.62,
+      "p95": 72853.55,
+      "p99": 92424.52,
+      "min": 2219.31,
+      "max": 97317.26
+    },
+    "retrieval": {
+      "hit_rate_at_1": "NOT_VERIFIABLE",
+      "hit_rate_at_3": "NOT_VERIFIABLE",
+      "hit_rate_at_5": "NOT_VERIFIABLE",
+      "precision_at_k": "NOT_VERIFIABLE",
+      "recall_at_k": "NOT_VERIFIABLE",
+      "mrr": "NOT_VERIFIABLE"
+    },
+    "grounding": {
+      "citation_presence_rate": 0.0,
+      "citation_document_correctness": "NOT_VERIFIABLE",
+      "citation_page_correctness": "NOT_VERIFIABLE"
+    },
+    "knowledge_graph": {
+      "entity_coverage": "NOT_VERIFIABLE",
+      "relationship_coverage": "NOT_VERIFIABLE"
+    },
+    "agentic": "NOT_VERIFIABLE"
+  },
+  "B_rag_only": {
+    "reliability": {
+      "total_runs": 8,
+      "successful_runs": 5,
+      "failed_runs": 0,
+      "rate_limited_runs": 3,
+      "early_rejection_runs": 0,
+      "success_rate_pct": 62.5,
+      "failure_rate_pct": 0.0,
+      "early_rejection_rate_pct": 0.0
+    },
+    "performance_latency_ms": {
+      "mean": 28140.53,
+      "median": 26682.1,
+      "p95": 50527.28,
+      "p99": 59109.62,
+      "min": 7815.32,
+      "max": 61255.2
+    },
+    "retrieval": {
+      "hit_rate_at_1": 1.0,
+      "hit_rate_at_3": 1.0,
+      "hit_rate_at_5": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0
+    },
+    "grounding": {
+      "citation_presence_rate": 100.0,
+      "citation_document_correctness": 100.0,
+      "citation_page_correctness": 0.0
+    },
+    "knowledge_graph": {
+      "entity_coverage": "NOT_VERIFIABLE",
+      "relationship_coverage": "NOT_VERIFIABLE"
+    },
+    "agentic": "NOT_VERIFIABLE"
+  },
+  "C_rag_kg": {
+    "reliability": {
+      "total_runs": 8,
+      "successful_runs": 5,
+      "failed_runs": 0,
+      "rate_limited_runs": 3,
+      "early_rejection_runs": 0,
+      "success_rate_pct": 62.5,
+      "failure_rate_pct": 0.0,
+      "early_rejection_rate_pct": 0.0
+    },
+    "performance_latency_ms": {
+      "mean": 22555.23,
+      "median": 19950.42,
+      "p95": 46919.77,
+      "p99": 54072.67,
+      "min": 4993.59,
+      "max": 55860.89
+    },
+    "retrieval": {
+      "hit_rate_at_1": 1.0,
+      "hit_rate_at_3": 1.0,
+      "hit_rate_at_5": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0
+    },
+    "grounding": {
+      "citation_presence_rate": 100.0,
+      "citation_document_correctness": 100.0,
+      "citation_page_correctness": 0.0
+    },
+    "knowledge_graph": {
+      "avg_entities_retrieved": 0.0,
+      "avg_relationships_retrieved": 0.0
+    },
+    "agentic": "NOT_VERIFIABLE"
+  },
+  "D_hybrid_rag": {
+    "reliability": {
+      "total_runs": 8,
+      "successful_runs": 5,
+      "failed_runs": 0,
+      "rate_limited_runs": 3,
+      "early_rejection_runs": 0,
+      "success_rate_pct": 62.5,
+      "failure_rate_pct": 0.0,
+      "early_rejection_rate_pct": 0.0
+    },
+    "performance_latency_ms": {
+      "mean": 17712.73,
+      "median": 17893.44,
+      "p95": 28999.02,
+      "p99": 29781.77,
+      "min": 4034.31,
+      "max": 29977.46
+    },
+    "retrieval": {
+      "hit_rate_at_1": 1.0,
+      "hit_rate_at_3": 1.0,
+      "hit_rate_at_5": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0
+    },
+    "grounding": {
+      "citation_presence_rate": 100.0,
+      "citation_document_correctness": 100.0,
+      "citation_page_correctness": 0.0
+    },
+    "knowledge_graph": {
+      "avg_entities_retrieved": 0.0,
+      "avg_relationships_retrieved": 0.0
+    },
+    "agentic": "NOT_VERIFIABLE"
+  },
+  "E_hybrid_agentic": {
+    "reliability": {
+      "total_runs": 7,
+      "successful_runs": 4,
+      "failed_runs": 0,
+      "rate_limited_runs": 3,
+      "early_rejection_runs": 0,
+      "success_rate_pct": 57.14,
+      "failure_rate_pct": 0.0,
+      "early_rejection_rate_pct": 0.0
+    },
+    "performance_latency_ms": {
+      "mean": 46774.44,
+      "median": 46232.74,
+      "p95": 65400.22,
+      "p99": 68160.34,
+      "min": 26877.84,
+      "max": 68850.37
+    },
+    "retrieval": {
+      "hit_rate_at_1": 0.7143,
+      "hit_rate_at_3": 0.7143,
+      "hit_rate_at_5": 0.7143,
+      "precision_at_k": 0.1429,
+      "recall_at_k": 0.7143,
+      "mrr": 0.7143
+    },
+    "grounding": {
+      "citation_presence_rate": 71.43,
+      "citation_document_correctness": 100.0,
+      "citation_page_correctness": 0.0
+    },
+    "knowledge_graph": {
+      "avg_entities_retrieved": 0.0,
+      "avg_relationships_retrieved": 0.0
+    },
+    "agentic": {
+      "agent_success_rate": 57.14,
+      "avg_reasoning_steps": 2.43,
+      "avg_execution_time_ms": 46774.44
+    }
+  }
+}

@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { workspacesApi } from '../api/workspaces';
+import { useWorkspaces, useCreateWorkspace } from '../hooks/useWorkspacesQuery';
 import { Briefcase, Plus, Search, Building2, MapPin, Calendar, Clock, ArrowRight, Loader2, Info } from 'lucide-react';
 import { formatDistanceToNow } from 'date-fns';
 
 export function Workspaces() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [workspaces, setWorkspaces] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  
+  const { data: workspacesData, isLoading: loading, error: fetchError } = useWorkspaces();
+  const workspaces = workspacesData?.workspaces || [];
+  
+  const createWorkspaceMutation = useCreateWorkspace();
   
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [newWorkspace, setNewWorkspace] = useState({
@@ -19,39 +21,19 @@ export function Workspaces() {
     location: '',
     description: ''
   });
-  const [creating, setCreating] = useState(false);
-
-  useEffect(() => {
-    fetchWorkspaces();
-  }, []);
-
-  const fetchWorkspaces = async () => {
-    try {
-      const { data } = await workspacesApi.list();
-      setWorkspaces(data.workspaces || []);
-    } catch (err) {
-      setError('Failed to load workspaces.');
-      console.error(err);
-    } finally {
-      setLoading(false);
-    }
-  };
 
   const handleCreate = async (e) => {
     e.preventDefault();
-    setCreating(true);
-    try {
-      await workspacesApi.create(newWorkspace);
-      setIsModalOpen(false);
-      setNewWorkspace({ name: '', building_type: 'Commercial', location: '', description: '' });
-      await fetchWorkspaces();
-    } catch (err) {
-      console.error(err);
-      alert(err.response?.data?.detail || 'Failed to create workspace');
-    } finally {
-      setCreating(false);
-    }
+    createWorkspaceMutation.mutate(newWorkspace, {
+      onSuccess: () => {
+        setIsModalOpen(false);
+        setNewWorkspace({ name: '', building_type: 'Commercial', location: '', description: '' });
+      }
+    });
   };
+
+  const error = fetchError ? 'Failed to load workspaces.' : null;
+  const creating = createWorkspaceMutation.isPending;
 
   return (
     <div className="flex-1 overflow-y-auto bg-slate-50 relative">

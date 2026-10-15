@@ -1,0 +1,34 @@
+{
+  "experiment_id": "v4_final_five_arch_complete",
+  "timestamp": "2026-08-19T09:15:53.174465+00:00Z",
+  "status": "EXPERIMENT_PARTIAL_RATE_LIMITED",
+  "hashes": {
+    "corpus_inventory_sha256": "75a68942838d1d5c3fee1ae1726abf594307743f8873ace19dd1ab030548033f",
+    "benchmark_questions_sha256": "803b61b1c1ebde180af200bc1e830486dfbe9ddce2b48d41b3526fd37fd939b3",
+    "final_raw_results_sha256": "19888a5e6fde78422275a245e281ae7b27998b1ce203dfced204e92bb02f10ae"
+  },
+  "system_configuration": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "llm_model": "groq/compound-mini",
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "distance_metric": "cosine",
+    "retrieval_parameters": {
+      "top_k": 5,
+      "is_global_filter": true
+    },
+    "knowledge_graph": {
+      "database": "infra_knowledge",
+      "neo4j_uri": "bolt://localhost:7687"
+    }
+  },
+  "experiment_scope": {
+    "questions_count": 105,
+    "architectures_count": 5,
+    "total_expected_runs": 525,
+    "total_recorded_runs": 525,
+    "successful_runs": 25,
+    "rate_limited_runs": 500,
+    "failed_runs": 0
+  }
+}

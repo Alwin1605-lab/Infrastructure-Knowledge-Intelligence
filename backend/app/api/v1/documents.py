@@ -51,7 +51,7 @@ async def upload_document(
     6. Indexed in ChromaDB for semantic retrieval
     7. Entities extracted & indexed into Neo4j Building KG
     """
-    if current_user.role != "Administrator":
+    if str(getattr(current_user, 'role', '')).lower() not in ["admin", "administrator"]:
         raise HTTPException(status_code=403, detail="Only administrators can manage the Global Knowledge Base")
         
     if not file.filename:
@@ -124,6 +124,127 @@ async def list_documents(
     )
 
 
+@router.get("/stats")
+async def get_kb_stats(current_user: CurrentUserDep):
+    """Get knowledge base statistics."""
+    from app.services.analytics_service import AnalyticsService
+    svc = AnalyticsService()
+    return await svc.get_kb_stats()
+
+
+@router.get("/jobs")
+async def list_processing_jobs(
+    settings: SettingsDep,
+    current_user: CurrentUserDep,
+    limit: int = Query(default=20, le=50),
+    status: Optional[str] = Query(default=None),
+):
+    """List document processing jobs."""
+    service = DocumentService(settings)
+    # Admins see all jobs, others see their own
+    user_id = None if str(getattr(current_user, 'role', '')).lower() in ["admin", "administrator"] else str(current_user.id)
+    jobs = await service.list_jobs(user_id=user_id, status=status, limit=limit)
+    return {
+        "jobs": [
+            {
+                "id": str(j.id),
+                "document_id": j.document_id,
+                "filename": j.filename,
+                "status": j.status.value if hasattr(j.status, 'value') else str(j.status).replace('JobStatus.', '').lower(),
+                "current_step": j.current_step.value if hasattr(j.current_step, 'value') else str(j.current_step).replace('JobStep.', '').lower(),
+                "completed_steps": j.completed_steps,
+                "failed_step": j.failed_step,
+                "error_message": j.error_message,
+                "pages_extracted": j.pages_extracted,
+                "chunks_created": j.chunks_created,
+                "embeddings_created": j.embeddings_created,
+                "kg_nodes_created": j.kg_nodes_created,
+                "kg_relations_created": j.kg_relations_created,
+                "elapsed_seconds": j.elapsed_seconds,
+                "started_at": j.started_at.isoformat() if j.started_at else None,
+                "completed_at": j.completed_at.isoformat() if j.completed_at else None,
+                "created_at": j.created_at.isoformat(),
+            }
+            for j in jobs
+        ]
+    }
+
+
+@router.get("/jobs/{job_id}")
+async def get_job_status(
+    job_id: str,
+    settings: SettingsDep,
+    current_user: CurrentUserDep,
+):
+    """Get status of a specific processing job."""
+    service = DocumentService(settings)
+    job = await service.get_job_status(job_id)
+    if not job:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=404, detail="Job not found")
+    return {
+        "id": str(job.id),
+        "document_id": job.document_id,
+        "filename": job.filename,
+        "status": job.status.value if hasattr(job.status, 'value') else str(job.status).replace('JobStatus.', '').lower(),
+        "current_step": job.current_step.value if hasattr(job.current_step, 'value') else str(job.current_step).replace('JobStep.', '').lower(),
+        "completed_steps": job.completed_steps,
+        "failed_step": job.failed_step,
+        "error_message": job.error_message,
+        "pages_extracted": job.pages_extracted,
+        "chunks_created": job.chunks_created,
+        "embeddings_created": job.embeddings_created,
+        "kg_nodes_created": job.kg_nodes_created,
+        "kg_relations_created": job.kg_relations_created,
+        "elapsed_seconds": job.elapsed_seconds,
+        "started_at": job.started_at.isoformat() if job.started_at else None,
+        "completed_at": job.completed_at.isoformat() if job.completed_at else None,
+    }
+
+
+@router.post("/upload-async", status_code=202)
+async def upload_document_async(
+    settings: SettingsDep,
+    chroma_indexer: ChromaIndexerDep,
+    kg_builder: KGBuilderDep,
+    current_user: CurrentUserDep,
+    file: UploadFile = File(...),
+    document_type: DocumentType = Form(default=DocumentType.GENERAL),
+    category: str = Form(default="GENERAL"),
+):
+    """Upload a document and return immediately. Processing runs in background.
+    
+    Returns a job_id to poll for processing status.
+    """
+    if str(getattr(current_user, 'role', '')).lower() not in ["admin", "administrator"]:
+        raise HTTPException(status_code=403, detail="Only administrators can manage the Global Knowledge Base")
+    
+    if not file.filename:
+        raise HTTPException(status_code=400, detail="No filename provided.")
+    
+    service = DocumentService(settings, chroma_indexer=chroma_indexer, kg_builder=kg_builder)
+    
+    try:
+        job = await service.upload_and_queue(
+            file=file.file,
+            filename=file.filename,
+            content_type=file.content_type or "application/pdf",
+            document_type=document_type,
+            category=category,
+            owner_id=str(current_user.id),
+        )
+    except DocumentUploadError as exc:
+        raise HTTPException(status_code=400, detail=exc.message) from exc
+    
+    return {
+        "job_id": str(job.id),
+        "document_id": job.document_id,
+        "filename": job.filename,
+        "status": str(job.status),
+        "message": f"Document queued for processing. Poll /api/v1/documents/jobs/{job.id} for status."
+    }
+
+
 @router.get("/{document_id}", response_model=DocumentDetail)
 async def get_document(
     document_id: str,
@@ -182,3 +303,5 @@ async def delete_document(
         raise HTTPException(status_code=404, detail=exc.message) from exc
 
     return {"message": f"Document {document_id} deleted successfully."}
+
+

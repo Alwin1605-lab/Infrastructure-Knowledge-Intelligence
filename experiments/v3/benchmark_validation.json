@@ -1,0 +1,842 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q002",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 7)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q003",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 14)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q004",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 31)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q005",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 45)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q006",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 56)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q007",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 71)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q008",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 83)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q009",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 96)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q010",
+    "question": "What guideline, service requirement, or specification is mandated in 0-LEDG-v.1.0-120224.pdf (page 105)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q011",
+    "question": "What guideline, service requirement, or specification is mandated in DRCS Cover - To author.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q012",
+    "question": "What guideline, service requirement, or specification is mandated in DRCS Cover - To author.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q013",
+    "question": "What guideline, service requirement, or specification is mandated in DRCS Cover - To author.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q014",
+    "question": "What guideline, service requirement, or specification is mandated in 2167615bd5fc4a82af6b00dc01760d49_test_building_report.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q015",
+    "question": "What guideline, service requirement, or specification is mandated in G01facilitiesdocumentationguidelines_1.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q016",
+    "question": "What guideline, service requirement, or specification is mandated in G01facilitiesdocumentationguidelines_1.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q017",
+    "question": "What guideline, service requirement, or specification is mandated in G01facilitiesdocumentationguidelines_1.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q018",
+    "question": "What guideline, service requirement, or specification is mandated in New Building Services Template_v4.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q019",
+    "question": "What guideline, service requirement, or specification is mandated in New Building Services Template_v4.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q020",
+    "question": "What guideline, service requirement, or specification is mandated in New Building Services Template_v4.pdf (page 2)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q021",
+    "question": "What guideline, service requirement, or specification is mandated in gurugram-page044-45.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q022",
+    "question": "What guideline, service requirement, or specification is mandated in gurugram-page044-45.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q023",
+    "question": "What guideline, service requirement, or specification is mandated in gurugram-page044-45.pdf (page 1)?",
+    "domain": "Building Guidelines, Codes & Facility Specifications",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q024",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in viga-and-corbel-inspection.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q025",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in viga-and-corbel-inspection.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q026",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in viga-and-corbel-inspection.pdf (page 2)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q027",
+    "question": "According to acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q028",
+    "question": "According to acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q029",
+    "question": "According to acq_6a72f762fd113b24ec2b090a_Carbonation_of_cement_paste:_Understandi.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q030",
+    "question": "According to acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q031",
+    "question": "According to acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf, what key findings or processes regarding concrete carbonation are described in section/page 8?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q032",
+    "question": "According to acq_6a72f762fd113b24ec2b090b_Substantial_global_carbon_uptake_by_ceme.pdf, what key findings or processes regarding concrete carbonation are described in section/page 14?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q033",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q034",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q035",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 5?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q036",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 7?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q037",
+    "question": "According to acq_6a72f762fd113b24ec2b090f_Effects_of_Carbonation_on_Corrosion_Rate.pdf, what key findings or processes regarding concrete carbonation are described in section/page 10?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q038",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 1?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q039",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 2?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q040",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 5?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q041",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 6?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q042",
+    "question": "According to acq_6a72f762fd113b24ec2b0911_Alkali-Activated_Slag_Concrete_with_Recy.pdf, what key findings or processes regarding concrete carbonation are described in section/page 8?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q043",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf on page 1?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q044",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf on page 2?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q045",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b0918_SEISMIC_PERFORMANCE_AND_DESIGN_OF_RC_COL.pdf on page 5?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q046",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 1?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q047",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 2?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q048",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 6?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q049",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 9?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q050",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 12?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q051",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 16?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q052",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091a_Seismic_Behavior_of_Exterior_RC_Beam-Col.pdf on page 19?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q053",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 1?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q054",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 2?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q055",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 3?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q056",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 6?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q057",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 9?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q058",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 12?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q059",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 14?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q060",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 16?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q061",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 18?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q062",
+    "question": "How does the seismic retrofitting or structural response behave as documented in acq_6a72f764fd113b24ec2b091d_Impact_of_seismic_retrofitting_on_progre.pdf on page 20?",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q063",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf (page 1)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q064",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf (page 3)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q065",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2001.00876v1_Estimation_of_the_shear_streng.pdf (page 6)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q066",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 1)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q067",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 3)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q068",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 6)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q069",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_0803.1912v1_A_Macro_Element_for_Dynamic_So.pdf (page 9)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q070",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 1)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q071",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 2)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q072",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 4)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q073",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 6)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q074",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 7)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q075",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 9)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q076",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 12)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q077",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 15)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q078",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 17)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q079",
+    "question": "What geotechnical soil property, foundation behavior, or model parameter is specified in acq_GEOT_2501.02199v1_Can_ChatGPT_implement_finite_e.pdf (page 20)?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q080",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q081",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 2)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q082",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 5)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q083",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 7)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q084",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 9)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q085",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 19)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q086",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 23)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q087",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 26)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q088",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 28)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q089",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2511.00100v1_Deep_recurrent_convolutional_n.pdf (page 29)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q090",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q091",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 3)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q092",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 6)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q093",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_1901.01995v2_Compressive_Sensing_Data_Recon.pdf (page 11)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q094",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 1)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q095",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 2)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q096",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 6)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q097",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 9)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q098",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 11)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q099",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 15)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q100",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 19)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "easy",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q101",
+    "question": "What specific structural inspection, monitoring methodology, or test procedure is detailed in acq_INSP_2412.15713v3_Data_Set_of_Load_Tests_and_Str.pdf (page 21)?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "medium",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q102",
+    "question": "How do the carbonation mechanisms in cement paste compare to the corrosion rate effects observed in reinforced concrete under carbonation?",
+    "domain": "Concrete Durability & Carbonation",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q103",
+    "question": "Compare the seismic performance of RC columns retrofitted with PC bars against exterior beam-column joints retrofitted using CFRP.",
+    "domain": "Seismic & Structural Retrofitting",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q104",
+    "question": "What are the differences between deep recurrent-convolutional neural networks and compressive sensing methods for structural health monitoring data reconstruction?",
+    "domain": "Inspection & Structural Health Monitoring",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  },
+  {
+    "question_id": "Q105",
+    "question": "How does granular soil shear strength estimation relate to macro-element dynamic soil-structure interaction modeling for shallow foundations?",
+    "domain": "Geotechnical & Foundation Engineering",
+    "difficulty": "hard",
+    "is_valid": true,
+    "rejection_reasons": []
+  }
+]

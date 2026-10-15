@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-08-10T10:08:58.200440",
+  "benchmark_version": "v1.0",
+  "corpus_version": "v1.0",
+  "results": [
+    {
+      "question_id": "Q1",
+      "architectures": {
+        "LLM-only": {
+          "latency_ms": 1200,
+          "retrieved_documents": [],
+          "retrieved_chunks": [],
+          "answer": "Generated answer placeholder",
+          "precision_at_k": "NOT_VERIFIABLE",
+          "recall_at_k": "NOT_VERIFIABLE",
+          "hit_rate_at_k": "NOT_VERIFIABLE",
+          "mrr": "NOT_VERIFIABLE",
+          "kg_entity_coverage": "NOT_VERIFIABLE"
+        },
+        "RAG-only": {
+          "latency_ms": 1200,
+          "retrieved_documents": [],
+          "retrieved_chunks": [],
+          "answer": "Generated answer placeholder",
+          "precision_at_k": "NOT_VERIFIABLE",
+          "recall_at_k": "NOT_VERIFIABLE",
+          "hit_rate_at_k": "NOT_VERIFIABLE",
+          "mrr": "NOT_VERIFIABLE",
+          "kg_entity_coverage": "NOT_VERIFIABLE"
+        },
+        "RAG + KG": {
+          "latency_ms": 1200,
+          "retrieved_documents": [],
+          "retrieved_chunks": [],
+          "answer": "Generated answer placeholder",
+          "precision_at_k": "NOT_VERIFIABLE",
+          "recall_at_k": "NOT_VERIFIABLE",
+          "hit_rate_at_k": "NOT_VERIFIABLE",
+          "mrr": "NOT_VERIFIABLE",
+          "kg_entity_coverage": "NOT_VERIFIABLE"
+        },
+        "Hybrid RAG": {
+          "latency_ms": 1200,
+          "retrieved_documents": [],
+          "retrieved_chunks": [],
+          "answer": "Generated answer placeholder",
+          "precision_at_k": "NOT_VERIFIABLE",
+          "recall_at_k": "NOT_VERIFIABLE",
+          "hit_rate_at_k": "NOT_VERIFIABLE",
+          "mrr": "NOT_VERIFIABLE",
+          "kg_entity_coverage": "NOT_VERIFIABLE"
+        },
+        "Hybrid RAG + Agentic AI": {
+          "latency_ms": 1200,
+          "retrieved_documents": [],
+          "retrieved_chunks": [],
+          "answer": "Generated answer placeholder",
+          "precision_at_k": "NOT_VERIFIABLE",
+          "recall_at_k": "NOT_VERIFIABLE",
+          "hit_rate_at_k": "NOT_VERIFIABLE",
+          "mrr": "NOT_VERIFIABLE",
+          "kg_entity_coverage": "NOT_VERIFIABLE"
+        }
+      }
+    }
+  ]
+}

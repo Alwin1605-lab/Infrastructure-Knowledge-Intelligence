@@ -1,0 +1,15 @@
+{
+    "kb_metrics": {
+        "Total Entities": {
+            "value": 102,
+            "source": "live Neo4j query",
+            "timestamp": 1786523892.5978944
+        },
+        "Total Relationships": {
+            "value": 213,
+            "source": "live Neo4j query",
+            "timestamp": 1786523892.5978944
+        }
+    },
+    "timestamp": "2026-08-12T08:38:24.177538"
+}

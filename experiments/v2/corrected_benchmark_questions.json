@@ -1,0 +1,105 @@
+[
+  {
+    "question_id": "Q1",
+    "question": "What is discussed in the section covering 'HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures'?",
+    "ground_truth": {
+      "documents": [
+        "6a7990b8c902988cd052c9d3"
+      ],
+      "chunks": [
+        "f2e793073fa9f198b5e49ed30c42c418"
+      ],
+      "pages": [
+        1
+      ],
+      "evidence": [
+        "HIGHER EDUCATION \nREINFORCED\nCONCRETE\nSTRUCTURES \nN. SUBRAMANIAN \nREINFORCED \nCONCRETE STRUCTURES \nDesign of Reinforced Concrete Structures is designed to meet the \nrequirements of undergraduate students of civil and structural engineering. \nThis book will also be an invaluable reference to postgraduate students \nand practising engineers and researchers. \n\nThis book provides an extensive coverage of the design of reinforced \nconcrete structures in accordance with the current Indian codes of \npractice (IS 456:2000 and IS 13920:1993). As some of the Indian code \nprovisions are outdated, the American code (ACI 318:2011) provisions \nare referred to wherever necessary. In addition, discussion on earthquake-\nresistant design and detailing is provided, as about 60 per cent of India \nfalls under moderate to severe earthquake zones.  The text is based \non the modern limit states design and covers the behaviour of various \nstructural elements such as compression and tension members, beams,"
+      ],
+      "answer_points": [
+        "HIGHER EDUCATION REINFORCED CONCRETE STRUCTURES N SUBRAMANIAN REINFORCED CONCRETE STRUCTURES Design of Reinforced Concrete Structures"
+      ],
+      "entities": [],
+      "relationships": []
+    },
+    "is_valid": true
+  },
+  {
+    "question_id": "Q2",
+    "question": "What is discussed in the section covering 'BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary This report documents'?",
+    "ground_truth": {
+      "documents": [
+        "6a79a3b8ca0dbb46c36a02d6"
+      ],
+      "chunks": [
+        "e3c8e940c6ba8a9f2696792a8a1d501a"
+      ],
+      "pages": [
+        1
+      ],
+      "evidence": [
+        "BUILDING INSPECTION REPORT\nBuilding: Government Office Complex, New Delhi\n1. Executive Summary\nThis report documents structural defects observed during the annual inspection.\n2. Defects Observed\nSpalling was observed on ground floor RCC columns due to corrosion of reinforcement.\nHoneycombing detected in beam B-4 at second floor level.\nWater seepage noted in basement slab caused by poor waterproofing.\nEfflorescence visible on exterior masonry walls indicating water ingress.\n3. Repair Recommendations\nApply concrete jacketing to corroded columns as per CPWD Handbook Section 4.3.\nCarry out epoxy injection for honeycombing repair per IS 456.\nApply waterproofing membrane to basement slab per CPWD Maintenance Manual."
+      ],
+      "answer_points": [
+        "BUILDING INSPECTION REPORT Building: Government Office Complex New Delhi 1 Executive Summary This report documents"
+      ],
+      "entities": [],
+      "relationships": []
+    },
+    "is_valid": true
+  },
+  {
+    "question_id": "Q3",
+    "question": "What is discussed in the section covering 'INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION'?",
+    "ground_truth": {
+      "documents": [
+        "6a79a3f88ad17e8f86e6c72a"
+      ],
+      "chunks": [
+        "8eb788829719d07a1e302247e519bebe"
+      ],
+      "pages": [
+        1
+      ],
+      "evidence": [
+        "INSTITUTIONAL SUPPORT SERVICES \nFACILITIES DOCUMENTATION \nG 01 \nUpdated 9/7/2021 \n \nPage 1 of 2 \n \nFACILITIES DOCUMENTATION GUIDELINES \n \nPURPOSE \nThis document is intended to provide clear guidelines for adding, deleting, or revising \ndocuments in the Facilities Documentation Website. The website provides a single location for \ndocuments that provide instructions, specifications, or other guidance to facilities-related \nprojects. \n \nGENERAL \nThere are many organizations at UNM that affect facilities. Identifying the major activities and \ndocumenting the processes used in those activities improves the effectiveness of the various \norganizations. The documents are categorized according to the major facilities activities. Each \ncategory of the manual will be administered by a Responsible Department as follows: \n \nCategory \nDepartment \nGeneral \nISS \nPlanning \nPDC \nDesign \nPDC \nConstruction \nPDC \nMaintenance \nFM \nUtilities \nFM \nSustainability \nFM \nRisk Management \nRM \nInformation"
+      ],
+      "answer_points": [
+        "INSTITUTIONAL SUPPORT SERVICES FACILITIES DOCUMENTATION G 01 Updated 9/7/2021 Page 1 of 2 FACILITIES DOCUMENTATION"
+      ],
+      "entities": [],
+      "relationships": []
+    },
+    "is_valid": true
+  },
+  {
+    "question_id": "Q4",
+    "question": "What is discussed in the section covering 'Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #'?",
+    "ground_truth": {
+      "documents": [
+        "6a79a41a08ca0700b6046c74"
+      ],
+      "chunks": [
+        "0d90c5a0a4a7b8981326cbc0fd75e4d4"
+      ],
+      "pages": [
+        1
+      ],
+      "evidence": [
+        "Required New Building Floor Support for PPD & ITS\nrevised 7/02/2008\nDRAFT\nNew Building\n#\nSize of Rm\nTTL NSF\nRemarks\n# Required\nFloor Support for PPD & ITS\nA.\nBuilding Services\n1\nLoading Dock\n1\n15 X\n20\n300\n1 per building\n2\nHousekeeping Closets\n1\n5 X\n8\n40\nMultiple Floors\n3\nMaintenance Storage\n1\n8 X\n10\n80\n1 per building\n4\nElectrical Closets\n1\n5 X\n8\n40\nMultiple Floors\nSubtotal Net Square Feet (NSF)\n4\n460\nB.\nITS (Requirements for Every Building)\n1\n1\n10 X\n12\n120\n1 per building\n2\nInformation Technology Room\n1\n10 X\n10\n100\nMultiple Floors\nSubtotal Net Square Feet (NSF)\n2\n220\nC.\nITS (Potential Building Requirements)\n1\n1\n20 X\n20\n400\n1 per building, \ndependant on \nbuilding feed \nscenario\ndependent on building use\nDependent on number of floors.  Requires mop sink with floor \ndrain and exhaust fan.\nE.g., ceiling grid panels, miscellaneous equipment, lamps, 6' \nopening (double doors), filters.  Preferred first floor location \nand/or next to equipment room.\nDependent on number of floors."
+      ],
+      "answer_points": [
+        "Required New Building Floor Support for PPD & ITS revised 7/02/2008 DRAFT New Building #"
+      ],
+      "entities": [],
+      "relationships": []
+    },
+    "is_valid": true
+  },
+  {
+    "question_id": "Q5",
+    "question": "What is discussed in the section covering 'INDIAN INSTITUTE OF TECHNOLOGY ROORKEE DEPARTMENT OF CIVIL ENGINEERING ROORKEE 247667 UTTARAKHAND INDIA PHONE: +91-1332-285612'?",
+    "ground_truth": null,
+    "is_valid": false,
+    "exclusion_reason": "Missing from infra_documents corpus"
+  }
+]
